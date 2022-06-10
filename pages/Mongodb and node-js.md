@@ -1,0 +1,3 @@
+- To start the project and initilize it we use command npm init
+	- To install multiple modules we can separate them with the  space in between them ex npm i express morgan nodemon ejs body-parser dotenv mongoose
+	-
