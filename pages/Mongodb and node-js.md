@@ -20,8 +20,13 @@
 					  #+END_NOTE
 					- To include the routes we can also use app.use
 						- ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f9fbeb969-edbc-4546-b91c-f53bf8dcebce2022_06_11_image.png?Expires=4808525481&Signature=IahlHl6Kpm4S8YfMXCBDIs-kkTALHGoSTh~-Fqi8SWKvhcFRMF2dZkqr21CoDWzpZCyOeHLYMSIMvzKs~7bgx9SWRx6ECUez5xd0MV4qWXf8us-en4SjMl9qLEvQrBd3d7BEZ3R66OtTue9l3DUJ2sL1V5H2obDhjeaG4nYAwmp41jLl9WQnRQ5dTdT7fZS7FMQzaHhAqQI4sCSktQpu24PIqJLyqlc3WvL~AXgywaBEvbN~pmMRdFQ1vJ3lEfGPwu-I-m4~ADParekZ0QLD5Q3X9ORiRZfoq5ZI-tUhR97heNwQ6Q2X-OEbVUH6rLrmptVfNcmafcj5T3lOmwGz1Q__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
-						-
+						- To export the route ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fe0e3d5f4-082a-4e5c-811d-4f73594d24fe2022_06_11_image.png?Expires=4808525565&Signature=lJCXFy2GjUKuDpVm56koK~BlXphcJQeTLLi-zXPDde6b-g8fg-0-VTWDoX0ze93naF9q8hAcLjdrEsReRyMtek~UQmFTCtlica-0KxOxkOjzG0HAxyVGXotF5ziIdMBrdMhAlhENoJZglKjy5z~vcs6cQk6VOk4McqqV3QltfUufw1SRryDeOUcJ20MWTpfmrxlQIVsjF~Ty61pUZVmzXAFunbuvpUUbFdtsSWR2vmCaSDnyTDlfdm~03RNxFp3lj082CHZluGrfmZ3c6J7nxrJFBFdW4ILHQzcoBu3u248V3~LFm~XMCLojTGQCKDBSW1yVL6~n4I~RD25-1a44mQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+					-
+					-
 					-
 					-
 				-
+		- # CONNECTING TO MONGODB
+			- First we need to import mongoose ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fe3751961-7786-4d30-86ba-e5230326cef92022_06_11_image.png?Expires=4808531623&Signature=lurvwncsDD73c6ZXa0eK3ODclbeMGVyna-Q69OzYP5hHsbLKJY9Id7RF8IBYqjLIGz9Y~qCNPV0MXF7d3Bh1Do-Da594UMqx7j5AfvZ-r9EEU8SFG8qI532iZRnJrLTHQEdoKh8LwpEaJDuR82V1Ipew-bnhFRhFPCKhIOyRd2oFgBItaAF4lYwtFL0cePiotnDT3EO27nkhCbkZJBZrrRGLb~xn8Nsowk-q6pBuUJBleXN~ZaWixyjWrcEbGRnDc2JALC9reoDvEZWfM3xBNJj9h68O6fK3gsrZvCvNNVXcn9zUb3K7NihQtUjKyqhuGVEn-VPWJ6KelHZ-VmdWaQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			-
 			-
