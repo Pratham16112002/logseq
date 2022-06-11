@@ -4,7 +4,20 @@
 		- ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fb9786bbf-928f-4d77-8a66-cf734c77aca72022_06_11_image.png?Expires=4808519958&Signature=ho7wSdxtyRMlZIZFJ3IJt7YTHKJk51TkbrlJc2LHtACy5s8nVriakdjE722tbrslW11ZuzElJUOnjDA2wEmQMCKDSIkya7pTIijKQqgo40njtW9xBUE7YoOZ~eyuAW23FTschqF925D7BNcq681iEJGY8dfc~D9bKg7DzPinHWiXE6mgQxc~Zz0Ao5DGNTZwVUZ491mp753DMwYL122eGVV24G6rIoqJn-FEE1bREl53PG1wMup7KwnVirRHETtZsFE9EO3myI4ZQoTC0iAEOo9Tu8ag~uPr1Dm5I4PRuiN9GbiwIqIdo~bLNx0K3jaJsP6WblVxnfs4n8BrFzth8Q__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 		- The app.use() function is used to mount the specified middleware functions(s) at the path which is being specified .
 			- ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472ff923a6ae-8253-429e-8f99-994aa3aebf5b2022_06_11_image.png?Expires=4808520354&Signature=Lnts4hJsI-GfJSI7gbAnXiN7mmQi3Oi70ZNuVPo9jUfjkF2wsT8onMMTRfDitpX1x~AqmucZ23xgaezkr9689JAyAn0sZzIA8~-5gJxZVrfGfD-3CNihG3Vwt7ZySbEmHxkyrcNEd7H7MnQ4~eXASl4yAfIzMju0Rsfyj37PCG2yWJjfC0fbCB~v~7krNPSQDZLGDpcjgDWGrxeybge0SAUgqVkNfo52TbI3JpUAcpFMvzUmDfYhN3U8uyXEeX6-7DZmYdZmw1YWRUAK1RozLC-pEZTkLxJmlkXTv1edlNbwYxvXYlrsxlmGb6e0wAE--l6Hcji1hDbjX4Unu7864Q__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
-			-
-		-
+			- app.get() functions routes the HTTP GET  Request to the path which is being specified with the specified callback functions .
+			- ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f5ab67dfd-b445-4f5d-b1cd-ffc5446157c92022_06_11_image.png?Expires=4808520636&Signature=aUwmOCeDuNKJCKTpwtdCDx~3qOMdNDyB4vQ4p62Daiq6umDd8JSToXK8rHlcYurLX0jKMhrHQdY0shhQ~dVd28Ww1qPDGIiP3wiJd1KzTdruZkNVxte~2rTyNffA628pHJlBL23dVKMGmnb68KhPM8ZK2vsttM7U8SLFvYxCTJApRag8fXHh6RETstDc5j4OiH6U2Z0O9J-bfe-fdnDs~bGM94D8mYbRFFiBImIbZ04F0s3I1ZRIKRC0WqZePEjxdtF1Pk2eIhJFhZEXoczrVEKXe8nimLVUpxOqVd9ZlWA1Eg9GOFnGNXKTnp2AUrWpbVYN-0Xnhp~-cIYVbGm2TA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			- To load assets using app.use() the syntax is
+				- ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f5156df56-5d8a-4e77-ab7b-b9b99ce1da6d2022_06_11_image.png?Expires=4808520772&Signature=PN1~vodKTyZDXqYX11VEkoFoNCQa~2oXiYmIebX8UIXk1SCI-RwPsgeHSWFEeJaVlC04XWNyojvkmxQPRVqzJQf0QThI0ui1Z8rFtD9i7Il5V8gdQMYqoqfNUM7TKaEnk1ANSnmDo56IfS5Ty-q7S-Gij6mBnpMDRsAyPEap~EYS9s7YDYhiPDYLzH7cfXjYhgbLCeoZIut0~c2LXImEB4aYBtuCYAIsfx5YgGcHaKTuzeWP8I~ebbzA1g94TfCx8CyzrN7cLoiItXfuB-p2JqAGVmJMc18ow18YnK8V0pl8tylLkwvtS3fQE44QDk6a3bEMOSTJCWXb99PToJsi2g__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				-
+		- EJS
+			- EJS: EJS or Embedded Javascript Templating is a templating engine used by Node.js. Template engine helps to create an HTML template with minimal code. Also, it can inject data into HTML template at the client side and produce the final HTML. EJS is a simple templating language which is used to generate HTML markup with plain JavaScript. It also helps to embed JavaScript to HTML pages.
+			- Syntax to include other ejs files is
+				- ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f1c56656d-1a4c-47e6-8a93-67595339f83c2022_06_11_image.png?Expires=4808520895&Signature=kSGNlDn-fhh12TsUfBchSWEjoyEziC7ntm9eEbvqpv~C78Xz5XVCe2dEB2vCG7mrDuYa83XpbBaAbFZ1zYKDqjv8DLBQhWV2CD~8Tvv9y~HFgzinNMRKOrS60Z2uSvY2C~RxO9K4P65IEXHSDoP0b~qLoQS54Auy4bgr1Nz5s052-LiOz6n-IY1uXJ2c0~qblERHuUJVHB2mNBrb2i9sFCmtbYQfxSu8HZ2K15IDrRxbpLR57mn6DA-yT8DFuY8vToOsUZgWahroeSbkD6d8pttcRynOPFmzkD2dgNVAJpsk~TVcr5H3oL91wyUe8JyvGGymkGY2Vsq55cSbJ68qsQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+					- #+BEGIN_NOTE
+					  Gloabal Variables in css 
+					  :root selector matches the document's root element 
+					  ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f53e5cf74-640d-4ddc-b439-02df9f5a2f912022_06_11_image.png?Expires=4808520989&Signature=iesSupUn~ztT--coFcX5eHeQQCOQ67-Fn7IjBEsXG07n5RB-ofRGv3kuE2WaIHq4TQ6leski~isVUFXoEQZwpz1Ms3ZweQTOCZsVkWUiuxS7xkq3fLkLDmFPlfgCeT44NhNqdS3gpkhmkjlWbDcilZ9pBOdHRZgXxRx8AZRXe8CW5OZ68AOS~q0QzhqppjxKccET0LVne1nQbnmmKIHC7BqQQF3p7dfbLCoZ6J7VmjOEQmp0QzfTSIu2RJTQHuRvAED0ic1ruulYwYwGyGnEn59Rv-gILKHWtRpzjk7uMyIp8YYX0rYVBxu5r~yNMw09GQK2P~lK6jkM~en94QPtJw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA) 
+					  #+END_NOTE
+					-
 	-
 	-
