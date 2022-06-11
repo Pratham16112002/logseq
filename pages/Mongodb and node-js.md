@@ -9,7 +9,7 @@
 			- To load assets using app.use() the syntax is
 				- ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f5156df56-5d8a-4e77-ab7b-b9b99ce1da6d2022_06_11_image.png?Expires=4808520772&Signature=PN1~vodKTyZDXqYX11VEkoFoNCQa~2oXiYmIebX8UIXk1SCI-RwPsgeHSWFEeJaVlC04XWNyojvkmxQPRVqzJQf0QThI0ui1Z8rFtD9i7Il5V8gdQMYqoqfNUM7TKaEnk1ANSnmDo56IfS5Ty-q7S-Gij6mBnpMDRsAyPEap~EYS9s7YDYhiPDYLzH7cfXjYhgbLCeoZIut0~c2LXImEB4aYBtuCYAIsfx5YgGcHaKTuzeWP8I~ebbzA1g94TfCx8CyzrN7cLoiItXfuB-p2JqAGVmJMc18ow18YnK8V0pl8tylLkwvtS3fQE44QDk6a3bEMOSTJCWXb99PToJsi2g__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 				-
-		- EJS
+		- EJs
 			- EJS: EJS or Embedded Javascript Templating is a templating engine used by Node.js. Template engine helps to create an HTML template with minimal code. Also, it can inject data into HTML template at the client side and produce the final HTML. EJS is a simple templating language which is used to generate HTML markup with plain JavaScript. It also helps to embed JavaScript to HTML pages.
 			- Syntax to include other ejs files is
 				- ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f1c56656d-1a4c-47e6-8a93-67595339f83c2022_06_11_image.png?Expires=4808520895&Signature=kSGNlDn-fhh12TsUfBchSWEjoyEziC7ntm9eEbvqpv~C78Xz5XVCe2dEB2vCG7mrDuYa83XpbBaAbFZ1zYKDqjv8DLBQhWV2CD~8Tvv9y~HFgzinNMRKOrS60Z2uSvY2C~RxO9K4P65IEXHSDoP0b~qLoQS54Auy4bgr1Nz5s052-LiOz6n-IY1uXJ2c0~qblERHuUJVHB2mNBrb2i9sFCmtbYQfxSu8HZ2K15IDrRxbpLR57mn6DA-yT8DFuY8vToOsUZgWahroeSbkD6d8pttcRynOPFmzkD2dgNVAJpsk~TVcr5H3oL91wyUe8JyvGGymkGY2Vsq55cSbJ68qsQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
@@ -18,6 +18,10 @@
 					  :root selector matches the document's root element 
 					  ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f53e5cf74-640d-4ddc-b439-02df9f5a2f912022_06_11_image.png?Expires=4808520989&Signature=iesSupUn~ztT--coFcX5eHeQQCOQ67-Fn7IjBEsXG07n5RB-ofRGv3kuE2WaIHq4TQ6leski~isVUFXoEQZwpz1Ms3ZweQTOCZsVkWUiuxS7xkq3fLkLDmFPlfgCeT44NhNqdS3gpkhmkjlWbDcilZ9pBOdHRZgXxRx8AZRXe8CW5OZ68AOS~q0QzhqppjxKccET0LVne1nQbnmmKIHC7BqQQF3p7dfbLCoZ6J7VmjOEQmp0QzfTSIu2RJTQHuRvAED0ic1ruulYwYwGyGnEn59Rv-gILKHWtRpzjk7uMyIp8YYX0rYVBxu5r~yNMw09GQK2P~lK6jkM~en94QPtJw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA) 
 					  #+END_NOTE
+					- To include the routes we can also use app.use
+						- ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f9fbeb969-edbc-4546-b91c-f53bf8dcebce2022_06_11_image.png?Expires=4808525481&Signature=IahlHl6Kpm4S8YfMXCBDIs-kkTALHGoSTh~-Fqi8SWKvhcFRMF2dZkqr21CoDWzpZCyOeHLYMSIMvzKs~7bgx9SWRx6ECUez5xd0MV4qWXf8us-en4SjMl9qLEvQrBd3d7BEZ3R66OtTue9l3DUJ2sL1V5H2obDhjeaG4nYAwmp41jLl9WQnRQ5dTdT7fZS7FMQzaHhAqQI4sCSktQpu24PIqJLyqlc3WvL~AXgywaBEvbN~pmMRdFQ1vJ3lEfGPwu-I-m4~ADParekZ0QLD5Q3X9ORiRZfoq5ZI-tUhR97heNwQ6Q2X-OEbVUH6rLrmptVfNcmafcj5T3lOmwGz1Q__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+						-
 					-
-	-
-	-
+					-
+				-
+			-
