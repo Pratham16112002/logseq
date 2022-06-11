@@ -27,6 +27,13 @@
 					-
 				-
 		- # CONNECTING TO MONGODB
+		  collapsed:: true
 			- First we need to import mongoose ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fe3751961-7786-4d30-86ba-e5230326cef92022_06_11_image.png?Expires=4808531623&Signature=lurvwncsDD73c6ZXa0eK3ODclbeMGVyna-Q69OzYP5hHsbLKJY9Id7RF8IBYqjLIGz9Y~qCNPV0MXF7d3Bh1Do-Da594UMqx7j5AfvZ-r9EEU8SFG8qI532iZRnJrLTHQEdoKh8LwpEaJDuR82V1Ipew-bnhFRhFPCKhIOyRd2oFgBItaAF4lYwtFL0cePiotnDT3EO27nkhCbkZJBZrrRGLb~xn8Nsowk-q6pBuUJBleXN~ZaWixyjWrcEbGRnDc2JALC9reoDvEZWfM3xBNJj9h68O6fK3gsrZvCvNNVXcn9zUb3K7NihQtUjKyqhuGVEn-VPWJ6KelHZ-VmdWaQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			- Then we need to create a function  in the js file and export it to the main server file ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fb83ad459-5712-4c4f-94dd-50438dedb6f52022_06_11_image.png?Expires=4808531725&Signature=R3XQRk1obHQJr6WS3DH~2vqqdFi2G-2VbMAWE8xdgRkSqWhY65rrekSMmrSHoVINfA1sHkjwp-alBbg1Vr0X2hxpYapaIS1W6BqWExEpY5c94~QPFfrwmJAFWt7bhHfZGJrCyxWPoOGAegTK~f-Vby~TtaukL0E3OSxUxuvjeoYY9b0wXTUCGL~i3ko7T0xHZxoXWhkWn3g3P4BH2OTCIZZdenukzOcOkKDhNyFB~5qaC331fSkGIu~bRfZOY1J7N9UnVlotLkeiy8ODqL0QyFdFQGlY4GUUI3N1Liw9CtXxNFDPfr4pvXzB64vwhYCuJ7I7w8yKq0weTHs4dXDauQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			- Now we just need to call this function in the main server file
 			-
 			-
+		- ## API IN MONGOOSE
+			- To create schema in mongoose below in the syntax
+				- ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f85fe35d5-49cb-4716-b85b-008fb84050962022_06_11_image.png?Expires=4808532155&Signature=QU1W9adcYPK05D2HKUOljwdRKzxV40ywjJF9nMnFGhvEh71ILVVcSlnIkgzAPrxw7meM0fwjux-xCBBeId8Upp1j5LOz2C34vfe7gJC-Jo6BTJ87ebfLwJSo8eCir67w83Oy0dtrhmxbr~tlTUX55FZlxgJ72WR2panvidwk~-iag5oOliN~6DsiNRf5m8x6Pi-FBp5G6NikWwFiN8gUyuM9BndqSI1dhM6K~elmOIG4PInYzJTGPrKXgDww0m5pqe3F7SBbTHCHDlW0V6NzFX57fauE3NCyKaObR0hf292nDwcQ1cyIjIi9QB-MlqKW5i55okzquH68WUL8YsDjyA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				-
