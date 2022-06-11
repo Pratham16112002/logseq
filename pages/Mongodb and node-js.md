@@ -1,5 +1,7 @@
 - To start the project and initilize it we use command npm init
 	- To install multiple modules we can separate them with the  space in between them ex npm i express morgan nodemon ejs body-parser dotenv mongoose
-	- ![image](https://user-images.githubusercontent.com/90999700/173008681-cd5b2cbb-a62f-41cd-8458-d67f6a03431d.png)
-
+	- Require method is used to load and cache JavaScript modules
+		- ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fb9786bbf-928f-4d77-8a66-cf734c77aca72022_06_11_image.png?Expires=4808519958&Signature=ho7wSdxtyRMlZIZFJ3IJt7YTHKJk51TkbrlJc2LHtACy5s8nVriakdjE722tbrslW11ZuzElJUOnjDA2wEmQMCKDSIkya7pTIijKQqgo40njtW9xBUE7YoOZ~eyuAW23FTschqF925D7BNcq681iEJGY8dfc~D9bKg7DzPinHWiXE6mgQxc~Zz0Ao5DGNTZwVUZ491mp753DMwYL122eGVV24G6rIoqJn-FEE1bREl53PG1wMup7KwnVirRHETtZsFE9EO3myI4ZQoTC0iAEOo9Tu8ag~uPr1Dm5I4PRuiN9GbiwIqIdo~bLNx0K3jaJsP6WblVxnfs4n8BrFzth8Q__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+		-
+	-
 	-
