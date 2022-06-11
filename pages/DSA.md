@@ -1,0 +1,12 @@
+- ## Space and Time Complexity
+	- Relation between Input Size and running time ( Operations )
+		- Time complexity \uarr as the input size \uarr
+	- ### Three Cases of Time complexity
+		- Best Case \rarr the function which performs the minimum number of steps on input data of n elements \omega
+		- Worst Case \rarr the function which performs the maximum number of steps on input data of size n. \theta
+		- Average Case \rarr the function which performs an average number of steps on input data of n elements . O(n)
+		- We will always choose the worst case time complexity for checking any runtime of the code
+		-
+		-
+		-
+	-
