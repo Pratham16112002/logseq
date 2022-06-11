@@ -6,7 +6,13 @@
 		- Worst Case \rarr the function which performs the maximum number of steps on input data of size n. \theta
 		- Average Case \rarr the function which performs an average number of steps on input data of n elements . O(n)
 		- We will always choose the worst case time complexity for checking any runtime of the code
+			- Below code ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472ff7a66e49-ab6d-404d-904f-b8f9de4605372022_06_11_image.png?Expires=4808567372&Signature=KMHeaNHuF8iAPWWfg1hU7sA1QpBv350pJL4g0Fk0yXuehCa4ErVLsaJAM9PAc7ZYFc1gHnZ43Bar3RBHAIqK5PreItL5cYhh0HerU98sj9XQVTOhpLKqcvxolSNC2CX-T9dPhxoQ4DZ21ED69Z3MsdC49vimfw-uP~zk7rd6uzX14wLhrCKNQdc4ZfFICg--zc9-GHFYTbaV1W9bt-ZctSv8a6LSjvTuRYs-Y0yljPnGaN2TA56QBOCOUpPzMxxA8wW4Va2Rejp1nP74gHfOcEe23RpQBzsJkdXXcsJtai2m9PgnO72CsaD21yzf4bG39NOjYrQuV8Smyc0p7E4-5g__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				- In the above case the time complexity for the run time is O()n * m) in worst case .
+				- In the above case if the for loops for not nested then the complexity would be O ( n+m )
+		- ### Space Complexity
+			- It is the amount of memory space required to solve an instance of the computational problem as a function of characteristics of the input .
+- ## Arrays
+	- list of items of same data types
+		- Syntax for array in java ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fda705581-f2f5-4a19-a819-1bf7dc5a992c2022_06_11_image.png?Expires=4808568037&Signature=jFoqcx-xfbx2X3sXsGxVF4TKoxUiWNuMh2YDlD1IBr~8372jybslFf1IasfksVV7vagGp74JHtAss2B~8Y5-~adGtK3Cak4qDhdBkWhTfv5RiMeInUsD723tsMnXpCSWzY3yuSc3~U82lflysliCg51IPJ3NPdmH1COV5y9InBCLYNdUwiKeM5iebdf6loSEOS638k-J0R0dofUgFkbhk1GgthOzOEO5JwKo8UEbjRvocf0qmhHXtKEEyD8dkoF0d2NwllHPkFiZXWEkovgOybwk5EvfVDsQ1axg-xyGIyGE8PRqORDCXgiiIkZi7VQ1KdhH2e0HCtCv2fEKCFhAoQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+		- Defining array part 2 ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fdc2aa855-0b53-4198-932a-cfa019c0d6b32022_06_11_image.png?Expires=4808568555&Signature=ZJwJljG2UAe9kt9~SG-brL3CNmZQVKk7YWAa2lVfv-z3YcdZGwrFoeCRKnBhMuPyB-K66w1hg6ogAcftJ5zHWfimQ2sLh6iixL7HmWrr87RnoYfCZuAqm6lDftBaF4YrPKv~FPuifZUeqg0ISFIX~1b-h0bjuExG2duocJE455FWgT0Tu-PJ7qfRnMxWOsXvoTbxOSS~-v~s-5aZT3wT~BFvTtVPcEVmg~bs0xG0GNMO21mTHnviPh8G7I73W8nQrPp5D~t0Ka2tk4pcvmJb2BT4sUC5liuRlxLSpRuPeOpFbo0rhjIZxSPOjJG0ULa4J~pgjCkkCD53pdtUznX8DQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 		-
-		-
-		-
-	-
