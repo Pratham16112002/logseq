@@ -2,6 +2,9 @@
 	- To install multiple modules we can separate them with the  space in between them ex npm i express morgan nodemon ejs body-parser dotenv mongoose
 	- Require method is used to load and cache JavaScript modules
 		- ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fb9786bbf-928f-4d77-8a66-cf734c77aca72022_06_11_image.png?Expires=4808519958&Signature=ho7wSdxtyRMlZIZFJ3IJt7YTHKJk51TkbrlJc2LHtACy5s8nVriakdjE722tbrslW11ZuzElJUOnjDA2wEmQMCKDSIkya7pTIijKQqgo40njtW9xBUE7YoOZ~eyuAW23FTschqF925D7BNcq681iEJGY8dfc~D9bKg7DzPinHWiXE6mgQxc~Zz0Ao5DGNTZwVUZ491mp753DMwYL122eGVV24G6rIoqJn-FEE1bREl53PG1wMup7KwnVirRHETtZsFE9EO3myI4ZQoTC0iAEOo9Tu8ag~uPr1Dm5I4PRuiN9GbiwIqIdo~bLNx0K3jaJsP6WblVxnfs4n8BrFzth8Q__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+		- The app.use() function is used to mount the specified middleware functions(s) at the path which is being specified .
+			- ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472ff923a6ae-8253-429e-8f99-994aa3aebf5b2022_06_11_image.png?Expires=4808520354&Signature=Lnts4hJsI-GfJSI7gbAnXiN7mmQi3Oi70ZNuVPo9jUfjkF2wsT8onMMTRfDitpX1x~AqmucZ23xgaezkr9689JAyAn0sZzIA8~-5gJxZVrfGfD-3CNihG3Vwt7ZySbEmHxkyrcNEd7H7MnQ4~eXASl4yAfIzMju0Rsfyj37PCG2yWJjfC0fbCB~v~7krNPSQDZLGDpcjgDWGrxeybge0SAUgqVkNfo52TbI3JpUAcpFMvzUmDfYhN3U8uyXEeX6-7DZmYdZmw1YWRUAK1RozLC-pEZTkLxJmlkXTv1edlNbwYxvXYlrsxlmGb6e0wAE--l6Hcji1hDbjX4Unu7864Q__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			-
 		-
 	-
 	-
