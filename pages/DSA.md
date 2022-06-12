@@ -34,4 +34,10 @@
 			- ![2022_06_12_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f0319feb5-d71a-45fb-8dea-1c0f4e97b5d02022_06_12_image.png?Expires=4808626901&Signature=Epf~2EAgB3XKbtFzm4lFreRkgShXQB2PNfo7mI2uRM03DZCGd91L-OlU5wV2U7QavxLULy96-pPIunAQTIiRdKMIe1xjL-xo3E0AMTrHPIXkpRni8bhGCOA4GdXFy7Lr2W01H-N52vNweSKQAdmLmU9U-~IBe4fzd~k~zahXc0qw9wvwat0vA3kZHifvm1cLEbbMMlqZR2eWAYmlwvhBuDS12Q~xAg6T27ZESojI51ca4ABFz-VLD3Q1vvprFhvzQZikz0ZvVSd7WYh2h8prYfsbGg2xPljeg1hGA7tgQ8jH~Lf4tpewkwxkK-qHshwpgPhqu-XyBGqYvTSsIIp9sA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 			-
 		- ### Insertion Sort
+			- Slowly the sorted array increases and the unsorted array decreases .
+			- It places an unsorted element at its suitable place in each iteration by shifting the required elements .
+			- Best Case \rarr (O(n))
+			- Worst Case \rarr (O(n^2))
+			- It is also called online algortihm \rarr because it does not need to know anything what values it will sort and the information is requested wile the algorithm is running .
+			- ![2022_06_12_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fe5c8ddfe-4793-4c5f-8a02-e3a5ff89af3a2022_06_12_image.png?Expires=4808628582&Signature=fJklpgA3MFW-MiWBNAMKRHq4CLYg8R0Je5pONaIuc5Wu3XNeQvGUlPiRC0jLsDURovDu7RH5Hop4taVO30f~Qg45iJN3w9J0DxxwAxqUwFxBPEFGvyFfwVcjRT48wvNFtPnWDpbeelhY~263oWW0CipSsWPqBkFpMOKhYsdHpWvzV6Dkq0kz4--aayY4e71-egbZEC~BPAqfOh6DR5MCw98PABu~M7GKYUDZb7o17VNPZ-~uLwgM3Dmyx2LfY6cSkkQV1naWcaDHH8cdKm8yH0jAlslVwUcBYQgEcGuxMpUPN-XuvcR2UFEd-6Agy~12k9fNipRrZ6a-UeJsjW4v8w__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 			-
