@@ -26,3 +26,12 @@
 			- Time complexity \rarr (O(n^2))
 			- ![2022_06_12_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f3f171e7d-3d49-4636-a5ae-11b313ac939c2022_06_12_image.png?Expires=4808624966&Signature=ACnWRW06g8F~MOSboxZbOhlCYkESz-fm7~HTw98GnvV1YJdvqrGQ71gCGWiu0GrPBvf1AflgzTmSPh9yA6UsLcrqy6OHc1-9e~ObWbr5sVdNVNQdaj5GAqZ46EPSfJBGsg7aHdPG2Z6k5gc254SaY-751VGduUlsaKuqv5bnDOoxKDTu~dezPBcTV3qP-6VXhDWYIUkAZ5NeJ6hH80Kj~VIc0a0rZbeYxpGaJ0yPbPH5IVq8bIbt7kD3OYCpofVqH1ziflpPOt1qor8-TLUgsWw9KcJPGHkflw6jYFdd1jc5U-sZX2Gh~ifHmdy277F91XxdycwB3wf1GWCq1WNfPg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 			-
+		- ### Selection Sort
+			- it sorts the array  by repeatedly finding the minimum element from unsorted part and putting it at the beginning .
+			- This algo maintain two arrays sorted and unsorted array .
+			- In each iteration only one swap is their
+			- Time complexity \rarr (O(n^2))
+			- ![2022_06_12_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f0319feb5-d71a-45fb-8dea-1c0f4e97b5d02022_06_12_image.png?Expires=4808626901&Signature=Epf~2EAgB3XKbtFzm4lFreRkgShXQB2PNfo7mI2uRM03DZCGd91L-OlU5wV2U7QavxLULy96-pPIunAQTIiRdKMIe1xjL-xo3E0AMTrHPIXkpRni8bhGCOA4GdXFy7Lr2W01H-N52vNweSKQAdmLmU9U-~IBe4fzd~k~zahXc0qw9wvwat0vA3kZHifvm1cLEbbMMlqZR2eWAYmlwvhBuDS12Q~xAg6T27ZESojI51ca4ABFz-VLD3Q1vvprFhvzQZikz0ZvVSd7WYh2h8prYfsbGg2xPljeg1hGA7tgQ8jH~Lf4tpewkwxkK-qHshwpgPhqu-XyBGqYvTSsIIp9sA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			-
+		- ### Insertion Sort
+			-
