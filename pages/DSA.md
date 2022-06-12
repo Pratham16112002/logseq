@@ -15,4 +15,14 @@
 	- list of items of same data types
 		- Syntax for array in java ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fda705581-f2f5-4a19-a819-1bf7dc5a992c2022_06_11_image.png?Expires=4808568037&Signature=jFoqcx-xfbx2X3sXsGxVF4TKoxUiWNuMh2YDlD1IBr~8372jybslFf1IasfksVV7vagGp74JHtAss2B~8Y5-~adGtK3Cak4qDhdBkWhTfv5RiMeInUsD723tsMnXpCSWzY3yuSc3~U82lflysliCg51IPJ3NPdmH1COV5y9InBCLYNdUwiKeM5iebdf6loSEOS638k-J0R0dofUgFkbhk1GgthOzOEO5JwKo8UEbjRvocf0qmhHXtKEEyD8dkoF0d2NwllHPkFiZXWEkovgOybwk5EvfVDsQ1axg-xyGIyGE8PRqORDCXgiiIkZi7VQ1KdhH2e0HCtCv2fEKCFhAoQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 		- Defining array part 2 ![2022_06_11_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fdc2aa855-0b53-4198-932a-cfa019c0d6b32022_06_11_image.png?Expires=4808568555&Signature=ZJwJljG2UAe9kt9~SG-brL3CNmZQVKk7YWAa2lVfv-z3YcdZGwrFoeCRKnBhMuPyB-K66w1hg6ogAcftJ5zHWfimQ2sLh6iixL7HmWrr87RnoYfCZuAqm6lDftBaF4YrPKv~FPuifZUeqg0ISFIX~1b-h0bjuExG2duocJE455FWgT0Tu-PJ7qfRnMxWOsXvoTbxOSS~-v~s-5aZT3wT~BFvTtVPcEVmg~bs0xG0GNMO21mTHnviPh8G7I73W8nQrPp5D~t0Ka2tk4pcvmJb2BT4sUC5liuRlxLSpRuPeOpFbo0rhjIZxSPOjJG0ULa4J~pgjCkkCD53pdtUznX8DQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
-		-
+			- #+BEGIN_NOTE
+			  In java by default zero in initial value of array elements . 
+			  #+END_NOTE
+			-
+	- ## Sorting
+		- ### Bubble Sort
+			- It runs a loop for n-1 times , it works by repeatedly swapping the adjacent elements if they are in wrong order .
+			- This is not suited for large data sets as it average and worst case complexity is quite high . ![2022_06_12_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f53bc4d80-2fb5-4b3b-a1cc-0bf5e2ad6f782022_06_12_image.png?Expires=4808622330&Signature=ZRwfbY4JDGw-QhgVZKujIgDBXaPFgLXOA2a8bxG8E5Ye7uxy1D3OjUc88iLOclWjaDWUrtSMGPpt2UKG2uO50xSbUcgW-7VA2~QG3OSn8FUCGggcFOLuVMhJ3Ep78vmItDZ7yTYdFgQiFpwdrIOjBL-z-B3kN~T1-8KErPdsV32CDOS35kR9oL2Sagtw8TKQMK9JNas5~B35fs6UbBLqBaKDSakIE44LYtjSaIXMZ0UjeRWKlG74D~DVN6l23w8XbvXWsoLPyTkoIhfQWMuVfKLBY3f2~doI4GmiV-oWZXS9bY5waLQc-fx5cZsbYKe2eyg-Gk7XhOeBW5FODKI6ow__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			- Time complexity \rarr (O(n^2))
+			- ![2022_06_12_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f3f171e7d-3d49-4636-a5ae-11b313ac939c2022_06_12_image.png?Expires=4808624966&Signature=ACnWRW06g8F~MOSboxZbOhlCYkESz-fm7~HTw98GnvV1YJdvqrGQ71gCGWiu0GrPBvf1AflgzTmSPh9yA6UsLcrqy6OHc1-9e~ObWbr5sVdNVNQdaj5GAqZ46EPSfJBGsg7aHdPG2Z6k5gc254SaY-751VGduUlsaKuqv5bnDOoxKDTu~dezPBcTV3qP-6VXhDWYIUkAZ5NeJ6hH80Kj~VIc0a0rZbeYxpGaJ0yPbPH5IVq8bIbt7kD3OYCpofVqH1ziflpPOt1qor8-TLUgsWw9KcJPGHkflw6jYFdd1jc5U-sZX2Gh~ifHmdy277F91XxdycwB3wf1GWCq1WNfPg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			-
