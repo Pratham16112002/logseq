@@ -40,4 +40,19 @@
 			- Worst Case \rarr (O(n^2))
 			- It is also called online algortihm \rarr because it does not need to know anything what values it will sort and the information is requested wile the algorithm is running .
 			- ![2022_06_12_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fe5c8ddfe-4793-4c5f-8a02-e3a5ff89af3a2022_06_12_image.png?Expires=4808628582&Signature=fJklpgA3MFW-MiWBNAMKRHq4CLYg8R0Je5pONaIuc5Wu3XNeQvGUlPiRC0jLsDURovDu7RH5Hop4taVO30f~Qg45iJN3w9J0DxxwAxqUwFxBPEFGvyFfwVcjRT48wvNFtPnWDpbeelhY~263oWW0CipSsWPqBkFpMOKhYsdHpWvzV6Dkq0kz4--aayY4e71-egbZEC~BPAqfOh6DR5MCw98PABu~M7GKYUDZb7o17VNPZ-~uLwgM3Dmyx2LfY6cSkkQV1naWcaDHH8cdKm8yH0jAlslVwUcBYQgEcGuxMpUPN-XuvcR2UFEd-6Agy~12k9fNipRrZ6a-UeJsjW4v8w__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
-			-
+		-
+		-
+- ## Bit Manipulation
+	- Types of shift operators in java
+		- #### Signed Left Shift
+			- => The left shift operator moves all bits by a given number of bits to the left
+			- The Formula for left shift is => A * (2)^Number
+		- ### Signed Right Shift
+			- => The right shift operator moves all bits by a given number of bits to the right.
+			- The Formula for right shift is => A / (2)^Number
+		- #+BEGIN_NOTE
+		  The Left operand in the operator in the number on which operation is performed and right side   shows how many times shift .
+		  #+END_NOTE
+		-
+	- ### Major Operations in bit maipulation
+		- Get Bit
