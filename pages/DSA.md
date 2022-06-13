@@ -67,3 +67,9 @@
 			-
 		- Update Bit => For 0 it is same as the clear bit and For 1 it is same as the set bit ^^above^^
 		-
+	- ## Recursion
+		- Q. Print the sum of n natural Numbers ?
+			- ![2022_06_14_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f6ba37626-410b-4e24-822f-3e7a56484ba52022_06_14_image.png?Expires=4808752813&Signature=iqHSAkSUpKyNt0E7lbIIjlowdW0hNzpXxTPR~3rFvC3wjkTZykV29GTAgFPiC4-ALohHDgIBabg5fY2FUwt5ATkDF1s6R8Mhs8DoDuZhRuALiof8DMFKl0kJwSGd1r0F6vc74jF-s2qji6BtZuC2GQvFCDHq95L9Y-p2DKlRe3t~2bc~wouWhgDhH4ooarcg4Z9WnxbY0pkLfLs7Au5r0VFGiQel60PEbUQm-n-15KgB2NRNKiaLk27nCMAO4DHKlOrTbs0mSWcwObkJXmdTDF5Gxo0CMzNjD5k4s8pJZfsSWd5gz~xXjTzXGwoG5rg1AOgYe5G8J5wQEO6-BWPreg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			  id:: 62a79f30-45ab-4e02-b49a-8cdbb39345be
+			-
+		-
