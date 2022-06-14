@@ -72,4 +72,11 @@
 			- ![2022_06_14_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f6ba37626-410b-4e24-822f-3e7a56484ba52022_06_14_image.png?Expires=4808752813&Signature=iqHSAkSUpKyNt0E7lbIIjlowdW0hNzpXxTPR~3rFvC3wjkTZykV29GTAgFPiC4-ALohHDgIBabg5fY2FUwt5ATkDF1s6R8Mhs8DoDuZhRuALiof8DMFKl0kJwSGd1r0F6vc74jF-s2qji6BtZuC2GQvFCDHq95L9Y-p2DKlRe3t~2bc~wouWhgDhH4ooarcg4Z9WnxbY0pkLfLs7Au5r0VFGiQel60PEbUQm-n-15KgB2NRNKiaLk27nCMAO4DHKlOrTbs0mSWcwObkJXmdTDF5Gxo0CMzNjD5k4s8pJZfsSWd5gz~xXjTzXGwoG5rg1AOgYe5G8J5wQEO6-BWPreg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 			  id:: 62a79f30-45ab-4e02-b49a-8cdbb39345be
 			-
-		-
+			- Calculate Power ( Stack height \rarr n ) ![2022_06_15_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fb9a65df9-b89d-4d20-bc9e-c90e961afc0b2022_06_15_image.png?Expires=4808832971&Signature=cVFFY9tDglSayXuqUFp7y5mMzqOhKyMfoUJO4YFhiJvPCTMNhOUxOPBmUrZvzfdfTSjEKz6colOmdsK38ZKSKpPaNxwocMgyJG8s0yeR0l45nJ8GCeOIm-rInwxrBFENEVKQnsAlwm9qRjorlXwmM3UA1cgpwTzb~qSSqKt7SjzMElHJ3eQ12g-FemKaPVQbK5dW2rAmImcmtt5zJvc-iK~Kt6zKuCkrT8FvBVLLZmWDv8q8jH7KcZB8DBx5IbdA9PFhfUgEHwyGzQzo5uyf559RNQ9iXG156TVT7IkjdtGR4t-HeQO5-flge4rbMWq9SJGgKYIP0CCrGNGh0vDqCw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA){:height 243, :width 453}
+			- Calculate Power ( Stack height -> logn)
+				- ![2022_06_15_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f63723146-afdf-45e9-a29c-59b4b8aba3622022_06_15_image.png?Expires=4808833406&Signature=RJxhsX8gmL0i1sSYKtS8or5jb4Ck8Dln9dVcXa0o8W1fSDleyOkeBgoeQdOsxjoWxFlvbEfgxJVV2PevRMfxoIlv1pKboaFmvQqvpUHwVnqlOZtvKxGXt7Q~UJFdSM4tvmJppCOslHAKlWBSqUhQaORAv5zXZrUc7kuLPTa3cNKFdpZcb~DXZqQWO~ZZz79UAQhOR4aZMoCZN6PnG2j7v0kWmEAmA5~JeoS2G7QtisU2EIllcS6Tv7KE0mbuHIO~au2XlFKtnrMJ296pO~k1na~WHmwFnRMjRZJ2P0iFeDhyF9T2bUo9veuXfb255ZigOxbqUu9X6vumjoMJycjkSg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				- ![2022_06_15_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f221faa32-bb48-4ec9-89a3-2e94074ffe342022_06_15_image.png?Expires=4808833864&Signature=I9oTqVXuqzZbb8SHXt~ZD3W7J1ysrLca~Y2wfDYcIM-CzBb-dXVU8NVPHW~PiO8lTN~mH6n4nULePgPyQKT9p3uovYIlxLloxSp8Svg1-FcUfbZOhrOiPbBJOduvHsVZFL2DitokkrUJ8Le9KhnGeqHl6PnSWl7oqMbiahKJevDMEwxu8HdhO3c2OkYak63Ux~tCFvz2O8tq74vD6q14trUKAslEQW3fTA7PxelHmqzZRVCzzfTKGD7RtWpV6Q64F5UsqgMnCXl~2GX4SvbzO9M4LaI1RmOpFZ-JyqAhdOa~8fxFsuyb~a~E4NddWN1eAyuib9yEOq3q9pn6DbVVBA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				-
+			-
+			-
+			-
