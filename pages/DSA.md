@@ -77,6 +77,19 @@
 				- ![2022_06_15_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f63723146-afdf-45e9-a29c-59b4b8aba3622022_06_15_image.png?Expires=4808833406&Signature=RJxhsX8gmL0i1sSYKtS8or5jb4Ck8Dln9dVcXa0o8W1fSDleyOkeBgoeQdOsxjoWxFlvbEfgxJVV2PevRMfxoIlv1pKboaFmvQqvpUHwVnqlOZtvKxGXt7Q~UJFdSM4tvmJppCOslHAKlWBSqUhQaORAv5zXZrUc7kuLPTa3cNKFdpZcb~DXZqQWO~ZZz79UAQhOR4aZMoCZN6PnG2j7v0kWmEAmA5~JeoS2G7QtisU2EIllcS6Tv7KE0mbuHIO~au2XlFKtnrMJ296pO~k1na~WHmwFnRMjRZJ2P0iFeDhyF9T2bUo9veuXfb255ZigOxbqUu9X6vumjoMJycjkSg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 				- ![2022_06_15_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f221faa32-bb48-4ec9-89a3-2e94074ffe342022_06_15_image.png?Expires=4808833864&Signature=I9oTqVXuqzZbb8SHXt~ZD3W7J1ysrLca~Y2wfDYcIM-CzBb-dXVU8NVPHW~PiO8lTN~mH6n4nULePgPyQKT9p3uovYIlxLloxSp8Svg1-FcUfbZOhrOiPbBJOduvHsVZFL2DitokkrUJ8Le9KhnGeqHl6PnSWl7oqMbiahKJevDMEwxu8HdhO3c2OkYak63Ux~tCFvz2O8tq74vD6q14trUKAslEQW3fTA7PxelHmqzZRVCzzfTKGD7RtWpV6Q64F5UsqgMnCXl~2GX4SvbzO9M4LaI1RmOpFZ-JyqAhdOa~8fxFsuyb~a~E4NddWN1eAyuib9yEOq3q9pn6DbVVBA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 				-
+			- ### Tower of Hanoi
+				- Tower which is empty that we can assume ^^Helper^^ , From where you want to transfer the disk that we can set as ^^Source^^ , Where you want to send the disk can be set as ^^Destination^^.
+				- ![2022_06_16_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f8af71b22-f364-48ff-b185-1f8e1b3a49262022_06_16_image.png?Expires=4808957083&Signature=EAbs5Xp---XENSd2L4TWVDB4JehCG9E6oZNHkpffblvpL2lR-YwJ00TJON51rw12DfExMspziigDd40Wcx7hg6ByIoUF-FhnY7bbXNbLn2KeWqyIZnqLk~pL83Q9Tv8u1ntK4gf7JwFDzJNEZdwAOAObJI5cBWZC~8rxpfpROkMnW4rd7pekmV48ckogDhTsKQTEjH6sPhzPgcz8ULyQlNKr0zZ196Bc6LXwl44uSBAMG9Xm1B2p~HfWcdpA730clKKRmugnQ0GkzwI6eapogQgBr3Jvb6y70q1X~SAwFuyG9i0pmbFFptNVZj--R4EaGOFZA5Gan6pUkrwTwbwtCA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				- The Output for n = 3 is ![2022_06_16_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fd3303f72-910f-453e-b33b-8d5c3b0c57222022_06_16_image.png?Expires=4808957125&Signature=m1RoX5TsH8KGAkcwoGIcFBu2ZuU2G1b1VNIeeClvm7zelyUs0FvQQyCKUzk8qPh~kr1j9mRp8AjqVpp9fR052k7Rc2IyXABlzf8mAf1dZHzZ5b8szgmOGgu6erRs~SK-dHdMrq~TGnm41VEoX74mhLUuGmEdl1-~O9DrUk86QRXN13wD9SxrDf8zoWXeQdRrwg2hVu6xHOLntLLiQB~zeho9QCKzbw4D49OFiJZE0bLP9bPxKE9sXZRN3hoOiImAuwEcC5lCV2wXD8OLQlhDwolbbFPYhaxBSImnts2IXUWs7buypIiI07XEjEOMGqKCzWTL6~PUhnXZLgDA3r-XfQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				-
+				- Time complexity -> O(2^n)
+				-
+			- Print a String in reverse
+				- ![2022_06_16_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f19f0378c-67a0-436c-b31a-f7a6e5f505952022_06_16_image.png?Expires=4808959770&Signature=kuVsdPDk1jFRfm9qm5VGbYHwRNdrfNZJt5flCVTyTSBdf0Ev8MTe8X0JuOQJgW05MqaSqO0va6EwPDrskpxNOW6Wu9sxIXXAx~dFhZQI5wPPUBomBPUsM8jpZqodcmlnfaynxMhacvhHaJpzvrOmfLOAPrBroAxPbWGZDjBGFo84QYMnQ0V9WV2foyzQRmh4RMeSK1-KCjvwUHVHClq99GZMkbCqVAwYpCTcwB4Y35SvPVHoNgF5rM-v4eSmCFxmxXHzfXsdgY8dL3mQXXu6B1nHmp6CA-fcdgFxnnFhJhKPL~uvqlTCjVcwOGuvlc3WwLG1~odxfcrD9gQVmmQrIQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				-
+			- Find the 1st & last occurance of an element in string , In this first we need to declare two static variables in the class first and last
+			- ![2022_06_16_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fa4261789-7603-4d36-9cc7-73da012152c82022_06_16_image.png?Expires=4808960547&Signature=b6LiDjcym~JuxjxP-ZXFIpE5k2AeVWlyN7Ad9nSJWqyO6I5FGtalIA6KST4XVuIvGDjFppJobdIJC~PMzUBWo4YY1S7mVM6nls7lLfkxwx-JWaCfKGNlDuMvjohetUq-Ws1ZTcXaaivlomb4-bduFHCipUQ4OaKX72ZFkS2DlcDKguWLfPZIVSXvg1GOtZNkZ9BMKFT~cZTB9IaEkqlLW~lzHMfZZlzMlrEiNP1IATLZDovprMnX4WKfTwRgsaFN3srlXFcTfrcXE209zM1g5q48tz4oJdNpoKzK0aj8uWxe9nkw00jT0-6qA9A1KWRNYPVPqDhKNVfISfmkZwfW2w__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			- Time complexity -> O(n)
 			-
-			-
+		- Array Strictly increasing
 			-
