@@ -91,5 +91,14 @@
 			- ![2022_06_16_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fa4261789-7603-4d36-9cc7-73da012152c82022_06_16_image.png?Expires=4808960547&Signature=b6LiDjcym~JuxjxP-ZXFIpE5k2AeVWlyN7Ad9nSJWqyO6I5FGtalIA6KST4XVuIvGDjFppJobdIJC~PMzUBWo4YY1S7mVM6nls7lLfkxwx-JWaCfKGNlDuMvjohetUq-Ws1ZTcXaaivlomb4-bduFHCipUQ4OaKX72ZFkS2DlcDKguWLfPZIVSXvg1GOtZNkZ9BMKFT~cZTB9IaEkqlLW~lzHMfZZlzMlrEiNP1IATLZDovprMnX4WKfTwRgsaFN3srlXFcTfrcXE209zM1g5q48tz4oJdNpoKzK0aj8uWxe9nkw00jT0-6qA9A1KWRNYPVPqDhKNVfISfmkZwfW2w__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 			- Time complexity -> O(n)
 			-
-		- Array Strictly increasing
+		- Array Strictly increasing using recursion
+			- ![2022_06_16_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f49b4e264-490d-4e4f-9dca-58b3e6a26c252022_06_16_image.png?Expires=4808967298&Signature=dU6sqxuABydg07CCAhS2ttMeUpCQl5ui0Pb3xgObenyyDPFeUVYy01UiQeWonpJ73sIDFbh7cDiJ12KCTv~DZcc3xhuOYm7z3j61zg1Vfk1VyML2I9aEAHXjJBobrLVf05VxcJGdK0jVe3d7~9ATBPVC6TcJhlsn9uPSdGcQ0v3MU~wR1p2lB1zEZewSciiJyF4QO95g2im~NSo0OFzbdTVVU6jD1yJQIM8nrAd~IW0jblIi9M-iqGwXuieUsaU8dtJJERrGYVZMPvMvcXynjOodeV1d6jzkeBa8tvtjZa0ckpy449BXBTom4NnU9cRLeJhjLFiYpsSRy8cfoTdieg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			- Time complexity -> O(n)
 			-
+		- Move All 'x' to the end of the string
+			- ![2022_06_16_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472ff82279c3-8df1-4f6b-bff6-ccd21e6d49572022_06_16_image.png?Expires=4808968527&Signature=PCMu188MckxlbhdApKc6u2YcUKiUiRCklKbht1uRS97yzmswe6hQgDy8DCKcyFfOb4QBXA8xzw8YjNH1lA-v7IwIBwPzUufDfLRvfz6sNl8VZrue1xTEQnsRlT9rp3zFDAio2KQPPrkzkcOjuAp-JiEjfYx4aLnmSkzscbhtRIqqficX2aVKBUy6bbqX7Im6cSB5FpR71my4u8IMV0iyW~xQJqMsKU06hJbzl4a2hbZToF4pk4MPgc21mMzRAGLA8JhvKkvm7HC9Gu8yOnxKXvKKBot68J~zdcqRW88sPZdR9PeRh0W1s9Vdn2IgeHPCLpEWt9ZQkOzklOTEErlCCw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			- Time complexity -> O(n)
+		- Remove Duplicates
+			- In this problem we take a static boolean array of size 26 which tells weather the character is duplicate or not . ![2022_06_16_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f0e8f5dd4-eae7-4e10-9440-7940674bce642022_06_16_image.png?Expires=4808969662&Signature=DnyNrtNwEuf1DSBSOU~dOJ2tSdruA6MLOuIKO2BJNXAlM3yaqBhT33z4OMx5tWD61YKi8q9Gu0L94zLCR~gHU0~ICr~EJF2utCQMaGNuniQEA2Wda~695c2JfbVoNtH~YWDXmODWk7zi~zwccrCSaQwPlhI09vlO4VY8lsM~QLJhXjr0i4A0EPZxxb0apBNJSQgc3lCvcxNev8UYGo2qK-MprGfjqIn2CtJ0b0~CgOi7uKl0K4F33EJmhExVeJOLGxF~rQYL0QOw8r0ntHObGL6Bxlv~h82MjmIYcVqRitZDWV3iRDE-RaaF9F4mnAbo7X15om0i513Dsu17OpqoEw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			- Time complexity -> O(n)
+		-
