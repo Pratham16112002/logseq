@@ -101,4 +101,10 @@
 		- Remove Duplicates
 			- In this problem we take a static boolean array of size 26 which tells weather the character is duplicate or not . ![2022_06_16_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f0e8f5dd4-eae7-4e10-9440-7940674bce642022_06_16_image.png?Expires=4808969662&Signature=DnyNrtNwEuf1DSBSOU~dOJ2tSdruA6MLOuIKO2BJNXAlM3yaqBhT33z4OMx5tWD61YKi8q9Gu0L94zLCR~gHU0~ICr~EJF2utCQMaGNuniQEA2Wda~695c2JfbVoNtH~YWDXmODWk7zi~zwccrCSaQwPlhI09vlO4VY8lsM~QLJhXjr0i4A0EPZxxb0apBNJSQgc3lCvcxNev8UYGo2qK-MprGfjqIn2CtJ0b0~CgOi7uKl0K4F33EJmhExVeJOLGxF~rQYL0QOw8r0ntHObGL6Bxlv~h82MjmIYcVqRitZDWV3iRDE-RaaF9F4mnAbo7X15om0i513Dsu17OpqoEw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 			- Time complexity -> O(n)
-		-
+		- Sub Sequences
+			- we make two recursive calls , first is with the current string and other is without the current string ![2022_06_16_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472ffed56249-6191-4b45-b6d0-5ceef61b19d42022_06_16_image.png?Expires=4808973861&Signature=lOmP4IG5OTPRqFWqELxPUM9T8w5WB5CV5tFVo4ZZxskt7SB5x0ZcWfFEncpJuDUvmC3s1T7OVvOztFixGOn9~k3mRFD0oiKo3798aaIu5Qhdm-BnY7U9vGL0W2gIZJGKzi6pntE05nqHZe4Zd2weBofDtW0C0QONnaU1yFOZyO4vNKD~efzRBGmVAhDXAdsIXtQaZUte3NvMG2YgOJliOKTu7cSxhKtBTmzA11dwNik~lRGm6TrZhOGyyFNXziB~8KYM4ZMckgiZvKvIazi06Hy-gM~X1CHhnBzCdnvIiFkdQKbtqbIIvf-vMvh8ZuDEoafJvpWMCFLnsCB2S3A9GQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			- Time complexity -> O(2^n)
+		- Print Keypad combination
+			- First we take an array of strings of the string present in the keypad
+			- ![2022_06_16_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f1076c481-a975-439d-a974-8fb1f97341432022_06_16_image.png?Expires=4808978393&Signature=mAslrt6eL7JXq1dqeyCKl-MCFYk5oldlG0uc~0ng4ao5CdCyI1wDjy6IiNQCHFqwD0YxCIDIwvNFNEDNECLcpHwDD5pctrfb~D0cBpjVEf-e2FY0UXjf-jKlINzZh9~tPL-Tmk8BbEdl034FOXP0nyUt5SU7IJ~SF~va~OCDe~ITMiwOPLmQYdQAovsVzoUuq~2TL~Vc8Ei6sZxPYLuviyzMPfmd~mtUVtthrdL440Vysax9nsAB4l8fgfGbyLbtj~wiyZjLbEhjVhXP~xkX31Vc6v~UqsD8c3T1ztQe2b~XKs0vztAPA-eiTbi8GwgXLM6kFmN-HeThqjVFJaL88Q__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			- Time complexity -> O(4^n)
