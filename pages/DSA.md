@@ -108,3 +108,8 @@
 			- First we take an array of strings of the string present in the keypad
 			- ![2022_06_16_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f1076c481-a975-439d-a974-8fb1f97341432022_06_16_image.png?Expires=4808978393&Signature=mAslrt6eL7JXq1dqeyCKl-MCFYk5oldlG0uc~0ng4ao5CdCyI1wDjy6IiNQCHFqwD0YxCIDIwvNFNEDNECLcpHwDD5pctrfb~D0cBpjVEf-e2FY0UXjf-jKlINzZh9~tPL-Tmk8BbEdl034FOXP0nyUt5SU7IJ~SF~va~OCDe~ITMiwOPLmQYdQAovsVzoUuq~2TL~Vc8Ei6sZxPYLuviyzMPfmd~mtUVtthrdL440Vysax9nsAB4l8fgfGbyLbtj~wiyZjLbEhjVhXP~xkX31Vc6v~UqsD8c3T1ztQe2b~XKs0vztAPA-eiTbi8GwgXLM6kFmN-HeThqjVFJaL88Q__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 			- Time complexity -> O(4^n)
+			-
+		- Print Permutations
+			- If n is the length of the string then the number of permutations will be n! [12:00](https://www.youtube.com/watch?v=xZykmhcWGuY)
+			- ![2022_06_18_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f66077d2b-3e90-47c0-b664-cac70da5adf12022_06_18_image.png?Expires=4809098075&Signature=hW0-Ks6LVmHSFgJi~9CFENHYz5UnTUUBdsbYfg5wbLR8JUldLELQ37Lpcy7Ut9Ku5O8iuWCHIpgsPSyOOo9Qi51WapZw9iCHtzuMXmkS2ntHwQXRJm9muKcLjDy-DKcNTy7dISgApgiZXkkxW7J26V527LFeB~VYbubIfBQ~ocqfF2p4RCIPSamuWfaGaKQ7-r-4mR3Y7Zexk20FoJ9otyP1jua2eyEWdY0GIN-l84kYewWLPE~e39KxSQ0Gq8kVrPQrcmdf-Ohk-qvBx3Hyfh-uHf9kukCWFpZeyS2rpYBrt79eTpULamxzQFMvvOY3DbOMJrS9bHWUNl5ZA29ZhQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			-
