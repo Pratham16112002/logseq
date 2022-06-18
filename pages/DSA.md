@@ -113,3 +113,12 @@
 			- If n is the length of the string then the number of permutations will be n! [12:00](https://www.youtube.com/watch?v=xZykmhcWGuY)
 			- ![2022_06_18_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f66077d2b-3e90-47c0-b664-cac70da5adf12022_06_18_image.png?Expires=4809098075&Signature=hW0-Ks6LVmHSFgJi~9CFENHYz5UnTUUBdsbYfg5wbLR8JUldLELQ37Lpcy7Ut9Ku5O8iuWCHIpgsPSyOOo9Qi51WapZw9iCHtzuMXmkS2ntHwQXRJm9muKcLjDy-DKcNTy7dISgApgiZXkkxW7J26V527LFeB~VYbubIfBQ~ocqfF2p4RCIPSamuWfaGaKQ7-r-4mR3Y7Zexk20FoJ9otyP1jua2eyEWdY0GIN-l84kYewWLPE~e39KxSQ0Gq8kVrPQrcmdf-Ohk-qvBx3Hyfh-uHf9kukCWFpZeyS2rpYBrt79eTpULamxzQFMvvOY3DbOMJrS9bHWUNl5ZA29ZhQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 			-
+		- Maze Problem
+			- ![2022_06_18_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f3c17714a-3d6c-4f11-a2d9-58a2dc75a13c2022_06_18_image.png?Expires=4809132448&Signature=eGDOOsG3AORtSVKBUw4bZ~L379vY~VWhp~c-WmpxnsK~GfzCJldFf44O1nSJLlbrnbQ1bQHLqsilKkIKPxHtBuJRlTLAtIs3R4DVDDr9UHgDZbpeWbE03dpwIET03FEubw5xW6Odt4ZdFBYehDqasHHDJ2YTfCTlY6stEfpX5JQHVhpk-RVqf~E08f8SHVSlNXEJWvFZ60U3f5LlbsioztySyhbrFqFYqsxGBPFjBlYyhxba1YEy~VWgENoHlFY4zQz~8ohpqWTRCwqP-KQrwHArkuAUs525TNwY8nb7vIcADatZw7rG7nWlT-wx-4AstCCdSkAGeyos~BjVB7hUGQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			-
+		- Tilling Problem
+			- ![2022_06_18_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f0b5575ba-3301-4a76-afb8-4dd4505bbfbd2022_06_18_image.png?Expires=4809137216&Signature=AyMuRqj5652GjIaHPudhtOOBTXZx9hxfwj4JTyC2pTMiaYJjer8Rur3t73SDW59B~t597jybA8zH4038VOU~dt7RwFB04vlP7zpcDEmxBgKVqLE85QrGjmXa9hYpRN1ROoqspLMiZFnijZymuTKI7lRvk1qFgJW-OkvSt1QO7yBF4OSbpkALqq3JDe-B~avo-BzXETzAknGQwIbxUqYKZfZJTCPbX3OAKc2HCZhKlpf1WVLeMXLjbqtubwQWrRE0facAzqD5aCawO17a-AYerPa7Pou54RL-0ACTuqw7WYaIh5bS7~Y98htaz8nx5B1xPo3ROgiulqpS6REa85MmOw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			- Q place the tiles of size of 1*m in a floor of size n*m ?
+		- Sets using recursion
+			- ![2022_06_18_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fccabdb54-3346-4d4d-aeb1-63380d0b9fb32022_06_18_image.png?Expires=4809164336&Signature=g5PelILz5AGz-swos4LubOx7poSRXLWVtgiLv0IxBUd2xXg~qHfmAKJEvg5eNkqZKJK5~LAFhn6Acql50zg2AtdBOc0sUJREibKba-1lSB9zm4NqJCW230IpFTf2c9Or~PCgFTnYdgsU~1ulkFZHTNg8rHpw~TsjSNuNcE9o8hS2dLBVtEqI0ehPNxQhI1NNpnkLO914s~RF1KhGRFTsSGhfSEagRcB8-mL1Z3sbv~Ie5OEIqoMfvHamfhJrHcD4UL0A1FWsvkbhXyl4Jqtt3ObaHy7yhkJQLoZObOrATfwA77WhLa-uDJ1SJY-cn-0dN8mXnVFit525p6Zjh8rVuQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			-
