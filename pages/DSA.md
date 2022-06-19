@@ -129,3 +129,10 @@
 		- Sets using recursion
 			- ![2022_06_18_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fccabdb54-3346-4d4d-aeb1-63380d0b9fb32022_06_18_image.png?Expires=4809164336&Signature=g5PelILz5AGz-swos4LubOx7poSRXLWVtgiLv0IxBUd2xXg~qHfmAKJEvg5eNkqZKJK5~LAFhn6Acql50zg2AtdBOc0sUJREibKba-1lSB9zm4NqJCW230IpFTf2c9Or~PCgFTnYdgsU~1ulkFZHTNg8rHpw~TsjSNuNcE9o8hS2dLBVtEqI0ehPNxQhI1NNpnkLO914s~RF1KhGRFTsSGhfSEagRcB8-mL1Z3sbv~Ie5OEIqoMfvHamfhJrHcD4UL0A1FWsvkbhXyl4Jqtt3ObaHy7yhkJQLoZObOrATfwA77WhLa-uDJ1SJY-cn-0dN8mXnVFit525p6Zjh8rVuQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 			-
+		- Rectangle Area
+			- ![2022_06_19_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f47de08ea-9cb4-4647-974b-094641ddf1942022_06_19_image.png?Expires=4809215030&Signature=FLe7879mgY0qHsrzYarAbdMVRTxJWHK4rAuXwU9U5JlN2rjEZnaAHO2nsaoimHh~Sce8Fs2-UTfWm90Lh2o0jMsxEwJ5t-eCsd2xQ0u63-PLQ6DtBxANnpBYShiSaVC8zaQAiRVNQCY5Y0jJ0FS2Lq~-J3NyzzI1r-BMLQe4BFVGT34yCa4eB~1NHF3SDBROxK4IKXi7WfRgNCp6igMqw2QrNbnRM6RL~HIqlNNIWaTC7RUPlHvnyFSDzFz8TtaCovYL1GMPDyE1Fg5XW6Di4I5FGd4Nfzg5CDBwZYzE7yNDmu~ZdO-pmGYATWwy0mFmKXaSZojn6Zroz7tMObqbDQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			- #+BEGIN_CAUTION
+			  in the above Question why max is taken not able to understand Why max and minimum is taken when calculating overlapped area  [Question](https://leetcode.com/problems/rectangle-area/submissions/) 
+			  #+END_CAUTION
+			-
+			-
