@@ -40,7 +40,9 @@
 			- Worst Case \rarr (O(n^2))
 			- It is also called online algortihm \rarr because it does not need to know anything what values it will sort and the information is requested wile the algorithm is running .
 			- ![2022_06_12_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fe5c8ddfe-4793-4c5f-8a02-e3a5ff89af3a2022_06_12_image.png?Expires=4808628582&Signature=fJklpgA3MFW-MiWBNAMKRHq4CLYg8R0Je5pONaIuc5Wu3XNeQvGUlPiRC0jLsDURovDu7RH5Hop4taVO30f~Qg45iJN3w9J0DxxwAxqUwFxBPEFGvyFfwVcjRT48wvNFtPnWDpbeelhY~263oWW0CipSsWPqBkFpMOKhYsdHpWvzV6Dkq0kz4--aayY4e71-egbZEC~BPAqfOh6DR5MCw98PABu~M7GKYUDZb7o17VNPZ-~uLwgM3Dmyx2LfY6cSkkQV1naWcaDHH8cdKm8yH0jAlslVwUcBYQgEcGuxMpUPN-XuvcR2UFEd-6Agy~12k9fNipRrZ6a-UeJsjW4v8w__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
-		-
+		- Print Sub array of and array ( Brute Force Method )
+			- ![2022_06_19_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fac56a940-6848-4528-9a8f-3f56bb2441eb2022_06_19_image.png?Expires=4809216832&Signature=QI4ovVxtLy~eU2pIO2Rw8siTSiARnlByL1PBuA3wj5rKUgCa06A5vSzzmX3veWYgvn4ZRf6AUWnrUToXKAReHEfGwoU5I2zzPwTUvJCdKuB7mPIHg-2c4ET2ZJf4m9NxpcFVEjE6autWLM~vOF5y3S~heXd3jVLb4eF-H9rAfK3njmTiEwhCZAuZiczpSgl6n9poLmA6LT0EfN-fBj7R75Y5fmX0OfOsyS1TlcjMdMNfulhOFoDtCLvDeNc2qqGtXBDJ0ldvi~3yH04UmE-qxvQLddSgo5NliRHT38thdnpASzsP4qjQYOb1Dih-FQUvwhcv89gcbNzaEk9aoRdRkg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			  id:: 62aeb4f8-f56a-45f4-b9fa-307667048beb
 		-
 - ## Bit Manipulation
 	- Types of shift operators in java
@@ -136,3 +138,4 @@
 			  #+END_CAUTION
 			-
 			-
+-
