@@ -138,4 +138,12 @@
 			  #+END_CAUTION
 			-
 			-
--
+		- ## HashMap
+			- HashMap allows us to store key and value pair , where keys should be unique . If you try to insert key ,it will replace element of the corresponding key . It is easy to perform operations using the key index like updation , deletion , etc
+			- ^^HashMap<Integer,Integer> freq = new HashMap<>();^^
+			- Below image is for traversal of HashMap , m.getKey , getValue return the key with the datatype of object
+			- ![2022_06_21_image.png](https://cdn.logseq.com/%2Fe9d53623-78a3-4257-a530-8b0aace3ddd92022_06_21_image.png?Expires=4809434482&Signature=CzqNTgG0jZJWGSpbUW41tcn4BMwg~Zd5btk5FlMGqK3YiwqSZ~-l7858TDHFLCtsWcd7MdeDB7vesEPIXmesuuZYW5pY~Hfm56vH4g8QdYLRLYcRVYo5vtt7GrQeFp~EU9yVDpqDudtkZ1fC2BqalW9HQK9JDfGp-EhmTx3OonMqsOQp~TJZV5DU5FW9wpTZquAX-cU4DUsEyazxx09Z34rSDcr8JulT4MoUtX2Qb1YHVun5Qe-Ru2Bsg2LAKJqpoYRi4J7COMHEfokgCvDAuTqy~sQmBg7BRaMGua6eDrk~mW3gu8Gk-fCwWuEUPV8vpkWfzAVSN-f7QGQPYYXZXA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA){:height 101, :width 556}
+			- ^^map.put(key,value)^^
+			- map.get(key) -> this will return the value of the particular key
+			-
+			-
