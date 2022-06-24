@@ -19,6 +19,11 @@
 			  In java by default zero in initial value of array elements . 
 			  #+END_NOTE
 			-
+			-
+		- ### SubArray
+			- Brute Force -> Do nested for loop and check Each and every sub array
+			- ![2022_06_24_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f75550f70-8f7c-4994-90d4-4ce5ab6173392022_06_24_image.png?Expires=4809693215&Signature=ikv0TmbC2re-qOqHAXJ6qdiWVkwGkx2FJxz9~~OeeUQKE~Gcbhr4gm7shDCijF3UmiMmKFP8VWQx81s2Kc~R6QG8msEFtIHbGPSc-9ksumgG-glVZzTPPWKLgjG671n47wrh7uslLXTbDpWNCltWLY---YAqKP0JI6R4fF6e1oDHT4l7RgAtjtEJvEnjiuw60zQW9YsPcpWvcRJfTjYF9cCTgZsJApzYi8kPKIp8UPVQAzFjw4lvBSabouHJ6Swt21Ty6HRuQVcxiNY9K-yT0xicCpWRe2~7-DtbWnFzE8GvFKHVrIQml60E2sS3pkKUPjbjcVLsD3fW3wih4Pz55Q__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			-
 	- ## Sorting
 		- ### Bubble Sort
 			- It runs a loop for n-1 times , it works by repeatedly swapping the adjacent elements if they are in wrong order .
@@ -146,4 +151,4 @@
 			- ^^map.put(key,value)^^
 			- map.get(key) -> this will return the value of the particular key
 			-
-			-
+		-
