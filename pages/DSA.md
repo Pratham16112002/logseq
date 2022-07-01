@@ -154,3 +154,13 @@
 			-
 			-
 		-
+		- ### Priority Queue
+			- A priority queue is a special type of queue in which each element is associated with a priority and is served according to its priority. If elements with the same priority occur, they are served according to their order in the queue.
+			- #### Find the K_largest element using Heap in c++
+				- ![2022_07_01_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fb7f8277a-e51a-4223-94a8-55fc395cd8a22022_07_01_image.png?Expires=4810295389&Signature=IzZaT~U4fuaS4C2C-aSKN4yWLTBhLdcYZZgX5prImxa9KHuQ58GeEm8nKMYU3uJgWVgBM0Ytt8lEi~5FkWmCrD~cnIBGm3VUy50HcZ6c6~SZKtxnpYziODwVheFKHCvwTVPPIFWqsNh9cwn1gdUW~7uHwItJdlm18rYPFPaCBaZX3KC7vcL-lpOtSGef9yre4K9vDK0MBS3BrnNiLOzNo6NH86h1JYTe2ADduMb3tI4pQDYqVWHJiWclVsFvlOf8Z0DVsnQ4wMKlvM4eGlfpDFEEMvdElim-7hDhvaeRyGsz1wnbECwrN4KMuaS7mHYtBlR60xFLCPBh2rzod-TbMg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				-
+			-
+			-
+			- #### Find the K_smallest element using Heap in c++
+				- ![2022_07_01_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f0686b8ca-efcc-4a84-9f31-6caa4e4eb4052022_07_01_image.png?Expires=4810295446&Signature=nsrIhc8GUT2A3UwupdbwLMLUSHRnhxst~32NziMOdwbFaWDK~SOmYgwtwGcIjcyZ5hv8rgLf8qIglF9T5NlpkgZnjA-GpuYVDulfxxxrVZwmxI8~stXWlvg-n5fUnHkR~XyRJPp4jDeslS6Uy6ybiw46iXsF32ZxHxgDraLbAP1wxHBw~JBgFLWMiFTk9nzvL45xGcx-Bnn2Mr0TBwmfQlhOkICurG~CL-XDE7donMTiJl-U0SbLlCk5gY5bs28QipBK9s10u9kZ-QQ4t~dBy2CuDFGuPmNALonmvmi4Ps-lqn6GTtpmj0uVxgKIcUvuRzEZfEmJGQDPJxVhmW8xfw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				-
