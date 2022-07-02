@@ -24,6 +24,13 @@
 			- Brute Force -> Do nested for loop and check Each and every sub array
 			- ![2022_06_24_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f75550f70-8f7c-4994-90d4-4ce5ab6173392022_06_24_image.png?Expires=4809693215&Signature=ikv0TmbC2re-qOqHAXJ6qdiWVkwGkx2FJxz9~~OeeUQKE~Gcbhr4gm7shDCijF3UmiMmKFP8VWQx81s2Kc~R6QG8msEFtIHbGPSc-9ksumgG-glVZzTPPWKLgjG671n47wrh7uslLXTbDpWNCltWLY---YAqKP0JI6R4fF6e1oDHT4l7RgAtjtEJvEnjiuw60zQW9YsPcpWvcRJfTjYF9cCTgZsJApzYi8kPKIp8UPVQAzFjw4lvBSabouHJ6Swt21Ty6HRuQVcxiNY9K-yT0xicCpWRe2~7-DtbWnFzE8GvFKHVrIQml60E2sS3pkKUPjbjcVLsD3fW3wih4Pz55Q__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 			-
+		- #### Left rotation of an array using vectors in c++
+			- Given an array[] of integers and another integer k , the task is to perform k left rotation on the array and print the modified array
+			- D == k
+			- ![2022_07_02_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f7b1269d1-9993-4574-b77a-f646da8cba552022_07_02_image.png?Expires=4810339485&Signature=SL2thOLvyAfvMI8abOjF-HOrrlZbgKND3qWZbVFm92emp~U16irY0H-sPoDLzNCeh8NSkpg1qVLqHUAj9UnBTVDTVpasBW6Nug0pJEyLMn6~Zgby8HDMoT3qWblIY3hai4KgQKc-p2sOzOWabRnG0jeKmbOVTXLytzpYwMceXl4JEOTu6KowQEGhsnbNqsDPZELsbecvxQW5bxBY9vUiCch4GrvP1Snu5JvkcF~qZNrAqoLo1hMqLv8GiTTV6-8n0vlZ1b17vn2vrQBRWRkRiCMwzK8eTp4WYG4wX96ssjxi~l9uwMLHxZFGY8JcA2fYb4TErmLzdVPZMnJ2WZjITw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA){:height 160, :width 686}
+			- ![2022_07_02_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f781434f9-19b1-4c60-aa9e-d5f6f3a3c3082022_07_02_image.png?Expires=4810339514&Signature=DqBFL8~knRoMq8CoLRNkHR2MLqbVbMjcCxBflukJVS7yFxyC4IwPaQ7YBw7BzWfw3~qwOeMkLqEZyM9P2rFMyQvsYSLY6LpE3qdhThMZ04qRaNFVG8HfkqSZI6ko3eXmhGPzT7kMi4q1n1SaxRNbZsdd2GIpArELrm8m7o6Kflub4KBmjoGBuxWKbGdU9YNsQ~cpS~KM2xq-UNy9br0qWbDiXXIv1Cb0xziMW1jfuDm8FcZsMUEkvyK8bW7HePhgaxnu5uBzLQRPsFrGT4w~M4Zx9qc9Juor~1VU7g~tTxvhZ25je2O-sLHoFB26DY3NjliVhNiGu5t16wAnxnAFog__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+		- #### Right rotation of array using vectors
+			-
 	- ## Sorting
 		- ### Bubble Sort
 			- It runs a loop for n-1 times , it works by repeatedly swapping the adjacent elements if they are in wrong order .
@@ -163,4 +170,4 @@
 			-
 			- #### Find the K_smallest element using Heap in c++
 				- ![2022_07_01_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f0686b8ca-efcc-4a84-9f31-6caa4e4eb4052022_07_01_image.png?Expires=4810295446&Signature=nsrIhc8GUT2A3UwupdbwLMLUSHRnhxst~32NziMOdwbFaWDK~SOmYgwtwGcIjcyZ5hv8rgLf8qIglF9T5NlpkgZnjA-GpuYVDulfxxxrVZwmxI8~stXWlvg-n5fUnHkR~XyRJPp4jDeslS6Uy6ybiw46iXsF32ZxHxgDraLbAP1wxHBw~JBgFLWMiFTk9nzvL45xGcx-Bnn2Mr0TBwmfQlhOkICurG~CL-XDE7donMTiJl-U0SbLlCk5gY5bs28QipBK9s10u9kZ-QQ4t~dBy2CuDFGuPmNALonmvmi4Ps-lqn6GTtpmj0uVxgKIcUvuRzEZfEmJGQDPJxVhmW8xfw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
-				-
+			-
