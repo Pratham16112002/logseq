@@ -259,4 +259,22 @@
 			  3. If the adjacent vertices are already marked in the recursion stack then a cycle is found .
 			- ![2022_07_13_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fad4a111e-0d50-4cb6-ba1c-f07543ed3be92022_07_13_image.png?Expires=4811284010&Signature=QZZdPQYBXyiq-K9KAyY-afULGaCgq-~zIuMIM6XF-MISzIWG52ZzVgbBcj0xyz2UKQ7G403MT2FMUysVULW0EzGQWBahUSDHC1TZTKgXatUv9V2wBJsd18OhrDn275SbgaOVHUoifd9CRywIPmoVPWn-kTJoLGWrxJdyLSPpZCXszluHRbV~wHJx8Jss7ZiubbEIPMkh028Of13sOz06f8Z2tm2VPE-Za-r858gzyUzOXtMAqv-t3aWpMxxhEJ2CNwqWFA209Cm~fP5r7QyVYdtMjybDjbhlrKBpd-4C8kRVxzwDsO66Lrk~uMFpfjLqUArZan00hfOr4zJVoli5qA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 			-
-		-
+		- Vectors
+			- [All about vectors in c++](https://m.cplusplus.com/reference/vector/vector/)
+			- #### Iterator in vectors
+				- ![2022_07_13_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f7ff2177f-4565-437f-bd9f-34018d1843422022_07_13_image.png?Expires=4811287641&Signature=R2UF8DQDQeppsYyQlSf55BOliZCqxXPYnSzbY6yeoq3vpei5NSAVCx53uO1udCGqUDlrJYKMxpAhiYXyD4K49q8WLX0XAJra2Hg2UgIYKzXeNl6dSc61954BfJTSmsstzcPFKPb8g1DTFn2Crpkfydokfba7iEjmKo8Kw5U2Wq5E5lQ8Ng4XmwNtPTgvzqU4uf769T74Z3rZfNxSRAia~6o8GdlnrCYFlqlP-50sfFqWiiAllbBg20D60n1yDO6yYnfsNU0mWCdIDOm-e6j8TifbYbWp24SBtStbTDNvqYaIbxZjIaYwtm1hEN8N9I6JZI-j2VDxSTwrm42pCOIYBw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				- ^^Iter + 1 in the above code will insert 566 after first element in the vector^^
+				- ![2022_07_13_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f448b65d5-1dd1-42b3-a193-6c240a5e8d582022_07_13_image.png?Expires=4811287804&Signature=YPM1lwmBOdLjkQXUJ1TAoikjnQmNAtz-9PlWWAbnGNRAEPrZvOKpCDeTOBD4DyHfRhQ2jwXNVtS-EMZQ3Le1c0jyuPl7hYocoYi16v5ygLOycuUrYhTUZkx1kGCATOASTq4popc~3COfPuaEyjrPHS1YslECPxlIoSpFKJOMpiIXM~2EZT9aXZ3q0bA6Osse5PNWDHrKSlJjv5FTt~vhQjz2Ye1QOCSsgnlxb0gNAv8rEAtkpZbg8RD3ueVWxgzdWYXL9tPnSGZZLeTlsYZMRJJtOIY8KkbEdNuLBlYMVYBJW8cHqPbCD-~U-vCR8LxbXRqtlDmdNF4Sx0dOpNtWrg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				- #+BEGIN_IMPORTANT
+				  The above code will insert 5 copies of 566 in the vector 
+				  #+END_IMPORTANT
+				- ![2022_07_13_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f1a992a93-8b37-43d0-bf5c-3eeb98ab77642022_07_13_image.png?Expires=4811288699&Signature=baKxrT65-DloWUgcxFhT83CKpj2dKFdSBC5LmKlj4gdR8-kAcSwWyZHTkLbm6PCejDhWZAmMU1hHLhOJ9q6teUrYpjtp89Y1AyK~HRCuxgQyP7SPSg9CcQs3dD-53SbsBy3F1nhQdmepgukb4DFKX~tyLi8RyVovKBfdUrjCK~r4atVJCtz3Myc7uTdAGKbPpb~QkzUF-q9gX4eBWSFY00EPPAdo4NPK1gaLmmGNraTOEg1f-d-AcRe9LjebQkvD3Z4zmg9WKzaLsJgrou6YOF0S29pz4rPjnvPLu8t5cvlcsUuC7YK1XhanEOo3Fi5~Cq08viNs5yaI~8qGoto9ag__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				- #+BEGIN_QUOTE
+				  The Above Code will display 90 for 6 times . 
+				  #+END_QUOTE
+			- ### Iterator in c++ ( vectors )
+				- An iterator is used to point the memory address of the STL container classes .
+				- Iterators are used to traverse from one element to another element
+				- The main advantage of an iterator is to provide a common interface for all the containers type .
+				- ![2022_07_13_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f44ef53a6-e8b0-44e6-a00a-468cf33089992022_07_13_image.png?Expires=4811306950&Signature=SPvM~vzEWWMTOAhTKym1I9feIvJDhikIw3nb0ZA0dcKLkIo3AIcsiFpa6AqtZe-1rGWwg8WCzzmUcqKyi-HRiUC4f3teVpZU7p0DpeqkJBvCuNy6G7APIzggIEhGdPJr1KXSBZK4impWKRlBDDQQlKQkhNswqY2SKeqO3CYN4h2Re-KivfsP7uQFwhuY9dSOv804R~LjnUO4eIvfaUUA787V2y2dFPk6u2POcq8eiDivb9TKMx8~eK75rs2Cqrxp14BGX-FuacJTvFv8b11204KdYh8wUxQzKmEZuWpluGpXEBABdF~31OYWr~MVIV~idgwgnq~OdmEqD8JSymTPyQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				-
