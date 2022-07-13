@@ -253,4 +253,10 @@
 				    return 0;
 				  }
 			-
+		- ### Cycle Detection in an Directed Graph
+			- 1. Mark the current node as visited and also mark the index in recursion stack 
+			  2. Find all the vertices which are not visited and are adjacent to the current node . 
+			  3. If the adjacent vertices are already marked in the recursion stack then a cycle is found .
+			- ![2022_07_13_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fad4a111e-0d50-4cb6-ba1c-f07543ed3be92022_07_13_image.png?Expires=4811284010&Signature=QZZdPQYBXyiq-K9KAyY-afULGaCgq-~zIuMIM6XF-MISzIWG52ZzVgbBcj0xyz2UKQ7G403MT2FMUysVULW0EzGQWBahUSDHC1TZTKgXatUv9V2wBJsd18OhrDn275SbgaOVHUoifd9CRywIPmoVPWn-kTJoLGWrxJdyLSPpZCXszluHRbV~wHJx8Jss7ZiubbEIPMkh028Of13sOz06f8Z2tm2VPE-Za-r858gzyUzOXtMAqv-t3aWpMxxhEJ2CNwqWFA209Cm~fP5r7QyVYdtMjybDjbhlrKBpd-4C8kRVxzwDsO66Lrk~uMFpfjLqUArZan00hfOr4zJVoli5qA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			-
 		-
