@@ -259,3 +259,10 @@
 			  #+END_IMPORTANT
 			-
 			-
+		- ### Find the middle element in the linked list
+			- The approach I am gonna be using to find the middle element is slow and fast pointer .
+			- ![2022_07_19_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fbf0657fd-6099-4b9c-b42e-d7e61d6dca392022_07_19_image.png?Expires=4811852683&Signature=SYjtF1NhyG0qH55it9Y2AlpU5lW7nD-qwi9qb4O5Pb~QScAG3VqDGXUawHTPldrwhI6AYZiAbmY-B2jFvlywhbEPEoBktLuOmOzgCUpYwGBJ24cCiMRROyxbI577RDoqd~GM8meHnGNbgfPtpdIAacd7a5m8LLRF7jLQjy-G8pX6iJpJCt65BvLy1qrVO~LPlosZ-EGUTJZTPRHCwo4vHHcEqR7GKH-wFAeaUKzy-WJVMjTWR62YFBw3vBEGA0dLFcrMuTcRwizR~pU5TCAxelr0QYSepMLIQTAgsaoPHnat1kvsGAiTXJd-gEx2yZR~NvyBIfmtDDpPHsxLsd0uJQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+		- ### Delete the middle element of the linked list
+			- First we will find the middle element from the fast and slow pointer approach and then do this
+			- ![2022_07_19_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f30b1bde0-7a48-49c5-82bd-35c825e52f552022_07_19_image.png?Expires=4811853412&Signature=bXUC73dvsmdePepiS6vVRtqcyqKMlUnQ4~N2E5olpB3Dpc8vjzOstzWvS5k6JtCr1Kq8kMntRHrl6DAqSPSBQOEd1iGTxUB9FAnn-jFrb-yJn3LSPIkgQf8qZ5lz~Lxp47HifgF4~Sp0aAxGs6IKaGTQJ1aWhS2Y7sWheJRQoXxaDSriGwFfV2spwfi-QSdxf1idDa351UBjdPCVwp5nOHKeiuw7CTnB5yU~IsynPubreRM0mPr3vzGJ~isnkb1NWxt3hhhnWqqr9xwo8ulnX8Cl36OFXYmSKxWazb9QEKg2ZlC8KXobvzLMAuhOUBAtW-tIlRPGY93A-~CRQQNhlg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			-
