@@ -269,4 +269,9 @@
 		- #### Find the Maximum guest staying in the hotel Problem
 			- In this we are using vector pair but below is the optimized solution the brute force is yet to come
 			- ![2022_07_25_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fd19b49a0-be98-432b-8e90-31d19e6c23de2022_07_25_image.png?Expires=4812336643&Signature=UDILgHTqHeFnyH0KTXj2u~-GdlCMto0QeH4YSXOS1Kl9w3hHM5jcc3IxV9dG2YCmJEXFP65f7iv-GtlWFPv9f3S5QRsuK~KGmbsQx9PufjWedJi3xf6zbPsrvcSa3bgzUPWZv5Ut0NMuw4iuVOZRfRzLXrKLpfiHd0ejxAr2PWprVy-hFTZ~s8fJlyS1TghZ7VdGF2IiNWRQR2FdG5ogIX06MP3JcLiV9eWBZDrfTlhP8ynk0DQ5UCknz0cPgAYlu4MPh9XDwgs2OCmN5RVbh0NhzBCmqgirTgtzBg0p8xrxfERPYuRvKVESRw7vb3YtSJ7Vg57icgTV5eIWYEGi7w__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+			- #+BEGIN_TIP
+			  To Sort the vector in decreasing order we need to do this -> 
+			  ![2022_07_27_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f4a1587cb-2355-4b47-86bd-973678730c9e2022_07_27_image.png?Expires=4812537214&Signature=UZGOLg4XXcQwFEmD5cwbuQevRDaYFy2b6wZ~mBvy8uwgQSpPyvmh7OUKOARM-tzRHD24kxeZ~uCqn-1711tQlB6U7jj95hcTCK636S1xRLYfvBjBpHQTxz6YrK80U~zSdEcmMEEt9R2dIEo2s4fS7w5w2Mh8h6HBcWj789edY-TW-7KOIqwl~8dfGCIdTspB8QhxwJzFTA8ncb0cJNjdTqGRscwSpRea2jujMLyCEeKk4Xn44qOLVpnhUgEkYvJPnGaxwqnrLI1qP6gT0jvAbJMoaxRxLQK8YJT0FO~~uvPgd9J~0VO9SfcEn-tBbVkf2eJforN26uHT~xOzHJ6zEw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA) 
+			  #+END_TIP
 			-
+		-
