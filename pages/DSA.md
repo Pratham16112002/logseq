@@ -275,3 +275,10 @@
 			  #+END_TIP
 			-
 		-
+		- ### Find the Next Permutation
+			- [Problem Link](https://leetcode.com/problems/next-permutation/solution/)
+			- First we will find the first decreasing element from the right side of the sequence .
+			- The we will again traverse the sequence and fint the next highest number then the first decreasing element ( from the above point ) fro the right side of the sequence .
+			- For the remaining array we just need to reverse the sequence from i + 1 to end of the sequence .
+			-
+-
