@@ -280,5 +280,6 @@
 			- First we will find the first decreasing element from the right side of the sequence .
 			- The we will again traverse the sequence and fint the next highest number then the first decreasing element ( from the above point ) fro the right side of the sequence .
 			- For the remaining array we just need to reverse the sequence from i + 1 to end of the sequence .
+			- ![2022_07_31_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f9e67fe47-2380-42da-838b-c30bbe7af8472022_07_31_image.png?Expires=4812848743&Signature=lYWaOKv1JdmC74G2RV4TwShNOJa4r~krkRWw0cwGk-B0ugWjdMMkXT~YIK7h2pUkTNuEBgjQKwzamEjS32WjlxYAKWDE1hlCNLAWycpRzyFP7-bfqb2KbE2gO7US2kDMExjzbtc4v6SHm8uZFch4MRe3AsOejXXsDK4-l2z~a6S8rH1Q6ssJIcqk6FnLVh4nmERFBhwbUAb0l7C3oHws1uzpVpqa9DERq~5kh5GkQ4I-GFooigJH9xRLJWRRqxtlg2YOrJ6FYHJg2gzcsVtrtjsnAn9UQFyr3jPiB6Uv8TKrWQaQTC6KhRRT3rvfU~SdcZbA~utl~8gd-JJ8JrxK5Q__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 			-
 -
