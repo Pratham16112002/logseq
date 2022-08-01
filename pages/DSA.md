@@ -282,4 +282,10 @@
 			- For the remaining array we just need to reverse the sequence from i + 1 to end of the sequence .
 			- ![2022_07_31_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f9e67fe47-2380-42da-838b-c30bbe7af8472022_07_31_image.png?Expires=4812848743&Signature=lYWaOKv1JdmC74G2RV4TwShNOJa4r~krkRWw0cwGk-B0ugWjdMMkXT~YIK7h2pUkTNuEBgjQKwzamEjS32WjlxYAKWDE1hlCNLAWycpRzyFP7-bfqb2KbE2gO7US2kDMExjzbtc4v6SHm8uZFch4MRe3AsOejXXsDK4-l2z~a6S8rH1Q6ssJIcqk6FnLVh4nmERFBhwbUAb0l7C3oHws1uzpVpqa9DERq~5kh5GkQ4I-GFooigJH9xRLJWRRqxtlg2YOrJ6FYHJg2gzcsVtrtjsnAn9UQFyr3jPiB6Uv8TKrWQaQTC6KhRRT3rvfU~SdcZbA~utl~8gd-JJ8JrxK5Q__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 			-
--
+		- ### Backtraking basic problem
+			- Combination Sum ( In  java ) [Problem link](https://leetcode.com/problems/combination-sum/)
+				- ![2022_08_01_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fccd92918-6b9f-4e6a-b8bd-47e688b5e16f2022_08_01_image.png?Expires=4812928715&Signature=IgpKZ-mSSNsGJKlh~vZHAtnbcEuUNlE5Iv~mPflddCL8ZB2JLKLEkHcu0uLRUD-jYJyqXy7OJxEBSKeZS0Q8EsICn~lXIVj~2mt7bmKYhTf7zpTlQWGDiOYasWqihoka7hrV73eLgLbvNKOaU1Ct7W2WCNy9w95uVCluwcESIEKsQXG90UgrBleOHl2z~HE88ghucnsSA23msSYtv1Z8W0IcjO4VMAvAayvRGQcyAh6CQQTYRHYr7EcEU6EWs-Zk5J-fmRqNf2kRVbcFkWe0Cms5Ii4B0sdb010w0xhoL4KyKphl6saqjimU5ir2QHEseDny6E~Xifv8XSbH6tTTzQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				-
+			- Combinations Backtracking ( in Java )
+				- ![2022_08_01_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fa89c1912-83a6-4dfc-9af9-5a4908e0fc0c2022_08_01_image.png?Expires=4812930954&Signature=jsNAeBew7yIWz5-NP1dCsNsqtaQOkrmA-UxlXmHy-r1szVOKHqU4j9T8GdiHqjy6QzWf1jSsochIhbptfjuIPmisX~By9hsHbBw80P4hHKDMAiqo3kdLBvpBNyRlBT73dC1j10lIxz7GBEU~qerQAeTUC8h1WEXmCStncB2tfLcdtbPUF8IEF3SoSaAUGtr-BSQJ1w5SsPGsLgrFsB5yRsmqggIGwjdJNSqbr2wVrqShRBBV8t43Z2o-9st07WzHrU1FZqduXdxPlBtcDpq9-jE-ovwLBDBPFsA-735KFihOmP21R66XDvmHsCUEdhtj5PB4Wq-GV0xpirsYs-5jfw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
+				-
