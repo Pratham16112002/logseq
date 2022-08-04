@@ -305,6 +305,16 @@
 			- Output
 			- ![2022_08_01_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f29cfa4a0-4239-4d4a-a0ab-521319c6baae2022_08_01_image.png?Expires=4812975694&Signature=c21COye41Dn1ZgnchqraO-3ZDGY~w6CdA5DjONnP8NZqMFWxzL8VjyDuCrGmy3QNceCMGr63GEHBF2ci9MZvXcAOH8xdaK-jDCMq5lqr9ippc5D-JCRjsyTVEh8~54tFBFt3RUuOlZtNudhn4-jLNmwu67a0JBQDdnsz0VMrQ9mmCHto3Fm9CxiJXJv1~RLEhxkvMrcx2QlTvlUA6OxJDNGwsy4i5eMWt2q0jNVrX53po4Nl4fNOF~ScLfPDEMp2AKhkUxKRPR47i33NeJjGVFmdiHdoh~T0gaNmx2W-hg1lHM2m1dyZn0qYBIkLrsfHn3BIbkaMuKPt4MsQfD9Veg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 	- Binary trees in (c++)
-		- Implementation of
+		- Implementation of Binary tree
 		- ![image.png](../assets/image_1659607586964_0.png)
+		- To add a root node we need to write
+		- #+BEGIN_NOTE
+		  ![image.png](../assets/image_1659610293507_0.png) 
+		  #+END_NOTE
+		- We will use two stacks currentLevel & nextLevel and a bool variable Left to Right , if Left to right is true we first push left child to nextLevel Stack else vice versa .
+		- ![image.png](../assets/image_1659610586551_0.png)
+		- We will push to root to currentLevel stack always ( before the while loop )
+		- ![image.png](../assets/image_1659610667948_0.png)
+		- We are creating a temp of type Node* which will store the top of currentLevel stack If temp is NULL then it will not do anything .
+		-
 		-
