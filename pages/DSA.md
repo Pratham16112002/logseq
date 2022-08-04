@@ -304,6 +304,7 @@
 			- ![2022_08_01_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f65545197-5f36-4bbc-8af0-10f1d27c352c2022_08_01_image.png?Expires=4812975579&Signature=AK3NOleeQ1Y6eD4-dPpCy4DgCFBNC8uKkbB0Ox0VYoEaRRtet6YpMkj-mMvJgqEXObh~Oy6yhBx5HPzpHB0djbpfEC71lWzR0P8smi-o573PkRZdwsgijZy-LhzRN7We3RJPtNd5k00GQiMYQAf6nlGGsbVq3N7-4HS7vyZX1pijl5lVxtde-N0YTPoGfPOMVp5QxJuLneqBURUpwy1SSoI~bJc-0IDCI4VvwJKBBQtYVqhiis6csBJkWNVsMma0okkezRG1QAfUV0hgzJsfe7R2z-CgMkoe7TazKJKJu1aCEYlafsI9z9GnP2SA6S27MrnmZOA5f-OfckGIaHwwzQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 			- Output
 			- ![2022_08_01_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f29cfa4a0-4239-4d4a-a0ab-521319c6baae2022_08_01_image.png?Expires=4812975694&Signature=c21COye41Dn1ZgnchqraO-3ZDGY~w6CdA5DjONnP8NZqMFWxzL8VjyDuCrGmy3QNceCMGr63GEHBF2ci9MZvXcAOH8xdaK-jDCMq5lqr9ippc5D-JCRjsyTVEh8~54tFBFt3RUuOlZtNudhn4-jLNmwu67a0JBQDdnsz0VMrQ9mmCHto3Fm9CxiJXJv1~RLEhxkvMrcx2QlTvlUA6OxJDNGwsy4i5eMWt2q0jNVrX53po4Nl4fNOF~ScLfPDEMp2AKhkUxKRPR47i33NeJjGVFmdiHdoh~T0gaNmx2W-hg1lHM2m1dyZn0qYBIkLrsfHn3BIbkaMuKPt4MsQfD9Veg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
-			-
-			-
-			-
+	- Binary trees in (c++)
+		- Implementation of
+		- ![image.png](../assets/image_1659607586964_0.png)
+		-
