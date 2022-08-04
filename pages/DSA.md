@@ -316,5 +316,6 @@
 		- We will push to root to currentLevel stack always ( before the while loop )
 		- ![image.png](../assets/image_1659610667948_0.png)
 		- We are creating a temp of type Node* which will store the top of currentLevel stack If temp is NULL then it will not do anything .
+		- At the end of the while loop we are swapping the currentLevel and nextLevel stack to cover all the other Levels of the binary tree .
 		-
 		-
