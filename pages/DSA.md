@@ -317,5 +317,20 @@
 		- ![image.png](../assets/image_1659610667948_0.png)
 		- We are creating a temp of type Node* which will store the top of currentLevel stack If temp is NULL then it will not do anything .
 		- At the end of the while loop we are swapping the currentLevel and nextLevel stack to cover all the other Levels of the binary tree .
+	- #### Coin Change Problem
+		- This problem is best solved through recursion  , With Dynamic programming we can optimize the solution
+		- #+BEGIN_NOTE
+		  ![image.png](../assets/image_1659677012871_0.png) 
+		  This method is used to fill the array 
+		  #+END_NOTE
+		- Code For problem
+		- ![image.png](../assets/image_1659677200375_0.png){:height 551, :width 532}
+	- Coin Change problem 2
+		- In this problem we need to find all the ways to get  to the total amount with the given coins array
+		- [LeetCode ](https://leetcode.com/problems/coin-change-2/submissions/)
+		- We are taking 2D dp array ^^int dp[310][10010];^^
+		- **[index][amount]**
+		- We are passing another argument Index in the function which will take care of repeating ways to find amount , Because it will exhaust similar coins first and make all the ways and then move to the next .
+		- ![image.png](../assets/image_1659698073552_0.png)
 		-
 		-
