@@ -331,6 +331,20 @@
 		- We are taking 2D dp array ^^int dp[310][10010];^^
 		- **[index][amount]**
 		- We are passing another argument Index in the function which will take care of repeating ways to find amount , Because it will exhaust similar coins first and make all the ways and then move to the next .
+		- Code for the problem
 		- ![image.png](../assets/image_1659698073552_0.png)
+	- ### Longest Common Subsequence
+		- In This problem we are using Tabulation method ( using 2d array )
+		- In 2d matrix we will traverse the 2d array one less index and fill it ->
+			- If the ^^s1[i-1] == s2[j-1]^^ then we just add one to the corresponding left diagonal element and place it in 2d [i][j] i . e ^^dp[i-1][j-1]+1^^
+			- If the ^^s1[i-1]!=s2[j-1]^^ then we just find the maximum of just above and just left side of the current index and replace with it i . e ^^Math.max(dp[i-1][j] , dp[i][j-1] );^^
+			- #### Code For Problem
+				- ![image.png](../assets/image_1659759924485_0.png)
 		-
+	- ### Edit distance
+		- This is also an Dynamic programming ( Bottom Up approach ).
+		- We will make 2d grid and fill it according to the below logic
+		- if ^^s1.charAt(i - 1) == s2.charAt(j - 1)^^ then we will replace the element with the corresponding left diagonal
+		- else ^^dp[i][j] = 1 + Math.min(Math.min(dp[i][j - 1], dp[i - 1][j]), dp[i - 1][j - 1])^^
+		- ![image.png](../assets/image_1659803958584_0.png)
 		-

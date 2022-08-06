@@ -4,6 +4,9 @@
  {:block/name "aug 5th, 2022",
   :block/created-at 1659677954195,
   :block/updated-at 1659677954195}
+ {:block/name "aug 6th, 2022",
+  :block/created-at 1659756228618,
+  :block/updated-at 1659756228618}
  {:block/name "b",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
@@ -30,7 +33,7 @@
   :block/updated-at 1659625727726}
  {:block/name "dsa",
   :block/created-at 1659606634624,
-  :block/updated-at 1659625882992}
+  :block/updated-at 1659786727918}
  {:block/name "favorites",
   :block/created-at 1659625727725,
   :block/updated-at 1659625727725}
