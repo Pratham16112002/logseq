@@ -348,3 +348,9 @@
 		- else ^^dp[i][j] = 1 + Math.min(Math.min(dp[i][j - 1], dp[i - 1][j]), dp[i - 1][j - 1])^^
 		- ![image.png](../assets/image_1659803958584_0.png)
 		-
+	- ### Binary Tree
+		- #### Properties
+			- Maximum nodes at level L = 2^L
+			-
+			-
+		-
