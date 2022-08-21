@@ -1,0 +1,4 @@
+- A Linked list is a Data Structure that represents a  sequence of nodes . In a singly linked list , each node points to the next node in the linked list . A doubly linked list gives each node pointers to both the next node and the previous node . ![image.png](../assets/image_1661105408405_0.png)
+- Linked list does not provide constant time access to a particular "index" within the list . This means that if you'd like to find the kth element int the list you will need to iterate through k elements .
+-
+-

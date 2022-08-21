@@ -1,6 +1,9 @@
 [{:block/name "a",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
+ {:block/name "arrays",
+  :block/created-at 1661103575523,
+  :block/updated-at 1661103637406}
  {:block/name "aug 10th, 2022",
   :block/created-at 1660151707083,
   :block/updated-at 1660151707083}
@@ -12,7 +15,13 @@
   :block/updated-at 1660820593144}
  {:block/name "aug 19th, 2022",
   :block/created-at 1660870236028,
-  :block/updated-at 1660870236028}
+  :block/updated-at 1661102948701}
+ {:block/name "aug 20th, 2022",
+  :block/created-at 1660963744133,
+  :block/updated-at 1661102955765}
+ {:block/name "aug 21st, 2022",
+  :block/created-at 1661078561441,
+  :block/updated-at 1661078561441}
  {:block/name "aug 5th, 2022",
   :block/created-at 1659677954195,
   :block/updated-at 1659677954195}
@@ -22,9 +31,12 @@
  {:block/name "b",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
+ {:block/name "bit manipulation",
+  :block/created-at 1661103675139,
+  :block/updated-at 1661103743947}
  {:block/name "c",
   :block/created-at 1659625727726,
-  :block/updated-at 1659625727726}
+  :block/updated-at 1661104213592}
  {:block/name "canceled",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
@@ -40,6 +52,9 @@
  {:block/name "data science",
   :block/created-at 1660820645797,
   :block/updated-at 1660820645797}
+ {:block/name "dfs",
+  :block/created-at 1661103983766,
+  :block/updated-at 1661103984787}
  {:block/name "doing",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
@@ -48,28 +63,34 @@
   :block/updated-at 1659625727726}
  {:block/name "dsa",
   :block/created-at 1659606634624,
-  :block/updated-at 1660871035338}
+  :block/updated-at 1661104505587}
  {:block/name "favorites",
   :block/created-at 1659625727725,
   :block/updated-at 1659625727725}
+ {:block/name "hashmap",
+  :block/created-at 1661104022634,
+  :block/updated-at 1661104043931}
  {:block/name "in-progress",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
- {:block/name "include<bits",
-  :block/created-at 1659606634615,
-  :block/updated-at 1659606634615}
- {:block/name "include<bits/stdc++.h>",
-  :block/created-at 1659606634614,
-  :block/updated-at 1659606634614}
  {:block/name "later",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
+ {:block/name "linked list",
+  :block/created-at 1659606634615,
+  :block/updated-at 1661103194665}
  {:block/name "mongodb and node-js",
   :block/created-at 1659606634893,
   :block/updated-at 1659606634893}
  {:block/name "now",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
+ {:block/name "queue",
+  :block/created-at 1661103881849,
+  :block/updated-at 1661103881849}
+ {:block/name "recursion",
+  :block/created-at 1659606634614,
+  :block/updated-at 1661103836126}
  {:block/name "todo",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
