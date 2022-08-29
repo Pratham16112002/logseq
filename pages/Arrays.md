@@ -42,3 +42,8 @@
 		- Print Sub array of and array ( Brute Force Method )
 			- ![2022_06_19_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472fac56a940-6848-4528-9a8f-3f56bb2441eb2022_06_19_image.png?Expires=4809216832&Signature=QI4ovVxtLy~eU2pIO2Rw8siTSiARnlByL1PBuA3wj5rKUgCa06A5vSzzmX3veWYgvn4ZRf6AUWnrUToXKAReHEfGwoU5I2zzPwTUvJCdKuB7mPIHg-2c4ET2ZJf4m9NxpcFVEjE6autWLM~vOF5y3S~heXd3jVLb4eF-H9rAfK3njmTiEwhCZAuZiczpSgl6n9poLmA6LT0EfN-fBj7R75Y5fmX0OfOsyS1TlcjMdMNfulhOFoDtCLvDeNc2qqGtXBDJ0ldvi~3yH04UmE-qxvQLddSgo5NliRHT38thdnpASzsP4qjQYOb1Dih-FQUvwhcv89gcbNzaEk9aoRdRkg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 		-
+- ### Array Pre-Processing
+	- ####  Rain Water traping problem ( LeetCode )
+		- In this problem we will be making two auxiliary array left and right 
+		  left will store the maximum height till the ith element from the left in the auxiliary array , the right array will store the maximum height till the ith element from the right in the new auxiliary array .
+		-

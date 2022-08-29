@@ -4,39 +4,33 @@
  {:block/name "arrays",
   :block/created-at 1661103575523,
   :block/updated-at 1661103637406}
- {:block/name "aug 10th, 2022",
-  :block/created-at 1660151707083,
-  :block/updated-at 1660151707083}
- {:block/name "aug 17th, 2022",
-  :block/created-at 1660727325698,
-  :block/updated-at 1660727325698}
- {:block/name "aug 18th, 2022",
-  :block/created-at 1660820593144,
-  :block/updated-at 1660820593144}
  {:block/name "aug 19th, 2022",
   :block/created-at 1660870236028,
   :block/updated-at 1661102948701}
  {:block/name "aug 20th, 2022",
   :block/created-at 1660963744133,
   :block/updated-at 1661102955765}
- {:block/name "aug 21st, 2022",
-  :block/created-at 1661078561441,
-  :block/updated-at 1661078561441}
- {:block/name "aug 5th, 2022",
-  :block/created-at 1659677954195,
-  :block/updated-at 1659677954195}
- {:block/name "aug 6th, 2022",
-  :block/created-at 1659756228618,
-  :block/updated-at 1659756228618}
+ {:block/name "aug 27th, 2022",
+  :block/created-at 1661604744263,
+  :block/updated-at 1661604744263}
+ {:block/name "aug 28th, 2022",
+  :block/created-at 1661679098386,
+  :block/updated-at 1661695272991}
+ {:block/name "aug 29th, 2022",
+  :block/created-at 1661711402707,
+  :block/updated-at 1661711402707}
  {:block/name "b",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
+ {:block/name "binary search tree",
+  :block/created-at 1661330372771,
+  :block/updated-at 1661330372771}
  {:block/name "bit manipulation",
   :block/created-at 1661103675139,
   :block/updated-at 1661103743947}
  {:block/name "c",
-  :block/created-at 1659625727726,
-  :block/updated-at 1661104213592}
+  :block/created-at 1661755429751,
+  :block/updated-at 1661755429751}
  {:block/name "canceled",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
@@ -46,12 +40,15 @@
  {:block/name "card",
   :block/created-at 1659625727725,
   :block/updated-at 1659625727725}
+ {:block/name "ccna",
+  :block/created-at 1661679098573,
+  :block/updated-at 1661679098573}
  {:block/name "contents",
   :block/created-at 1659625727725,
   :block/updated-at 1659625727725}
  {:block/name "data science",
-  :block/created-at 1660820645797,
-  :block/updated-at 1660820645797}
+  :block/created-at 1661604744521,
+  :block/updated-at 1661604744521}
  {:block/name "dfs",
   :block/created-at 1661103983766,
   :block/updated-at 1661103984787}
@@ -64,6 +61,12 @@
  {:block/name "dsa",
   :block/created-at 1659606634624,
   :block/updated-at 1661104505587}
+ {:block/name "dynamic programming",
+  :block/created-at 1661739007545,
+  :block/updated-at 1661755412384}
+ {:block/name "explain the role and function of network components",
+  :block/created-at 1661679098572,
+  :block/updated-at 1661680925027}
  {:block/name "favorites",
   :block/created-at 1659625727725,
   :block/updated-at 1659625727725}
@@ -78,7 +81,7 @@
   :block/updated-at 1659625727726}
  {:block/name "linked list",
   :block/created-at 1659606634615,
-  :block/updated-at 1661103194665}
+  :block/updated-at 1661107046185}
  {:block/name "mongodb and node-js",
   :block/created-at 1659606634893,
   :block/updated-at 1659606634893}
@@ -87,10 +90,13 @@
   :block/updated-at 1659625727726}
  {:block/name "queue",
   :block/created-at 1661103881849,
-  :block/updated-at 1661103881849}
+  :block/updated-at 1661711575351}
  {:block/name "recursion",
   :block/created-at 1659606634614,
   :block/updated-at 1661103836126}
+ {:block/name "stack",
+  :block/created-at 1661609619215,
+  :block/updated-at 1661614535683}
  {:block/name "todo",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}

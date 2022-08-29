@@ -46,3 +46,10 @@
 			  4. Push the value into vector corresponding to the horizontal distance (HD).
 			- [Link To Problem](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/submissions/)
 			-
+		- #### Binary Tree Pruning
+			- In this approach first we will pass the reference of our root node to the helper function 
+			  and **Base Case** : When root = null
+			- The helper function will do recursive calls to the left and the right subtree respectively .
+			  Then we will check if left doesn't  contain the 1 then we are going to set left = null i.e remove the subtree 
+			  Then we will check if right doesn't contain the 1 then we are going to set right  = null i.e remove the subtree
+			-
