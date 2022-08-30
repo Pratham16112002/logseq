@@ -7,6 +7,7 @@
 - [[Linked List]]
 - [[Arrays]]
 - [[Dynamic Programming]]
+- [[Sorting]]
 -
 - ## Space and Time Complexity
 	- Relation between Input Size and running time ( Operations )
@@ -118,4 +119,8 @@
 			  ![image.png](../assets/image_1661070263791_0.png)
 			-
 			-
-		-
+		- #### Best time to buy and sell stock  ( Leetcode )
+			- **The brute force** approach will be doing by creating an auxilary array which will store the maximum elements from left right , and then return the maximum difference between the given array and the auxilary array .
+			  ^^Time complexity = O(n^2)^^
+			- **Second Approach** we will store minimum price so far and also mantain a maximum profit which will store the maximum profit till the i the element while traversing the array .
+-

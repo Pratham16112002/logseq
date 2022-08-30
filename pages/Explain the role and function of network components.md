@@ -1,6 +1,10 @@
 - #### Routers
 	- A router receives and sends data on computer networks. Routers are sometimes confused with network , hubs , modems , or networks switches . However , routers can combine the functions of these components , and with these devices , to improve internet access or help create business networks . 
 	  Routers can also provide **security** , Embedded firewall and content filtering software provide and an protection .
+	  
+	  #+BEGIN_IMPORTANT
+	  Router's deal with layer 3 
+	  #+END_IMPORTANT
 	- #### Types of routers
 		- **Core routers** are generally used by service providers or cloud providers . They provide maximum bandwidth to connect additional routers or switches .
 		- **Edge routers** also called gateway router , they are optimized and designed to connect to other routers to distribute data to end users . They don't usually offer WIFI , they tiypically have only ethernet ports-an input to connect to the internet and serveral outputs to connect additional routers .
@@ -36,4 +40,22 @@
 		  |Quite fast as they do not look at the Layer 3 portion of the data packets.|Takes time to examine data packets before sending them to their destination|
 		  |It has single broadcast domain|It has multiple broadcast domain.|
 		  |Can communicate within a network only.|	Can communicate within or outside network.|
-		-
+	- #### Next-Generation Firewalls and IPS
+		- #### Firewalls
+			- It is a device which control Incoming and outgoing traffic based on pre-defined rules .
+			  Acts like a barrier 
+			  Host based and network based firewall
+			- ^^Packet Filtering firewall(Layer 4)^^
+				- Check IP head and TCP header.
+				- Works on networks and transport layer.
+				- Can block IP Address , full network .
+				- Can block a service ( http , ftp , etc ).
+		- A next generation firewall is a network security device that provides capabilities beyond a traditional .While a traditional firewall typically provides stateful inspection of incoming and outgoing network traffic, a next-generation firewall includes additional features like application awareness and control, integrated intrusion prevention, and cloud-delivered threat intelligence.
+		  According to gartner's definition , a next-generation firewall must include 
+		  1 . Standard firewall capabilites like stateful inspection . 
+		  2. Integrated intrusion prevention 
+		  3. Application awareness and control to see 
+		  4. Thread intelligence sources 
+		  5. Upgrade paths to include future information feeds 
+		  6. Techniques to address evolving security threats
+-

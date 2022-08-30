@@ -46,4 +46,25 @@
 	- ####  Rain Water traping problem ( LeetCode )
 		- In this problem we will be making two auxiliary array left and right 
 		  left will store the maximum height till the ith element from the left in the auxiliary array , the right array will store the maximum height till the ith element from the right in the new auxiliary array .
-		-
+	- #### Kadane's Algorithm
+		- #+BEGIN_IMPORTANT
+		  If you want to find the maximum sub array with the ^^brute force^^ method then , the simplest approach will be finding all the subarrays first . 
+		  ^^Time Complexity = O(n^2)^^
+		  #+END_IMPORTANT
+		- The second approach is ^^Kadane's algorithm^^  in which we will first maintain the sum till the ith element and if currsum > maxsum then we assign max sum = currsum and if currsum becomes negative then we reinitialize it with 0 . 
+		  ```
+		  int maxSubArray(vector<int>& nums) {
+		          int maxSum = nums[0];
+		          int currSum = 0;
+		          for(int i = 0 ; i<nums.size() ; i++){
+		              currSum = currSum + nums[i];
+		              if(currSum > maxSum ){
+		                  maxSum = currSum ;
+		              }
+		              if ( currSum < 0){
+		                   currSum = 0;
+		              }
+		          }
+		          return maxSum;
+		      }
+		  ```

@@ -29,8 +29,8 @@
   :block/created-at 1661103675139,
   :block/updated-at 1661103743947}
  {:block/name "c",
-  :block/created-at 1661755429751,
-  :block/updated-at 1661755429751}
+  :block/created-at 1661773478111,
+  :block/updated-at 1661773478111}
  {:block/name "canceled",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
@@ -66,7 +66,7 @@
   :block/updated-at 1661755412384}
  {:block/name "explain the role and function of network components",
   :block/created-at 1661679098572,
-  :block/updated-at 1661680925027}
+  :block/updated-at 1661768258596}
  {:block/name "favorites",
   :block/created-at 1659625727725,
   :block/updated-at 1659625727725}
@@ -76,6 +76,9 @@
  {:block/name "in-progress",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
+ {:block/name "information coding",
+  :block/created-at 1661772638851,
+  :block/updated-at 1661773433131}
  {:block/name "later",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
