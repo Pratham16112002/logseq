@@ -14,7 +14,25 @@
 - #### Remove the nth node from the linked list
 	- 1. First we will create a dummy node and store head in it .
 	  2. We will create two pointers slow and fast equal to the dummy node 
-	  3. ^^fast = fast->next^^ till n+1 
+	  3. ^^fast = fast->next^^ till n+1 so that fast pointer reaches first , [] 
 	  4. Do while loop till fast is not null , and then do slow = slow->next , fast = fast->next . 
-	  5. Then we have got the reference the node , simply we will point the **slow->next = slow->next->next** and return our dummy_head->next;
+	  5. Then we have got the reference the node , simply we will point the **slow->next = slow->next->next** and return our dummy_head->next; 
+	  **Code :** \darr
+	  ```
+	    ListNode* removeNthFromEnd(ListNode* head, int n) {
+	          ListNode* dummy_node = new ListNode(0);
+	          dummy_node->next = head;
+	          ListNode* fast = dummy_node;
+	          ListNode* slow = dummy_node;
+	          for(int i = 1 ; i<= n+1 ; i++){
+	              fast = fast->next;
+	          }
+	          while(fast!=NULL ){
+	              fast = fast->next;
+	              slow=slow->next;
+	          }
+	          slow->next = slow->next->next;
+	          return dummy_node->next;
+	      }
+	  ```
 -

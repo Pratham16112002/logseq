@@ -3,7 +3,7 @@
   :block/updated-at 1659625727726}
  {:block/name "arrays",
   :block/created-at 1661103575523,
-  :block/updated-at 1661103637406}
+  :block/updated-at 1661821969079}
  {:block/name "aug 19th, 2022",
   :block/created-at 1660870236028,
   :block/updated-at 1661102948701}
@@ -19,6 +19,12 @@
  {:block/name "aug 29th, 2022",
   :block/created-at 1661711402707,
   :block/updated-at 1661711402707}
+ {:block/name "aug 30th, 2022",
+  :block/created-at 1661817824009,
+  :block/updated-at 1661817824009}
+ {:block/name "aug 31st, 2022",
+  :block/created-at 1661950443195,
+  :block/updated-at 1661950443195}
  {:block/name "b",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
@@ -60,7 +66,7 @@
   :block/updated-at 1659625727726}
  {:block/name "dsa",
   :block/created-at 1659606634624,
-  :block/updated-at 1661104505587}
+  :block/updated-at 1661818288460}
  {:block/name "dynamic programming",
   :block/created-at 1661739007545,
   :block/updated-at 1661755412384}
@@ -84,7 +90,7 @@
   :block/updated-at 1659625727726}
  {:block/name "linked list",
   :block/created-at 1659606634615,
-  :block/updated-at 1661107046185}
+  :block/updated-at 1661950868583}
  {:block/name "mongodb and node-js",
   :block/created-at 1659606634893,
   :block/updated-at 1659606634893}
@@ -97,6 +103,9 @@
  {:block/name "recursion",
   :block/created-at 1659606634614,
   :block/updated-at 1661103836126}
+ {:block/name "sorting",
+  :block/created-at 1661774316180,
+  :block/updated-at 1661775612478}
  {:block/name "stack",
   :block/created-at 1661609619215,
   :block/updated-at 1661614535683}
