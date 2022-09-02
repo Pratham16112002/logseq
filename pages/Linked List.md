@@ -35,4 +35,51 @@
 	          return dummy_node->next;
 	      }
 	  ```
+- #### Reverse a linked list
+	- There are two methods to reverse a linked list \darr
+	  1. **Iterative method** -> Think of reversing two nodes in a linked list , To solve the prove of lost pointer we will use a temp variable which will store the next node pointer , as we move forward in linked list we will simply increase our temp variable till it reaches the end of the linked list , In sort we will maintain three pointers curr , prev and temp :
+	  ```
+	  ListNode* reverseList(ListNode* head) {
+	          ListNode* curr= head;
+	          ListNode* prev = NULL;
+	          while(curr!=NULL){
+	              ListNode* temp = curr->next;
+	              curr->next = prev ;
+	              prev = curr ;
+	              curr = temp;
+	          }
+	          return prev ;
+	      }
+	  ```
+- #### Merger Two sorted Linked list
+	- **Alogrithm** -> 
+	  1. First we will create a dummy node and then pointer the newly created node to an existing node . 
+	  2. Then a While loop till both the given ListNode becomes null .  
+	  3. Comparing the value of each sorted node from the two given lists.
+	  ```
+	  ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+	          ListNode* dummy_node = new ListNode(0);
+	          ListNode* temp_node = dummy_node;
+	          while(list1!=NULL && list2!=NULL){
+	              if ( list1->val < list2->val){
+	                  temp_node->next = list1 ;
+	                  list1=list1->next;
+	              }
+	              else{
+	                  temp_node->next = list2;
+	                  list2 = list2->next;
+	              }
+	              temp_node = temp_node->next;
+	          }
+	          if(list1!=NULL){
+	              temp_node->next = list1;
+	              list1=list1->next;
+	          }
+	          if(list2!=NULL){
+	              temp_node->next = list2;
+	              list2 = list2->next;
+	          }
+	          return dummy_node->next;
+	      }
+	  ```
 -
