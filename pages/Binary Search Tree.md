@@ -11,6 +11,18 @@
 	- ![image.png](../assets/image_1659610667948_0.png)
 	- We are creating a temp of type Node* which will store the top of currentLevel stack If temp is NULL then it will not do anything .
 	- At the end of the while loop we are swapping the currentLevel and nextLevel stack to cover all the other Levels of the binary tree .
+- #### Height of binary Tree
+  id:: 63159149-e1c3-4386-8404-8ce9ba74fd28
+  collapsed:: true
+	- id:: 6315915b-62f5-49a7-8f1b-56c809e275ab
+	  ```
+	  int height(TreeNode* root){
+	  	if(root==NULL){
+	       return 0;
+	      }
+	      return max(height(root->left), height(root->right)) + 1;
+	  }
+	  ```
 - #### Properties
 	- Maximum nodes at level $L = L^2$
 	- Maximum nodes in a tree of height $H = H^2$ - 1
@@ -60,6 +72,36 @@
 			  3. **Base Case** : When current node = Null(return).
 			  4. Push the value into vector corresponding to the horizontal distance (HD).
 			- [Link To Problem](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/submissions/)
+			  ```
+			      vector<vector<int>> verticalTraversal(TreeNode* root) {
+			          map<int,map<int,multiset<int>>> nodes;
+			          queue<pair <TreeNode* , pair <int,int>>> todo;
+			          todo.push({root,{0,0}});
+			          
+			          while(!todo.empty()){
+			              auto p = todo.front();
+			              todo.pop();
+			              TreeNode* node = p.first;
+			              int x = p.second.first , y = p.second.second;
+			              nodes[x][y].insert(node->val);
+			              if(node->left){
+			                  todo.push({node->left , {x-1,y+1}});
+			              }
+			              if(node->right){
+			                  todo.push({node->right, { x+1 , y+1}});
+			              }
+			          }
+			          vector<vector<int>> ans;
+			          for(auto p : nodes){
+			              vector<int> col;
+			              for(auto q : p.second){
+			                  col.insert(col.end(), q.second.begin() , q.second.end());
+			              }
+			              ans.push_back(col);
+			          }
+			          return ans;
+			      }
+			  ```
 			-
 		- #### Binary Tree Pruning
 			- In this approach first we will pass the reference of our root node to the helper function 
@@ -93,5 +135,13 @@
 			      return Math.max(left_depth , right_depth) +1 ;
 			    }
 			  
+			  ```
+		- #### Level Order Traversal
+			- The Brute Force Approach Will be :
+			  1. First we will calculate the height of the binary tree using {{embed ((63159149-e1c3-4386-8404-8ce9ba74fd28))}}
+			  2. We wil call the function which will print the current Level nodes . 
+			  3. The base case is when root is null , If level is 1 the we will print the root->data , If level is > 1 then we will call the function recursively for the Sub-Trees . 
+			  **Code :**
+			  ```
 			  ```
 			-

@@ -8,6 +8,7 @@
 - [[Arrays]]
 - [[Dynamic Programming]]
 - [[Sorting]]
+- [[BFS]]
 -
 - ## Space and Time Complexity
 	- Relation between Input Size and running time ( Operations )
@@ -123,4 +124,24 @@
 			- **The brute force** approach will be doing by creating an auxilary array which will store the maximum elements from left right , and then return the maximum difference between the given array and the auxilary array .
 			  ^^Time complexity = O(n^2)^^
 			- **Second Approach** we will store minimum price so far and also mantain a maximum profit which will store the maximum profit till the i the element while traversing the array .
--
+		- #+BEGIN_NOTE
+		  **Auto Keyword is used to declare a variable that has a complicated datatype , It automatically determine the data type of a variable**
+		  #+END_NOTE
+		  
+		  if you want to iterate vector you can simply do 
+		  
+		  ```
+		  for(auto it = v.begin() ; it!=v.end() ; ++it){
+		   	cout<< (*it) << " "; 
+		  }
+		  ```
+		- #### Multi set in C++ Standard Template Library
+			- Multi sets are similar to sets , with the exception that multiple elements can have the same values .
+				- [begin()](https://www.geeksforgeeks.org/multiset-begin-and-end-function-in-c-stl/) – Returns an iterator to the first element in the multiset –>  O(1)
+				- [end()](https://www.geeksforgeeks.org/multiset-begin-and-end-function-in-c-stl/) – Returns an iterator to the theoretical element that follows the last element in the multiset –> O(1)
+				- [size()](https://www.geeksforgeeks.org/multiset-size-in-c-stl-with-examples/) – Returns the number of elements in the multiset –> O(1)
+				- [max_size()](https://www.geeksforgeeks.org/multiset-max_size-in-c-stl/) – Returns the maximum number of elements that the multiset can hold –> O(1)
+				- [empty()](https://www.geeksforgeeks.org/multiset-empty-function-in-c-stl/) – Returns whether the multiset is empty –> O(1)
+				- insert (x) – Inserts the element x in the multiset –> O(log n)
+				- clear () – Removes all the elements from the multiset –> O(n)
+				- erase(x) – Removes all the occurrences of x –> O(log n)
