@@ -113,5 +113,38 @@
 		          return result;
 		      }
 		  ```
-		-
--
+	- #### Clone Graph ( Leetcode )
+		- Approach ( ^^DFS^^ ) =>
+		  1. We use HashMap to solve it and using DFS.
+		  2. Initially our hash map will be empty and we try to map the old node with the new node or the copy node.
+		  3. We start with any entry point.
+		  4. I am using '1' as my entry point.
+		  [Explanation with diagram](https://youtu.be/mQeF6bN8hMk)
+		- ```
+		  Node* cloneGraph(Node* node) {
+		          unordered_map<Node*,Node*> mp;
+		          if(node == NULL){
+		              return NULL;
+		          }
+		          if(node->neighbors.size() == 0){
+		              Node* clone = new Node(node->val);
+		          }
+		          return dfs(node,mp);
+		      }
+		      Node* dfs(Node* curr , unordered_map<Node* , Node*>& mp){
+		          vector<Node*> nei ; 
+		          Node* clone = new Node(curr->val);
+		          mp[curr] = clone;
+		          for(auto it : curr->neighbors){
+		              if(mp.find(it)!=mp.end()){
+		                  nei.push_back(mp[it]);
+		              }
+		              else{
+		                  nei.push_back(dfs(it,mp));
+		              }
+		          }
+		          clone->neighbors = nei;
+		          return clone;
+		      }
+		  ```
+	-

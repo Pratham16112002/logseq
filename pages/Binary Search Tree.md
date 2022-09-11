@@ -13,7 +13,6 @@
 	- At the end of the while loop we are swapping the currentLevel and nextLevel stack to cover all the other Levels of the binary tree .
 - #### Height of binary Tree
   id:: 63159149-e1c3-4386-8404-8ce9ba74fd28
-  collapsed:: true
 	- id:: 6315915b-62f5-49a7-8f1b-56c809e275ab
 	  ```
 	  int height(TreeNode* root){
@@ -109,6 +108,28 @@
 			- The helper function will do recursive calls to the left and the right subtree respectively .
 			  Then we will check if left doesn't  contain the 1 then we are going to set left = null i.e remove the subtree 
 			  Then we will check if right doesn't contain the 1 then we are going to set right  = null i.e remove the subtree
+			  Code : 
+			  ```
+			  TreeNode* pruneTree(TreeNode* root) {
+			          if(root == NULL){
+			              return NULL;
+			          }
+			          root->left = pruneTree(root->left);
+			          root->right = pruneTree(root->right);
+			          if(helper(root)){
+			              return NULL;
+			          }
+			          return root;
+			      }
+			      bool helper(TreeNode* root){
+			          if(root->val == 0 && root->left == NULL && root->right == NULL){
+			              return true;
+			          }
+			          else{
+			              return false;
+			          }
+			      }
+			  ```
 			-
 		- #### Maximum Depth of binary tree
 			- **Top-To-Bottom** in this approach we will pass the root and depth of the bst recursively and update our answer each time we reach the leaf node and then print the answer  variable  \darr
@@ -141,7 +162,85 @@
 			  1. First we will calculate the height of the binary tree using {{embed ((63159149-e1c3-4386-8404-8ce9ba74fd28))}}
 			  2. We wil call the function which will print the current Level nodes . 
 			  3. The base case is when root is null , If level is 1 the we will print the root->data , If level is > 1 then we will call the function recursively for the Sub-Trees . 
+			  
+			  #+BEGIN_NOTE
+			  Time Complexity => O(N^2);
+			  #+END_NOTE 
 			  **Code :**
 			  ```
+			  void printCurrLevl(TreeNode* root , int level){
+			  if(root == NULL){
+			  	return;
+			  		}
+			  if(level == 1){
+			  	cout<<root->data<<" ";
+			  	}
+			  else if(level > 1){
+			  	printCurrLevl(root->left, level -1);
+			      printCurrLevl(root->right , level -1);
+			  	}
+			  }
 			  ```
-			-
+			- Second Approach is using Queue Data Structure : 
+			  1.  First we will create our Queue of Node* type . 
+			  2. Then we will push the root node into the queue and remove it , once a node is removed from the queue then immediately its left and right node are pushed into the queue respectively . 
+			  3. We repeat the above process until the queue is empty . 
+			  ```
+			   vector<vector<int>> levelOrder(Node* root) {
+			          vector<vector<int>> result ;
+			          if(root == NULL){
+			              return result;
+			          }
+			          queue<Node*> q ;
+			          q.push(root);
+			          while(q.empty()){
+			              int size = q.size();
+			              vector<int> temp;
+			              for(int i = 0 ; i<size ; i++){
+			                  temp.push_back(q.front()->val)
+			                  Node* current = q.front();
+			                  temp.push_back(current->val);
+			                  if(current->left!=NULL){
+			                      q.push(current->left);
+			                  }
+			                  if(current->right!=NULL){
+			                      q.push(current->right);
+			                  }
+			              }
+			               result.push_back(temp);
+			              
+			          }
+			          return result;
+			      }
+			      
+			      // LeetCode Approach
+			      vector<vector<int>> levelOrder(Node* root){
+			      		vector<vector<int >> result;
+			              queue<Node*> q;
+			              q.push(root);
+			              if(root == NULL){
+			              	return ans;
+			              }
+			              while(1){
+			              	int size = q.size();
+			                  if(size == 0){
+			                  	return ans;
+			                  }
+			                  vector<int> temp;
+			                  while(size>0){
+			                  Node* temp = q.front();
+			                  q.pop();
+			                  data.push_back(temp->val);
+			                  if(temp ->left != NULL){
+			                  	q.push(temp->left);
+			                  }
+			                  if(temp ->right != NULL){
+			                  	q.push(temp->right);
+			                  }
+			                  size--;
+			                  }
+			                  ans.push_back(temp);
+			              }
+			              return ans;
+			      }
+			  ```

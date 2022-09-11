@@ -116,4 +116,52 @@
 		          return maxSum;
 		      }
 		  ```
-		-
+	- #### Intersection of Two Arrays II
+		- **Apporach :** First we will create an empty vector , an unordered_map  of int  int , then we wil just iterate over the first vector given and increase the key value pair as we iterate  . 
+		  Then we will iterate over the other vector num2 and if the count of any key in the map is greater then zero  i.e the element has occured more than once in the first array so we just add that that element into our ans vector and reduce its count from the map . 
+		  ^^Time Complexity : O(n)^^
+		  **Code :** 
+		  ```
+		  vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
+		          vector<int> ans;
+		          unordered_map<int,int> map;
+		          for(auto num : nums1){
+		              map[num]++;
+		          }
+		          for(auto num : nums2){
+		              if(map[num]>0){
+		                  ans.push_back(num);
+		                  map[num]--;
+		              }
+		          }
+		          return ans;
+		      }
+		  ```
+	- #### Move Zeros
+		- **Approach :** First we will create two pointer left and right . 
+		  Then we will traverse the  array , if 0 is found at arr[right] then we just increment right . 
+		  Otherwise we will just swap left and right index and increment both left and right . 
+		  **Code :**
+		  ```
+		  void moveZeroes(vector<int>& nums) {
+		          int n = nums.size() ;
+		          if(n== 0 || n == 1){
+		              return ;
+		          }
+		          int left = 0 , right = 0 ;
+		          int temp ; 
+		          while(right < n){
+		              if(nums[right] == 0){
+		                  right++;
+		              }
+		              else{
+		                  temp = nums[left];
+		                  nums[left]=nums[right];
+		                  nums[right]=temp;
+		                  left++;
+		                  right++;
+		              }
+		          }
+		      }
+		  ```
+	-

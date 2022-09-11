@@ -7,7 +7,7 @@ a.tag[data-ref] {
 }
 	
 h1, h2, h3, h4 {
-  color: #3f74bf;
+  color: #FF0000;
 }
 
 .blocks-container i {
@@ -15,7 +15,7 @@ h1, h2, h3, h4 {
 }
 
 b {
-  text-decoration: underline #ffce54 solid 2px;
+  text-decoration: underline #FF0000 solid 2px;
 }
 
 mark {
@@ -43,7 +43,7 @@ th {
   color: #3f74bf;
   font-weight: bold;
   text-transform: capitalize;
-  background-color: #ffce54;
+  background-color: #ff5465;
   border-radius: 10px;
 }
 

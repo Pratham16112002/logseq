@@ -9,7 +9,9 @@
 - [[Dynamic Programming]]
 - [[Sorting]]
 - [[BFS]]
--
+- [[Competitive Programming]]
+- [[HashTable]]
+- [[Heap]]
 - ## Space and Time Complexity
 	- Relation between Input Size and running time ( Operations )
 		- Time complexity \uarr as the input size \uarr
@@ -145,3 +147,5 @@
 				- insert (x) – Inserts the element x in the multiset –> O(log n)
 				- clear () – Removes all the elements from the multiset –> O(n)
 				- erase(x) – Removes all the occurrences of x –> O(log n)
+		- #### Clone Graph Leetcode
+			- **Algo** : We need to traverse all nodes of original graph & as soon as we reach a node , we will make a copy node & call recursively for the rest of the graph .

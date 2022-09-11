@@ -19,6 +19,6 @@
 		  1. Information uncertainty : an information source is modelled by a random variable . 
 		  2. Information is digital : In Shannon's seminal paper , there are two fundamental .
 		- We will study these information coding thoery : 
-		  1. Measurement of Information 
+		  1. Measurement of Information [[Measurement of Information]] 
 		  2. Source Coding Theory 
 		  3. Channel Coding Theory
