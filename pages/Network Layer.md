@@ -150,6 +150,22 @@
 	  #+END_IMPORTANT
 	- The reason for lease is to make sure that the DHCP does not run out of ip addresses .
 	- While the host is connected to network the host will send a signal asking the DHCP server to renew their lease time .
+	  ![image.png](../assets/image_1663312792718_0.png)
+	  **Opcode :** specifies the general type of message . A value of 1 indicates a request message while a value of 2 is a reply message . 
+	  **Htype** : Hardware type ( Ethernet , )
+	  **HLen :** Length of hardware address 
+	  **HCount :** Maximum no of hops ( routers ) the packet can travel 
+	  **Transaction Id** : an Interger set by client and repeated by the server 
+	  **Time elapsed** : The number of second since the client started to boot . 
+	  **Flags :** First bit defines unicast ( 0 ) or multi cast ( 1 ) other 15 bits are not used . 
+	  **Client IP Address :** Client puts its own ip address in this field , Set to 0 if the client does not know it  . 
+	  **Your IP Address :** is an Ip address that the server assigns to the client  . 
+	  **Server IP Address :** A broadcast IP address if client does not know it . 
+	  **Gateway IP Address :** The address of default router 
+	  **Server name :** A 64-byte domain name of the server . 
+	  **Boot file name** : A 128-byte file name holding extra infromation . 
+	  **Options :** A 64-byte field with dual purpose described in text .
+	-
 	-
 - #### NAT(Network Address Translation)
 	- In most situations , only a small portion of computers need access to internet simultaneously  .

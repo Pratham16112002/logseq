@@ -123,6 +123,27 @@
 	  { C  }_{ s  }   =   \dfrac{  \displaystyle\sum_{ i =  1  }^{ n  }  \left(  {  \left(  { x  }_{ i  }  - \bar{x}  \right)    }^{ 2  }    \right)       }{  \left( n-1  \right)   \left( n-2  \right)   { S  }^{ 3  }    }   
 	  \end{equation}
 	  #+END_NOTE
+	- Positively and Negatively Skewed PDF's
+		- **Positive skewness :** Distribution is positvely skewed when there is a higher number of smaller data . 
+		  ![image.png](../assets/image_1663322327809_0.png)
+		  **Negatively skewness :** Distributiono is negatively skewed when there is higher number of larger data .
+		  ![image.png](../assets/image_1663322698675_0.png)
+	- **Measure of Peakness : ** Standard Fourth population moment about the mean 
+	  Kurtosis refers to the degree of flatness or peakness in the region of a curve . 
+	  ![image.png](../assets/image_1663323101986_0.png) 
+	  Measure of Kurtosis 
+	  \begin{equation}
+	   {  \beta    }_{ 2  }   =   \dfrac{  {  \mu    }_{ 4  }    }{  {  \sigma    }^{ 2  }    }   
+	  \end{equation}
+	  \mu is the mean 
+	  \mu_{4} forth moment about the mean 
+	  \sigma is the standard deviation 
+	  
+	  #+BEGIN_NOTE
+	  We can also write \mu_{2} instead of \sigma which is standard deviation 
+	  #+END_NOTE
+	-
+	-
 - #### Discrete Distribution
 	- **Binomial Distribution**
 	  A frequency distribution of the possible number of successful outcomes in a given number of trials in each of which there is the same probability of success.
@@ -176,7 +197,15 @@
 	  #+END_IMPORTANT
 	- **Gamma Distribution** :
 	  Used to determine the time at the nth event , if n = 1 , the corresponding gamma . Distribution is given by exponential distribution . 
+	  \begin{equation}
+	  f \left( x  \right)   =   \dfrac{  \left(  {  \lambda    }^{ n  }   \cdot   { x  }^{ n-1  }   \cdot   { e  }^{ - \lambda  x  }    \right)    }{   \left( n-1  \right)    !    }   
+	  \end{equation}
+	  
+	  #+BEGIN_NOTE
+	  x > 0 , \lambda > 0 , x = 0 ,  1 ,  2 ,  .....
+	  #+END_NOTE 
 	  Used for wait time modeling , service time , modeling , reliability modeling .
+	-
 	- #### Normal Distribution
 		- Most common and widely used distribution because of its relavance to many characteristics like weight , height , etc . 
 		  Symmetric bell shape curve 
@@ -197,10 +226,113 @@
 		  
 		  #+BEGIN_NOTE
 		  x : Random Variable 
-		  sigma : Standard Deviation
+		  \sigma : Standard Deviation
 		  mu : mean 
+		  z : Normal variate 
 		  Z - No of standard deviation from x to mean . 
 		  #+END_NOTE
 		- It is normal distribution with mean = 0 and standard deviation = 1
 		- Z_{score} tells us how many standard deviation away from the mean each value lies .
+		- Any normal distribution can be converted to standard distribution by turning the individual values into the Z scores .
+- #### Possion Distribution :
+	- Limiting form of binomial distribution p - very small , n - very large , np = constant .
+	  Formula :
+	  \begin{equation}
+	  P \left( X =  x  \right)   =   \dfrac{  \left(  {  \lambda    }^{ x  }   \cdot   { e  }^{ - \lambda    }    \right)    }{  x  !    }   
+	  \end{equation}
+	  Mean : \lambda
+	  Variance : \lambda
+- #### Box Plot
+	- ![image.png](../assets/image_1663328477008_0.png)
+	  Steps to calculate the boxplot 
+	  1. First you have to arrange the data in ascending form . 
+	  2. Calculate the median .
+	  3. Q_{2} is the median of the whole data and Q_{1} is the median of the half part , Q_{3} is the median of the rest half part .
+	  4. Check for outliers **Higher Outlier** : Q_{3} + [1.5 * IQR] , **Lower Outlier** : Q_{1} - [1.5 * IQR]
+	  5. Find the minimum and the maximum value form the given data .
+	  \begin{equation}
+	  IQR = Q_{3} - Q_{1}
+	  \end{equation}
+	  
+	  #+BEGIN_NOTE
+	  The maximum and minimum value is not the higher or lower outlier , 
+	  If their is no lower outlier than leave the place empty . 
+	  #+END_NOTE
+	- #+BEGIN_NOTE
+	  Any Value Higher than the Higher outlier can be the Higher Outlier ,
+	  Any Value Smaller than the Lower Outlier can be the Lower Outlier 
+	  #+END_NOTE
+- #### Hypothesis Testing
+	- **Hypothesis :** Quantitative Statement about the population , A promise or a claim that we want to test .
+	- **Null Hypothesis :** It is a claim or statement which is assumed to be true until it is declared as false Represented by H_{0}
+	- **Alternate Hypothesis :** Any Hypothesis which is complimentary to null hypothesis , Also called research hypothesis , Represented by H_{1}
+	- Left Tail 
+	  \begin{equation}
+	   { H  }_{ 0  }   =   {  \mu    }_{ x  }   =   {  \mu    }_{ 0  }    ,    
+	   { H  }_{ 0  }   =   {  \mu    }_{ x  }   <  {  \mu    }_{ 0  }   
+	  \end{equation}
+	- Two tail 
+	  \begin{equation}
+	   { H  }_{ 0  }   =   {  \mu    }_{ x  }   =   {  \mu    }_{ 0  }  , 
+	   { H  }_{ 0  }   =   {  \mu    }_{ x  }   \ne {  \mu    }_{ 0  }     
+	  \end{equation}
+	- Right Tail 
+	  \begin{equation}
+	   { H  }_{ 0  }   =   {  \mu    }_{ x  }   =   {  \mu    }_{ 0  }   , 
+	   { H  }_{ 0  }   =   {  \mu    }_{ x  }   >  {  \mu    }_{ 0  }   
+	  \end{equation}
+	- #+BEGIN_TIP
+	  \begin{equation}
+	  \bar{x} 
+	  \end{equation}
+	  Sample Mean and 
+	  \mu is the population mean 
+	  #+END_TIP
+	-
+	- \begin{equation}
+	  Z_{tabulated} < Z_{calculated}
+	  \end{equation}
+	  In the above case we reject the null hypothesis .
+	- \begin{equation}
+	  Z_{tabulated} > Z_{calculated}
+	  \end{equation}
+	  In the above case we accept the null hypothesis .
+	- #### Level of Significance
+		- Defined as the fixed probability of wrong elimination of null hypothesis . 
+		  It is stated as the probabillity of type 1 error .
+		  Denoted by 
+		  \begin{equation}
+		  \alpha
+		  \end{equation}
 		-
+- #### Type 1 and Type 2 error
+	- When we are testing null hypothesis against the alternative hypothesis : 
+	  1. H_{0} accepted when H_{0} is true . 
+	  2. H_{0} rejected when H_{0} is true ( Type 1 error ).
+	  3. H_{0} accepted when H_{0} is false ( Type 2 error ).
+	  4. H_{0} rejected when H_{0} is false .
+	- **Probability of Type 1 error is** : 
+	  \begin{equation}
+	  \alpha
+	  \end{equation}
+	- **Probability of Type 2 error is :** 
+	  \begin{equation}
+	  \beta
+	  \end{equation}
+	- #+BEGIN_NOTE
+	  Type 2 error is more severe than Type 1 error 
+	  #+END_NOTE
+	- \beta : probability to accept H_{0} when it is false .
+	- **Power of Test** : ( 1 - \beta) 
+	  1 - \beta value is near to 1 then the test is working quite fine 
+	  1 - \beta value is near to  0 then the test is not working fine
+- #### Z - test
+	- If  Sample size n >= 30 then test statistics 
+	  \begin{equation}
+	  Z =   \dfrac{  \left( \bar{x}- \mu    \right)    }{  {  \sigma    }_{ \bar{x}  }    }   
+	  \end{equation}
+	- \begin{equation}
+	  {  \sigma    }_{ \bar{x} }   
+	  \end{equation}
+	  Denotes the Standard error of mean
+	-

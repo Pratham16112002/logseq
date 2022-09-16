@@ -184,7 +184,7 @@
 	          }
 	      }
 	      if index != i {
-	       	
+	       	swap(min[j],arr[i]);
 	      }
 	  }
 	  ```
@@ -208,7 +208,73 @@
 	  #+END_IMPORTANT
 	  Selection sort is not a Stable algorithm 
 	  Selection sort is In place .
-	-
-	-
-	-
+	  Recurrence Relation : 
+	  \begin{equation}
+	  T \left( n  \right)   =  T \left( n-1  \right)  +n 
+	  \end{equation}
+	- **Insertion Sort** :
+		- Remember no sorting in insertion sort .
+		- Algorithm : 
+		  ```
+		  for j  = 2 to arr.length{
+		  	key = arr[j];
+		      i=j-1;
+		      while i>0 arr[i] > key {
+		      	arr[i+1] = key;
+		          i=i-1;
+		      }
+		      arr[i+1] = key ;
+		  }
+		  ```
+		- Best Case ( Ascending Order ) :
+		  Time Complexity : O(n)
+		- Worst Case ( Descending Order ) :
+		  Time Complexity : O(n^{2})
+		  Insertion Sort is Stable 
+		  Insertion Sort is in place 
+		  
+		  #+BEGIN_NOTE
+		  Also known as Online ( Imediaetely )
+		  #+END_NOTE
+	- **Bubble Sort** :
+		- No of Passes  for n elements : n - 1
+		- No of comparisons : 
+		  \begin{equation}
+		  n \cdot   \dfrac{  \left( n-1  \right)    }{ 2  }   
+		  \end{equation}
+		  O(n^{2})
+		- Maximum No of Swaps : 
+		  \begin{equation}
+		  n \cdot   \dfrac{  \left( n-1  \right)    }{ 2  }   
+		  \end{equation}
+		  O(n^{2})
+		- Time Complexity : O(n^{2})
+		- Code : 
+		  ```
+		  void bubblesort(int arr[] , int n ){
+		  	int flag ;
+		  	for(int i = 0 ; i<n - 1 ; i++){
+		      flag = 0 ;
+		      	for(int j = i + 1 ; j < n-1 - i ; j++  ){
+		          	if(arr[j] > arr[j+1]){
+		              swap(arr[j],arr[j+1]);
+		  			flag = 1;
+		              }
+		          }
+		          if(flag == 0){
+		          	break;
+		          }
+		      }
+		  }
+		  ```
+		- In Best Case ( Ascending Order )
+			- Time Complexity : O(n) 
+			  
+			  #+BEGIN_NOTE
+			  The above time complexity is only when the flag variable is introduced , 
+			  otherwise the complexity remains the same . 
+			  #+END_NOTE
+			- No of swaps : 0
+			- bubble sort is adaptive ( after we made it by using flag variable ).
+		- Stability : Yes the bubble sort is stable in nature .
 -
