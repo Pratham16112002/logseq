@@ -63,4 +63,29 @@
 	- #+BEGIN_CAUTION
 	  in the above Question why max is taken not able to understand Why max and minimum is taken when calculating overlapped area  [Question](https://leetcode.com/problems/rectangle-area/submissions/) 
 	  #+END_CAUTION
-	-
+- #### Recurrence Relation
+	- It is the relationship between the result of a problem and the result of its Sub-problems.
+	- **Pascal's Triangle : **
+		- Pascal's triangle are a series of numbers arranged in the shape of triangle. In Pascal's triangle, the leftmost and the rightmost numbers of each row are always 1. For the rest, each number is the sum of the two numbers directly above it in the previous row.
+		- Approach : 
+		  1. First we will create a 2d vector , a prev vector initialized wiith 1 and then we will push the prev vector into the 2d vector .
+		  2. Make a for loop from  2 to the rowIndex given , Again create a temp vector initialize the initial position of the temp vector with 1 and then loop from 1 to i th position we will just calculate the sum of the previous elements and store it in the temp . 
+		  3. At last we will push temp to the 2d  vector and return it . 
+		  Code :
+		  ```
+		  vector<int> getRow(int rowIndex) {
+		          vector<vector<int>> ans ;
+		          vector<int> prev = {1};
+		          ans.push_back(prev);
+		          for(int i = 2 ; i<=rowIndex + 1 ; i++){
+		              vector<int> temp(i);
+		              temp[0] = temp[i-1] = 1;
+		              for(int j = 1 ; j<i-1 ; j++){
+		                  temp[j] = prev[j-1] + prev[j];
+		              }
+		              prev = temp;
+		          }
+		          return prev;
+		      }
+		  ```
+- [[Memoization]]

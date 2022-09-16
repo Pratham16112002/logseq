@@ -42,7 +42,7 @@
   :block/updated-at 1662363099590}
  {:block/name "bit manipulation",
   :block/created-at 1661103675139,
-  :block/updated-at 1661103743947}
+  :block/updated-at 1662967364727}
  {:block/name "c",
   :block/created-at 1662786539619,
   :block/updated-at 1662786539619}
@@ -63,16 +63,19 @@
   :block/updated-at 1662608653817}
  {:block/name "competitive programming",
   :block/created-at 1662470515765,
-  :block/updated-at 1662803505769}
+  :block/updated-at 1662992337217}
  {:block/name "computer networks",
   :block/created-at 1662540099481,
   :block/updated-at 1662626960942}
  {:block/name "contents",
   :block/created-at 1659625727725,
   :block/updated-at 1659625727725}
+ {:block/name "daa",
+  :block/created-at 1663078720220,
+  :block/updated-at 1663269050761}
  {:block/name "data science",
   :block/created-at 1661604744521,
-  :block/updated-at 1661604744521}
+  :block/updated-at 1663134574314}
  {:block/name "dfs",
   :block/created-at 1661103983766,
   :block/updated-at 1662624038554}
@@ -84,7 +87,7 @@
   :block/updated-at 1659625727726}
  {:block/name "dsa",
   :block/created-at 1659606634624,
-  :block/updated-at 1662624581661}
+  :block/updated-at 1662874537106}
  {:block/name "dynamic programming",
   :block/created-at 1661739007545,
   :block/updated-at 1661755412384}
@@ -97,6 +100,9 @@
  {:block/name "hashtable",
   :block/created-at 1662624581040,
   :block/updated-at 1662659180206}
+ {:block/name "heap",
+  :block/created-at 1662874483005,
+  :block/updated-at 1662874757300}
  {:block/name "in-progress",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
@@ -115,15 +121,24 @@
  {:block/name "linked list",
   :block/created-at 1659606634615,
   :block/updated-at 1661950868583}
+ {:block/name "max",
+  :block/created-at 1662874509144,
+  :block/updated-at 1662874509144}
  {:block/name "measurement of information",
   :block/created-at 1662270612132,
-  :block/updated-at 1662438850615}
+  :block/updated-at 1663251603645}
+ {:block/name "memoization",
+  :block/created-at 1662976254834,
+  :block/updated-at 1662976316623}
+ {:block/name "min",
+  :block/created-at 1662874500306,
+  :block/updated-at 1662876866950}
  {:block/name "mongodb and node-js",
   :block/created-at 1659606634893,
   :block/updated-at 1659606634893}
  {:block/name "network layer",
   :block/created-at 1662540099479,
-  :block/updated-at 1662789792823}
+  :block/updated-at 1663231352119}
  {:block/name "now",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
@@ -132,13 +147,28 @@
   :block/updated-at 1662806212536}
  {:block/name "recursion",
   :block/created-at 1659606634614,
-  :block/updated-at 1661103836126}
+  :block/updated-at 1662976254834}
  {:block/name "sep 10th, 2022",
   :block/created-at 1662782571646,
   :block/updated-at 1662782571646}
  {:block/name "sep 11th, 2022",
   :block/created-at 1662866470242,
   :block/updated-at 1662866470242}
+ {:block/name "sep 12th, 2022",
+  :block/created-at 1662966163039,
+  :block/updated-at 1662966163039}
+ {:block/name "sep 13th, 2022",
+  :block/created-at 1663039739716,
+  :block/updated-at 1663039739716}
+ {:block/name "sep 14th, 2022",
+  :block/created-at 1663093801708,
+  :block/updated-at 1663093801708}
+ {:block/name "sep 15th, 2022",
+  :block/created-at 1663201247336,
+  :block/updated-at 1663201247336}
+ {:block/name "sep 16th, 2022",
+  :block/created-at 1663268827993,
+  :block/updated-at 1663268827993}
  {:block/name "sep 3rd, 2022",
   :block/created-at 1662194536249,
   :block/updated-at 1662194536249}

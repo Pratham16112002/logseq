@@ -71,4 +71,32 @@
 		- Insertion or removal of elements at start or end- O(1)
 	- [For Methods](https://www.geeksforgeeks.org/deque-cpp-stl/)
 	- This Data structure is used in sliding window maximum .
+- #### Pascal's Triangle
+	- **Approach :** First we will create our 2d vector and then create another prev vector and initialize it with 1 then we will add it to our ans 2d vector .
+	  We will do a for loop till the row given and make another vector temp which will store our each row values and add the previous two values to the new row according to the pasca's triangle theory at last we add 1 to end of our vector , after that we push our created vector into the main ans 2d vector and return it .  
+	  ```
+	   vector<vector<int>> generate(int numRows) {
+	          vector<vector<int>> ans;
+	          vector<int> prev={1};
+	          ans.push_back(prev);
+	          
+	          for(int i=2;i<=numRows;i++){
+	              vector<int> temp(i);
+	              temp[0]=temp[i-1]=1;
+	              for(int j=1;j<i-1;j++){
+	                  temp[j]=prev[j-1]+prev[j];
+	              }
+	              ans.push_back(temp);
+	              prev=temp;
+	          }
+	          return ans;
+	      }
+	  ```
+- #### Prefix Sum Array
+	- There is a simple yet powerful technique that allows for the fast calculation of sums of elements in given slice (contiguous segments of array). Its main idea uses prefix sums which are defined as **the consecutive totals of the first 0,1,2,...,n elements of an array**.
+	  ![image.png](../assets/image_1662966459587_0.png)
+- #### Combinatorics
+	- \begin{equation}
+	  (n-1)*(n)/2
+	  \end{equation}
 -

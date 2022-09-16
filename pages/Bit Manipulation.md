@@ -21,3 +21,14 @@
 		- ![2022_06_14_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f51bd58ad-0dc0-4a12-ba37-2fcce4917a072022_06_14_image.png?Expires=4808745835&Signature=jhNJWjxK1qp7xAlUShlRosJIZphNdkOxJxdoV-l0EVMhewT8sBz1O8rPOXzSt42-L7dGnz3PhgMQCuBUn~w849w3a1VYZ4W-KAZ3uhh3wvURjcNxec2vrOT7fUKFSdmKaaMevHsZG2hrqfacZfhNNOqCMJ4Ff-vYjAxqq5KHrmf8e13A3H0bdfOu0X7YLjPZDe4vPhL92yPQxJsg6Qkf8DWJf4FBVoX2gMFVqRQZgkVE-Xtp6ntkRbNGa-6Q0epnimzca97IUsGfAmxU2j8kOl0aFuwATxXaquXF-61aZYivNpCKBp4KxB8k42yBhkovNaHmGooAxSOEMXIyjwbanQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 		-
 	- Update Bit => For 0 it is same as the clear bit and For 1 it is same as the set bit ^^above^^
+	- #+BEGIN_TIP
+	  To calculate the number of bits required to represent the number is 
+	  ^^ c=0;
+	              while(x>0){
+	   // This is for checking how many bits are required for X 
+	                  c++;
+	                  x/=2;
+	   
+	              }
+	  ^^
+	  #+END_TIP
