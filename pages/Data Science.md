@@ -26,11 +26,26 @@
 	  :LOGBOOK:
 	  CLOCK: [2022-09-11 Sun 15:23:28]
 	  :END:
+	  Same formula for sample mean
 	- Variance = S^{2} = \sum \(\frac{(x_{i} - mean)^{2}  }{n -1}\)
+	  
+	  #+BEGIN_IMPORTANT
+	  Another formula for Variance : 
+	  \begin{equation}
+	   {  \sigma    }^{ 2  }   =   \sqrt[   ]{  \dfrac{  \left( n \cdot   \displaystyle\sum_{   }^{   } \left(f { \left( { x  }_{ i  }   \right) }^{ 2  }   \right)  - \displaystyle\sum_{   }^{   } \left( {  \left( f { x  }_{ i  }    \right)    }^{ 2  }   \right)    \right)    }{ n \cdot   \left( n-1  \right)    }    \phantom{\tiny{!}}}   
+	  \end{equation}
+	  #+END_IMPORTANT
 	- Standard Deviation :
 	  \begin{equation}
 	  S_{x} = \sqrt{Variance}
 	  \end{equation}
+	- Range : 
+	  The formula  for range is simply = Highest Observation - Lowest Observation
+	- **Mean Absolute Deviation** : defined as the average deviation between the mean and the data value . 
+	  1. Calculate the mean of the given data 
+	  2. Determine the difference between each data value  and the mean 
+	  3. Now , take the absolute value of each obtained difference 
+	  4. Finally , find the mean of these differences .
 - #### Probability Distribution
 	- It is the relationship between the values of Random Variabes and its associated probabilites .
 	- **Random Variable** : Real value of random experiment is called random variable .
@@ -112,9 +127,10 @@
 	  \begin{equation}
 	  E {  \left( x- { u  }^{   }    \right)    }^{ 3  }   =   \displaystyle\sum_{ i =  1  }^{ n  }  \left(  {  \left( x-u  \right)    }^{ 3  }  p \left(  { x  }_{ i  }    \right)    \right)      
 	  \end{equation}
+	- ^^Skewness^^ refers to a distortion or asymmetry that deviates from the symmetrical bell curve, or normal distribution, in a set of data.
 	- **Cofficient of skewness** : is made dimensionless by dividing with sigma cube Represented by Gamma  \darr
 	  \begin{equation}
-	   \gamma   =   \dfrac{ 1  }{  {  \sigma    }^{ 3  }    }  E {  \left( x-u  \right)    }^{ 3  }   
+	  G =   \dfrac{  \left(  \displaystyle\sum_{   }^{   }  \left(  {  \left(  { x  }_{ i  }  - \bar{x}  \right)    }^{ 3  }    \right)       \right)    }{  \left( n-1  \right)   \cdot   { S  }^{ 3  }    }   
 	  \end{equation}
 	  
 	  #+BEGIN_NOTE
@@ -123,12 +139,13 @@
 	  { C  }_{ s  }   =   \dfrac{  \displaystyle\sum_{ i =  1  }^{ n  }  \left(  {  \left(  { x  }_{ i  }  - \bar{x}  \right)    }^{ 2  }    \right)       }{  \left( n-1  \right)   \left( n-2  \right)   { S  }^{ 3  }    }   
 	  \end{equation}
 	  #+END_NOTE
+	  s is the standard deviation
 	- Positively and Negatively Skewed PDF's
 		- **Positive skewness :** Distribution is positvely skewed when there is a higher number of smaller data . 
 		  ![image.png](../assets/image_1663322327809_0.png)
 		  **Negatively skewness :** Distributiono is negatively skewed when there is higher number of larger data .
 		  ![image.png](../assets/image_1663322698675_0.png)
-	- **Measure of Peakness : ** Standard Fourth population moment about the mean 
+	- **Measure of Peakness :** Standard Fourth population moment about the mean 
 	  Kurtosis refers to the degree of flatness or peakness in the region of a curve . 
 	  ![image.png](../assets/image_1663323101986_0.png) 
 	  Measure of Kurtosis 
@@ -335,4 +352,5 @@
 	  {  \sigma    }_{ \bar{x} }   
 	  \end{equation}
 	  Denotes the Standard error of mean
+- #### P-value method
 	-
