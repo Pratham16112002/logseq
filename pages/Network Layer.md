@@ -46,6 +46,16 @@
 	- From 32 bits : 
 	  n bits determines the network ,
 	  (32 - n )bits Define connection to the node .
+- #### Connection less and Connection Oriented
+	- |Connection Oriented |Connection Less|
+	  |--|--|
+	  |Related to telephone system  . |It is related to postal System . |
+	  |It includes connection establishment and termination . |It does not include Connection establishment and termination . |
+	  |It gurrantees reliability |It does not gurrantess realibality |
+	  |Virtual Connection is created . |No virtual Connection is created |
+	  |Need Authentication from target |No need of authentication from target |
+	  |Handshake is requried |No Handshake is requried |
+	  |Slower than Connection Less[:br]Ex Email , Any Document upload  |Faster than connection oriented [:br]Ex Video Streaming , Gaming . |
 - #### Classfull addressing
 	- ![image.png](../assets/image_1662788635621_0.png)
 	- #### Class A
@@ -94,6 +104,8 @@
 	  and the second is Direct . 
 	  #+END_NOTE
 		- The limited broadcast is used when a person inside the network wants to send a message to the whole organization , Direct address is used when you want to broadcast the message into a network from outside .
+		- Limited broad cast address = 255.255.255.255
+		- Mostly in exam you will be asked to find the direct broadcast only .
 - #### Drawbacks of class-full addressing
 	- **Wastage of Ip - address **
 	  In class A so many addresses are waste .
@@ -112,7 +124,7 @@
 	  
 	  #+BEGIN_NOTE
 	  In the above notation n represnts the mask or no of bit represents  blocks / network
-	  To get the network it just to the and operation with subnet mask . 
+	  To get the network id just do the and operation with subnet mask . 
 	  #+END_NOTE
 	-
 	- Rules : Addresses should be contiguous .
@@ -123,6 +135,15 @@
 	- Dividing the big network into small networks .
 	  Subnetting is always does inside an organization to make their own networks for different departments . 
 	  Subnetting imporve the wastage of  ip addresses in classfull addressing .
+- #### Reason For Subnetting
+	- Maintenance of a very big network like class A and class B is very difficult for network administrator .
+	- For Security reason , if you want to isolate an department in an organization from one another then subnetting make this happen .
+- #### Types of Subnetting
+	- Fixed Length subnetting : Divides the network into subnets such that
+		- All the subnets are of same size
+		- All the subnets have equal number of hosts .
+		- All the subnets have same subnet mask .
+	- Variable Length subnetting : Divides the network into subnets of variable size ..
 - #### Subnetting in Classless addressing ( CIDR )
 	- The sub-networks in a network should be carefully enable the routing of packets.
 	- The following steps needs to be taken care while proper operation of the subnetworks .
@@ -131,7 +152,7 @@
 		  \begin{equation}
 		   { n  }_{ snet  }   =  n+lo { g  }_{ 2  }   \left(  \dfrac{ N  }{  { N  }_{ sub  }    }    \right)   
 		  \end{equation}
-		  3. The starting address is each subnetwork should be divisible by the number of addresses in that subnetwork . This can be achieved if we assign addresses to larger networks .
+		  3. The starting address in each subnetwork should be divisible by the number of addresses in that subnetwork . This can be achieved if we assign addresses to larger networks .
 - #### DHCP ( Dynamic Host Configuration Protocol )
 	- Address assignment in an orgnanization can be done automatically using the Dynamic Host Configuration Protocol ( DHCP ) . it is an application layer program , using the client sever paradigm , that actually helps TCP/IP at the network layer .
 	- There are two types of addresses that can be assigned first is
@@ -175,4 +196,62 @@
 	- It maintains a translation table to store the buffer of public and private Ip addresses .
 - #### ARP ( Address Resolution Protocol)
 	- Most of the computer programs/applications use **logical address (IP address)** to send/receive messages, however, the actual communication happens over the **physical address (MAC address)** i.e from layer 2 of the OSI model. So our mission is to get the destination MAC address which helps in communicating with other devices. This is where ARP comes into the picture, its functionality is to translate IP address to physical addresses.
--
+	- ARP is used when only the logical address of the host is provided 
+	  where is arp obtain the physical address of the receiver .
+	- RARP is used when only the physical address of the host is provided 
+	  where rarp retrieves the logical address of the host from the server .
+	-
+- #### IPv4 header format
+	- It is connection less i.e it does not create any connection before sending the data  , can be referred as datagram service .
+	- The range of the Size of IPv4 header is 20-60 Bytes .
+	  The range of the size of the payload is 0 - 65515 Bytes
+	- ![image.png](../assets/image_1663421861480_0.png)
+	  **VER ( 4 bit ):** Tell us the version of IP Address  
+	  **HLEN ( 4 bit ) :** Tell the length of the header ( Range 0 - 15 )
+	  **Type of service ( 8 bit ) :** Differenctiated Services Code point ( DSCP )
+	  
+	  #+BEGIN_NOTE
+	  First 6 bit for DSCP and rest 2 bit for ECN  ( Explicit Congestiono Notification )
+	  #+END_NOTE
+	  **Total Length ( 16 bit )** : 2^{16}  = 65535
+	  **TTL ( Time To Live ) ( 8 bit ):** 2^{8} = 0 - 255 TTL is a value in an IP ( packet ) that tells a network router when the packet has been in the network too long and should be discarded . 
+	  **Protocol ( 8 bit )**: To mention the protocol used . 
+	  **Header CheckSum ( 16 bit )** : to detect the corruption in the header of IPv4 packets .
+	  
+	  #+BEGIN_NOTE
+	  1 byte = 8 bits ( In decimal ) = 2 bits ( In Hexa  ),
+	  Time to live field is is the ninth byte .
+	  #+END_NOTE
+	- #### Fragmentation
+		- ![image.png](../assets/image_1663938491702_0.png)
+		- **Identification bit ( 16 bit ) :** When a Ipv4 packet is divided into smaller packets , and send them with different routes , so when they reach the destination address , these bits helps in determining that they all belong to the same packet .
+		  Total Values possible for identification bit : 2^{16}
+		- **Flag ( 3 bit )** :
+			- MSB  bit :  always 0 .
+			- Don't Fragment ( DF ) : If this bit is set to zero then the fragmentation is already done i.e if we dont want to fragment our packet then we set it to 1 .
+			- More Fragment ( MF ) : Tells if more fragments are ahead of this fragment or not . if MF is set to 1 then more fragment are ahead of this one else if MF is set to 0 then this fragment is the last one .
+		- **Fragment Offset ( 13 bit )** : Use to identify the sequence of fragments in the frame i.e No of bits ahead .
+		- #+BEGIN_NOTE
+		   A non fragmented packet is considered the last fragment .
+		  If the M value is 1 then we can definitely say that original packet has been fragmented .
+		  If the Offset bit is zero then , by all means it is the first fragment . 
+		  #+END_NOTE
+		- **Options **
+			- Range : 0 - 40 bytes
+			  
+			  #+BEGIN_NOTE
+			  If the size of the header is 20 bytes then , it will contain no options . 
+			  If the size of the header is 60 bytes then we can say that it will contain options of 40 bytes . 
+			  #+END_NOTE
+			- ^^Record Route :^^  When a packet travels from source to destination , it passes through various routers on the way , Hence it record the address of the routers in its way in those 40 bytes . 
+			  Total no of router address it can record is :
+			  40 Bytes / 4 Bytes of ip address = 10 \approx 9
+				- #+BEGIN_NOTE
+				  Because of security reasons this record option is not allowed by the users Only the network administrator will use this for some purposes .
+				  #+END_NOTE
+			- ^^Source Routing^^ : If the source does not want to follow pre-defined routing protocols , it can set its own routing protocol and paths , It can specify the route that packet has to take on the path we are sending the packet .
+			  This option is also not available for normal users only network administrator can use this type of routing .
+				- Strict Source Routing
+				- Loose Source Routing
+		- **Padding**
+			- It is used to ensure that the IP packet header has a length that is a multiple of 32 bits ( 4 Bytes ), it is needed because of the varying length of the options field in the IP header ( single byte option ).

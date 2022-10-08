@@ -1,6 +1,12 @@
 - It is basically a traversal ( Mainly recursive in nature ).
+- Depth-first search always follows a single path in the graph as long as it
+  finds new nodes. After this, it returns to previous nodes and begins to explore
+  other parts of the graph. The algorithm keeps track of visited nodes, so that it
+  processes each node only once.
 - Pick on vertex .
 - Call adjacent of that vertex .
+- Time  Complexity -> O(n+m) 
+  n = no of nodes , m = number of edges
 - Again call DFS of that adjacent vertex .
   
   ^^(Main DFS Function)^^

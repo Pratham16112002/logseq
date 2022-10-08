@@ -99,4 +99,13 @@
 	- \begin{equation}
 	  (n-1)*(n)/2
 	  \end{equation}
+- [[Importatnt Points]]
+- [[Strings]]
+- ####  Sets
+	- To find the minimum element from a set we can do 
+	  ```
+	   while(!st.size() > 0){
+	       auto node = *st.begin(); 
+	     }
+	  ```
 -

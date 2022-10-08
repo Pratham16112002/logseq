@@ -1,6 +1,9 @@
 [{:block/name "(())",
   :block/created-at 1662794112233,
   :block/updated-at 1662794112233}
+ {:block/name "5sem",
+  :block/created-at 1663676514954,
+  :block/updated-at 1663676514954}
  {:block/name "63159149-e1c3-4386-8404-8ce9ba74fd28",
   :block/created-at 1662358356578,
   :block/updated-at 1662358356578}
@@ -58,27 +61,27 @@
  {:block/name "ccna",
   :block/created-at 1661679098573,
   :block/updated-at 1661679098573}
- {:block/name "ceh",
-  :block/created-at 1662397663943,
-  :block/updated-at 1662608653817}
  {:block/name "competitive programming",
   :block/created-at 1662470515765,
-  :block/updated-at 1662992337217}
+  :block/updated-at 1664459998263}
  {:block/name "computer networks",
   :block/created-at 1662540099481,
   :block/updated-at 1662626960942}
  {:block/name "contents",
   :block/created-at 1659625727725,
   :block/updated-at 1659625727725}
+ {:block/name "css",
+  :block/created-at 1663939299653,
+  :block/updated-at 1663939299653}
  {:block/name "daa",
   :block/created-at 1663078720220,
-  :block/updated-at 1663269050761}
+  :block/updated-at 1664442101589}
  {:block/name "data science",
   :block/created-at 1661604744521,
-  :block/updated-at 1663134574314}
+  :block/updated-at 1663394470424}
  {:block/name "dfs",
   :block/created-at 1661103983766,
-  :block/updated-at 1662624038554}
+  :block/updated-at 1664602025852}
  {:block/name "doing",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
@@ -87,13 +90,19 @@
   :block/updated-at 1659625727726}
  {:block/name "dsa",
   :block/created-at 1659606634624,
-  :block/updated-at 1662874537106}
+  :block/updated-at 1664615699023}
  {:block/name "dynamic programming",
   :block/created-at 1661739007545,
   :block/updated-at 1661755412384}
  {:block/name "favorites",
   :block/created-at 1659625727725,
   :block/updated-at 1659625727725}
+ {:block/name "graphs",
+  :block/created-at 1664615690882,
+  :block/updated-at 1664619738497}
+ {:block/name "greedy methods",
+  :block/created-at 1664442101588,
+  :block/updated-at 1664442367275}
  {:block/name "hashmap",
   :block/created-at 1661104022634,
   :block/updated-at 1662624519469}
@@ -103,6 +112,9 @@
  {:block/name "heap",
   :block/created-at 1662874483005,
   :block/updated-at 1662874757300}
+ {:block/name "importatnt points",
+  :block/created-at 1664293376708,
+  :block/updated-at 1664293978802}
  {:block/name "in-progress",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
@@ -121,12 +133,9 @@
  {:block/name "linked list",
   :block/created-at 1659606634615,
   :block/updated-at 1661950868583}
- {:block/name "max",
-  :block/created-at 1662874509144,
-  :block/updated-at 1662874509144}
  {:block/name "measurement of information",
   :block/created-at 1662270612132,
-  :block/updated-at 1663251603645}
+  :block/updated-at 1663902897704}
  {:block/name "memoization",
   :block/created-at 1662976254834,
   :block/updated-at 1662976316623}
@@ -138,10 +147,19 @@
   :block/updated-at 1659606634893}
  {:block/name "network layer",
   :block/created-at 1662540099479,
-  :block/updated-at 1663231352119}
+  :block/updated-at 1664097835298}
  {:block/name "now",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
+ {:block/name "oct 1st, 2022",
+  :block/created-at 1664562600485,
+  :block/updated-at 1664562600485}
+ {:block/name "oct 4th, 2022",
+  :block/created-at 1664893097067,
+  :block/updated-at 1664929516249}
+ {:block/name "oct 5th, 2022",
+  :block/created-at 1664924524949,
+  :block/updated-at 1664924524949}
  {:block/name "queue",
   :block/created-at 1661103881849,
   :block/updated-at 1662806212536}
@@ -169,6 +187,42 @@
  {:block/name "sep 16th, 2022",
   :block/created-at 1663268827993,
   :block/updated-at 1663268827993}
+ {:block/name "sep 17th, 2022",
+  :block/created-at 1663353003015,
+  :block/updated-at 1663353003015}
+ {:block/name "sep 20th, 2022",
+  :block/created-at 1663676514711,
+  :block/updated-at 1663689250427}
+ {:block/name "sep 21st, 2022",
+  :block/created-at 1663699803238,
+  :block/updated-at 1663699803238}
+ {:block/name "sep 22nd, 2022",
+  :block/created-at 1663785002995,
+  :block/updated-at 1663785002995}
+ {:block/name "sep 23rd, 2022",
+  :block/created-at 1663888053279,
+  :block/updated-at 1663888053279}
+ {:block/name "sep 24th, 2022",
+  :block/created-at 1663957801061,
+  :block/updated-at 1663957801061}
+ {:block/name "sep 25th, 2022",
+  :block/created-at 1664044204571,
+  :block/updated-at 1664044204571}
+ {:block/name "sep 26th, 2022",
+  :block/created-at 1664130600806,
+  :block/updated-at 1664130600806}
+ {:block/name "sep 27th, 2022",
+  :block/created-at 1664284186343,
+  :block/updated-at 1664284186343}
+ {:block/name "sep 28th, 2022",
+  :block/created-at 1664382887710,
+  :block/updated-at 1664382887710}
+ {:block/name "sep 29th, 2022",
+  :block/created-at 1664414972134,
+  :block/updated-at 1664414972134}
+ {:block/name "sep 30th, 2022",
+  :block/created-at 1664476827581,
+  :block/updated-at 1664476827581}
  {:block/name "sep 3rd, 2022",
   :block/created-at 1662194536249,
   :block/updated-at 1662194536249}
@@ -193,9 +247,15 @@
  {:block/name "sorting",
   :block/created-at 1661774316180,
   :block/updated-at 1661775612478}
+ {:block/name "source coding",
+  :block/created-at 1663676515035,
+  :block/updated-at 1663676515035}
  {:block/name "stack",
   :block/created-at 1661609619215,
   :block/updated-at 1661614535683}
+ {:block/name "strings",
+  :block/created-at 1664284306630,
+  :block/updated-at 1664520449846}
  {:block/name "todo",
   :block/created-at 1659625727726,
   :block/updated-at 1659625727726}
