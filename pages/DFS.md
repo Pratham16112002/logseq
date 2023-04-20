@@ -1,49 +1,49 @@
 - It is basically a traversal ( Mainly recursive in nature ).
-- Depth-first search always follows a single path in the graph as long as it
-  finds new nodes. After this, it returns to previous nodes and begins to explore
-  other parts of the graph. The algorithm keeps track of visited nodes, so that it
-  processes each node only once.
-- Pick on vertex .
-- Call adjacent of that vertex .
-- Time  Complexity -> O(n+m) 
-  n = no of nodes , m = number of edges
-- Again call DFS of that adjacent vertex .
-  
-  ^^(Main DFS Function)^^
-  ```
-  void dfs(int node , unordered_map<int , bool > &visited, unordered_map<int> , list<int> , adj , vector<int> &component){
-     component.push_back(node);
-  visited[node]=true;
-  
-  for (auto i:adj[node]){
-       if(!visited[i]){
-  dfs(i,visited, adj , component );
-        }
-     } 
-  }
-  
-  unordered_map<int> , list<int> , adj ;
-  for(int i = 0 ; i<edges.size() ; i++){
-  int u = edges[i][0];
-  int v = edges[i][1];
-   adj[u].push_back(v);
-  adj[v].push_back(u);
-  }
-  
-  vector<vector<int>> ans;
-  unordered_map <int, bool > visited;
-  for ( int i = 0 ; i<V ; i++){
-          if(!visited[i]){
-  vector<int> component;
-  dfs(i,visited, adjList , component);
-  ans.push_back(component); 
-     }
-  }
-  return ans;
-  
-  ```
-	-
-	-
+	- Depth-first search always follows a single path in the graph as long as it
+	  finds new nodes. After this, it returns to previous nodes and begins to explore
+	  other parts of the graph. The algorithm keeps track of visited nodes, so that it
+	  processes each node only once.
+	- Pick on vertex .
+	- Call adjacent of that vertex .
+	- Time  Complexity -> O(n+m) 
+	  n = no of nodes , m = number of edges
+	- Again call DFS of that adjacent vertex .
+	  
+	  ^^(Main DFS Function)^^
+	  ```
+	  void dfs(int node , unordered_map<int , bool > &visited, unordered_map<int> , list<int> , adj , vector<int> &component){
+	     component.push_back(node);
+	  visited[node]=true;
+	  
+	  for (auto i:adj[node]){
+	       if(!visited[i]){
+	  dfs(i,visited, adj , component );
+	        }
+	     } 
+	  }
+	  
+	  unordered_map<int> , list<int> , adj ;
+	  for(int i = 0 ; i<edges.size() ; i++){
+	  int u = edges[i][0];
+	  int v = edges[i][1];
+	   adj[u].push_back(v);
+	  adj[v].push_back(u);
+	  }
+	  
+	  vector<vector<int>> ans;
+	  unordered_map <int, bool > visited;
+	  for ( int i = 0 ; i<V ; i++){
+	          if(!visited[i]){
+	  vector<int> component;
+	  dfs(i,visited, adjList , component);
+	  ans.push_back(component); 
+	     }
+	  }
+	  return ans;
+	  
+	  ```
+		-
+		-
 ### Cycle Detection ( c++ )
 	- Undirected Graph
 		- ```

@@ -10,3 +10,9 @@
 - #+BEGIN_NOTE
   Avoid using global variables while computing 
   #+END_NOTE
+- ^^Space Optimization^^
+	- We can do space optimization in dp tabulation only when ,we are computing something like previous state of the dp set i.e we do not require dp values other then the previous ones .
+	  It can be done using various ways
+		- Creating prev variables
+		- Creating a fixed size array
+-

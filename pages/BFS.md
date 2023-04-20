@@ -5,6 +5,8 @@
   #+BEGIN_NOTE
   Traversing the adjacent node first , after that you move to the next nodes . 
   #+END_NOTE
+- Graphs Input in C++
+	-
 - Follow the below method to implement BFS traversal
 	- Declare a queue and insert the starting vertex.
 	- Initialize a visited array and mark the starting vertex as visited.
@@ -37,6 +39,4 @@
           return bfs;
       }
   ```
-- #### Level order traversal of BST
-	-
-	-
+-

@@ -135,6 +135,8 @@
 	- Dividing the big network into small networks .
 	  Subnetting is always does inside an organization to make their own networks for different departments . 
 	  Subnetting imporve the wastage of  ip addresses in classfull addressing .
+	- ^^First address = ( any address ) AND ( network mask )^^
+	- ^^Last address = ( any address ) XOR ( complement of  network mask )^^
 - #### Reason For Subnetting
 	- Maintenance of a very big network like class A and class B is very difficult for network administrator .
 	- For Security reason , if you want to isolate an department in an organization from one another then subnetting make this happen .
@@ -230,7 +232,13 @@
 			- MSB  bit :  always 0 .
 			- Don't Fragment ( DF ) : If this bit is set to zero then the fragmentation is already done i.e if we dont want to fragment our packet then we set it to 1 .
 			- More Fragment ( MF ) : Tells if more fragments are ahead of this fragment or not . if MF is set to 1 then more fragment are ahead of this one else if MF is set to 0 then this fragment is the last one .
+			- #+BEGIN_CAUTION
+			  A non fragmented packet is considered as last fragment . 
+			  #+END_CAUTION
 		- **Fragment Offset ( 13 bit )** : Use to identify the sequence of fragments in the frame i.e No of bits ahead .
+		- #+BEGIN_CAUTION
+		  To find the number of last byte we multiply the offset value by 8 . 
+		  #+END_CAUTION
 		- #+BEGIN_NOTE
 		   A non fragmented packet is considered the last fragment .
 		  If the M value is 1 then we can definitely say that original packet has been fragmented .
@@ -255,3 +263,74 @@
 				- Loose Source Routing
 		- **Padding**
 			- It is used to ensure that the IP packet header has a length that is a multiple of 32 bits ( 4 Bytes ), it is needed because of the varying length of the options field in the IP header ( single byte option ).
+		- [[Routing Algorithms]]
+	- ### General Principles of congestion control
+		- Congestion control refers to mechanism and techniques to control the congestion .
+		- Another issue in a network layer protocol is ^^congestion control^^ . Congestion in a network layer is a situation when too many datagrams are present int the internet area .
+		- Network may experience ^^congestion collapse^^ , in which performance falls very quickly as the offered load increases beyond capacity .
+		- It may also occur when the datagrams sent by the computer is are more then the capacity of the network .
+			- The Rate at which usefull packets are delivered by the network is called Goodput .
+			- #+BEGIN_NOTE
+			  Congestion control has to make sure that network is able to carry the offered traffic . 
+			  Whereas Flow control , its job is to make sure that check weather sender is not sending the data more than receiver is able to absorb it . 
+			  #+END_NOTE
+			- **Traffic Throttling :** when a congestion is imminent the network can feedback to the source whose traffic is causing the problem. The network can request these resources to slow down the traffic itself .
+			- #### Congestion Control in Connectionless network
+				- Solution :
+					- Backward Signaling : A bit can set in the datagram moving in opposite to the congested direction to inform the sender that congestion has occurred and the sender slows down the sending of packets in the network , The bit is sent along with the acknowledgement in the network .
+					- Forward Signaling : This is used if no feedback is used in network layer , A bit is set in the packet travelling in the direction of congestion to warn the receiver .
+					- Choke Packet : A special packet that can be sent from a router to the sender when it encounters congestion . ( This mechanism is implemented in Internet network layer ) .
+					- Another solution is by ranking the packets according to their importance in the whole message . A field is added to the header of the packet to tell the importance .
+				- #### Congestion Control in connection oriented Network
+					- In this type of network congestion control is a bit easier
+						- One method is simply by creating an virtual circuit when there is a congestion in an area .
+			- ### Congestion Control
+				- It refers to the mechanism technique that can either prevent congestion before it happens or remove congestion after it happens .
+				- There are two types :
+					- **Open Loops** : Protocols to  prevent or avoid congestion
+						- Retransmission Policy : If the sent packet is lost or corrupted , the packet needs to be retransmitted , This may increase the congestion in the network .
+						- Window Policy Use selective reject window method
+						- Acknowledgement Policy : is Sending fewer acknowledgement means imposing less load on the network , Because acknowledgement also causes traffic in the network/ congestion in the network .
+					- **Closed Loop** : Protocols that allow system to enter congested state detect it and remove it .
+						- Back Pressure : If congestion has occurred then it sends  Pressure to the upstream nodes ( towards source ) to reduce the packet speed ( remember it disturb every node in between the path ).
+						- ^^Choke Packet^^ : If congestion has occurred then it sends a choke packet directly to the source to reduce the Packets and do not disturb the rest of the nodes in between , to avoid further congestion router sends the choke packet at a very low rate .
+						- Implicit Signaling : Souce gusses there is a congestion in the network when it does not receive any acknowledgement , at last the source slows down .
+						- Explicit Signaling :  Sending direct signal to source or destination  ( remember here we send a signal not a packet ) .
+						- Load shedding : when routers are not able to handle the packets then they just throw them away .
+						  Which packets to throw depends upon the type of applications that use the network . ( or you can simply say discard the packet which are less important ) .
+			- ### Congestion Control in virtual Circuit ( Connection Oriented )Subnets
+				- Admission Control : This technique is used to keep the congestion which has already begun i.e not to make any virtual circuit until the network can carry the added traffic without begin congested .
+					- It states that whenever congestion has happened then do not setup any virtual circuit until the congestion is cleared .
+					- But an alternative solution is to make virtual circuit if congestion happens .
+			- ### Congestion in Data gram subnets
+				- In datagram subnet for each output lines , other resources the router maintains an estimate of it's Utilization
+	- #### Quality of Service
+		- We try  to create an appropriate environment for traffic .
+		- Over all performance measure of computer networks .
+		- Characteristics :
+			- **Reliability** : Losing a packet or ack . ( Ideally Reliability should be high ) , If it happens the packet is retransmitted which decreases reliability . 
+			  Example : In email & file transfer we need more reliability than video conferencing .
+			- **Delay** : Source to destination delay .
+			- **Jitter** : Variation between different between the transmission rate , in other words delay between the packets must be same .
+			- **Bandwidth** ( Rate of transmission ): Different Application require different bandwidth . ( email needs less bandwidth were as video call needs more bandwidth )
+		- #### Technique for achieving good QOS
+			- **Traffic Shapping** : Another method of congestion control to shape the traffic before it enter the network .
+			  It controls the rate at which packets are sent .
+			- Packets in excess might dropped by the network , or they might be marked as low priority  , monitoring traffic flow is called traffic policing .
+			- **Leaky bucket Algorithm** :
+			  In this algorithm we just control the unregulated flow of packets into regulated flow of packets .
+				- ![image.png](../assets/image_1667640767145_0.png){:height 318, :width 362}
+			- **Token bucket Algorithm** :
+				- It allows a Bursty traffic at a regular maximum rate .
+					- ^^Bursty traffic^^ is sudden increase in the traffic volume peaks and troughs based on seasonal factors .
+				- It is good algorithm in case of idle host .
+				- It allows to accumulate token for further use ( In case of Bursty Traffic ) .
+				- ![image.png](../assets/image_1667643100274_0.png)
+		- ### Leaky Bucket Vs Token Bucket
+			- Leaky Bucket discards packets
+			- Token Bucket does not discard packets , it discards tokens
+			- With token bucket , a packet can only be transmitted if there are enough token to cover its length in bytes .
+			- Leaky bucket sends packets at an average rate . ( More Bursty Traffic ( Overflow ))
+			- Token Bucket allows in large bursts to be sent faster by speeding up  the output .
+			- Token Bucket allows saving of token to send large Data .
+			- Leaky Bucket does not allow saving .

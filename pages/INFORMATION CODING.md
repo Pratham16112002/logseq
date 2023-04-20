@@ -21,4 +21,4 @@
 		- We will study these information coding thoery : 
 		  1. Measurement of Information [[Measurement of Information]] 
 		  2. Source Coding Theory [[Source Coding]] 
-		  3. Channel Coding Theory
+		  3. Channel Coding Theory [[Error Detection & Correction]]

@@ -244,3 +244,24 @@
 			              return ans;
 			      }
 			  ```
+	- #### Construct a binary tree from inorder and preorder traversal
+		- {{video https://youtu.be/aZNaLrVebKQ}}
+		- **Algorithm**
+			- ```
+			  create_bst()
+			  	map<int,int> mp;
+			  	for(0 to inorder.size)
+			      	mp[inorder[i]] -> i
+			      root = help( preorder , 0 , preorder,size ,inroder , 0 , inorder.size ,mp )
+			  	return root
+			      
+			  help()
+			  	 if(preStart > preEnd or inStart > inEnd)
+			       	return NULL
+			       root = new->rootNode(preorder[preStart])
+			       inRoot = mp[root->val]
+			       numsLeft = inRoot - inStart
+			       left = help(preorder,preStart+1,preStart+numsLeft,inorder,inStart,inRoot -1,mp);
+			       right = help(preorder,preStart+numsLeft+1,preEnd,inorder,inRoot+1,inEnd,mp)
+			       return root
+			  ```

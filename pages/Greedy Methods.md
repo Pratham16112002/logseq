@@ -36,5 +36,56 @@
 		  Create a min heap with n files 
 		  At each level remove two minimum 'a' and 'b' from min heap and put a+b again into heap .
 		- Time Complexity = O(nlogn)
-	- **Kruskals Algorithm Implementation**
-		- Algorithm :
+	-
+- #### Minimum Cost spanning tree
+	- MST is a subset of all connected edges , edge-weighted undirected graph that connects all the vertices of the graph , without any cycle with the minimum possible total edge weight .
+	- ### Prims Algorithm
+		- Used to find the minimum spanning tree .
+		- Algo Brute Force : 
+		  ```
+		  	int key[n];
+		  	int parent[n] ;
+		  	bool mst[n];
+		  	for (int i = 0 ; i < n ; i++) {
+		  		key[i] = 1e9;
+		  		mst[i] = false;
+		  		parent[i] = -1;
+		  	}
+		  	key[0] = 0;
+		  
+		  	for (int count = 0 ; count < n - 1 ; count++) {
+		  		int mini = 1e9, u;
+		  		for (int v = 0 ; v < n ; v++) {
+		  			if (mst[v] == false && key[v] < mini) {
+		  				mini = key[v] ;
+		  				u = v;
+		  			}
+		  		}
+		  		mst[u] = true;
+		  		for (auto it : adj[u]) {
+		  			int v = it.first;
+		  			int weight = it.second;
+		  			if (mst[v] == false && weight < key[v]) {
+		  				parent[v] = u , key[v] =  weight;
+		  			}
+		  		}
+		  	}
+		  ```
+		- Algo Optimized :
+		  ```
+		   Parent[n] = {-1} ,   key[n] = {init} ,  mst[n] = {false}
+		  2 min_heap(priority_queue) pq 
+		     key[0] = 0
+		       pq = [0,0]
+		     for i 0 to n - 1 
+		     		u -> min(pq)
+		          mst[u] = 1
+		          for(adj[u])
+		          	v = adj[u]
+		              weight = adj[u]->wt
+		              if mst[v] == false and weight < key[v]
+		              	parent[v] = u , pq -> {key[v] , v}
+		                  key[v] = weight 
+		                 
+		   	print parent
+		  ```

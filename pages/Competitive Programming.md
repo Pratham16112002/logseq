@@ -99,13 +99,32 @@
 	- \begin{equation}
 	  (n-1)*(n)/2
 	  \end{equation}
+	- The above formula is the  number of pairs you can form an n elements set .
 - [[Importatnt Points]]
 - [[Strings]]
 - ####  Sets
-	- To find the minimum element from a set we can do 
-	  ```
+	- To find the minimum element from a set we can do
+	- ```
 	   while(!st.size() > 0){
 	       auto node = *st.begin(); 
 	     }
 	  ```
+	- In set elements are stored in sorted order .
+	- ^^Time Complexity For Insertion :^^ -> log(n)
+	- If you want to find a particular value then you can use **find()**
+	  
+	  #+BEGIN_NOTE
+	  find() -> will return iterator of that element . 
+	  #+END_NOTE
+	- ```
+	  // To print the set we can do 
+	  	for(auto it = s.begin() ; it!= value : s){
+	     		cout<<(*it)<<endl;
+	      }
+	  ```
+		- Remember to put * before accessing the value of the iterator .
+- #+BEGIN_NOTE
+  To generate all subsequence there are two methods first one is ^^recursion^^ and second is ^^power set^^. 
+  #+END_NOTE
+- Use Sliding Window using Map if ( distinct element are allowed only ) Approach in Maximum sum subarray if time constraint is less .
 -

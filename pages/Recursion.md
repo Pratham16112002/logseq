@@ -5,6 +5,12 @@
 		- Think how the larger problem can be solved with the help of the solution of smaller problems
 	- ### Generalise
 		- Make a generalised function that solves the problem . Put this all together into a Mathematical function or a tree .
+	- #### Apply recursion only if
+		- when you are asked to find out multiple ways to do something or try out the best possible ways with some condition .
+	- #### Shortcut for recursive problem
+		- Try to represent the problem in terms of index .
+		- Do all possible stuffs on that index acc to the problem statements .
+		- Sum of all stuffs or count all ways , min of all the ways -> find min or max .
 - Q. Print the sum of n natural Numbers ?
 	- ![2022_06_14_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f6ba37626-410b-4e24-822f-3e7a56484ba52022_06_14_image.png?Expires=4808752813&Signature=iqHSAkSUpKyNt0E7lbIIjlowdW0hNzpXxTPR~3rFvC3wjkTZykV29GTAgFPiC4-ALohHDgIBabg5fY2FUwt5ATkDF1s6R8Mhs8DoDuZhRuALiof8DMFKl0kJwSGd1r0F6vc74jF-s2qji6BtZuC2GQvFCDHq95L9Y-p2DKlRe3t~2bc~wouWhgDhH4ooarcg4Z9WnxbY0pkLfLs7Au5r0VFGiQel60PEbUQm-n-15KgB2NRNKiaLk27nCMAO4DHKlOrTbs0mSWcwObkJXmdTDF5Gxo0CMzNjD5k4s8pJZfsSWd5gz~xXjTzXGwoG5rg1AOgYe5G8J5wQEO6-BWPreg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 	-
