@@ -6,6 +6,5 @@
 	  2. **front()** :- This function displays the **first element** of heap which is the **maximum number**.
 	  3. **push_heap()** :- This function is used to **insert** elements into heap. The size of the heap is increased by 1. New element is placed appropriately in the heap.
 	  4. ** pop_heap()** :- This function is used to** delete the maximum element** of the heap. The size of heap is decreased by 1. The heap elements are reorganised accordingly after this operation.
-	  5. **sort_heap()** :- After this function the container is  no longer a heap . 
-	  6.
+	  5. **sort_heap()** :- After this function the container is  no longer a heap .
 -
