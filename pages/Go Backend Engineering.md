@@ -22,8 +22,8 @@
 		  }
 		  ```
 			- The password filed will be hidden and not be displayed in the JSON output.
-			- #BEGIN_NOTE
+			- #+BEGIN_NOTE
 			  .PHONY command in make file is used to declare phony targets. A phony target is the one that doesn't represent a file or directory but instead is simply a name of the command or set of commands.
-			  #END_NOTE
+			  #+END_NOTE
 			-
 		-
