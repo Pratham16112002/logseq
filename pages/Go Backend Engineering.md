@@ -35,4 +35,4 @@ collapsed:: true
 		  collapsed:: true
 			- The migration files will run sequentially in order.
 		- Similarly in the migration down process certain statements will get executed in **order**.
-		-
+		- During migration the dirty columns tell os that weather the last
