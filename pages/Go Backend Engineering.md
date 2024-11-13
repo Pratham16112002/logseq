@@ -44,9 +44,10 @@ collapsed:: true
 		  }
 		  
 		  func readJSON(res http.ResponseWriter, req *http.Request, data any) error {
-		  	maxBytes  
+		  	maxBytes := 1_048_578
+		  	req.Body = http.MaxBytesReader(res, req.Body, int64(maxBytes))
 		  	decoder := json.NewDecoder(req.Body)
-		  	return decoder.Decode(data)
+		  	return decoder.Decode(da	ta)
 		  }
 		  ```
 - ### DB Migrations
