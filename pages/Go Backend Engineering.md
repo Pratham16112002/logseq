@@ -1,5 +1,4 @@
 #### Context
-collapsed:: true
 	- Tells the computer what to do next or when to stop something.
 	- Best example would be high resource heavy computational API's which process lots of data or takes long time to gather the required data.
 		- We could get a timeout for these API's with Go context.
@@ -11,6 +10,9 @@ collapsed:: true
 	  		return nil, err
 	  	}
 	  ```
+	- ##### Purpose
+		- Carry out deadlines.
+		-
 - #### JSON
   collapsed:: true
 	- When using json embedding in struct .
@@ -55,6 +57,7 @@ collapsed:: true
 			- `decoder.DisallowUnknownFields()` this will prevent the arbitrary values passed as key value pairs which decoding.
 			-
 			-
+	-
 - ### DB Migrations
   collapsed:: true
 	- Transferring the data from one database to another.
