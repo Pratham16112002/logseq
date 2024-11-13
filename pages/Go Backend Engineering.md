@@ -27,7 +27,10 @@ collapsed:: true
 			- #+BEGIN_NOTE
 			  .PHONY command in make file is used to declare phony targets. A phony target is the one that doesn't represent a file or directory but instead is simply a name of the command or set of commands.
 			  #+END_NOTE
-	-
+	- #### Usage in API
+		- It is better to create a separate readJSON and writeJSON method.
+		- ```
+		  ```
 - ### DB Migrations
   collapsed:: true
 	- Transferring the data from one database to another.
