@@ -12,6 +12,7 @@ collapsed:: true
 	  	}
 	  ```
 - #### JSON
+  collapsed:: true
 	- When using json embedding in struct .
 	  collapsed:: true
 		- ```
