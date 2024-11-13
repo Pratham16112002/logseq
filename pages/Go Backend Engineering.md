@@ -12,7 +12,6 @@ collapsed:: true
 	  	}
 	  ```
 - #### JSON
-  collapsed:: true
 	- When using json embedding in struct .
 	  collapsed:: true
 		- ```
@@ -28,7 +27,9 @@ collapsed:: true
 			- #+BEGIN_NOTE
 			  .PHONY command in make file is used to declare phony targets. A phony target is the one that doesn't represent a file or directory but instead is simply a name of the command or set of commands.
 			  #+END_NOTE
+	-
 - ### DB Migrations
+  collapsed:: true
 	- Transferring the data from one database to another.
 	- #### Up/Down Migration   SSSSS
 		- ![image.png](../assets/image_1731493867599_0.png)
