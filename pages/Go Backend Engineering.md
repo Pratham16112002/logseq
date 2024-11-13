@@ -32,5 +32,7 @@ collapsed:: true
 	- Transferring the data from one database to another.
 	- #### Up/Down Migration
 		- ![image.png](../assets/image_1731493867599_0.png)
+		  collapsed:: true
 			- The migration files will run sequentially in order.
-		- Similarly in the migration down process certain statements will get executed in **order.
+		- Similarly in the migration down process certain statements will get executed in **order**.
+		-
