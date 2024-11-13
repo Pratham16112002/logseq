@@ -37,4 +37,9 @@ collapsed:: true
 		- Similarly in the migration down process certain statements will get executed in **order**.
 		- During migration the dirty columns tell os that weather the last command has failed or not.
 			- If **DIRTY** : FALSE
-				- No problems in executing the
+			  collapsed:: true
+				- No problems in executing the commands.
+			- Else
+			  collapsed:: true
+				- Some problem has occurred.
+		-
