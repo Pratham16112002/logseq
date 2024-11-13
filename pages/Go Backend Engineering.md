@@ -30,6 +30,24 @@ collapsed:: true
 	- #### Usage in API
 		- It is better to create a separate readJSON and writeJSON method.
 		- ```
+		  package main
+		  
+		  import (
+		  	"encoding/json"
+		  	"net/http"
+		  )
+		  
+		  func writeJSON(res http.ResponseWriter, status int, data any) error {
+		  	res.Header().Set("Content-Type", "application/json")
+		  	res.WriteHeader(status)
+		  	return json.NewEncoder(res).Encode(data)
+		  }
+		  
+		  func readJSON(res http.ResponseWriter, req *http.Request, data any) error {
+		  	maxBytes  
+		  	decoder := json.NewDecoder(req.Body)
+		  	return decoder.Decode(data)
+		  }
 		  ```
 - ### DB Migrations
   collapsed:: true
