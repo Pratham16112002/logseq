@@ -12,6 +12,7 @@
 	  ```
 	- ##### Purpose
 		- Carry out deadlines.
+		- Cancelling go routines.
 		-
 - #### JSON
   collapsed:: true
