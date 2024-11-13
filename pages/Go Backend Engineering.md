@@ -47,9 +47,10 @@ collapsed:: true
 		  	maxBytes := 1_048_578
 		  	req.Body = http.MaxBytesReader(res, req.Body, int64(maxBytes))
 		  	decoder := json.NewDecoder(req.Body)
-		  	return decoder.Decode(da	ta)
+		  	return decoder.Decode(data)
 		  }
 		  ```
+			-
 - ### DB Migrations
   collapsed:: true
 	- Transferring the data from one database to another.
