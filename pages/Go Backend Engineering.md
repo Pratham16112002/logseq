@@ -50,7 +50,7 @@ collapsed:: true
 		  	return decoder.Decode(data)
 		  }
 		  ```
-			- (http.MaxBytes)
+			- `http.MaxBytesReader()` will throw an error if
 - ### DB Migrations
   collapsed:: true
 	- Transferring the data from one database to another.
