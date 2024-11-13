@@ -50,7 +50,8 @@ collapsed:: true
 		  	return decoder.Decode(data)
 		  }
 		  ```
-			- `http.MaxBytesReader()` will throw an error if
+			- `http.MaxBytesReader()` will throw an error if req.Body contains data greater the specified maximum bytes by the user.
+			-
 - ### DB Migrations
   collapsed:: true
 	- Transferring the data from one database to another.
