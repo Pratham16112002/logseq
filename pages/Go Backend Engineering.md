@@ -1,4 +1,5 @@
 #### Context
+collapsed:: true
 	- Tells the computer what to do next or when to stop something.
 	- Best example would be high resource heavy computational API's which process lots of data or takes long time to gather the required data.
 		- We could get a timeout for these API's with Go context.
@@ -11,7 +12,9 @@
 	  	}
 	  ```
 - #### JSON
+  collapsed:: true
 	- When using json embedding in struct .
+	  collapsed:: true
 		- ```
 		  type User struct {
 		  	ID        int64  `json:"id"`
@@ -25,5 +28,4 @@
 			- #+BEGIN_NOTE
 			  .PHONY command in make file is used to declare phony targets. A phony target is the one that doesn't represent a file or directory but instead is simply a name of the command or set of commands.
 			  #+END_NOTE
-		-
-		-
+-
