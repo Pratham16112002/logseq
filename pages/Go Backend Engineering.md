@@ -31,4 +31,6 @@ collapsed:: true
 - ### DB Migrations
 	- Transferring the data from one database to another.
 	- #### Up/Down Migration
-		-
+		- ![image.png](../assets/image_1731493867599_0.png)
+			- The migration files will run sequentially in order.
+			-
