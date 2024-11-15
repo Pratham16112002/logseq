@@ -59,9 +59,8 @@
 			- `decoder.DisallowUnknownFields()` this will prevent the arbitrary values passed as key value pairs which decoding.
 		-
 	- #### Marshaling Json ( SQL )
-		- When every we marshalling slice we need to do this
+		- When every time we do marshallings slice we need to do this
 			- `pq.Array(post.Tags))`
-		- When every time we do unmarshalling
 	-
 - ### DB Migrations
   collapsed:: true
