@@ -58,8 +58,9 @@
 			- `http.MaxBytesReader()` will throw an error if req.Body contains data greater the specified maximum bytes by the user.
 			- `decoder.DisallowUnknownFields()` this will prevent the arbitrary values passed as key value pairs which decoding.
 		-
-	- #### Marshalling
-		- When every we marshalling
+	- #### Marshaling Json ( SQL )
+		- When every we marshaling slice we need to do this
+			- `pq.Array(post.Tags))`
 	-
 - ### DB Migrations
   collapsed:: true
