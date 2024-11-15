@@ -1,4 +1,4 @@
-#### Context
+### Context
 collapsed:: true
 	- Tells the computer what to do next or when to stop something.
 	- Best example would be high resource heavy computational API's which process lots of data or takes long time to gather the required data.
@@ -82,6 +82,7 @@ collapsed:: true
 				- Some problem has occurred.
 		-
 - ### Error Handling
+  collapsed:: true
 	- Make sure to attach it the top of the application because we need all the dependencies.
 	- ```
 	  package main
@@ -106,3 +107,6 @@ collapsed:: true
 	  }
 	  
 	  ```
+	-
+- ### HTTP Payload Validation
+	-
