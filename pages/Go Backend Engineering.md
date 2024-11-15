@@ -110,4 +110,7 @@ collapsed:: true
 	-
 - ### HTTP Payload Validation
 	- We could do it naively with multiple if else condition.
-	-
+	- #### Validator Package
+		- **Steps**
+			- `var validate *validator.Validate`
+			  Instantating
