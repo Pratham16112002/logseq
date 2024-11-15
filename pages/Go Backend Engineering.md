@@ -113,4 +113,11 @@ collapsed:: true
 	- #### Validator Package
 		- **Steps**
 			- `var validate *validator.Validate`
-			  Instantating
+			  Instantiating a pointer varaiable.
+			- ```
+			  func init() {
+			  	validate = validator.New(validator.WithRequiredStructEnabled())
+			  }
+			  ```
+			  Initialize the validate.
+			-
