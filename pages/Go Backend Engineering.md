@@ -120,4 +120,12 @@ collapsed:: true
 			  }
 			  ```
 			  Initialize the validate.
-			-
+			- ```
+			  type CreatePostPayload struct {
+			  	Content string   `json:"content" validate:"required,max=1000"`
+			  	Title   string   `json:"title" validate:"required,max=50"`
+			  	Tags    []string `json:"tags"`
+			  }
+			  ```
+			  Just like this we can add validation with this.
+		-
