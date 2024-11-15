@@ -82,5 +82,5 @@ collapsed:: true
 				- Some problem has occurred.
 		-
 - ### Error Handling
-	- Make sure to attach it the top of the application.
+	- Make sure to attach it the top of the application because we need all the dependencies.
 	-
