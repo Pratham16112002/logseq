@@ -15,8 +15,7 @@
 		- Cancelling go routines.
 		- Passing key value pairs using `context.WithValue(ctx ,"key","1234")`
 		-
-- #### JSON
-  collapsed:: true
+- ### JSON
 	- When using json embedding in struct .
 	  collapsed:: true
 		- ```
@@ -33,6 +32,7 @@
 			  .PHONY command in make file is used to declare phony targets. A phony target is the one that doesn't represent a file or directory but instead is simply a name of the command or set of commands.
 			  #+END_NOTE
 	- #### Usage in API
+	  collapsed:: true
 		- It is better to create a separate readJSON and writeJSON method.
 		- ```
 		  package main
@@ -57,8 +57,9 @@
 		  ```
 			- `http.MaxBytesReader()` will throw an error if req.Body contains data greater the specified maximum bytes by the user.
 			- `decoder.DisallowUnknownFields()` this will prevent the arbitrary values passed as key value pairs which decoding.
-			-
-			-
+		-
+	- #### Marshelling
+		- When every we marshelling
 	-
 - ### DB Migrations
   collapsed:: true
