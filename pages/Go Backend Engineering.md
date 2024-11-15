@@ -58,8 +58,8 @@
 			- `http.MaxBytesReader()` will throw an error if req.Body contains data greater the specified maximum bytes by the user.
 			- `decoder.DisallowUnknownFields()` this will prevent the arbitrary values passed as key value pairs which decoding.
 		-
-	- #### Marshelling
-		- When every we marshelling
+	- #### Marshalling
+		- When every we marshalling
 	-
 - ### DB Migrations
   collapsed:: true
