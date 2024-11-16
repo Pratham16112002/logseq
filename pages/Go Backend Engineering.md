@@ -159,4 +159,4 @@ collapsed:: true
 			  Just like this we can add validation with this.
 		-
 - ### Casting
-	-
+	- Assertion is a type
