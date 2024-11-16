@@ -45,9 +45,7 @@ collapsed:: true
 		  At the bottom you can see the shallow copy of the context being passed to the next handler.
 		-
 - ### JSON
-  collapsed:: true
 	- When using json embedding in struct .
-	  collapsed:: true
 		- ```
 		  type User struct {
 		  	ID        int64  `json:"id"`
@@ -61,6 +59,12 @@ collapsed:: true
 			- #+BEGIN_NOTE
 			  .PHONY command in make file is used to declare phony targets. A phony target is the one that doesn't represent a file or directory but instead is simply a name of the command or set of commands.
 			  #+END_NOTE
+		- ```
+		  type UpdatedPostPayload struct {
+		  	Title   string `json:"title" validate:"omitempty,max=100"`
+		  	Content string `json:"content" validate:"omitempty,max=1000"`
+		  }
+		  ```
 	- #### Usage in API
 	  collapsed:: true
 		- It is better to create a separate readJSON and writeJSON method.
@@ -167,4 +171,4 @@ collapsed:: true
 		  }
 		  ```
 		  We are asserting that the value stored in the context is of type *store.Post.
-	-
+	- ``````
