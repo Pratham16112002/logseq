@@ -17,7 +17,31 @@
 	- We never mutate a  context we always create new context.
 	- Passing context with Value in a middleware
 		- ```
+		   func (app *application) postsContextMiddleware(next http.Handler) http.Handler {
+		  	return http.HandlerFunc(func(res http.ResponseWriter, req *http.Request) {
+		  		postId, err := strconv.ParseInt(chi.URLParam(req, "postId"), 10, 64)
+		  		if err != nil {
+		  			app.internalServerError(res, req, err)
+		  			return
+		  		}
+		  
+		  		ctx := req.Context()
+		  		post, err := app.store.Posts.GetById(ctx, postId)
+		  		if err != nil {
+		  			switch {
+		  			case errors.Is(err, store.ErrNotFound):
+		  				app.notFoundError(res, req, err)
+		  			default:
+		  				app.internalServerError(res, req, err)
+		  			}
+		  			return
+		  		}
+		  		ctx = context.WithValue(ctx, "post", post)
+		  		next.ServeHTTP(res, req.WithContext(ctx))
+		  	})
+		  }
 		  ```
+		  At the bottom you can see the
 - ### JSON
   collapsed:: true
 	- When using json embedding in struct .
