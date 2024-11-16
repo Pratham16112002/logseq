@@ -159,4 +159,11 @@ collapsed:: true
 			  Just like this we can add validation with this.
 		-
 - ### Casting
-	- Assertion is a type
+	- Assertion of a value
+		- ```
+		  func getPostFromCtx(req *http.Request) *store.Post {
+		  	post, _ := req.Context().Value("post").(*store.Post)
+		  	return post
+		  }
+		  ```
+		  We are asserting that
