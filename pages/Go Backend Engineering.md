@@ -166,4 +166,5 @@ collapsed:: true
 		  	return post
 		  }
 		  ```
-		  We are asserting that
+		  We are asserting that the value stored in the context is of type *store.Post.
+	-
