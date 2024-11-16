@@ -41,7 +41,8 @@
 		  	})
 		  }
 		  ```
-		  At the bottom you can see the
+		  At the bottom you can see the shallow copy of the context being passed to the next handler.
+		-
 - ### JSON
   collapsed:: true
 	- When using json embedding in struct .
