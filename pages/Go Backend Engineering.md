@@ -15,7 +15,9 @@
 		- Cancelling go routines.
 		- Passing key value pairs using `context.WithValue(ctx ,"key","1234")`
 	- We never mutate a  context we always create new context.
-	-
+	- Passing context with Value in a middleware
+		- ```
+		  ```
 - ### JSON
   collapsed:: true
 	- When using json embedding in struct .
