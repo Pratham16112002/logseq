@@ -1,4 +1,5 @@
 ### Context
+collapsed:: true
 	- Tells the computer what to do next or when to stop something.
 	- Best example would be high resource heavy computational API's which process lots of data or takes long time to gather the required data.
 		- We could get a timeout for these API's with Go context.
@@ -157,3 +158,5 @@
 			  ```
 			  Just like this we can add validation with this.
 		-
+- ### Casting
+	-
