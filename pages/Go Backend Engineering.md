@@ -1,5 +1,4 @@
 ### Context
-collapsed:: true
 	- Tells the computer what to do next or when to stop something.
 	- Best example would be high resource heavy computational API's which process lots of data or takes long time to gather the required data.
 		- We could get a timeout for these API's with Go context.
@@ -43,7 +42,11 @@ collapsed:: true
 		  }
 		  ```
 		  At the bottom you can see the shallow copy of the context being passed to the next handler.
-		-
+		- ```
+		  ctx, cancel := context.WithTimeout(ctx, time.Second*5)
+		  	defer cancel()
+		  ```
+		  In this method if
 - ### JSON
   collapsed:: true
 	- When using json embedding in struct .
@@ -203,6 +206,7 @@ collapsed:: true
 		  We are asserting that the value stored in the context is of type *store.Post.
 	- ``````
 - ### Concurrency
+  collapsed:: true
 	- #### Optimistic concurrency
 		- Implementing concurrency in any database using a timestamp or a version number.
 		- We can compare the version number or the timestamp and decide which record to keep.
