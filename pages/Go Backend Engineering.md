@@ -46,7 +46,7 @@
 		  ctx, cancel := context.WithTimeout(ctx, time.Second*5)
 		  	defer cancel()
 		  ```
-		  In this we have made the context time bounded to 5 seconds
+		  In this we have made the context time bounded to 5 seconds and if the go routine takes longer than 5 seconds then the cancel function will be called with will perform `ctx.Done()` which will inturn
 - ### JSON
   collapsed:: true
 	- When using json embedding in struct .
