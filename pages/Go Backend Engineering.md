@@ -45,6 +45,7 @@ collapsed:: true
 		  At the bottom you can see the shallow copy of the context being passed to the next handler.
 		-
 - ### JSON
+  collapsed:: true
 	- When using json embedding in struct .
 		- ```
 		  type User struct {
@@ -191,6 +192,7 @@ collapsed:: true
 			  Just like this we can add validation with this.
 		-
 - ### Casting
+  collapsed:: true
 	- Assertion of a value
 		- ```
 		  func getPostFromCtx(req *http.Request) *store.Post {
@@ -200,3 +202,5 @@ collapsed:: true
 		  ```
 		  We are asserting that the value stored in the context is of type *store.Post.
 	- ``````
+- ### Concurrency
+	- #### Imple
