@@ -66,7 +66,8 @@ collapsed:: true
 		  }
 		  ```
 		  These will exclude the title key from struct if its empty and similarly it will exclude the content key if its empty.
-		-
+		- #### Standardizing JSON
+			-
 	- #### Usage in API
 	  collapsed:: true
 		- It is better to create a separate readJSON and writeJSON method.
