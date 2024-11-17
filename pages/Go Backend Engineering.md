@@ -218,4 +218,4 @@ collapsed:: true
 	- #### Pessimistic concurrency
 		-
 - ### Database
-	-
+	- Database seeding is the process of inserting initial data to the database.
