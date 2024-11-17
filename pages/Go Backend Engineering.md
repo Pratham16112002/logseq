@@ -203,4 +203,7 @@ collapsed:: true
 		  We are asserting that the value stored in the context is of type *store.Post.
 	- ``````
 - ### Concurrency
-	- #### Imple
+	- #### Optimistic concurrency
+		- Implementing concurrency in any database using a timestamp or a version number.
+	- #### Pessimistic concurrency
+		-
