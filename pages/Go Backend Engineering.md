@@ -208,6 +208,6 @@ collapsed:: true
 		- We can compare the version number or the timestamp and decide which record to keep.
 		- Initially the version number of each record must be 1 ( when we write the update query we bump up the version ).
 		- Version number 1 should be changed to 2 with update query.
-		-
+		- it should remain 1 until we make the update otherwise the transaction is cancelled.
 	- #### Pessimistic concurrency
 		-
