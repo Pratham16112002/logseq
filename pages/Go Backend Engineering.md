@@ -75,7 +75,24 @@ collapsed:: true
 			  	}
 			  	return writeJSON(res, status, &resJSON{Data: data})
 			  }
+			  //JSON output like this
+			  {
+			      "data": {
+			          "id": 3,
+			          "title": "Yahoo Update hai boss 67 yahoo",
+			          "content": "Nothing 3",
+			          "user_id": 0,
+			          "tags": [
+			              "tag1",
+			              "nard_dog"
+			          ],
+			          "created_at": "2024-11-15T17:11:30Z",
+			          "updated_at": "2024-11-15T17:11:30Z",
+			          "comments": []
+			      }
+			  }
 			  ```
+			-
 	- #### Usage in API
 	  collapsed:: true
 		- It is better to create a separate readJSON and writeJSON method.
