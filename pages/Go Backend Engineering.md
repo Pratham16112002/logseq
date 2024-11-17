@@ -205,6 +205,7 @@ collapsed:: true
 - ### Concurrency
 	- #### Optimistic concurrency
 		- Implementing concurrency in any database using a timestamp or a version number.
-		- We can compare the
+		- We can compare the version number or the timestamp and decide which record to keep.
+		-
 	- #### Pessimistic concurrency
 		-
