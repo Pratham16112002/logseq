@@ -206,6 +206,8 @@ collapsed:: true
 	- #### Optimistic concurrency
 		- Implementing concurrency in any database using a timestamp or a version number.
 		- We can compare the version number or the timestamp and decide which record to keep.
+		- Initially the version number of each record must be 1 ( when we write the update query we bump up the version ).
+		- Version number 1 should be changed to 2 with update query.
 		-
 	- #### Pessimistic concurrency
 		-
