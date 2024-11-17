@@ -67,7 +67,15 @@ collapsed:: true
 		  ```
 		  These will exclude the title key from struct if its empty and similarly it will exclude the content key if its empty.
 		- #### Standardizing JSON
-			-
+			- To make sure we get structured output from out api we could do.
+			- ```
+			  func (app *application) jsonResponse(res http.ResponseWriter, status int, data any) error {
+			  	type resJSON struct {
+			  		Data any `json:"data"`
+			  	}
+			  	return writeJSON(res, status, &resJSON{Data: data})
+			  }
+			  ```
 	- #### Usage in API
 	  collapsed:: true
 		- It is better to create a separate readJSON and writeJSON method.
