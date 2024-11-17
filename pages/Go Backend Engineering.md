@@ -46,7 +46,7 @@
 		  ctx, cancel := context.WithTimeout(ctx, time.Second*5)
 		  	defer cancel()
 		  ```
-		  In this method if the context doesn't
+		  In this we have made the context time bounded to 5 seconds
 - ### JSON
   collapsed:: true
 	- When using json embedding in struct .
