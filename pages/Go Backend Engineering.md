@@ -219,3 +219,6 @@ collapsed:: true
 		-
 - ### Database
 	- Database seeding is the process of inserting initial data to the database.
+	- Specifying users and followers relation ship.
+	- ![Screenshot 2024-11-18 at 10.45.43 PM.png](../assets/Screenshot_2024-11-18_at_10.45.43 PM_1731950148451_0.png)
+	-
