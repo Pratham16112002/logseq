@@ -1,2 +1,3 @@
 - In these problems we have to deal with intervals [start,end].
--
+- ### Merge Intervals
+	- To merge a given
