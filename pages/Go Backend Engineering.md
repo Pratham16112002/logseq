@@ -50,7 +50,6 @@ collapsed:: true
 		  In this we have made the context time bounded to 5 seconds and if the go routine takes longer than 5 seconds then the cancel function will be called with will perform `ctx.Done()` which will close the go  routine and release the resources for better performance.
 		-
 - ### JSON
-  collapsed:: true
 	- When using json embedding in struct .
 		- ```
 		  type User struct {
@@ -218,6 +217,7 @@ collapsed:: true
 	- #### Pessimistic concurrency
 		-
 - ### Database
+  collapsed:: true
 	- Database seeding is the process of inserting initial data to the database.
 	- Specifying users and followers relation ship.
 	- ![Screenshot 2024-11-18 at 10.45.43 PM.png](../assets/Screenshot_2024-11-18_at_10.45.43 PM_1731950148451_0.png)
