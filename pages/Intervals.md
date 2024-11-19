@@ -3,4 +3,6 @@
 	- To merge a given the list of intervals should be sorted with respect to start.
 	- We need to compare adjacent intervals.
 		- #### Overlap
-			- Then replace the end of the previous intervals with `max(`
+			- Then replace the end of the previous intervals with `max(previousEnd,newEnd)`
+		- #### No overlap
+			- Then add the intervals to final
