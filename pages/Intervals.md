@@ -1,3 +1,3 @@
 - In these problems we have to deal with intervals [start,end].
 - ### Merge Intervals
-	- To merge a given
+	- To merge a given the list of intervals should be sorted with respect to start
