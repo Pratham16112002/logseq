@@ -245,4 +245,5 @@ collapsed:: true
 		- Indexes can be added and removed from the table many times.
 		- Enabling postgres text searches using trigrams.
 			- **Trigram** : is basically three character sequence from a string.
-			- Algorithm simply counts how many
+			- Algorithm simply counts how many number of trigrams does two string shares.
+		-
