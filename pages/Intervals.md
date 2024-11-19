@@ -11,4 +11,5 @@ public:: true
 - ### Minimum removal to make the intervals non-overlapping
 	- First we need to sort the given intervals.
 	- Go on comparing the intervals in an adjacent way.
-	- We we encounter an overlap then always remove the interval having
+	- We we encounter an overlap then always remove the interval having lesser end.
+-
