@@ -99,7 +99,6 @@ collapsed:: true
 			  ```
 			-
 	- #### Usage in API
-	  collapsed:: true
 		- It is better to create a separate readJSON and writeJSON method.
 		- ```
 		  package main
@@ -124,7 +123,13 @@ collapsed:: true
 		  ```
 			- `http.MaxBytesReader()` will throw an error if req.Body contains data greater the specified maximum bytes by the user.
 			- `decoder.DisallowUnknownFields()` this will prevent the arbitrary values passed as key value pairs which decoding.
-		-
+		- Passing empty struct as function arguments
+			- ```
+			  if err := app.jsonResponse(res, http.StatusNoContent, struct{}{}); err != nil {
+			  		app.internalServerError(res, req, err)
+			  		return
+			  	}
+			  ```
 	- #### Marshaling Json ( SQL )
 		- When every time we do marshallings or unmarshallings slice we need to do this
 			- `pq.Array(post.Tags))`
