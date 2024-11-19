@@ -242,4 +242,5 @@ collapsed:: true
 		  ```
 		- In the above example (user_id,follower_id) will act as primary key.
 	- #### Indexing on tables
-		- Index
+		- Indexes can be added and removed from the table many times.
+		-
