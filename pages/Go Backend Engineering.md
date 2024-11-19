@@ -243,4 +243,6 @@ collapsed:: true
 		- In the above example (user_id,follower_id) will act as primary key.
 	- #### Indexing on tables
 		- Indexes can be added and removed from the table many times.
-		- Enabling postgres text secar
+		- Enabling postgres text searches using trigrams.
+			- **Trigram** : is basically three character sequence from a string.
+			- Algorithm simply counts how many
