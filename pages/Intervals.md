@@ -5,4 +5,5 @@
 		- #### Overlap
 			- Then replace the end of the previous intervals with `max(previousEnd,newEnd)`
 		- #### No overlap
-			- Then add the intervals to final
+			- Then add the interval as is.
+- ### Minimum
