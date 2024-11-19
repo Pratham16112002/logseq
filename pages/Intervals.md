@@ -8,4 +8,5 @@
 			- Then add the interval as is.
 - ### Minimum removal to make the intervals non-overlapping
 	- First we need to sort the given intervals.
-	- Go
+	- Go comparing the intervals in an adjacent way.
+		-
