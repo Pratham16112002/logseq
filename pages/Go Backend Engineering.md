@@ -235,4 +235,5 @@ collapsed:: true
 		      PRIMARY KEY (user_id,follower_id)
 		  )
 		  ```
+		- In the above example (user_id,follower_id) will act as primary key.
 		-
