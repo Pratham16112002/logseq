@@ -6,4 +6,4 @@
 			- Then replace the end of the previous intervals with `max(previousEnd,newEnd)`
 		- #### No overlap
 			- Then add the interval as is.
-- ### Minimum
+- ### Minimum removal to make the intervals
