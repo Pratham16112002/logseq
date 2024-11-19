@@ -2,4 +2,5 @@
 - ### Merge Intervals
 	- To merge a given the list of intervals should be sorted with respect to start.
 	- We need to compare adjacent intervals.
-		- #### If they overla
+		- #### Overlap
+			- Then replace the end of the previous intervals with `max(`
