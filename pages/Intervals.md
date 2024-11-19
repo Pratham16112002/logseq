@@ -1,0 +1,2 @@
+- In these problems we have to deal with intervals [start,end].
+-
