@@ -49,7 +49,7 @@ collapsed:: true
 		  ```
 		  In this we have made the context time bounded to 5 seconds and if the go routine takes longer than 5 seconds then the cancel function will be called with will perform `ctx.Done()` which will close the go  routine and release the resources for better performance.
 		-
-- ### [[JSON]] JSON
+- ### JSON
 	- When using json embedding in struct .
 		- ```
 		  type User struct {
@@ -247,3 +247,4 @@ collapsed:: true
 			- **Trigram** : is basically three character sequence from a string.
 			- Algorithm simply counts how many number of trigrams does two string shares.
 		-
+- [[Pagination & Sorting]]
