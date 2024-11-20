@@ -15,4 +15,8 @@ public:: true
 - ### Minimum rooms required for overlapping meetings
 	- Given some intervals which represents meeting timings.
 	- We need to schedule these meetings in different rooms ( conflict meetings should be held in separate meetings ).
-	-
+	- Think of the start and end timings of the meetings.
+	- Count the number of rooms allocated at a particular time.
+		- Code
+		  ```
+		  ```
