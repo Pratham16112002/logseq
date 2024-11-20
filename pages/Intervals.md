@@ -19,4 +19,29 @@ public:: true
 	- Count the number of rooms allocated at a particular time.
 		- Code
 		  ```
+		    int start_idx[intervals.size()];
+		    int end_idx[intervals.size()];
+		    for (int i = 0; i < intervals.size(); i++) {
+		      start_idx[i] = intervals[i].start;
+		      end_idx[i] = intervals[i].end;
+		    }
+		    int start_idx_n = sizeof(start_idx) / sizeof(start_idx[0]);
+		    sort(start_idx, start_idx + start_idx_n);
+		    int end_idx_n = sizeof(end_idx) / sizeof(end_idx[0]);
+		    sort(end_idx, end_idx + end_idx_n);
+		    int i = 0, j = 0;
+		    int count = 0;
+		    int maxcount = 0;
+		    while (i < intervals.size()) {
+		      if (start_idx[i] < end_idx[j]) {
+		        i++;
+		        count++;
+		      } else {
+		        j++;
+		        count--;
+		      }
+		      maxcount = max(maxcount, count);
+		    }
+		    return maxcount;
 		  ```
+		-
