@@ -1,0 +1,3 @@
+- **Limit** and **Offset**
+	- __LIMIT__ : How much document you want from a big pile.
+	- __Offset
