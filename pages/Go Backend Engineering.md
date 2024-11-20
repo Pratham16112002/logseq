@@ -247,4 +247,4 @@ collapsed:: true
 			- **Trigram** : is basically three character sequence from a string.
 			- Algorithm simply counts how many number of trigrams does two string shares.
 		-
-- [[Pagination & Sorting]]
+- [Pagination & Sorting]]
