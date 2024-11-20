@@ -12,4 +12,6 @@ public:: true
 	- First we need to sort the given intervals.
 	- Go on comparing the intervals in an adjacent way.
 	- We we encounter an overlap then always remove the interval having lesser end.
--
+- ### Minimum rooms required for overlapping meetings
+	- Given some intervals which represents meeting timings.
+	- We need to schedule these meetings in different rooms.
