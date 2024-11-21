@@ -1,1 +1,8 @@
-### Create a separate public route
+#### Creating a separate route
+	- ```
+	  r.Route("/authentication", func(r chi.Router) {
+	  			r.Post("/user", app.userRegisterHandler)
+	  		})
+	  ```
+- #### Payload for registration
+	-
