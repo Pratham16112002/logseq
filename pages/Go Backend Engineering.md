@@ -251,5 +251,7 @@ collapsed:: true
 		  ```
 		  TO_TIMESTAMP('2007-11-21T11:26:57+05:30','YYYY-MM-DD"T"HH24:MI:SSOF')
 		  ```
-		- __First argument__ : the
+		- __First argument__ : Is the time string.
+		- __Second argument__ : Is the format for that string in the first argument.
+		-
 - [Pagination & Sorting]]
