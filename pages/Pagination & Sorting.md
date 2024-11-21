@@ -10,4 +10,5 @@
 		- `$3 = '{}'` ensures that if $3 is empty or not.
 	- **Pattern matching** :
 		- ``p.title ILIKE TO '%' || $2 || '%'`
-	-
+- **Time conversion in go**
+	- We need to first parse the string to its
