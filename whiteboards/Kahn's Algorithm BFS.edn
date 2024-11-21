@@ -1247,13 +1247,13 @@
 :italic false
 :text "Since the in-degree of 3 \nis still not zero which means\nthat 3 has to come after 2 nodes\nbut it is not possible."}}
 :block/updated-at 1732215965103} 
-{:block/created-at 1732216341095
+{:block/created-at 1732216373971
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "P"
 :stroke ""
-:collapsed false
+:collapsed true
 :borderRadius 8
 :index 54
 :scale [1 1]
@@ -1261,19 +1261,19 @@
 :scaleLevel "md"
 :fill ""
 :compact false
-:isAutoResizing true
+:isAutoResizing false
 :type "logseq-portal"
-:size [400 1726.6717341070912]
+:size [400 40]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "80ad2630-a83c-11ef-8abc-3181f58c506e"
 :noFill false
-:point [32 504]
+:point [744 256]
 :parentId "673f85b1-6728-409f-b71f-3acbed4b3657"
-:collapsedHeight 0
-:nonce 1732216328426}}
-:block/updated-at 1732216341095})
+:collapsedHeight 1673.6717143830256
+:nonce 1732216328567}}
+:block/updated-at 1732216373971})
 :pages (
 {:block/uuid #uuid "673f85b1-6728-409f-b71f-3acbed4b3657"
 :block/properties 
@@ -1334,7 +1334,7 @@
 :assets []
 :shapes-index ("1d50aa50-a83a-11ef-8abc-3181f58c506e" "21094580-a83a-11ef-8abc-3181f58c506e" "21094581-a83a-11ef-8abc-3181f58c506e" "23e11da0-a83a-11ef-8abc-3181f58c506e" "23e144b0-a83a-11ef-8abc-3181f58c506e" "26499220-a83a-11ef-8abc-3181f58c506e" "2d63f5f0-a83a-11ef-8abc-3181f58c506e" "5ce33b60-a83a-11ef-8abc-3181f58c506e" "5dce37a0-a83a-11ef-8abc-3181f58c506e" "600da050-a83a-11ef-8abc-3181f58c506e" "61567400-a83a-11ef-8abc-3181f58c506e" "623e6300-a83a-11ef-8abc-3181f58c506e" "648b6040-a83a-11ef-8abc-3181f58c506e" "652b97e0-a83a-11ef-8abc-3181f58c506e" "663036a0-a83a-11ef-8abc-3181f58c506e" "67a1ef10-a83a-11ef-8abc-3181f58c506e" "6838d7e0-a83a-11ef-8abc-3181f58c506e" "699bea50-a83a-11ef-8abc-3181f58c506e" "7c3878e0-a83a-11ef-8abc-3181f58c506e" "7c7f6cf0-a83a-11ef-8abc-3181f58c506e" "85ee4810-a83a-11ef-8abc-3181f58c506e" "896630c0-a83a-11ef-8abc-3181f58c506e" "8a60bd60-a83a-11ef-8abc-3181f58c506e" "952e1712-a83a-11ef-8abc-3181f58c506e" "97a1d630-a83a-11ef-8abc-3181f58c506e" "9c271030-a83a-11ef-8abc-3181f58c506e" "9d160410-a83a-11ef-8abc-3181f58c506e" "9e6fa0a0-a83a-11ef-8abc-3181f58c506e" "9ef153c0-a83a-11ef-8abc-3181f58c506e" "a1649db0-a83a-11ef-8abc-3181f58c506e" "c9424df0-a83a-11ef-8abc-3181f58c506e" "ca1db9d0-a83a-11ef-8abc-3181f58c506e" "cbda36e0-a83a-11ef-8abc-3181f58c506e" "d221e160-a83a-11ef-8abc-3181f58c506e" "d2434c10-a83a-11ef-8abc-3181f58c506e" "d348fc40-a83a-11ef-8abc-3181f58c506e" "d45d2b60-a83a-11ef-8abc-3181f58c506e" "d5c6cd80-a83a-11ef-8abc-3181f58c506e" "d63dab30-a83a-11ef-8abc-3181f58c506e" "d7154680-a83a-11ef-8abc-3181f58c506e" "d90c5b90-a83a-11ef-8abc-3181f58c506e" "d9c96a00-a83a-11ef-8abc-3181f58c506e" "da5ca950-a83a-11ef-8abc-3181f58c506e" "db3b97a0-a83a-11ef-8abc-3181f58c506e" "dbb3add0-a83a-11ef-8abc-3181f58c506e" "de6cda60-a83a-11ef-8abc-3181f58c506e" "e499a9e0-a83a-11ef-8abc-3181f58c506e" "e530b9c0-a83a-11ef-8abc-3181f58c506e" "e6c897d0-a83a-11ef-8abc-3181f58c506e" "00977f00-a83b-11ef-8abc-3181f58c506e" "0a381880-a83b-11ef-8abc-3181f58c506e" "3328bf60-a83b-11ef-8abc-3181f58c506e" "5e998170-a83b-11ef-8abc-3181f58c506e" "64589b00-a83b-11ef-8abc-3181f58c506e" "80ad2630-a83c-11ef-8abc-3181f58c506e")}}
 :block/journal? false
-:block/updated-at 1732216341095
+:block/updated-at 1732216373971
 :block/created-at 1732215243941
 :block/type "whiteboard"
 :block/name "kahn's algorithm bfs"
