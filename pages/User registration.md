@@ -43,4 +43,5 @@
 - #### User invitation
 	- Creating an separate entity for **user_invitations**.
 		- Has `user_id` and token as attributes.
-	- __User store__ must have a method ``CreateAndInvite()` which will send the email and create the user as well
+	- __User store__ must have a method `CreateAndInvite()` which will send the email and create the user as well.
+	-
