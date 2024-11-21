@@ -8,5 +8,5 @@ id:: 6732679d-bfb1-419b-8a40-1e78cd2d770c
 	- We need to first find all indegree for each node.
 	- Add the nodes with the in degree zero to the ordering ( Because they will obvious be at the start).
 	- How we know that when cycle exists ?
-		-
+		- queue becomes empty but still some of the nodes have a in-degree
 	- [[Kahn's Algorithm BFS]]
