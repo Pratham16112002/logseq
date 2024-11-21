@@ -223,7 +223,6 @@ collapsed:: true
 	- #### Pessimistic concurrency
 		-
 - ### Database
-  collapsed:: true
 	- Database seeding is the process of inserting initial data to the database.
 	- Specifying users and followers relation ship.
 	- ![Screenshot 2024-11-18 at 10.45.43 PM.png](../assets/Screenshot_2024-11-18_at_10.45.43 PM_1731950148451_0.png)
@@ -247,5 +246,6 @@ collapsed:: true
 		- Enabling postgres text searches using trigrams.
 			- **Trigram** : is basically three character sequence from a string.
 			- Algorithm simply counts how many number of trigrams does two string shares.
-		-
+	- #### Postgres
+		- In postgres
 - [Pagination & Sorting]]
