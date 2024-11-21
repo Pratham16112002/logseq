@@ -1,4 +1,3 @@
-- [[DSU_1]]
 - **Union** : this method will perform the union of two nodes.
 	- if this method returns __false__ then
 		- The provided nodes are already connected.
@@ -7,6 +6,7 @@
 - __find__ : this method will be used to find the parent of a set.
 - Ways to implement Disjoint Set
 	- __By Size__
+	  collapsed:: true
 		- ```
 		  class DSU {
 		  public:
@@ -41,4 +41,4 @@
 		    }
 		  };
 		  ```
-		-
+		- [[DSU_1]]
