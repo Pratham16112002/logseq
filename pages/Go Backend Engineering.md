@@ -255,3 +255,4 @@ collapsed:: true
 		- __Second argument__ : Is the format for that string in the first argument.
 		-
 - [Pagination & Sorting]]
+- [[Logging]]
