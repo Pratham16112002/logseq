@@ -12,4 +12,5 @@
 	  	Password string `json:"password" validate:"required,min=3,max=88"`
 	  }
 	  ```
--
+- #### Password storing
+	-
