@@ -13,4 +13,31 @@
 	  }
 	  ```
 - #### Password storing
+	- ```
+	  type User struct {
+	  	ID        int64        `json:"id"`
+	  	Username  string       `json:"username,omitempty"`
+	  	Email     string       `json:"email,omitempty"`
+	  	Password  PasswordType `json:"-"`
+	  	CreatedAt string       `json:"created_at,omitempty"`
+	  }
+	  
+	  type PasswordType struct {
+	  	text *string
+	  	hash []byte
+	  }
+	  
+	  func (p *PasswordType) Set(password_txt string) error {
+	  	var err error
+	  	p.hash, err = bcrypt.GenerateFromPassword([]byte(password_txt), bcrypt.DefaultCost)
+	  	p.text = &password_txt
+	  	if err != nil {
+	  		return err
+	  	}
+	  	return nil
+	  
+	  }
+	  
+	  ```
+	- Ensure that password are stored as hash.
 	-
