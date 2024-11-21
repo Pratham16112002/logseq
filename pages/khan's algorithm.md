@@ -1,4 +1,4 @@
-### ntroduction
+### Introduction
 id:: 6732679d-bfb1-419b-8a40-1e78cd2d770c
 	- BFS algorithm which is used for topo-logical sort.
 	- __Topological sort__ : linear ordering of vertices in such a way that if there exist an edges u -> v then u should appear before v in that ordering.
@@ -40,4 +40,4 @@ id:: 6732679d-bfb1-419b-8a40-1e78cd2d770c
 	          }
 	          else return ans;
 	  ```
-	-
+	- [[Kahn's Algorithm BFS]]
