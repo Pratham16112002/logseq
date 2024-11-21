@@ -1,3 +1,3 @@
 - [[DSU_1]]
--
+- **Union** : this method will perform the union of both
 -
