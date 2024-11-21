@@ -9,5 +9,6 @@ id:: 6732679d-bfb1-419b-8a40-1e78cd2d770c
 	- Add the nodes with the in degree zero to the ordering ( Because they will obvious be at the start).
 	- How we know that when cycle exists ?
 		- Queue becomes empty but still some of the nodes have a in-degree > 0.
-			- which means that some nodes which
+			- Which means that some nodes which should occur before are occurring later.
+			-
 	- [[Kahn's Algorithm BFS]]
