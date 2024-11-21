@@ -1,0 +1,114 @@
+{:blocks (
+{:block/created-at 1732210610871
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 0
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "ellipse"
+:size [120 120]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "1"
+:id "2dbd88a0-a82f-11ef-8abc-3181f58c506e"
+:fontWeight 400
+:noFill false
+:point [232 224]
+:fontSize 20
+:parentId "673f6f75-a335-47de-91be-eb0546d9a3c0"
+:nonce 1732210605696
+:italic false}}
+:block/updated-at 1732210610871} 
+{:block/created-at 1732210627887
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 1
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "ellipse"
+:size [120 120]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "2"
+:id "3510d6c0-a82f-11ef-8abc-3181f58c506e"
+:fontWeight 400
+:noFill false
+:point [624 224]
+:fontSize 20
+:parentId "673f6f75-a335-47de-91be-eb0546d9a3c0"
+:nonce 1732210618028
+:italic false}}
+:block/updated-at 1732210627887} 
+{:block/created-at 1732210636186
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 2
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "ellipse"
+:size [120 112]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "5"
+:id "3be5a610-a82f-11ef-8abc-3181f58c506e"
+:fontWeight 400
+:noFill false
+:point [1024 232]
+:fontSize 20
+:parentId "673f6f75-a335-47de-91be-eb0546d9a3c0"
+:nonce 1732210629453
+:italic false}}
+:block/updated-at 1732210636186} 
+{:block/created-at 1732210655363
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 3
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "ellipse"
+:size [152 136]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label ""
+:id "499b2b90-a82f-11ef-8abc-3181f58c506e"
+:fontWeight 400
+:noFill false
+:point [256 520]
+:fontSize 20
+:parentId "673f6f75-a335-47de-91be-eb0546d9a3c0"
+:nonce 1732210652436
+:italic false}}
+:block/updated-at 1732210655363})
+:pages (
+{:block/uuid #uuid "673f6f75-a335-47de-91be-eb0546d9a3c0"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "673f6f75-a335-47de-91be-eb0546d9a3c0"
+:name "dsu_1"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("2dbd88a0-a82f-11ef-8abc-3181f58c506e" "3510d6c0-a82f-11ef-8abc-3181f58c506e" "3be5a610-a82f-11ef-8abc-3181f58c506e" "499b2b90-a82f-11ef-8abc-3181f58c506e")}}
+:block/updated-at 1732210655363
+:block/created-at 1732210549898
+:block/type "whiteboard"
+:block/name "dsu_1"
+:block/original-name "DSU_1"})}
