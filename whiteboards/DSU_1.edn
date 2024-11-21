@@ -23,7 +23,7 @@
 :nonce 1732210605696
 :italic false}}
 :block/updated-at 1732210610871} 
-{:block/created-at 1732210627887
+{:block/created-at 1732210687975
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -41,12 +41,12 @@
 :id "3510d6c0-a82f-11ef-8abc-3181f58c506e"
 :fontWeight 400
 :noFill false
-:point [624 224]
+:point [600 224]
 :fontSize 20
 :parentId "673f6f75-a335-47de-91be-eb0546d9a3c0"
-:nonce 1732210618028
+:nonce 1732210618214
 :italic false}}
-:block/updated-at 1732210627887} 
+:block/updated-at 1732210687975} 
 {:block/created-at 1732210636186
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -71,30 +71,166 @@
 :nonce 1732210629453
 :italic false}}
 :block/updated-at 1732210636186} 
-{:block/created-at 1732210655363
+{:block/created-at 1732210663328
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
+:rotation 0
 :index 3
 :scale [1 1]
 :scaleLevel "md"
 :fill ""
 :type "ellipse"
-:size [152 136]
+:size [128 128]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:label ""
+:label "3"
 :id "499b2b90-a82f-11ef-8abc-3181f58c506e"
 :fontWeight 400
 :noFill false
-:point [256 520]
+:point [224 512]
 :fontSize 20
 :parentId "673f6f75-a335-47de-91be-eb0546d9a3c0"
-:nonce 1732210652436
+:nonce 1732210652540
 :italic false}}
-:block/updated-at 1732210655363})
+:block/updated-at 1732210663328} 
+{:block/created-at 1732210677956
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 4
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "ellipse"
+:size [112 112]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "4"
+:id "53da00e0-a82f-11ef-8abc-3181f58c506e"
+:fontWeight 400
+:noFill false
+:point [640 520]
+:fontSize 20
+:parentId "673f6f75-a335-47de-91be-eb0546d9a3c0"
+:nonce 1732210669866
+:italic false}}
+:block/updated-at 1732210677956} 
+{:block/created-at 1732210687976
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 5
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "5bde7692-a82f-11ef-8abc-3181f58c506e"
+:fontWeight 400
+:noFill true
+:point [356 284.84]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "5bde7690-a82f-11ef-8abc-3181f58c506e"}
+:end 
+{:id "end"
+:canBind true
+:point [240 3.15]
+:bindingId "5bde7691-a82f-11ef-8abc-3181f58c506e"}}
+:decorations 
+{:start "arrow"
+:end "arrow"}
+:parentId "673f6f75-a335-47de-91be-eb0546d9a3c0"
+:nonce 1732210683134
+:italic false}}
+:block/updated-at 1732210687976} 
+{:block/created-at 1732210707906
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 6
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "69048d51-a82f-11ef-8abc-3181f58c506e"
+:fontWeight 400
+:noFill true
+:point [724 284.6]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "69046640-a82f-11ef-8abc-3181f58c506e"}
+:end 
+{:id "end"
+:canBind true
+:point [296 2.8]
+:bindingId "69048d50-a82f-11ef-8abc-3181f58c506e"}}
+:decorations 
+{:start "arrow"
+:end "arrow"}
+:parentId "673f6f75-a335-47de-91be-eb0546d9a3c0"
+:nonce 1732210705168
+:italic false}}
+:block/updated-at 1732210707906} 
+{:block/created-at 1732210718858
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 7
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "6f067c42-a82f-11ef-8abc-3181f58c506e"
+:fontWeight 400
+:noFill true
+:point [286.87 348]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [3.66 0]
+:bindingId "6f067c40-a82f-11ef-8abc-3181f58c506e"}
+:end 
+{:id "end"
+:canBind true
+:point [0 160]
+:bindingId "6f067c41-a82f-11ef-8abc-3181f58c506e"}}
+:decorations 
+{:start "arrow"
+:end "arrow"}
+:parentId "673f6f75-a335-47de-91be-eb0546d9a3c0"
+:nonce 1732210715364
+:italic false}}
+:block/updated-at 1732210718858})
 :pages (
 {:block/uuid #uuid "673f6f75-a335-47de-91be-eb0546d9a3c0"
 :block/properties 
@@ -103,11 +239,58 @@
 {:id "673f6f75-a335-47de-91be-eb0546d9a3c0"
 :name "dsu_1"
 :bindings 
-{}
+{:5bde7690-a82f-11ef-8abc-3181f58c506e 
+{:id "5bde7690-a82f-11ef-8abc-3181f58c506e"
+:type "line"
+:fromId "5bde7692-a82f-11ef-8abc-3181f58c506e"
+:toId "2dbd88a0-a82f-11ef-8abc-3181f58c506e"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:5bde7691-a82f-11ef-8abc-3181f58c506e 
+{:id "5bde7691-a82f-11ef-8abc-3181f58c506e"
+:type "line"
+:fromId "5bde7692-a82f-11ef-8abc-3181f58c506e"
+:toId "3510d6c0-a82f-11ef-8abc-3181f58c506e"
+:handleId "end"
+:point [0.67 0.54]
+:distance 4}
+:69046640-a82f-11ef-8abc-3181f58c506e 
+{:id "69046640-a82f-11ef-8abc-3181f58c506e"
+:type "line"
+:fromId "69048d51-a82f-11ef-8abc-3181f58c506e"
+:toId "3510d6c0-a82f-11ef-8abc-3181f58c506e"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:69048d50-a82f-11ef-8abc-3181f58c506e 
+{:id "69048d50-a82f-11ef-8abc-3181f58c506e"
+:type "line"
+:fromId "69048d51-a82f-11ef-8abc-3181f58c506e"
+:toId "3be5a610-a82f-11ef-8abc-3181f58c506e"
+:handleId "end"
+:point [0.5 0.5]
+:distance 4}
+:6f067c40-a82f-11ef-8abc-3181f58c506e 
+{:id "6f067c40-a82f-11ef-8abc-3181f58c506e"
+:type "line"
+:fromId "6f067c42-a82f-11ef-8abc-3181f58c506e"
+:toId "2dbd88a0-a82f-11ef-8abc-3181f58c506e"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:6f067c41-a82f-11ef-8abc-3181f58c506e 
+{:id "6f067c41-a82f-11ef-8abc-3181f58c506e"
+:type "line"
+:fromId "6f067c42-a82f-11ef-8abc-3181f58c506e"
+:toId "499b2b90-a82f-11ef-8abc-3181f58c506e"
+:handleId "end"
+:point [0.48 0.51]
+:distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("2dbd88a0-a82f-11ef-8abc-3181f58c506e" "3510d6c0-a82f-11ef-8abc-3181f58c506e" "3be5a610-a82f-11ef-8abc-3181f58c506e" "499b2b90-a82f-11ef-8abc-3181f58c506e")}}
-:block/updated-at 1732210655363
+:shapes-index ("2dbd88a0-a82f-11ef-8abc-3181f58c506e" "3510d6c0-a82f-11ef-8abc-3181f58c506e" "3be5a610-a82f-11ef-8abc-3181f58c506e" "499b2b90-a82f-11ef-8abc-3181f58c506e" "53da00e0-a82f-11ef-8abc-3181f58c506e" "5bde7692-a82f-11ef-8abc-3181f58c506e" "69048d51-a82f-11ef-8abc-3181f58c506e" "6f067c42-a82f-11ef-8abc-3181f58c506e")}}
+:block/updated-at 1732210718867
 :block/created-at 1732210549898
 :block/type "whiteboard"
 :block/name "dsu_1"
