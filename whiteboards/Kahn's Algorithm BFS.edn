@@ -1246,7 +1246,34 @@
 :nonce 1732215851595
 :italic false
 :text "Since the in-degree of 3 \nis still not zero which means\nthat 3 has to come after 2 nodes\nbut it is not possible."}}
-:block/updated-at 1732215965103})
+:block/updated-at 1732215965103} 
+{:block/created-at 1732216056895
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 54
+:scale [1 1]
+:pageId "6732679d-bfb1-419b-8a40-1e78cd2d770c"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 40.999961279994885]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "dc09a090-a83b-11ef-8abc-3181f58c506e"
+:noFill false
+:point [264 800]
+:parentId "673f81cb-af96-4be8-ace9-8b3e0382364f"
+:collapsedHeight 0
+:nonce 1732216051995}}
+:block/updated-at 1732216056895})
 :pages (
 {:block/uuid #uuid "673f81cb-af96-4be8-ace9-8b3e0382364f"
 :block/properties 
@@ -1305,8 +1332,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("1d50aa50-a83a-11ef-8abc-3181f58c506e" "21094580-a83a-11ef-8abc-3181f58c506e" "21094581-a83a-11ef-8abc-3181f58c506e" "23e11da0-a83a-11ef-8abc-3181f58c506e" "23e144b0-a83a-11ef-8abc-3181f58c506e" "26499220-a83a-11ef-8abc-3181f58c506e" "2d63f5f0-a83a-11ef-8abc-3181f58c506e" "5ce33b60-a83a-11ef-8abc-3181f58c506e" "5dce37a0-a83a-11ef-8abc-3181f58c506e" "600da050-a83a-11ef-8abc-3181f58c506e" "61567400-a83a-11ef-8abc-3181f58c506e" "623e6300-a83a-11ef-8abc-3181f58c506e" "648b6040-a83a-11ef-8abc-3181f58c506e" "652b97e0-a83a-11ef-8abc-3181f58c506e" "663036a0-a83a-11ef-8abc-3181f58c506e" "67a1ef10-a83a-11ef-8abc-3181f58c506e" "6838d7e0-a83a-11ef-8abc-3181f58c506e" "699bea50-a83a-11ef-8abc-3181f58c506e" "7c3878e0-a83a-11ef-8abc-3181f58c506e" "7c7f6cf0-a83a-11ef-8abc-3181f58c506e" "85ee4810-a83a-11ef-8abc-3181f58c506e" "896630c0-a83a-11ef-8abc-3181f58c506e" "8a60bd60-a83a-11ef-8abc-3181f58c506e" "952e1712-a83a-11ef-8abc-3181f58c506e" "97a1d630-a83a-11ef-8abc-3181f58c506e" "9c271030-a83a-11ef-8abc-3181f58c506e" "9d160410-a83a-11ef-8abc-3181f58c506e" "9e6fa0a0-a83a-11ef-8abc-3181f58c506e" "9ef153c0-a83a-11ef-8abc-3181f58c506e" "a1649db0-a83a-11ef-8abc-3181f58c506e" "c9424df0-a83a-11ef-8abc-3181f58c506e" "ca1db9d0-a83a-11ef-8abc-3181f58c506e" "cbda36e0-a83a-11ef-8abc-3181f58c506e" "d221e160-a83a-11ef-8abc-3181f58c506e" "d2434c10-a83a-11ef-8abc-3181f58c506e" "d348fc40-a83a-11ef-8abc-3181f58c506e" "d45d2b60-a83a-11ef-8abc-3181f58c506e" "d5c6cd80-a83a-11ef-8abc-3181f58c506e" "d63dab30-a83a-11ef-8abc-3181f58c506e" "d7154680-a83a-11ef-8abc-3181f58c506e" "d90c5b90-a83a-11ef-8abc-3181f58c506e" "d9c96a00-a83a-11ef-8abc-3181f58c506e" "da5ca950-a83a-11ef-8abc-3181f58c506e" "db3b97a0-a83a-11ef-8abc-3181f58c506e" "dbb3add0-a83a-11ef-8abc-3181f58c506e" "de6cda60-a83a-11ef-8abc-3181f58c506e" "e499a9e0-a83a-11ef-8abc-3181f58c506e" "e530b9c0-a83a-11ef-8abc-3181f58c506e" "e6c897d0-a83a-11ef-8abc-3181f58c506e" "00977f00-a83b-11ef-8abc-3181f58c506e" "0a381880-a83b-11ef-8abc-3181f58c506e" "3328bf60-a83b-11ef-8abc-3181f58c506e" "5e998170-a83b-11ef-8abc-3181f58c506e" "64589b00-a83b-11ef-8abc-3181f58c506e")}}
-:block/updated-at 1732215965103
+:shapes-index ("1d50aa50-a83a-11ef-8abc-3181f58c506e" "21094580-a83a-11ef-8abc-3181f58c506e" "21094581-a83a-11ef-8abc-3181f58c506e" "23e11da0-a83a-11ef-8abc-3181f58c506e" "23e144b0-a83a-11ef-8abc-3181f58c506e" "26499220-a83a-11ef-8abc-3181f58c506e" "2d63f5f0-a83a-11ef-8abc-3181f58c506e" "5ce33b60-a83a-11ef-8abc-3181f58c506e" "5dce37a0-a83a-11ef-8abc-3181f58c506e" "600da050-a83a-11ef-8abc-3181f58c506e" "61567400-a83a-11ef-8abc-3181f58c506e" "623e6300-a83a-11ef-8abc-3181f58c506e" "648b6040-a83a-11ef-8abc-3181f58c506e" "652b97e0-a83a-11ef-8abc-3181f58c506e" "663036a0-a83a-11ef-8abc-3181f58c506e" "67a1ef10-a83a-11ef-8abc-3181f58c506e" "6838d7e0-a83a-11ef-8abc-3181f58c506e" "699bea50-a83a-11ef-8abc-3181f58c506e" "7c3878e0-a83a-11ef-8abc-3181f58c506e" "7c7f6cf0-a83a-11ef-8abc-3181f58c506e" "85ee4810-a83a-11ef-8abc-3181f58c506e" "896630c0-a83a-11ef-8abc-3181f58c506e" "8a60bd60-a83a-11ef-8abc-3181f58c506e" "952e1712-a83a-11ef-8abc-3181f58c506e" "97a1d630-a83a-11ef-8abc-3181f58c506e" "9c271030-a83a-11ef-8abc-3181f58c506e" "9d160410-a83a-11ef-8abc-3181f58c506e" "9e6fa0a0-a83a-11ef-8abc-3181f58c506e" "9ef153c0-a83a-11ef-8abc-3181f58c506e" "a1649db0-a83a-11ef-8abc-3181f58c506e" "c9424df0-a83a-11ef-8abc-3181f58c506e" "ca1db9d0-a83a-11ef-8abc-3181f58c506e" "cbda36e0-a83a-11ef-8abc-3181f58c506e" "d221e160-a83a-11ef-8abc-3181f58c506e" "d2434c10-a83a-11ef-8abc-3181f58c506e" "d348fc40-a83a-11ef-8abc-3181f58c506e" "d45d2b60-a83a-11ef-8abc-3181f58c506e" "d5c6cd80-a83a-11ef-8abc-3181f58c506e" "d63dab30-a83a-11ef-8abc-3181f58c506e" "d7154680-a83a-11ef-8abc-3181f58c506e" "d90c5b90-a83a-11ef-8abc-3181f58c506e" "d9c96a00-a83a-11ef-8abc-3181f58c506e" "da5ca950-a83a-11ef-8abc-3181f58c506e" "db3b97a0-a83a-11ef-8abc-3181f58c506e" "dbb3add0-a83a-11ef-8abc-3181f58c506e" "de6cda60-a83a-11ef-8abc-3181f58c506e" "e499a9e0-a83a-11ef-8abc-3181f58c506e" "e530b9c0-a83a-11ef-8abc-3181f58c506e" "e6c897d0-a83a-11ef-8abc-3181f58c506e" "00977f00-a83b-11ef-8abc-3181f58c506e" "0a381880-a83b-11ef-8abc-3181f58c506e" "3328bf60-a83b-11ef-8abc-3181f58c506e" "5e998170-a83b-11ef-8abc-3181f58c506e" "64589b00-a83b-11ef-8abc-3181f58c506e" "dc09a090-a83b-11ef-8abc-3181f58c506e")}}
+:block/updated-at 1732216059744
 :block/created-at 1732215243941
 :block/type "whiteboard"
 :block/name "kahn's algorithm bfs"
