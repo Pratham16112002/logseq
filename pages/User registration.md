@@ -40,4 +40,6 @@
 	  
 	  ```
 	- Ensure that password are stored as hash.
+- #### User invitation
+	- Creating an separate entity for **user_invitations**.
 	-
