@@ -1,3 +1,5 @@
 - [[DSU_1]]
-- **Union** : this method will perform the union of both
+- **Union** : this method will perform the union of two nodes.
+	- if this method returns __false__ then
+		- The provided nodes are already
 -
