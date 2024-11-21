@@ -7,8 +7,7 @@ id:: 6732679d-bfb1-419b-8a40-1e78cd2d770c
 	- __Indegree__ : No of incoming edges to the node.
 	- We need to first find all indegree for each node.
 	- Add the nodes with the in degree zero to the ordering ( Because they will obvious be at the start).
-	- How we know that when cycle exists ? .
-		-
+	- How we know that when cycle exists ?
 	- ```
 	   vector<int> ans;
 	          vector<int> adj[numCourses];
