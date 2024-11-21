@@ -49,4 +49,5 @@
 	- We can make it look like an acid transaction.
 	- Execution of sequence of transactions in different services.
 	- All these transaction on different services are made to look like one transaction.
-	-
+	- To implement saga pattern into out application we will be having two thing.
+		- CreateAndUser
