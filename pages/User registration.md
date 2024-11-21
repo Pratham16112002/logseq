@@ -50,4 +50,6 @@
 	- Execution of sequence of transactions in different services.
 	- All these transaction on different services are made to look like one transaction.
 	- To implement saga pattern into out application we will be having two thing.
-		- CreateAndUser
+		- Create user and invitation method.
+		- Delete user and invitation method ( In case of email failure ).
+	-
