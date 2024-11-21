@@ -247,5 +247,9 @@ collapsed:: true
 			- **Trigram** : is basically three character sequence from a string.
 			- Algorithm simply counts how many number of trigrams does two string shares.
 	- #### Postgres
-		- In postgres
+		- In postgres to convert any time format to timestampz type we have an inbuilt method.
+		  ```
+		  TO_TIMESTAMP('2007-11-21T11:26:57+05:30','YYYY-MM-DD"T"HH24:MI:SSOF')
+		  ```
+		- __First argument__ : the
 - [Pagination & Sorting]]
