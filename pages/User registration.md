@@ -46,4 +46,5 @@
 	- __User store__ must have a method `CreateAndInvite()` which will send the email and create the user as well.
 - #### Saga Pattern
 	- A way to communicate with different services in a transaction like way.
-	- we
+	- We can make it look like an acid transaction.
+	-
