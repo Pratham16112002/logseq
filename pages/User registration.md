@@ -47,4 +47,6 @@
 - #### Saga Pattern
 	- A way to communicate with different services in a transaction like way.
 	- We can make it look like an acid transaction.
+	- Execution of sequence of transactions in different services.
+	- All these transaction on different services are made to look like one transaction.
 	-
