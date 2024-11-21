@@ -6,5 +6,6 @@
 - __find__ : this method will be used to find the parent of a set.
 - Ways to implement Disjoint Set
 	- __By Size__
-		- [[DSU_1]]
+	- __By Rank__
+	-
 - [[DSU_1]]
