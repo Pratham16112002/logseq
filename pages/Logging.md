@@ -1,2 +1,3 @@
 - Logs are one of the important aspects when it comes to building and maintaining a software/application.
+- A global logger should be on the highest level of the application and each component should have access to that logger.
 -
