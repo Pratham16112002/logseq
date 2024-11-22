@@ -2,7 +2,8 @@
 	- A separate end point is necessary for the auth workflow.
 - #### Password storing
 	- Password should be stored as a hash for security reasons
-	- ```
+	- id:: 673eedab-ce3a-45c1-908e-7d4cc9796a4a
+	  ```
 	  func (p *PasswordType) Set(password_txt string) error {
 	  	var err error
 	  	p.hash, err = bcrypt.GenerateFromPassword([]byte(password_txt), bcrypt.DefaultCost)
@@ -11,7 +12,6 @@
 	  		return err
 	  	}
 	  	return nil
-	  
 	  }
 	  ```
 	- Ensure that password are stored as hash.

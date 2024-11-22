@@ -180,7 +180,106 @@
 :parentId "67402975-fffc-4eb7-b498-0918ecd52750"
 :nonce 1732258331928
 :italic false}}
-:block/updated-at 1732258331950})
+:block/updated-at 1732258331950} 
+{:block/content "((673eedab-ce3a-45c1-908e-7d4cc9796a4a))"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67402975-fffc-4eb7-b498-0918ecd52750"}
+:block/parent 
+{:block/uuid #uuid "67402975-fffc-4eb7-b498-0918ecd52750"}
+:block/uuid #uuid "67402a3f-fd12-410a-aa81-ccec16da8fa5"} 
+{:block/created-at 1732258374725
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 6
+:scale [1 1]
+:pageId "67402a3f-fd12-410a-aa81-ccec16da8fa5"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 339.25]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "622de9d0-a89e-11ef-8db5-81783037ec48"
+:noFill false
+:isLocked false
+:point [648 480]
+:parentId "67402975-fffc-4eb7-b498-0918ecd52750"
+:collapsedHeight 0
+:nonce 1732258367894}}
+:block/updated-at 1732258374725} 
+{:block/created-at 1732258404613
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 7
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "69258362-a89e-11ef-8db5-81783037ec48"
+:fontWeight 400
+:noFill true
+:point [840 448]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 32]}
+:end 
+{:id "end"
+:canBind true
+:point [0 0]
+:bindingId nil}}
+:decorations 
+{:end "arrow"}
+:parentId "67402975-fffc-4eb7-b498-0918ecd52750"
+:nonce 1732258379466
+:italic false}}
+:block/updated-at 1732258404613} 
+{:block/created-at 1732258404674
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 8
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [61 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "758c1ab0-a89e-11ef-8db5-81783037ec48"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [1216 264]
+:lineHeight 1.2
+:fontSize 20
+:parentId "67402975-fffc-4eb7-b498-0918ecd52750"
+:nonce 1732258400233
+:italic false
+:text "UUID"}}
+:block/updated-at 1732258404674})
 :pages (
 {:block/uuid #uuid "67402975-fffc-4eb7-b498-0918ecd52750"
 :block/properties 
@@ -223,9 +322,9 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("01150a70-a89e-11ef-8db5-81783037ec48" "09df8f40-a89e-11ef-8db5-81783037ec48" "2c907ae0-a89e-11ef-8db5-81783037ec48" "39e2f8d2-a89e-11ef-8db5-81783037ec48" "4cd74450-a89e-11ef-8db5-81783037ec48" "4cd79270-a89e-11ef-8db5-81783037ec48")}}
-:block/updated-at 1732258341337
+:shapes-index ("01150a70-a89e-11ef-8db5-81783037ec48" "09df8f40-a89e-11ef-8db5-81783037ec48" "2c907ae0-a89e-11ef-8db5-81783037ec48" "39e2f8d2-a89e-11ef-8db5-81783037ec48" "4cd74450-a89e-11ef-8db5-81783037ec48" "4cd79270-a89e-11ef-8db5-81783037ec48" "622de9d0-a89e-11ef-8db5-81783037ec48" "69258362-a89e-11ef-8db5-81783037ec48" "758c1ab0-a89e-11ef-8db5-81783037ec48")}}
+:block/updated-at 1732258404674
 :block/created-at 1732258165833
 :block/type "whiteboard"
 :block/name "go lang"
-:block/original-name "Go lang"})}
+:block/original-name "go lang"})}
