@@ -501,7 +501,7 @@
 :italic false
 :text "Activation"}}
 :block/updated-at 1732258555375} 
-{:block/created-at 1732258583298
+{:block/created-at 1732258596267
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -521,7 +521,136 @@
 :parentId "67402975-fffc-4eb7-b498-0918ecd52750"
 :nonce 1732258573540
 :isComplete true}}
-:block/updated-at 1732258583298})
+:block/updated-at 1732258596267} 
+{:block/created-at 1732258606611
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 17
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "e875fb42-a89e-11ef-8db5-81783037ec48"
+:fontWeight 400
+:noFill true
+:point [1288.4 597]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "e875fb40-a89e-11ef-8db5-81783037ec48"}
+:end 
+{:id "end"
+:canBind true
+:point [159.6 163]
+:bindingId nil}}
+:decorations 
+{:end "arrow"}
+:parentId "67402975-fffc-4eb7-b498-0918ecd52750"
+:nonce 1732258593362
+:italic false}}
+:block/updated-at 1732258606611} 
+{:block/created-at 1732258616984
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 18
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "efe2c4d2-a89e-11ef-8db5-81783037ec48"
+:fontWeight 400
+:noFill true
+:point [1056 816]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [368 16]
+:bindingId nil}}
+:decorations 
+{:end "arrow"}
+:parentId "67402975-fffc-4eb7-b498-0918ecd52750"
+:nonce 1732258605545
+:italic false}}
+:block/updated-at 1732258616984} 
+{:block/created-at 1732258617050
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 19
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [142 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f3586390-a89e-11ef-8db5-81783037ec48"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [1392 680]
+:lineHeight 1.2
+:fontSize 20
+:parentId "67402975-fffc-4eb7-b498-0918ecd52750"
+:nonce 1732258611292
+:italic false
+:text "Hashed token"}}
+:block/updated-at 1732258617050} 
+{:block/created-at 1732258623995
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 20
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [87 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f80a2bd0-a89e-11ef-8db5-81783037ec48"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [1184 824]
+:lineHeight 1.2
+:fontSize 20
+:parentId "67402975-fffc-4eb7-b498-0918ecd52750"
+:nonce 1732258619169
+:italic false
+:text "Payload"}}
+:block/updated-at 1732258623995})
 :pages (
 {:block/uuid #uuid "67402975-fffc-4eb7-b498-0918ecd52750"
 :block/properties 
@@ -530,11 +659,11 @@
 {:id "67402975-fffc-4eb7-b498-0918ecd52750"
 :name "go lang"
 :bindings 
-{:39e2f8d0-a89e-11ef-8db5-81783037ec48 
-{:id "39e2f8d0-a89e-11ef-8db5-81783037ec48"
+{:e875fb40-a89e-11ef-8db5-81783037ec48 
+{:id "e875fb40-a89e-11ef-8db5-81783037ec48"
 :type "line"
-:fromId "39e2f8d2-a89e-11ef-8db5-81783037ec48"
-:toId "09df8f40-a89e-11ef-8db5-81783037ec48"
+:fromId "e875fb42-a89e-11ef-8db5-81783037ec48"
+:toId "a19d6280-a89e-11ef-8db5-81783037ec48"
 :handleId "start"
 :point [0.5 0.5]
 :distance 4}
@@ -546,12 +675,36 @@
 :handleId "end"
 :point [0.5 0.5]
 :distance 4}
-:4cd79271-a89e-11ef-8db5-81783037ec48 
-{:id "4cd79271-a89e-11ef-8db5-81783037ec48"
+:a19db0a2-a89e-11ef-8db5-81783037ec48 
+{:id "a19db0a2-a89e-11ef-8db5-81783037ec48"
 :type "line"
-:fromId "4cd79270-a89e-11ef-8db5-81783037ec48"
-:toId "2c907ae0-a89e-11ef-8db5-81783037ec48"
+:fromId "a19db0a0-a89e-11ef-8db5-81783037ec48"
+:toId "a19d6280-a89e-11ef-8db5-81783037ec48"
+:handleId "end"
+:point [0.5 0.5]
+:distance 4}
+:39e2f8d0-a89e-11ef-8db5-81783037ec48 
+{:id "39e2f8d0-a89e-11ef-8db5-81783037ec48"
+:type "line"
+:fromId "39e2f8d2-a89e-11ef-8db5-81783037ec48"
+:toId "09df8f40-a89e-11ef-8db5-81783037ec48"
 :handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:e875fb41-a89e-11ef-8db5-81783037ec48 
+{:id "e875fb41-a89e-11ef-8db5-81783037ec48"
+:type "line"
+:fromId "e875fb42-a89e-11ef-8db5-81783037ec48"
+:toId "c8923960-a89e-11ef-8db5-81783037ec48"
+:handleId "end"
+:point [0.08 0.79]
+:distance 4}
+:8e05f931-a89e-11ef-8db5-81783037ec48 
+{:id "8e05f931-a89e-11ef-8db5-81783037ec48"
+:type "line"
+:fromId "8e062040-a89e-11ef-8db5-81783037ec48"
+:toId "758c1ab0-a89e-11ef-8db5-81783037ec48"
+:handleId "end"
 :point [0.5 0.5]
 :distance 4}
 :4cd79272-a89e-11ef-8db5-81783037ec48 
@@ -562,12 +715,12 @@
 :handleId "end"
 :point [0.5 0.5]
 :distance 4}
-:8e05f931-a89e-11ef-8db5-81783037ec48 
-{:id "8e05f931-a89e-11ef-8db5-81783037ec48"
+:4cd79271-a89e-11ef-8db5-81783037ec48 
+{:id "4cd79271-a89e-11ef-8db5-81783037ec48"
 :type "line"
-:fromId "8e062040-a89e-11ef-8db5-81783037ec48"
-:toId "758c1ab0-a89e-11ef-8db5-81783037ec48"
-:handleId "end"
+:fromId "4cd79270-a89e-11ef-8db5-81783037ec48"
+:toId "2c907ae0-a89e-11ef-8db5-81783037ec48"
+:handleId "start"
 :point [0.5 0.5]
 :distance 4}
 :a19db0a1-a89e-11ef-8db5-81783037ec48 
@@ -577,19 +730,11 @@
 :toId "801ce090-a89e-11ef-8db5-81783037ec48"
 :handleId "start"
 :point [0.5 0.5]
-:distance 4}
-:a19db0a2-a89e-11ef-8db5-81783037ec48 
-{:id "a19db0a2-a89e-11ef-8db5-81783037ec48"
-:type "line"
-:fromId "a19db0a0-a89e-11ef-8db5-81783037ec48"
-:toId "a19d6280-a89e-11ef-8db5-81783037ec48"
-:handleId "end"
-:point [0.5 0.5]
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("01150a70-a89e-11ef-8db5-81783037ec48" "09df8f40-a89e-11ef-8db5-81783037ec48" "2c907ae0-a89e-11ef-8db5-81783037ec48" "39e2f8d2-a89e-11ef-8db5-81783037ec48" "4cd74450-a89e-11ef-8db5-81783037ec48" "4cd79270-a89e-11ef-8db5-81783037ec48" "622de9d0-a89e-11ef-8db5-81783037ec48" "69258362-a89e-11ef-8db5-81783037ec48" "758c1ab0-a89e-11ef-8db5-81783037ec48" "801ce090-a89e-11ef-8db5-81783037ec48" "8e062040-a89e-11ef-8db5-81783037ec48" "a19d6280-a89e-11ef-8db5-81783037ec48" "a19db0a0-a89e-11ef-8db5-81783037ec48" "b9dfb640-a89e-11ef-8db5-81783037ec48" "c4fc6870-a89e-11ef-8db5-81783037ec48" "c8923960-a89e-11ef-8db5-81783037ec48" "dcda7c20-a89e-11ef-8db5-81783037ec48")}}
-:block/updated-at 1732258583298
+:shapes-index ("01150a70-a89e-11ef-8db5-81783037ec48" "09df8f40-a89e-11ef-8db5-81783037ec48" "2c907ae0-a89e-11ef-8db5-81783037ec48" "39e2f8d2-a89e-11ef-8db5-81783037ec48" "4cd74450-a89e-11ef-8db5-81783037ec48" "4cd79270-a89e-11ef-8db5-81783037ec48" "622de9d0-a89e-11ef-8db5-81783037ec48" "69258362-a89e-11ef-8db5-81783037ec48" "758c1ab0-a89e-11ef-8db5-81783037ec48" "801ce090-a89e-11ef-8db5-81783037ec48" "8e062040-a89e-11ef-8db5-81783037ec48" "a19d6280-a89e-11ef-8db5-81783037ec48" "a19db0a0-a89e-11ef-8db5-81783037ec48" "b9dfb640-a89e-11ef-8db5-81783037ec48" "c4fc6870-a89e-11ef-8db5-81783037ec48" "c8923960-a89e-11ef-8db5-81783037ec48" "dcda7c20-a89e-11ef-8db5-81783037ec48" "e875fb42-a89e-11ef-8db5-81783037ec48" "efe2c4d2-a89e-11ef-8db5-81783037ec48" "f3586390-a89e-11ef-8db5-81783037ec48" "f80a2bd0-a89e-11ef-8db5-81783037ec48")}}
+:block/updated-at 1732258623995
 :block/created-at 1732258165833
 :block/type "whiteboard"
 :block/name "go lang"
