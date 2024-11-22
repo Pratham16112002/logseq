@@ -1,0 +1,3 @@
+- ### Pillow library
+	- It is used for basic image processing like image resizing , image cropping .
+	-
