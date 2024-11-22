@@ -44,7 +44,8 @@
 	- Creating an separate entity for **user_invitations**.
 		- Has `user_id` and token as attributes.
 	- __User store__ must have a method `CreateAndInvite()` which will send the email and create the user as well.
-	- The invitation token sent to the user should be stored in hashed foro
+	- The invitation token sent to the user should be stored in hashed form in the backend.
+	-
 - #### Saga Pattern
 	- A way to communicate with different services in a transaction like way.
 	- We can make it look like an acid transaction.
