@@ -20,6 +20,11 @@
 		- Has `user_id` and token as attributes.
 	- __User store__ must have a method `CreateAndInvite()` which will send the email and create the user as well.
 	- The invitation token sent to the user should be stored in hashed form in the backend again for security reasons.
+		- id:: 67402ac5-2ea5-4e4d-b4c6-b0de4d020160
+		  ```
+		  hash := sha256.Sum256([]byte(token))
+		  hashedToken := hex.EncodeToString(hash[:])
+		  ```
 	-
 	-
 - #### Saga Pattern

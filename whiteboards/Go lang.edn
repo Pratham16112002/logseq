@@ -340,7 +340,103 @@
 :parentId "67402975-fffc-4eb7-b498-0918ecd52750"
 :nonce 1732258441565
 :italic false}}
-:block/updated-at 1732258446249})
+:block/updated-at 1732258446249} 
+{:block/created-at 1732258482701
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:borderRadius 2
+:index 11
+:scale [1 1]
+:refs []
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [216 56]
+:strokeType "dashed"
+:strokeWidth 2
+:opacity 1
+:label "Hashing token"
+:id "a19d6280-a89e-11ef-8db5-81783037ec48"
+:fontWeight 400
+:noFill false
+:point [1152 540]
+:fontSize 20
+:parentId "67402975-fffc-4eb7-b498-0918ecd52750"
+:nonce 1732258474169
+:italic false}}
+:block/updated-at 1732258482701} 
+{:block/created-at 1732258474228
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 12
+:scale [1 1]
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "a19db0a0-a89e-11ef-8db5-81783037ec48"
+:fontWeight 400
+:noFill true
+:point [1260 441]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "a19db0a1-a89e-11ef-8db5-81783037ec48"}
+:end 
+{:id "end"
+:canBind true
+:point [0 95]
+:bindingId "a19db0a2-a89e-11ef-8db5-81783037ec48"}}
+:decorations 
+{:end "arrow"}
+:parentId "67402975-fffc-4eb7-b498-0918ecd52750"
+:nonce 1732258474155
+:italic false}}
+:block/updated-at 1732258474228} 
+{:block/content "((67402ac5-2ea5-4e4d-b4c6-b0de4d020160))"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "67402a3f-fd12-410a-aa81-ccec16da8fa5"}
+:block/parent 
+{:block/uuid #uuid "67402975-fffc-4eb7-b498-0918ecd52750"}
+:block/uuid #uuid "67402ad2-9ea8-4b23-9705-a20d0f43b7fb"} 
+{:block/created-at 1732258528034
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 13
+:scale [1 1]
+:pageId "67402ad2-9ea8-4b23-9705-a20d0f43b7fb"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 97.375]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "b9dfb640-a89e-11ef-8db5-81783037ec48"
+:noFill false
+:isLocked false
+:point [1432 520]
+:parentId "67402975-fffc-4eb7-b498-0918ecd52750"
+:collapsedHeight 0
+:nonce 1732258515004}}
+:block/updated-at 1732258528034})
 :pages (
 {:block/uuid #uuid "67402975-fffc-4eb7-b498-0918ecd52750"
 :block/properties 
@@ -388,11 +484,27 @@
 :toId "758c1ab0-a89e-11ef-8db5-81783037ec48"
 :handleId "end"
 :point [0.5 0.5]
+:distance 4}
+:a19db0a1-a89e-11ef-8db5-81783037ec48 
+{:id "a19db0a1-a89e-11ef-8db5-81783037ec48"
+:type "line"
+:fromId "a19db0a0-a89e-11ef-8db5-81783037ec48"
+:toId "801ce090-a89e-11ef-8db5-81783037ec48"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:a19db0a2-a89e-11ef-8db5-81783037ec48 
+{:id "a19db0a2-a89e-11ef-8db5-81783037ec48"
+:type "line"
+:fromId "a19db0a0-a89e-11ef-8db5-81783037ec48"
+:toId "a19d6280-a89e-11ef-8db5-81783037ec48"
+:handleId "end"
+:point [0.5 0.5]
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("01150a70-a89e-11ef-8db5-81783037ec48" "09df8f40-a89e-11ef-8db5-81783037ec48" "2c907ae0-a89e-11ef-8db5-81783037ec48" "39e2f8d2-a89e-11ef-8db5-81783037ec48" "4cd74450-a89e-11ef-8db5-81783037ec48" "4cd79270-a89e-11ef-8db5-81783037ec48" "622de9d0-a89e-11ef-8db5-81783037ec48" "69258362-a89e-11ef-8db5-81783037ec48" "758c1ab0-a89e-11ef-8db5-81783037ec48" "801ce090-a89e-11ef-8db5-81783037ec48" "8e062040-a89e-11ef-8db5-81783037ec48")}}
-:block/updated-at 1732258467317
+:shapes-index ("01150a70-a89e-11ef-8db5-81783037ec48" "09df8f40-a89e-11ef-8db5-81783037ec48" "2c907ae0-a89e-11ef-8db5-81783037ec48" "39e2f8d2-a89e-11ef-8db5-81783037ec48" "4cd74450-a89e-11ef-8db5-81783037ec48" "4cd79270-a89e-11ef-8db5-81783037ec48" "622de9d0-a89e-11ef-8db5-81783037ec48" "69258362-a89e-11ef-8db5-81783037ec48" "758c1ab0-a89e-11ef-8db5-81783037ec48" "801ce090-a89e-11ef-8db5-81783037ec48" "8e062040-a89e-11ef-8db5-81783037ec48" "a19d6280-a89e-11ef-8db5-81783037ec48" "a19db0a0-a89e-11ef-8db5-81783037ec48" "b9dfb640-a89e-11ef-8db5-81783037ec48")}}
+:block/updated-at 1732258528034
 :block/created-at 1732258165833
 :block/type "whiteboard"
 :block/name "go lang"
