@@ -259,3 +259,4 @@ collapsed:: true
 - [[User registration]]
 - [[Logging]]
 - [[Encoding & Decoding]]
+- [[go lang]]
