@@ -25,8 +25,7 @@
 		  hash := sha256.Sum256([]byte(token))
 		  hashedToken := hex.EncodeToString(hash[:])
 		  ```
-	-
-	-
+	- ** Activation
 - #### Saga Pattern
 	- A way to communicate with different services in a transaction like way.
 	- We can make it look like an acid transaction.

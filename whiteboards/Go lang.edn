@@ -472,7 +472,7 @@
 :nonce 1732258533523
 :italic false}}
 :block/updated-at 1732258553590} 
-{:block/created-at 1732258555375
+{:block/created-at 1732258655927
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -484,7 +484,7 @@
 :scaleLevel "xl"
 :fill ""
 :type "text"
-:size [238 68]
+:size [539 68]
 :fontFamily "var(--ls-font-family)"
 :strokeType "line"
 :strokeWidth 2
@@ -497,10 +497,10 @@
 :lineHeight 1.2
 :fontSize 48
 :parentId "67402975-fffc-4eb7-b498-0918ecd52750"
-:nonce 1732258539549
+:nonce 1732258539566
 :italic false
-:text "Activation"}}
-:block/updated-at 1732258555375} 
+:text "Activation(Transaction)"}}
+:block/updated-at 1732258655927} 
 {:block/created-at 1732258596267
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -558,7 +558,7 @@
 :nonce 1732258593362
 :italic false}}
 :block/updated-at 1732258606611} 
-{:block/created-at 1732258616984
+{:block/created-at 1732258664174
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -575,7 +575,7 @@
 :id "efe2c4d2-a89e-11ef-8db5-81783037ec48"
 :fontWeight 400
 :noFill true
-:point [1056 816]
+:point [1064 784]
 :fontSize 20
 :handles 
 {:start 
@@ -590,9 +590,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "67402975-fffc-4eb7-b498-0918ecd52750"
-:nonce 1732258605545
+:nonce 1732258605697
 :italic false}}
-:block/updated-at 1732258616984} 
+:block/updated-at 1732258664174} 
 {:block/created-at 1732258617050
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -622,7 +622,7 @@
 :italic false
 :text "Hashed token"}}
 :block/updated-at 1732258617050} 
-{:block/created-at 1732258623995
+{:block/created-at 1732258665373
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -643,14 +643,14 @@
 :padding 4
 :fontWeight 400
 :noFill true
-:point [1184 824]
+:point [1192 808]
 :lineHeight 1.2
 :fontSize 20
 :parentId "67402975-fffc-4eb7-b498-0918ecd52750"
-:nonce 1732258619169
+:nonce 1732258619215
 :italic false
 :text "Payload"}}
-:block/updated-at 1732258623995})
+:block/updated-at 1732258665373})
 :pages (
 {:block/uuid #uuid "67402975-fffc-4eb7-b498-0918ecd52750"
 :block/properties 
@@ -734,7 +734,7 @@
 :nonce 1
 :assets []
 :shapes-index ("01150a70-a89e-11ef-8db5-81783037ec48" "09df8f40-a89e-11ef-8db5-81783037ec48" "2c907ae0-a89e-11ef-8db5-81783037ec48" "39e2f8d2-a89e-11ef-8db5-81783037ec48" "4cd74450-a89e-11ef-8db5-81783037ec48" "4cd79270-a89e-11ef-8db5-81783037ec48" "622de9d0-a89e-11ef-8db5-81783037ec48" "69258362-a89e-11ef-8db5-81783037ec48" "758c1ab0-a89e-11ef-8db5-81783037ec48" "801ce090-a89e-11ef-8db5-81783037ec48" "8e062040-a89e-11ef-8db5-81783037ec48" "a19d6280-a89e-11ef-8db5-81783037ec48" "a19db0a0-a89e-11ef-8db5-81783037ec48" "b9dfb640-a89e-11ef-8db5-81783037ec48" "c4fc6870-a89e-11ef-8db5-81783037ec48" "c8923960-a89e-11ef-8db5-81783037ec48" "dcda7c20-a89e-11ef-8db5-81783037ec48" "e875fb42-a89e-11ef-8db5-81783037ec48" "efe2c4d2-a89e-11ef-8db5-81783037ec48" "f3586390-a89e-11ef-8db5-81783037ec48" "f80a2bd0-a89e-11ef-8db5-81783037ec48")}}
-:block/updated-at 1732258623995
+:block/updated-at 1732258665373
 :block/created-at 1732258165833
 :block/type "whiteboard"
 :block/name "go lang"
