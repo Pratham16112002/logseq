@@ -255,6 +255,7 @@ collapsed:: true
 		- __First argument__ : Is the time string.
 		- __Second argument__ : Is the format for that string in the first argument.
 		-
-- [Pagination & Sorting]]
+- [[Pagination & Sorting]]
 - [[User registration]]
 - [[Logging]]
+-
