@@ -1,0 +1,411 @@
+[{:block/name "(())",
+  :block/created-at 1662794112233,
+  :block/updated-at 1662794112233}
+ {:block/name "5sem",
+  :block/created-at 1663676514954,
+  :block/updated-at 1663676514954}
+ {:block/name "63159149-e1c3-4386-8404-8ce9ba74fd28",
+  :block/created-at 1662358356578,
+  :block/updated-at 1662358356578}
+ {:block/name "a",
+  :block/created-at 1659625727726,
+  :block/updated-at 1659625727726}
+ {:block/name "arrays",
+  :block/created-at 1661103575523,
+  :block/updated-at 1672206766025}
+ {:block/name "aug 19th, 2022",
+  :block/created-at 1660870236028,
+  :block/updated-at 1661102948701}
+ {:block/name "aug 20th, 2022",
+  :block/created-at 1660963744133,
+  :block/updated-at 1661102955765}
+ {:block/name "aug 27th, 2022",
+  :block/created-at 1661604744263,
+  :block/updated-at 1661604744263}
+ {:block/name "aug 28th, 2022",
+  :block/created-at 1661679098386,
+  :block/updated-at 1661695272991}
+ {:block/name "aug 29th, 2022",
+  :block/created-at 1661711402707,
+  :block/updated-at 1661711402707}
+ {:block/name "aug 30th, 2022",
+  :block/created-at 1661817824009,
+  :block/updated-at 1661817824009}
+ {:block/name "aug 31st, 2022",
+  :block/created-at 1661950443195,
+  :block/updated-at 1661950443195}
+ {:block/name "b",
+  :block/created-at 1659625727726,
+  :block/updated-at 1659625727726}
+ {:block/name "bfs",
+  :block/created-at 1662306673463,
+  :block/updated-at 1662436382895}
+ {:block/name "binary search tree",
+  :block/created-at 1661330372771,
+  :block/updated-at 1672047060075}
+ {:block/name "bit manipulation",
+  :block/created-at 1661103675139,
+  :block/updated-at 1662967364727}
+ {:block/name "c",
+  :block/created-at 1662786539619,
+  :block/updated-at 1662786539619}
+ {:block/name "canceled",
+  :block/created-at 1659625727726,
+  :block/updated-at 1659625727726}
+ {:block/name "cancelled",
+  :block/created-at 1659625727726,
+  :block/updated-at 1659625727726}
+ {:block/name "card",
+  :block/created-at 1659625727725,
+  :block/updated-at 1659625727725}
+ {:block/name "ccna",
+  :block/created-at 1661679098573,
+  :block/updated-at 1661679098573}
+ {:block/name "competitive programming",
+  :block/created-at 1662470515765,
+  :block/updated-at 1667727208596}
+ {:block/name "computer networks",
+  :block/created-at 1662540099481,
+  :block/updated-at 1662626960942}
+ {:block/name "contents",
+  :block/created-at 1659625727725,
+  :block/updated-at 1659625727725}
+ {:block/name "css",
+  :block/created-at 1663939299653,
+  :block/updated-at 1663939299653}
+ {:block/name "daa",
+  :block/created-at 1663078720220,
+  :block/updated-at 1664442101589}
+ {:block/name "data science",
+  :block/created-at 1661604744521,
+  :block/updated-at 1663394470424}
+ {:block/name "dec 11th, 2022",
+  :block/created-at 1670753761037,
+  :block/updated-at 1670753761037}
+ {:block/name "dec 14th, 2022",
+  :block/created-at 1670956279343,
+  :block/updated-at 1670956279343}
+ {:block/name "dec 15th, 2022",
+  :block/created-at 1671080926290,
+  :block/updated-at 1671080926290}
+ {:block/name "dec 16th, 2022",
+  :block/created-at 1671129003199,
+  :block/updated-at 1671129003199}
+ {:block/name "dec 18th, 2022",
+  :block/created-at 1671343468902,
+  :block/updated-at 1671343468902}
+ {:block/name "dec 19th, 2022",
+  :block/created-at 1671444992338,
+  :block/updated-at 1671444992338}
+ {:block/name "dec 1st, 2022",
+  :block/created-at 1669851202267,
+  :block/updated-at 1669851202267}
+ {:block/name "dec 20th, 2022",
+  :block/created-at 1671504554051,
+  :block/updated-at 1671504554051}
+ {:block/name "dec 26th, 2022",
+  :block/created-at 1672046105911,
+  :block/updated-at 1672046105911}
+ {:block/name "dec 28th, 2022",
+  :block/created-at 1672206537920,
+  :block/updated-at 1672206537920}
+ {:block/name "dec 2nd, 2022",
+  :block/created-at 1669919402239,
+  :block/updated-at 1669919402239}
+ {:block/name "dec 3rd, 2022",
+  :block/created-at 1670023043310,
+  :block/updated-at 1670023043310}
+ {:block/name "dec 4th, 2022",
+  :block/created-at 1670115814542,
+  :block/updated-at 1670115814542}
+ {:block/name "dec 5th, 2022",
+  :block/created-at 1670195549049,
+  :block/updated-at 1670195549049}
+ {:block/name "dec 6th, 2022",
+  :block/created-at 1670265875752,
+  :block/updated-at 1670265875752}
+ {:block/name "dec 7th, 2022",
+  :block/created-at 1670368483462,
+  :block/updated-at 1670368483462}
+ {:block/name "dec 9th, 2022",
+  :block/created-at 1670602643227,
+  :block/updated-at 1670602643227}
+ {:block/name "deleteit",
+  :block/created-at 1669127135448,
+  :block/updated-at 1669127135448}
+ {:block/name "dfs",
+  :block/created-at 1661103983766,
+  :block/updated-at 1664602025852}
+ {:block/name "doing",
+  :block/created-at 1659625727726,
+  :block/updated-at 1659625727726}
+ {:block/name "done",
+  :block/created-at 1659625727726,
+  :block/updated-at 1659625727726}
+ {:block/name "dsa",
+  :block/created-at 1659606634624,
+  :block/updated-at 1664615699023}
+ {:block/name "dynamic programming",
+  :block/created-at 1661739007545,
+  :block/updated-at 1665201485287}
+ {:block/name "error detection & correction",
+  :block/created-at 1667656471539,
+  :block/updated-at 1668507006470}
+ {:block/name "favorites",
+  :block/created-at 1659625727725,
+  :block/updated-at 1659625727725}
+ {:block/name "graphs",
+  :block/created-at 1664615690882,
+  :block/updated-at 1667411425742}
+ {:block/name "greedy methods",
+  :block/created-at 1664442101588,
+  :block/updated-at 1667745209279}
+ {:block/name "hashmap",
+  :block/created-at 1661104022634,
+  :block/updated-at 1662624519469}
+ {:block/name "hashtable",
+  :block/created-at 1662624581040,
+  :block/updated-at 1662659180206}
+ {:block/name "heap",
+  :block/created-at 1662874483005,
+  :block/updated-at 1662874757300}
+ {:block/name "importatnt points",
+  :block/created-at 1664293376708,
+  :block/updated-at 1664293978802}
+ {:block/name "in-progress",
+  :block/created-at 1659625727726,
+  :block/updated-at 1659625727726}
+ {:block/name "include<prio",
+  :block/created-at 1662471553517,
+  :block/updated-at 1662471553517}
+ {:block/name "include<queue>",
+  :block/created-at 1662470805139,
+  :block/updated-at 1662470805139}
+ {:block/name "information coding",
+  :block/created-at 1661772638851,
+  :block/updated-at 1667656471543}
+ {:block/name "later",
+  :block/created-at 1659625727726,
+  :block/updated-at 1659625727726}
+ {:block/name "linked list",
+  :block/created-at 1659606634615,
+  :block/updated-at 1661950868583}
+ {:block/name "measurement of information",
+  :block/created-at 1662270612132,
+  :block/updated-at 1663902897704}
+ {:block/name "memoization",
+  :block/created-at 1662976254834,
+  :block/updated-at 1662976316623}
+ {:block/name "min",
+  :block/created-at 1662874500306,
+  :block/updated-at 1662876866950}
+ {:block/name "mongodb and node-js",
+  :block/created-at 1659606634893,
+  :block/updated-at 1659606634893}
+ {:block/name "network layer",
+  :block/created-at 1662540099479,
+  :block/updated-at 1669295133823}
+ {:block/name "nov 15th, 2022",
+  :block/created-at 1668503185193,
+  :block/updated-at 1668503185193}
+ {:block/name "nov 16th, 2022",
+  :block/created-at 1668611531757,
+  :block/updated-at 1668611531757}
+ {:block/name "nov 17th, 2022",
+  :block/created-at 1668639223133,
+  :block/updated-at 1668639223133}
+ {:block/name "nov 18th, 2022",
+  :block/created-at 1668710217173,
+  :block/updated-at 1668710217173}
+ {:block/name "nov 19th, 2022",
+  :block/created-at 1668833338383,
+  :block/updated-at 1668833338383}
+ {:block/name "nov 1st, 2022",
+  :block/created-at 1667275855062,
+  :block/updated-at 1667275855062}
+ {:block/name "nov 22nd, 2022",
+  :block/created-at 1669127135221,
+  :block/updated-at 1669127135221}
+ {:block/name "nov 23rd, 2022",
+  :block/created-at 1669163812023,
+  :block/updated-at 1669163812023}
+ {:block/name "nov 24th, 2022",
+  :block/created-at 1669251754402,
+  :block/updated-at 1669251754402}
+ {:block/name "nov 25th, 2022",
+  :block/created-at 1669339432155,
+  :block/updated-at 1669339432155}
+ {:block/name "nov 26th, 2022",
+  :block/created-at 1669419890567,
+  :block/updated-at 1669419890567}
+ {:block/name "nov 27th, 2022",
+  :block/created-at 1669511892953,
+  :block/updated-at 1669511892953}
+ {:block/name "nov 28th, 2022",
+  :block/created-at 1669595859964,
+  :block/updated-at 1669595859964}
+ {:block/name "nov 29th, 2022",
+  :block/created-at 1669660204259,
+  :block/updated-at 1669660204259}
+ {:block/name "nov 2nd, 2022",
+  :block/created-at 1667327403638,
+  :block/updated-at 1667327403638}
+ {:block/name "nov 30th, 2022",
+  :block/created-at 1669765859279,
+  :block/updated-at 1669765859279}
+ {:block/name "nov 3rd, 2022",
+  :block/created-at 1667444365062,
+  :block/updated-at 1667444365062}
+ {:block/name "nov 4th, 2022",
+  :block/created-at 1667531695734,
+  :block/updated-at 1667531695734}
+ {:block/name "nov 5th, 2022",
+  :block/created-at 1667622607747,
+  :block/updated-at 1667622607747}
+ {:block/name "nov 6th, 2022",
+  :block/created-at 1667706597079,
+  :block/updated-at 1667706597079}
+ {:block/name "nov 7th, 2022",
+  :block/created-at 1667790598806,
+  :block/updated-at 1667790598806}
+ {:block/name "now",
+  :block/created-at 1659625727726,
+  :block/updated-at 1659625727726}
+ {:block/name "oct 12th, 2022",
+  :block/created-at 1665544362930,
+  :block/updated-at 1665545538399}
+ {:block/name "oct 13th, 2022",
+  :block/created-at 1665620275570,
+  :block/updated-at 1665620275570}
+ {:block/name "oct 14th, 2022",
+  :block/created-at 1665710447425,
+  :block/updated-at 1665710447425}
+ {:block/name "oct 1st, 2022",
+  :block/created-at 1664562600485,
+  :block/updated-at 1664562600485}
+ {:block/name "oct 24th, 2022",
+  :block/created-at 1666577531964,
+  :block/updated-at 1666577531964}
+ {:block/name "oct 4th, 2022",
+  :block/created-at 1664893097067,
+  :block/updated-at 1664929516249}
+ {:block/name "oct 5th, 2022",
+  :block/created-at 1664924524949,
+  :block/updated-at 1664924524949}
+ {:block/name "oct 8th, 2022",
+  :block/created-at 1665200466082,
+  :block/updated-at 1665200466082}
+ {:block/name "queue",
+  :block/created-at 1661103881849,
+  :block/updated-at 1662806212536}
+ {:block/name "recursion",
+  :block/created-at 1659606634614,
+  :block/updated-at 1670956594507}
+ {:block/name "routing algorithms",
+  :block/created-at 1667308901220,
+  :block/updated-at 1668734696453}
+ {:block/name "sep 10th, 2022",
+  :block/created-at 1662782571646,
+  :block/updated-at 1662782571646}
+ {:block/name "sep 11th, 2022",
+  :block/created-at 1662866470242,
+  :block/updated-at 1662866470242}
+ {:block/name "sep 12th, 2022",
+  :block/created-at 1662966163039,
+  :block/updated-at 1662966163039}
+ {:block/name "sep 13th, 2022",
+  :block/created-at 1663039739716,
+  :block/updated-at 1663039739716}
+ {:block/name "sep 14th, 2022",
+  :block/created-at 1663093801708,
+  :block/updated-at 1663093801708}
+ {:block/name "sep 15th, 2022",
+  :block/created-at 1663201247336,
+  :block/updated-at 1663201247336}
+ {:block/name "sep 16th, 2022",
+  :block/created-at 1663268827993,
+  :block/updated-at 1663268827993}
+ {:block/name "sep 17th, 2022",
+  :block/created-at 1663353003015,
+  :block/updated-at 1663353003015}
+ {:block/name "sep 20th, 2022",
+  :block/created-at 1663676514711,
+  :block/updated-at 1663689250427}
+ {:block/name "sep 21st, 2022",
+  :block/created-at 1663699803238,
+  :block/updated-at 1663699803238}
+ {:block/name "sep 22nd, 2022",
+  :block/created-at 1663785002995,
+  :block/updated-at 1663785002995}
+ {:block/name "sep 23rd, 2022",
+  :block/created-at 1663888053279,
+  :block/updated-at 1663888053279}
+ {:block/name "sep 24th, 2022",
+  :block/created-at 1663957801061,
+  :block/updated-at 1663957801061}
+ {:block/name "sep 25th, 2022",
+  :block/created-at 1664044204571,
+  :block/updated-at 1664044204571}
+ {:block/name "sep 26th, 2022",
+  :block/created-at 1664130600806,
+  :block/updated-at 1664130600806}
+ {:block/name "sep 27th, 2022",
+  :block/created-at 1664284186343,
+  :block/updated-at 1664284186343}
+ {:block/name "sep 28th, 2022",
+  :block/created-at 1664382887710,
+  :block/updated-at 1664382887710}
+ {:block/name "sep 29th, 2022",
+  :block/created-at 1664414972134,
+  :block/updated-at 1664414972134}
+ {:block/name "sep 30th, 2022",
+  :block/created-at 1664476827581,
+  :block/updated-at 1664476827581}
+ {:block/name "sep 3rd, 2022",
+  :block/created-at 1662194536249,
+  :block/updated-at 1662194536249}
+ {:block/name "sep 4th, 2022",
+  :block/created-at 1662270005709,
+  :block/updated-at 1662270005709}
+ {:block/name "sep 5th, 2022",
+  :block/created-at 1662356997206,
+  :block/updated-at 1662356997206}
+ {:block/name "sep 6th, 2022",
+  :block/created-at 1662434296047,
+  :block/updated-at 1662434296047}
+ {:block/name "sep 7th, 2022",
+  :block/created-at 1662540099299,
+  :block/updated-at 1662540099299}
+ {:block/name "sep 8th, 2022",
+  :block/created-at 1662604649957,
+  :block/updated-at 1662604649957}
+ {:block/name "sep 9th, 2022",
+  :block/created-at 1662684240573,
+  :block/updated-at 1662684240573}
+ {:block/name "sorting",
+  :block/created-at 1661774316180,
+  :block/updated-at 1661775612478}
+ {:block/name "source coding",
+  :block/created-at 1663676515035,
+  :block/updated-at 1663676515035}
+ {:block/name "stack",
+  :block/created-at 1661609619215,
+  :block/updated-at 1661614535683}
+ {:block/name "strings",
+  :block/created-at 1664284306630,
+  :block/updated-at 1664520449846}
+ {:block/name "tansport layer",
+  :block/created-at 1667841671595,
+  :block/updated-at 1670043633288}
+ {:block/name "todo",
+  :block/created-at 1659625727726,
+  :block/updated-at 1659625727726}
+ {:block/name "wait",
+  :block/created-at 1659625727725,
+  :block/updated-at 1659625727725}
+ {:block/name "waiting",
+  :block/created-at 1659625727725,
+  :block/updated-at 1659625727725}
+ {:block/name "web dev",
+  :block/created-at 1671211383298, 
+  :block/updated-at 1671211383298}]
