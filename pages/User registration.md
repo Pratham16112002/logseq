@@ -25,7 +25,8 @@
 		  hash := sha256.Sum256([]byte(token))
 		  hashedToken := hex.EncodeToString(hash[:])
 		  ```
-	- ** Activation
+	- **User invitation transaction**
+		- __Transaction Wrapper__ : This will mark the begin of transaction and the commit of transaction or
 - #### Saga Pattern
 	- A way to communicate with different services in a transaction like way.
 	- We can make it look like an acid transaction.
