@@ -33,7 +33,13 @@
 				- Creating the user invitation.
 			- __Work3__
 				- Successfull delivery of email.
-	- ####
+	- #### User activation transaction
+		- __Work1__
+			- Getting the user from token sent via email.
+		- __Work2__
+			- Activating the user.
+		- __Work3__
+			-
 	-
 - #### Saga Pattern
 	- A way to communicate with different services in a transaction like way.
