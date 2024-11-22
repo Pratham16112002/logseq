@@ -260,3 +260,4 @@ collapsed:: true
 - [[Logging]]
 - [[Encoding & Decoding]]
 - [[go lang]]
+- [[Mailer]]
