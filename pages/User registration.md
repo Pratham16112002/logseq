@@ -26,8 +26,9 @@
 		  hashedToken := hex.EncodeToString(hash[:])
 		  ```
 	- **User invitation transaction**
-		- __Transaction Wrapper__ : This will mark the begin of transaction and the commit of transaction or rollback of transaction in case of faliure.
-			-
+		- __Transaction Wrapper__ : This will mark the begin of transaction and the commit of transaction or rollback of transaction in case of failure.
+			- __Work1
+	-
 - #### Saga Pattern
 	- A way to communicate with different services in a transaction like way.
 	- We can make it look like an acid transaction.
