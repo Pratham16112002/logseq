@@ -1,3 +1,4 @@
 - We can use multiple SMTP third party or even our own.
+- Mail should be exposed to certain level of application only.
 - ### Implementation
 	-
