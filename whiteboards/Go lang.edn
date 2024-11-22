@@ -1,0 +1,100 @@
+{:blocks (
+{:block/created-at 1732258215540
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 0
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [175 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "01150a70-a89e-11ef-8db5-81783037ec48"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [392 168]
+:lineHeight 1.2
+:fontSize 20
+:parentId "67402975-fffc-4eb7-b498-0918ecd52750"
+:nonce 1732258204866
+:italic false
+:text "User Registration"}}
+:block/updated-at 1732258215540} 
+{:block/created-at 1732258252056
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 1
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [131 130]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "09df8f40-a89e-11ef-8db5-81783037ec48"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [208 352]
+:lineHeight 1.2
+:fontSize 20
+:parentId "67402975-fffc-4eb7-b498-0918ecd52750"
+:nonce 1732258219654
+:italic false
+:text "Payload\n\n1. Email\n2. Username\n3. Password"}}
+:block/updated-at 1732258252056} 
+{:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:borderRadius 2
+:index 2
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [216 160]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label ""
+:id "2c907ae0-a89e-11ef-8db5-81783037ec48"
+:fontWeight 400
+:noFill false
+:point [504 344]
+:fontSize 20
+:parentId "67402975-fffc-4eb7-b498-0918ecd52750"
+:nonce 1732258277839
+:italic false}}
+:block/updated-at 1732258278589})
+:pages (
+{:block/uuid #uuid "67402975-fffc-4eb7-b498-0918ecd52750"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "67402975-fffc-4eb7-b498-0918ecd52750"
+:name "go lang"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("01150a70-a89e-11ef-8db5-81783037ec48" "09df8f40-a89e-11ef-8db5-81783037ec48" "2c907ae0-a89e-11ef-8db5-81783037ec48")}}
+:block/updated-at 1732258278588
+:block/created-at 1732258165833
+:block/type "whiteboard"
+:block/name "go lang"
+:block/original-name "Go lang"})}
