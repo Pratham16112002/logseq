@@ -1,1 +1,3 @@
-- We can use multiple SMTP
+- We can use multiple SMTP third party or even our own.
+- ### Implementation
+	-
