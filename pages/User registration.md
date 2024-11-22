@@ -27,7 +27,13 @@
 		  ```
 	- **User invitation transaction**
 		- __Transaction Wrapper__ : This will mark the begin of transaction and the commit of transaction or rollback of transaction in case of failure.
-			- __Work1
+			- __Work1__
+				- Creating the user.
+			- __Work2__
+				- Creating the user invitation.
+			- __Work3__
+				- Successfull delivery of email.
+	- ####
 	-
 - #### Saga Pattern
 	- A way to communicate with different services in a transaction like way.
