@@ -26,6 +26,7 @@
 		  hashedToken := hex.EncodeToString(hash[:])
 		  ```
 	- **User invitation transaction**
+	  id:: 67402b8f-f1f1-4ae9-aa86-1e26940d3929
 		- __Transaction Wrapper__ : This will mark the begin of transaction and the commit of transaction or rollback of transaction in case of failure.
 			- __Work1__
 				- Creating the user.
@@ -34,12 +35,14 @@
 			- __Work3__
 				- Successfull delivery of email.
 	- #### User activation transaction
+	  id:: 67402f52-2893-448a-93d3-a35876120d4e
 		- __Work1__
 			- Getting the user from token sent via email.
 		- __Work2__
 			- Activating the user.
 		- __Work3__
-			-
+			- Deleting the user invitation from the database.
+		-
 	-
 - #### Saga Pattern
 	- A way to communicate with different services in a transaction like way.
