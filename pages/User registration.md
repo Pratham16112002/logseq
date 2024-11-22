@@ -1,17 +1,5 @@
 #### Creating a separate route
-	- ```
-	  r.Route("/authentication", func(r chi.Router) {
-	  			r.Post("/user", app.userRegisterHandler)
-	  		})
-	  ```
-- #### Payload for registration
-	- ```
-	  type RegisterUserPayload struct {
-	  	Username string `json:"username" validate:"required,max=50"`
-	  	Email    string `json:"email" validate:"required,email,max=50"`
-	  	Password string `json:"password" validate:"required,min=3,max=88"`
-	  }
-	  ```
+	- A separate end point is necessary for the auth workflow.
 - #### Password storing
 	- Password should be stored as a hash for security reasons
 	- ```
