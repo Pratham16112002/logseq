@@ -14,3 +14,18 @@
 		  		"aud": app.config.auth.token.iss,
 		  	}
 		  ```
+		- #### Token creation from JWT claims
+			- ```
+			  func (j *JWTAuthenticator) GenerateToken(claims jwt.Claims) (string, error) {
+			  
+			  	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
+			  
+			  	tokenString, err := token.SignedString([]byte(j.secret))
+			  
+			  	if err != nil {
+			  		return "", nil
+			  	}
+			  	return tokenString, nil
+			  }
+			  ```
+			-
