@@ -1,4 +1,5 @@
 ## JWT authentication
 	- ### JWT claims
 		- Set of key values pairs which stores the information about the subject.
-		- Information like expiry date, issued at, user
+		- Information like expiry date, issued at, user Id.
+		- `{ claim name : claim value}`.
