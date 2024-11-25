@@ -1,1 +1,2 @@
-- A middleware is a function which
+- A middleware is a function which has access to the req and res objects and the next function it gonna call.
+-
