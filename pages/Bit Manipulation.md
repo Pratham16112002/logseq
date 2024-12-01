@@ -33,6 +33,7 @@
 	  ^^
 	  #+END_TIP
 - ### XOR Subsets
+  id:: 674c980e-0d98-46c2-b25d-574cff6644a1
 	- Take elements from 1 to n.
 		- If we do an `xor` operation on all the values then `sum_xor` will always be in the range 1 to n or n + 1.
 		- We can see the pattern we to sum of `xor` of elements for some values of n.

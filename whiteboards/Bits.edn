@@ -150,7 +150,8 @@
 :nonce 1733074272962
 :italic false}}
 :block/updated-at 1733074279776} 
-{:block/properties 
+{:block/created-at 1733074509711
+:block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
@@ -183,7 +184,63 @@
 :parentId "674c9cca-5969-4063-9805-b50b8be150f2"
 :nonce 1733074278810
 :italic false}}
-:block/updated-at 1733074279777})
+:block/updated-at 1733074509711} 
+{:block/created-at 1733074509716
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 6
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [590 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "3de7fcf0-b00a-11ef-81b6-755e4c79bc21"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [848 432]
+:lineHeight 1.2
+:fontSize 20
+:parentId "674c9cca-5969-4063-9805-b50b8be150f2"
+:nonce 1733074350731
+:italic false
+:text "The xor of elements from 1 to n will always be 0 or 1 or n or n + 1"}}
+:block/updated-at 1733074509716} 
+{:block/created-at 1733074525395
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 7
+:scale [1 1]
+:pageId "674c980e-0d98-46c2-b25d-574cff6644a1"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 45.796875]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "a0ce9770-b00a-11ef-81b6-755e4c79bc21"
+:noFill false
+:point [1448 488]
+:parentId "674c9cca-5969-4063-9805-b50b8be150f2"
+:collapsedHeight 0
+:nonce 1733074516585}}
+:block/updated-at 1733074525395})
 :pages (
 {:block/uuid #uuid "674c9cca-5969-4063-9805-b50b8be150f2"
 :block/properties 
@@ -210,8 +267,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("c65c0b90-b009-11ef-81b6-755e4c79bc21" "d8c81440-b009-11ef-81b6-755e4c79bc21" "f5df2190-b009-11ef-81b6-755e4c79bc21" "fed6d0e0-b009-11ef-81b6-755e4c79bc21" "0f92b890-b00a-11ef-81b6-755e4c79bc21" "130aef62-b00a-11ef-81b6-755e4c79bc21")}}
-:block/updated-at 1733074279776
+:shapes-index ("c65c0b90-b009-11ef-81b6-755e4c79bc21" "d8c81440-b009-11ef-81b6-755e4c79bc21" "f5df2190-b009-11ef-81b6-755e4c79bc21" "fed6d0e0-b009-11ef-81b6-755e4c79bc21" "0f92b890-b00a-11ef-81b6-755e4c79bc21" "130aef62-b00a-11ef-81b6-755e4c79bc21" "3de7fcf0-b00a-11ef-81b6-755e4c79bc21" "a0ce9770-b00a-11ef-81b6-755e4c79bc21")}}
+:block/updated-at 1733074525395
 :block/created-at 1733074122169
 :block/type "whiteboard"
 :block/name "bits"
