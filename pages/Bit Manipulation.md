@@ -35,4 +35,10 @@
 - ### XOR Subsets
 	- Take elements from 1 to n.
 		- If we do an `xor` operation on all the values then `sum_xor` will always be in the range 1 to n.
+		- ```
+		  If n % 4 == 0, then xor(1 ... n) = n
+		  If n % 4 == 1, then xor(1 ... n) = 1
+		  If x % 4 == 2, then xor(1 ... n) = n + 1
+		  If x % 4 == 3, then xor(1 ... n) = 0
+		  ```
 		-
