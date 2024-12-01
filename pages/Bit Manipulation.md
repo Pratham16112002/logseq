@@ -34,4 +34,4 @@
 	  #+END_TIP
 - ### XOR Subsets
 	- Take elements from 1 to n.
-		- If we do a
+		- If we do an xor operation on all the values then
