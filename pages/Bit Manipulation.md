@@ -34,4 +34,5 @@
 	  #+END_TIP
 - ### XOR Subsets
 	- Take elements from 1 to n.
-		- If we do an xor operation on all the values then
+		- If we do an `xor` operation on all the values then `sum_xor` will always be in the range 1 to n.
+		-
