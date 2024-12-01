@@ -1,0 +1,76 @@
+{:blocks (
+{:block/created-at 1733074163802
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 0
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [266 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "c65c0b90-b009-11ef-81b6-755e4c79bc21"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [376 176]
+:lineHeight 1.2
+:fontSize 48
+:parentId "674c9cca-5969-4063-9805-b50b8be150f2"
+:nonce 1733074150114
+:italic false
+:text "Subset XOR"}}
+:block/updated-at 1733074163802} 
+{:block/created-at 1733074222884
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 1
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [330 58]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "d8c81440-b009-11ef-81b6-755e4c79bc21"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [328 288]
+:lineHeight 1.2
+:fontSize 20
+:parentId "674c9cca-5969-4063-9805-b50b8be150f2"
+:nonce 1733074181102
+:italic false
+:text "You are given an integer n, \nneed to select a subset within 1 - n."}}
+:block/updated-at 1733074222884})
+:pages (
+{:block/uuid #uuid "674c9cca-5969-4063-9805-b50b8be150f2"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "674c9cca-5969-4063-9805-b50b8be150f2"
+:name "bits"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("c65c0b90-b009-11ef-81b6-755e4c79bc21" "d8c81440-b009-11ef-81b6-755e4c79bc21")}}
+:block/updated-at 1733074222884
+:block/created-at 1733074122169
+:block/type "whiteboard"
+:block/name "bits"
+:block/original-name "Bits"})}
