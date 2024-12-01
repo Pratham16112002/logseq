@@ -1180,7 +1180,16 @@
 :parentId "674c9cca-5969-4063-9805-b50b8be150f2"
 :nonce 1733074940441
 :italic false}}
-:block/updated-at 1733074941512})
+:block/updated-at 1733074941512} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "674c9cca-5969-4063-9805-b50b8be150f2"}
+:block/parent 
+{:block/uuid #uuid "674c9cca-5969-4063-9805-b50b8be150f2"}
+:block/properties 
+{}
+:block/uuid #uuid "674ca015-ee1b-4d14-ac9d-7d5d705a5da9"})
 :pages (
 {:block/uuid #uuid "674c9cca-5969-4063-9805-b50b8be150f2"
 :block/properties 
@@ -1208,8 +1217,10 @@
 :nonce 1
 :assets []
 :shapes-index ("c65c0b90-b009-11ef-81b6-755e4c79bc21" "d8c81440-b009-11ef-81b6-755e4c79bc21" "f5df2190-b009-11ef-81b6-755e4c79bc21" "fed6d0e0-b009-11ef-81b6-755e4c79bc21" "0f92b890-b00a-11ef-81b6-755e4c79bc21" "130aef62-b00a-11ef-81b6-755e4c79bc21" "3de7fcf0-b00a-11ef-81b6-755e4c79bc21" "a0ce9770-b00a-11ef-81b6-755e4c79bc21" "ac39b7c0-b00a-11ef-81b6-755e4c79bc21" "ad65b4a0-b00a-11ef-81b6-755e4c79bc21" "c36e9320-b00a-11ef-81b6-755e4c79bc21" "c42efcf0-b00a-11ef-81b6-755e4c79bc21" "c4c82fb0-b00a-11ef-81b6-755e4c79bc21" "c5260720-b00a-11ef-81b6-755e4c79bc21" "c5808330-b00a-11ef-81b6-755e4c79bc21" "c7bb7f10-b00a-11ef-81b6-755e4c79bc21" "c84dfb10-b00a-11ef-81b6-755e4c79bc21" "c99c25f0-b00a-11ef-81b6-755e4c79bc21" "caa112d0-b00a-11ef-81b6-755e4c79bc21" "cb8cd260-b00a-11ef-81b6-755e4c79bc21" "ccb302e0-b00a-11ef-81b6-755e4c79bc21" "cd50f090-b00a-11ef-81b6-755e4c79bc21" "ce503820-b00a-11ef-81b6-755e4c79bc21" "e5c3f140-b00a-11ef-81b6-755e4c79bc21" "e621c8b0-b00a-11ef-81b6-755e4c79bc21" "e697bc00-b00a-11ef-81b6-755e4c79bc21" "e7848d00-b00a-11ef-81b6-755e4c79bc21" "e7f6d6d0-b00a-11ef-81b6-755e4c79bc21" "e8d995b0-b00a-11ef-81b6-755e4c79bc21" "e93c0100-b00a-11ef-81b6-755e4c79bc21" "f13b6da0-b00a-11ef-81b6-755e4c79bc21" "f5562600-b00a-11ef-81b6-755e4c79bc21" "695ee410-b00b-11ef-81b6-755e4c79bc21" "71e77de0-b00b-11ef-81b6-755e4c79bc21" "725fbb20-b00b-11ef-81b6-755e4c79bc21" "72f0fea0-b00b-11ef-81b6-755e4c79bc21" "73728ab0-b00b-11ef-81b6-755e4c79bc21" "73e040a0-b00b-11ef-81b6-755e4c79bc21" "7443e470-b00b-11ef-81b6-755e4c79bc21" "761c7500-b00b-11ef-81b6-755e4c79bc21" "7686cf90-b00b-11ef-81b6-755e4c79bc21" "77663310-b00b-11ef-81b6-755e4c79bc21" "794b46c0-b00b-11ef-81b6-755e4c79bc21" "79a91e30-b00b-11ef-81b6-755e4c79bc21" "7a3a88c0-b00b-11ef-81b6-755e4c79bc21" "7b150a40-b00b-11ef-81b6-755e4c79bc21" "7b83f8b0-b00b-11ef-81b6-755e4c79bc21" "7d972140-b00b-11ef-81b6-755e4c79bc21" "7f18df40-b00b-11ef-81b6-755e4c79bc21" "9337ef20-b00b-11ef-81b6-755e4c79bc21" "9d68e1c2-b00b-11ef-81b6-755e4c79bc21")}}
+:block/journal? false
 :block/updated-at 1733074941512
 :block/created-at 1733074122169
+:block/format :markdown
 :block/type "whiteboard"
 :block/name "bits"
 :block/original-name "Bits"})}

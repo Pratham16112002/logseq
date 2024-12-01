@@ -43,4 +43,4 @@
 		  If x % 4 == 2, then xor(1 ... n) = n + 1
 		  If x % 4 == 3, then xor(1 ... n) = 0
 		  ```
-		-
+	-
