@@ -32,4 +32,6 @@
 	              }
 	  ^^
 	  #+END_TIP
-	-
+- ### XOR Subsets
+	- Take elements from 1 to n.
+		- If we do a
