@@ -11,7 +11,7 @@
 	- #+BEGIN_NOTE
 	  Bit masking allows us to store multiple values inside one numerical variable . Instead of thinking about this variable as a whole number , we treat its every bit as a  separate value .
 	  #+END_NOTE
-### Major Operations in bit maipulation
+- ### Major Operations in bit maipulation
 	- Get Bit => first we left shift the 1 with position given and then check the and operation of the bitmask with the original number .
 		- ![2022_06_13_image.png](https://cdn.logseq.com/%2Fc5083927-5c94-4c57-a16c-c5b7d0d4472f33e9ad76-d8bc-43c8-9bda-e9a09224f7a12022_06_13_image.png?Expires=4808744875&Signature=oLSNEj5Oz9uM4IA4nk6OpcpSVW1hK2FoqU~DUXv9cT57wvX04J7n51W4VvbNThPMwJdZh3FickRfNkdzIvHaxNtQ-1~NMZ-Y6qmW3XrdbK0gog3GFWfbjNNIZ9Nzk9fTxaC0KRS0eR8wuaS182HMyQssC~zU23qf7HrSc7VGA30t8BidS4hH2jkY7h9ABE9-mkFlx4ADRpMWZn5QVCV-u835XqGf3qPz9AAZ~Lg7kGybp4cbJXju5ifgKFk7HufF0KuTUXluMYa9peoKLt0mjfbjAHEV4VZ80Dldlx0znpo84Jm7WiW028HB6gWeS60VS1X6V41XCMno6v~sBpivhA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 	- Set Bit => first we left shift the 1 with the position given and then perform OR  operation of the bitmask with the original number .
@@ -32,3 +32,4 @@
 	              }
 	  ^^
 	  #+END_TIP
+	-
