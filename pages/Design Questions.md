@@ -22,6 +22,7 @@
 		      }
 		  ```
 	- __PUT METHOD__ :
+	  id:: 674deaca-2f8f-405a-87e5-5db3779353cb
 		- ```
 		   void put(int key, int value) {
 		          if(mp.find(key) != mp.end()){
