@@ -1,0 +1,76 @@
+{:blocks (
+{:block/created-at 1733111785708
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 0
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [243 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "5e92a5c0-b061-11ef-81b6-755e4c79bc21"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [568 280]
+:lineHeight 1.2
+:fontSize 48
+:parentId "674d2fd1-31ac-447f-a892-714d615e1dee"
+:nonce 1733111771694
+:italic false
+:text "LRU Cache"}}
+:block/updated-at 1733111785708} 
+{:block/created-at 1733111885389
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 1
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [557 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "90889080-b061-11ef-81b6-755e4c79bc21"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [368 408]
+:lineHeight 1.2
+:fontSize 20
+:parentId "674d2fd1-31ac-447f-a892-714d615e1dee"
+:nonce 1733111855633
+:italic false
+:text "We need to implement the least recently used bits algorithm."}}
+:block/updated-at 1733111885389})
+:pages (
+{:block/uuid #uuid "674d2fd1-31ac-447f-a892-714d615e1dee"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "674d2fd1-31ac-447f-a892-714d615e1dee"
+:name "design problems"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("5e92a5c0-b061-11ef-81b6-755e4c79bc21" "90889080-b061-11ef-81b6-755e4c79bc21")}}
+:block/updated-at 1733111885389
+:block/created-at 1733111761479
+:block/type "whiteboard"
+:block/name "design problems"
+:block/original-name "Design Problems"})}
