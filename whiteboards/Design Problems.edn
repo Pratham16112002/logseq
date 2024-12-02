@@ -86,7 +86,8 @@
 :italic false
 :text "A constructor which will initialize the LRU."}}
 :block/updated-at 1733111944499} 
-{:block/properties 
+{:block/created-at 1733111976541
+:block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:isSizeLocked true
@@ -113,7 +114,140 @@
 :nonce 1733111921333
 :italic false
 :text "get() method which will return the value provided \nthe corresponding key."}}
-:block/updated-at 1733111944500})
+:block/updated-at 1733111976541} 
+{:block/created-at 1733111979094
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 4
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [542 58]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "c9f2bee0-b061-11ef-81b6-755e4c79bc21"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [984 720]
+:lineHeight 1.2
+:fontSize 20
+:parentId "674d2fd1-31ac-447f-a892-714d615e1dee"
+:nonce 1733111951969
+:italic false
+:text "put() method which will update the value if exist or insert it \nin a LRU format."}}
+:block/updated-at 1733111979094} 
+{:block/created-at 1733111987892
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 5
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "db9dc182-b061-11ef-81b6-755e4c79bc21"
+:fontWeight 400
+:noFill true
+:point [664 448]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [296 88]
+:bindingId nil}}
+:decorations 
+{:end "arrow"}
+:parentId "674d2fd1-31ac-447f-a892-714d615e1dee"
+:nonce 1733111981531
+:italic false}}
+:block/updated-at 1733111987892} 
+{:block/created-at 1733111992076
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 6
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "deaada72-b061-11ef-81b6-755e4c79bc21"
+:fontWeight 400
+:noFill true
+:point [584 456]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [376 200]
+:bindingId nil}}
+:decorations 
+{:end "arrow"}
+:parentId "674d2fd1-31ac-447f-a892-714d615e1dee"
+:nonce 1733111986652
+:italic false}}
+:block/updated-at 1733111992076} 
+{:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 7
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "e0cea4d2-b061-11ef-81b6-755e4c79bc21"
+:fontWeight 400
+:noFill true
+:point [472 464]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [504 288]
+:bindingId nil}}
+:decorations 
+{:end "arrow"}
+:parentId "674d2fd1-31ac-447f-a892-714d615e1dee"
+:nonce 1733111990272
+:italic false}}
+:block/updated-at 1733111992076})
 :pages (
 {:block/uuid #uuid "674d2fd1-31ac-447f-a892-714d615e1dee"
 :block/properties 
@@ -125,8 +259,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("5e92a5c0-b061-11ef-81b6-755e4c79bc21" "90889080-b061-11ef-81b6-755e4c79bc21" "a5576860-b061-11ef-81b6-755e4c79bc21" "b7b8c2b0-b061-11ef-81b6-755e4c79bc21")}}
-:block/updated-at 1733111944499
+:shapes-index ("5e92a5c0-b061-11ef-81b6-755e4c79bc21" "90889080-b061-11ef-81b6-755e4c79bc21" "a5576860-b061-11ef-81b6-755e4c79bc21" "b7b8c2b0-b061-11ef-81b6-755e4c79bc21" "c9f2bee0-b061-11ef-81b6-755e4c79bc21" "db9dc182-b061-11ef-81b6-755e4c79bc21" "deaada72-b061-11ef-81b6-755e4c79bc21" "e0cea4d2-b061-11ef-81b6-755e4c79bc21")}}
+:block/updated-at 1733111992076
 :block/created-at 1733111761479
 :block/type "whiteboard"
 :block/name "design problems"
