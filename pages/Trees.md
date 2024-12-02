@@ -27,7 +27,7 @@
 	- Maximum nodes in a tree of height $H = H^2$ - 1
 	- For N nodes , minimum possible height or minimum number of levels are ![image.png](../assets/image_1660870970820_0.png)
 	- A binary tree with L leaves has at least ![image.png](../assets/image_1660871021465_0.png) number of levels
-#### Major Traversal In BST
+- #### Major Traversal In BST
 	- #### Pre_order
 		- ![image.png](../assets/image_1660884244470_0.png)
 	- #### In_order

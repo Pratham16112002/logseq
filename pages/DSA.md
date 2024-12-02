@@ -1,5 +1,5 @@
 - [[HashMap]]
-- [[Binary Search Tree]]
+- [[Trees]]
 - [[Bit Manipulation]]
 - [[Queue]]
 - [[Recursion]]
