@@ -4,7 +4,7 @@
 	- __int get(key int)__ is used to return the value for a particular key or -1 if it doesn't exist.
 	- __void put(key int , value int)__ update the value of the `key` if the `key` exists. Otherwise, add the `key-value` pair to the cache. If the number of keys exceeds the `capacity` from this operation, **evict** the least recently used key.
 	- `Constraint` the get and put method just have an constant time complexity.
-	- The node to the `head->next` represents the most recently used and similarly the node just be
+	- The node to the `head->next` represents the most recently used and similarly the node at `rear->prev` represents the least recently used node.
 	- __GET METHOD__ :
 		- ```
 		  int get(int key) {
