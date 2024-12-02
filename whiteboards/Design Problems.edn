@@ -390,7 +390,67 @@
 :nonce 1733112644727
 :italic false
 :text "Key ,  *"}}
-:block/updated-at 1733112666193})
+:block/updated-at 1733112666193} 
+{:block/created-at 1733112681033
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 14
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [159 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "7a627b20-b063-11ef-81b6-755e4c79bc21"
+:padding 4
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [728 968]
+:lineHeight 1.2
+:fontSize 48
+:parentId "674d2fd1-31ac-447f-a892-714d615e1dee"
+:nonce 1733112644767
+:italic false
+:text "Key ,  *"}}
+:block/updated-at 1733112681033} 
+{:block/created-at 1733112683516
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 15
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [159 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "7b54f170-b063-11ef-81b6-755e4c79bc21"
+:padding 4
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [736 1056]
+:lineHeight 1.2
+:fontSize 48
+:parentId "674d2fd1-31ac-447f-a892-714d615e1dee"
+:nonce 1733112644759
+:italic false
+:text "Key ,  *"}}
+:block/updated-at 1733112683516})
 :pages (
 {:block/uuid #uuid "674d2fd1-31ac-447f-a892-714d615e1dee"
 :block/properties 
@@ -402,8 +462,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("5e92a5c0-b061-11ef-81b6-755e4c79bc21" "90889080-b061-11ef-81b6-755e4c79bc21" "a5576860-b061-11ef-81b6-755e4c79bc21" "b7b8c2b0-b061-11ef-81b6-755e4c79bc21" "c9f2bee0-b061-11ef-81b6-755e4c79bc21" "db9dc182-b061-11ef-81b6-755e4c79bc21" "deaada72-b061-11ef-81b6-755e4c79bc21" "e0cea4d2-b061-11ef-81b6-755e4c79bc21" "ebe98240-b061-11ef-81b6-755e4c79bc21" "5c973900-b063-11ef-81b6-755e4c79bc21" "5dc3ab10-b063-11ef-81b6-755e4c79bc21" "61f2aec0-b063-11ef-81b6-755e4c79bc21" "63975e10-b063-11ef-81b6-755e4c79bc21" "66eaa7c0-b063-11ef-81b6-755e4c79bc21")}}
-:block/updated-at 1733112666193
+:shapes-index ("5e92a5c0-b061-11ef-81b6-755e4c79bc21" "90889080-b061-11ef-81b6-755e4c79bc21" "a5576860-b061-11ef-81b6-755e4c79bc21" "b7b8c2b0-b061-11ef-81b6-755e4c79bc21" "c9f2bee0-b061-11ef-81b6-755e4c79bc21" "db9dc182-b061-11ef-81b6-755e4c79bc21" "deaada72-b061-11ef-81b6-755e4c79bc21" "e0cea4d2-b061-11ef-81b6-755e4c79bc21" "ebe98240-b061-11ef-81b6-755e4c79bc21" "5c973900-b063-11ef-81b6-755e4c79bc21" "5dc3ab10-b063-11ef-81b6-755e4c79bc21" "61f2aec0-b063-11ef-81b6-755e4c79bc21" "63975e10-b063-11ef-81b6-755e4c79bc21" "66eaa7c0-b063-11ef-81b6-755e4c79bc21" "7a627b20-b063-11ef-81b6-755e4c79bc21" "7b54f170-b063-11ef-81b6-755e4c79bc21")}}
+:block/updated-at 1733112683516
 :block/created-at 1733111761479
 :block/type "whiteboard"
 :block/name "design problems"
