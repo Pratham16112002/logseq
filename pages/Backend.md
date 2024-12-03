@@ -41,6 +41,7 @@
 				- Offload work from the event loop
 			-
 	- Node application always runs on single threads .
+	  id:: 674dfaf6-b0ca-4835-876b-c9dd062ee30d
 	- ![image.png](../assets/image_1674369975490_0.png)
 	- **fs** : It is the Node.js file system module allows you to work with file on your computer .
 	- ^^process.nextTick^^ : A method of native Node process module , it is similar to the setTimeout method in which it delays execution of its callback function until some point in the future .
