@@ -36,5 +36,30 @@ id:: 674dfaf6-6815-491f-bd25-152b39e835c9
 	- __Initial thinking__ :
 		- Pre order gives us the root of the tree.
 		- In-order traversal give us the left and right child's of a particular node.
-	-
--
+	- The pre-order has the correct order for the root nodes in the tree.
+	- We can you a index to keep index of root nodes in the pre-order given to us.
+	- For each root we need to linear search the in-order which would increase the time complexity
+		- To solve this issue we could use some space to map index to the element of in-order traversal.
+		- Best way is to use hash map.
+		- ```
+		  TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+		          
+		          for(int i = 0 ; i<inorder.size() ; i++){
+		              indicies[inorder[i]] = i;
+		          }
+		          return help(0,inorder.size() -1  , preorder);
+		      }
+		  ```
+	- ```
+	  	int pre_or_idx = 0;
+	      unordered_map<int,int> indicies;
+	     TreeNode* help(int l , int r  , vector<int> &preorder){
+	          if(l > r) return nullptr;
+	          int n_root_val = preorder[pre_or_idx++];
+	          TreeNode* n_root = new TreeNode(n_root_val); 
+	          int mid = indicies[n_root_val];
+	          n_root->left = help(l,mid-1,preorder);
+	          n_root->right = help(mid + 1 , r ,preorder);
+	          return n_root;
+	      }
+	  ```
