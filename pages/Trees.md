@@ -28,10 +28,31 @@
 	- For N nodes , minimum possible height or minimum number of levels are ![image.png](../assets/image_1660870970820_0.png)
 	- A binary tree with L leaves has at least ![image.png](../assets/image_1660871021465_0.png) number of levels
 - #### Major Traversal In BST
-	- #### Pre_order
-		- ![image.png](../assets/image_1660884244470_0.png)
-	- #### In_order
-		- ![image.png](../assets/image_1660884279998_0.png)
+	- ### Pre-order
+	  id:: 674dfafa-84b7-4bbc-8d61-01e03ee71298
+		- The first node of the pre-order traversal is always to root node.
+		- ```
+		  Preorder(root):
+		  
+		  
+		  If root is NULL then return
+		  Process root (For example, print root’s data)
+		  Preorder (root -> left)
+		  Preorder (root -> right)
+		  ```
+	- ### In-order
+	  id:: 674dfafa-241d-4da6-a6a0-3d3d0b6c0e7b
+		- Follows `Left - Root - Right`.
+		- If the binary tree is valid then the In-order for that will always be in sorted order.
+		- ```
+		  Inorder(root):
+		  
+		  
+		  If root is NULL, then return
+		  Inorder (root -> left)
+		  Process root (For example, print root’s data)
+		  Inorder (root -> right)
+		  ```
 	- #### Post_order
 		- ![image.png](../assets/image_1660884319036_0.png)
 	- #### Check_BST
