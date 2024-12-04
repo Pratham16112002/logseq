@@ -40,6 +40,39 @@
 		  Preorder (root -> left)
 		  Preorder (root -> right)
 		  ```
+			- #### Morris Traversal
+				- We can do pre order with morris traversal with just a subtle change.
+				- Since its a `Root - Left - Right`.
+				- We need to add the root first i.e root is our priority.
+				- So we could just add the node to our traversal as soon as we reaches that node for the  first time.
+				- ```
+				  vector<int> inorderTraversal(TreeNode* root) {
+				          vector<int> inorder;
+				          TreeNode* cur = root;
+				          while(cur){
+				              if(cur->left == nullptr){
+				                  inorder.push_back(cur->val);
+				                  cur = cur->right;
+				              }
+				              else {
+				                  TreeNode* temp = cur->left ;
+				                  while(temp->right && temp->right != cur){
+				                      temp = temp->right;
+				                  }
+				                  if(temp->right == nullptr){
+				                      temp->right = cur;
+				                      inorder.push_back(cur->val);
+				                      cur = cur->left;
+				                  }
+				                  else {
+				                      temp->right = nullptr;
+				                      cur = cur->right;
+				                  }
+				              }
+				          }
+				          return inorder;
+				      }
+				  ```
 	- ### In-order
 	  id:: 674dfafa-241d-4da6-a6a0-3d3d0b6c0e7b
 		- Follows `Left - Root - Right`.
@@ -53,6 +86,42 @@
 		  Process root (For example, print root’s data)
 		  Inorder (root -> right)
 		  ```
+		- #### Morris Traversal
+			- Has the same time complexity as the recursive in-order traversal.
+			- Constant space complexity.
+			- Left is our priority.
+			- __Threaded Binary tree__
+				- Since in case of recursion we have the capability of backtracking but in iterative form we don't have that.
+				- So are are some what simulating the backtracking with the help of threads.
+				- The threads should be removed once they are processes and we don't require them.
+				- ```
+				  vector<int> inorderTraversal(TreeNode* root) {
+				          vector<int> inorder;
+				          TreeNode* cur = root;
+				          while(cur){
+				              if(cur->left == nullptr){
+				                  inorder.push_back(cur->val);
+				                  cur = cur->right;
+				              }
+				              else {
+				                  TreeNode* temp = cur->left ;
+				                  while(temp->right && temp->right != cur){
+				                      temp = temp->right;
+				                  }
+				                  if(temp->right == nullptr){
+				                      temp->right = cur;
+				                      cur = cur->left;
+				                  }
+				                  else {
+				                      temp->right = nullptr;
+				                      inorder.push_back(cur->val);
+				                      cur = cur->right;
+				                  }
+				              }
+				          }
+				          return inorder;
+				      }
+				  ```
 	- #### Post_order
 		- ![image.png](../assets/image_1660884319036_0.png)
 	- #### Check_BST

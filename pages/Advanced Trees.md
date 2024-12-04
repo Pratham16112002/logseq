@@ -28,6 +28,7 @@ id:: 674dfaf6-6815-491f-bd25-152b39e835c9
 	- Time complexity `O(n^2)`.
 	- {{embed ((bbf7ce40-b159-11ef-8194-33c1903a9cb7))}}
 - ## Construct Binary Tree from In-order and pre-order traversal
+  id:: 674edfd9-e881-4b35-a648-6d56b10671c5
 	- In-Order traversal
 		- {{embed ((674dfafa-241d-4da6-a6a0-3d3d0b6c0e7b))}}
 	- Pre-Order traversal
