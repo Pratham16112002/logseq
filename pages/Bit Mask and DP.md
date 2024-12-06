@@ -1,1 +1,2 @@
-- Process of
+- Process of utilizing the bit representation to solve real world problems.
+-
