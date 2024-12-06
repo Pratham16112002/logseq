@@ -9,4 +9,5 @@
 		- we need to find pairs.
 		- we need to think of some way to mark the already chosen.
 	- We could use __bit mask__ for marking already chosen indicies.
-		-
+	  id:: 6753099c-e45d-49f6-adf9-f14e401b6923
+	- Now we could simply
