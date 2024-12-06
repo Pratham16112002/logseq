@@ -2,5 +2,9 @@
 - ## Maximize the score after N operations
 	- Given an integer array `2*n` integers we need to apply n operations.
 		- Each operation
-			- Chose two elements x and y.
-			- `score = gcd(nums[x],nums[y])`
+			- Chose two indicies x and y.
+			- `score = gcd(nums[x],nums[y]) * (i)` where i is the operation number.
+			- remove the index x and y from the array.
+	- Initial thinking
+		- we need to find pairs.
+		- we
