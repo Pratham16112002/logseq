@@ -44,4 +44,5 @@
 	  };
 	  ```
 	- Reason for `dp[18][100009]` 18 is because the constraints of n are to low which are <= 7.
-		- The mask can be maximum
+		- The mask can be maximum if all the bits of the maximum number in the given array are set.
+	- Time complexity : `O(n^n*`
