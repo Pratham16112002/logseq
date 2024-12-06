@@ -1,4 +1,6 @@
 - Process of utilizing the bit representation to solve real world problems.
 - ## Maximize the score after N operations
 	- Given an integer array `2*n` integers we need to apply n operations.
-	-
+		- Each operation
+			- Chose two elements x and y.
+			- `score = gcd(nums[x],nums[y])`
