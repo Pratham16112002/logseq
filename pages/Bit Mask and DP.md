@@ -43,4 +43,5 @@
 	      }
 	  };
 	  ```
-	- Reason for `dp[18]`
+	- Reason for `dp[18][100009]` 18 is because the constraints of n are to low which are <= 7.
+		- The mask can be maximum
