@@ -7,4 +7,4 @@
 			- remove the index x and y from the array.
 	- Initial thinking
 		- we need to find pairs.
-		- we
+		- we need to think of some way to mark the already chosen way
