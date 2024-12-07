@@ -33,5 +33,8 @@
 	  ```
 	- At every iteration we will check this case.
 		- ```
-		  if(!stack.empty() &&  )
+		  if(!stack.empty() && nums[i] > st.top() ){
+		  	// hurry we have found our answer.
+		  }
 		  ```
+	- we will go on adding every element to the stack unless its equal to most minimum elements ( will )
