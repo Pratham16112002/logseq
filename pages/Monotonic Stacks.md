@@ -2,4 +2,6 @@
 - __Types__
 	- Strictly increasing.
 	- Strictly decreasing.
--
+- __Generic template__
+	- ```
+	  ```
