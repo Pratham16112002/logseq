@@ -1,2 +1,4 @@
 - Generally used for solving the problems like next greater element , previous greater elements and where we require such scenarios.
--
+- __Types__
+	- Strictly increasing.
+	- Strictly decreasing.
