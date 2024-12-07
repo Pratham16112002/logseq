@@ -1,7 +1,7 @@
 - [[HashMap]]
 - [[Trees]]
 - [[Bit Manipulation]]
-- [[Queue]]
+- [[Queue & Stacks]]
 - [[Recursion]]
 - [[Linked List]]
 - [[Arrays]]
