@@ -31,4 +31,7 @@
 	  	st.pop().
 	  }
 	  ```
-	- At
+	- At every iteration we will check this case.
+		- ```
+		  if(!stack.empty() &&  )
+		  ```
