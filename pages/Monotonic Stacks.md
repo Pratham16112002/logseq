@@ -1,1 +1,2 @@
-- Generally used for a
+- Generally used for solving the problems like next greater element , previous greater elements and where we require such scenarios.
+-
