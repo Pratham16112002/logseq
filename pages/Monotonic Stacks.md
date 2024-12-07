@@ -23,4 +23,8 @@
 	- We will maintain a minimum array from the given nums array which will maintain the minimum till now element.
 	- Using this array we will maintain the stack with only those elements which are greater than minimum element at that index.
 	- Think like this
-		- The minimum
+		- The minimum element array will represent the number => 1.
+		- Current element index will represent the number => 3.
+		- The stack top will represent the number => 2.
+	- ```
+	  ```
