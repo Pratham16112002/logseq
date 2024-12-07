@@ -26,15 +26,18 @@
 		- The minimum element array will represent the number => 1.
 		- Current element index will represent the number => 3.
 		- The stack top will represent the number => 2.
-	- ```
+	- id:: 675417ef-3749-4456-be40-1ae441ae0279
+	  ```
 	  while(!stack.empty() && stack.top() < minimum[i]){
 	  	st.pop().
 	  }
 	  ```
 	- At every iteration we will check this case.
-		- ```
+		- id:: 67541850-c289-4430-9ed3-f5e53f77515c
+		  ```
 		  if(!stack.empty() && nums[i] > st.top() ){
 		  	// hurry we have found our answer.
 		  }
 		  ```
-	- we will go on adding every element to the stack unless its equal to most minimum elements ( will )
+	- we will go on adding every element to the stack unless its equal to most minimum elements ( will skip that iteration ).
+	-
