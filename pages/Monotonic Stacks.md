@@ -2,3 +2,4 @@
 - __Types__
 	- Strictly increasing.
 	- Strictly decreasing.
+-
