@@ -18,6 +18,7 @@
 	  }
 	  ```
 - ## 132 Pattern
+  id:: 67541218-07a9-4139-9225-1fa66bb8dcff
 	- Given an array of `n` integers `nums`, a **132 pattern** is a subsequence of three integers `nums[i]`, `nums[j]` and `nums[k]` such that `i < j < k` and `nums[i] < nums[k] < nums[j]`.
 	- We need to return true if this pattern is found else return false
 	- We will maintain a minimum array from the given nums array which will maintain the minimum till now element.
