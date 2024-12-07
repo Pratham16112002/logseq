@@ -27,4 +27,8 @@
 		- Current element index will represent the number => 3.
 		- The stack top will represent the number => 2.
 	- ```
+	  while(!stack.empty() && stack.top() < minimum[i]){
+	  	st.pop().
+	  }
 	  ```
+	- At
