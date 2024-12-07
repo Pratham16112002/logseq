@@ -41,4 +41,6 @@
 		  }
 		  ```
 	- we will go on adding every element to the stack unless its equal to most minimum elements ( will skip that iteration ).
+- ## Trapping rain water
+	- Given `n` non-negative integers representing an elevation map where the width of each bar is `1`, compute how much water it can trap after raining.
 	-
