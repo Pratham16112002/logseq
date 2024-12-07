@@ -17,4 +17,5 @@
 	      st.push(nums[i])
 	  }
 	  ```
--
+- ## 132 Pattern
+	-
