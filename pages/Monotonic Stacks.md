@@ -44,4 +44,5 @@
 - ## Trapping rain water
 	- Given `n` non-negative integers representing an elevation map where the width of each bar is `1`, compute how much water it can trap after raining.
 	- ![Heights](https://assets.leetcode.com/uploads/2018/10/22/rainwatertrap.png)
-	-
+	- Cases when water will be stored
+		- If the _Left_max_ and _Right_max_ is greater
