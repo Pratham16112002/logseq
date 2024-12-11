@@ -124,4 +124,35 @@
 		- Then  we can simply swap the links using a temporary pointer.
 		- We can solve this problem using recursion because recursion would give us the access to such swap scenario.
 		- We will not swap the current and current's next node any how.
-	-
+	- ```
+	  func reorderList(head *ListNode)  {
+	      if head == nil {
+	          return
+	      }
+	      	var rec func(root, cur *ListNode) *ListNode
+	  	rec = func(root *ListNode, cur *ListNode) *ListNode {
+	  		if cur == nil {
+	  			return root
+	  		}
+	  		root = rec(root, cur.Next)
+	  		if root == nil {
+	  			return nil
+	  		}
+	  		var temp *ListNode
+	  		temp = nil
+	  		if  root == cur || root.Next == cur {
+	  			cur.Next = nil
+	  		} else {
+	  			temp = root.Next
+	  			root.Next = cur
+	  			cur.Next = temp
+	  		}
+	  		return temp
+	  	}
+	  	rec(head, head.Next)
+	  
+	  }
+	  ```
+	- Time complexity : `O(n)`.
+	- Space complexity : `O(n)`.
+-
