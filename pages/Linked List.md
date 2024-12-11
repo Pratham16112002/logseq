@@ -51,7 +51,7 @@
 	          return prev ;
 	      }
 	  ```
-	- 2. __Recursive method -> We need to divide the linked into minimum subproblem, which is the si
+	- 2. __Recursive method -> We need to divide the linked into minimum subproblem, which is the single node.
 - #### Merger Two sorted Linked list
 	- **Alogrithm** -> 
 	  1. First we will create a dummy node and then pointer the newly created node to an existing node . 
