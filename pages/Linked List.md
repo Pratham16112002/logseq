@@ -123,4 +123,5 @@
 		- We some how need access to the last pointer.
 		- Then  we can simply swap the links using a temporary pointer.
 		- We can solve this problem using recursion because recursion would give us the access to such swap scenario.
-		- We should
+		- We will not swap the current and current's next node any how.
+	-
