@@ -108,6 +108,7 @@
 	      }
 	  ```
 - ## Reorder Linked List
+  id:: 6740bd96-bd1e-4dc0-93be-a03e623b174b
 	- You are given the head of a singly linked-list. The list can be represented as:
 	  ```
 	  L0 → L1 → … → Ln - 1 → Ln
@@ -122,4 +123,4 @@
 		- We some how need access to the last pointer.
 		- Then  we can simply swap the links using a temporary pointer.
 		- We can solve this problem using recursion because recursion would give us the access to such swap scenario.
-		-
+		- We should

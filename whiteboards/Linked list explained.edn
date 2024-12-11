@@ -1640,7 +1640,34 @@
 :nonce 1733913395603
 :italic false
 :text "Reorder Linked List"}}
-:block/updated-at 1733913406715})
+:block/updated-at 1733913406715} 
+{:block/created-at 1733913435170
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 65
+:scale [1 1]
+:pageId "6740bd96-bd1e-4dc0-93be-a03e623b174b"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 62.999979319081696]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "d4b61c90-b7ab-11ef-a05e-ffd6ff881f13"
+:noFill false
+:point [-384 152]
+:parentId "675967dd-70e5-4b23-9b03-2697c7c12dd2"
+:collapsedHeight 0
+:nonce 1733913411227}}
+:block/updated-at 1733913435170})
 :pages (
 {:block/uuid #uuid "675967dd-70e5-4b23-9b03-2697c7c12dd2"
 :block/properties 
@@ -1779,8 +1806,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("d4e99a90-b7a9-11ef-a05e-ffd6ff881f13" "d90abb90-b7a9-11ef-a05e-ffd6ff881f13" "d90ae2a0-b7a9-11ef-a05e-ffd6ff881f13" "db630370-b7a9-11ef-a05e-ffd6ff881f13" "db632a80-b7a9-11ef-a05e-ffd6ff881f13" "f0957f20-b7a9-11ef-a05e-ffd6ff881f13" "f12514f0-b7a9-11ef-a05e-ffd6ff881f13" "f2af5e70-b7a9-11ef-a05e-ffd6ff881f13" "f4aed7f0-b7a9-11ef-a05e-ffd6ff881f13" "f54c2960-b7a9-11ef-a05e-ffd6ff881f13" "f5b99130-b7a9-11ef-a05e-ffd6ff881f13" "f62f5d70-b7a9-11ef-a05e-ffd6ff881f13" "f6b50830-b7a9-11ef-a05e-ffd6ff881f13" "f7c2ceb0-b7a9-11ef-a05e-ffd6ff881f13" "fbd7bab0-b7a9-11ef-a05e-ffd6ff881f13" "fcd9c160-b7a9-11ef-a05e-ffd6ff881f13" "fd9c7520-b7a9-11ef-a05e-ffd6ff881f13" "fe1c5380-b7a9-11ef-a05e-ffd6ff881f13" "ff00e720-b7a9-11ef-a05e-ffd6ff881f13" "ffbe91d0-b7a9-11ef-a05e-ffd6ff881f13" "005fb3d0-b7aa-11ef-a05e-ffd6ff881f13" "016d7a50-b7aa-11ef-a05e-ffd6ff881f13" "024786a0-b7aa-11ef-a05e-ffd6ff881f13" "03f55db0-b7aa-11ef-a05e-ffd6ff881f13" "0608d460-b7aa-11ef-a05e-ffd6ff881f13" "06b281e0-b7aa-11ef-a05e-ffd6ff881f13" "07568a10-b7aa-11ef-a05e-ffd6ff881f13" "07ec3a60-b7aa-11ef-a05e-ffd6ff881f13" "0f7eb460-b7aa-11ef-a05e-ffd6ff881f13" "1af98c20-b7aa-11ef-a05e-ffd6ff881f13" "1b5a70d0-b7aa-11ef-a05e-ffd6ff881f13" "200470e0-b7aa-11ef-a05e-ffd6ff881f13" "210ce030-b7aa-11ef-a05e-ffd6ff881f13" "226bd3f0-b7aa-11ef-a05e-ffd6ff881f13" "283ca0c0-b7aa-11ef-a05e-ffd6ff881f13" "3bf63810-b7aa-11ef-a05e-ffd6ff881f13" "3dc838f0-b7aa-11ef-a05e-ffd6ff881f13" "4301f5e0-b7aa-11ef-a05e-ffd6ff881f13" "45a85dc0-b7aa-11ef-a05e-ffd6ff881f13" "465f0390-b7aa-11ef-a05e-ffd6ff881f13" "4a118440-b7aa-11ef-a05e-ffd6ff881f13" "63e32a92-b7aa-11ef-a05e-ffd6ff881f13" "780854f0-b7aa-11ef-a05e-ffd6ff881f13" "d4fe1780-b7aa-11ef-a05e-ffd6ff881f13" "d7ca2fd0-b7aa-11ef-a05e-ffd6ff881f13" "d7ca56e0-b7aa-11ef-a05e-ffd6ff881f13" "e88f6650-b7aa-11ef-a05e-ffd6ff881f13" "efe65df0-b7aa-11ef-a05e-ffd6ff881f13" "efe65df1-b7aa-11ef-a05e-ffd6ff881f13" "efe65df2-b7aa-11ef-a05e-ffd6ff881f13" "f2e85350-b7aa-11ef-a05e-ffd6ff881f13" "f2e87a60-b7aa-11ef-a05e-ffd6ff881f13" "0f037472-b7ab-11ef-a05e-ffd6ff881f13" "14d8ae10-b7ab-11ef-a05e-ffd6ff881f13" "184fac60-b7ab-11ef-a05e-ffd6ff881f13" "184fd370-b7ab-11ef-a05e-ffd6ff881f13" "62a759c0-b7ab-11ef-a05e-ffd6ff881f13" "722babd0-b7ab-11ef-a05e-ffd6ff881f13" "82e65b02-b7ab-11ef-a05e-ffd6ff881f13" "8a4568f0-b7ab-11ef-a05e-ffd6ff881f13" "94ddf702-b7ab-11ef-a05e-ffd6ff881f13" "9cb67ab0-b7ab-11ef-a05e-ffd6ff881f13" "a14fb1e2-b7ab-11ef-a05e-ffd6ff881f13" "a3612cc2-b7ab-11ef-a05e-ffd6ff881f13" "cb884210-b7ab-11ef-a05e-ffd6ff881f13")}}
-:block/updated-at 1733913406715
+:shapes-index ("d4e99a90-b7a9-11ef-a05e-ffd6ff881f13" "d90abb90-b7a9-11ef-a05e-ffd6ff881f13" "d90ae2a0-b7a9-11ef-a05e-ffd6ff881f13" "db630370-b7a9-11ef-a05e-ffd6ff881f13" "db632a80-b7a9-11ef-a05e-ffd6ff881f13" "f0957f20-b7a9-11ef-a05e-ffd6ff881f13" "f12514f0-b7a9-11ef-a05e-ffd6ff881f13" "f2af5e70-b7a9-11ef-a05e-ffd6ff881f13" "f4aed7f0-b7a9-11ef-a05e-ffd6ff881f13" "f54c2960-b7a9-11ef-a05e-ffd6ff881f13" "f5b99130-b7a9-11ef-a05e-ffd6ff881f13" "f62f5d70-b7a9-11ef-a05e-ffd6ff881f13" "f6b50830-b7a9-11ef-a05e-ffd6ff881f13" "f7c2ceb0-b7a9-11ef-a05e-ffd6ff881f13" "fbd7bab0-b7a9-11ef-a05e-ffd6ff881f13" "fcd9c160-b7a9-11ef-a05e-ffd6ff881f13" "fd9c7520-b7a9-11ef-a05e-ffd6ff881f13" "fe1c5380-b7a9-11ef-a05e-ffd6ff881f13" "ff00e720-b7a9-11ef-a05e-ffd6ff881f13" "ffbe91d0-b7a9-11ef-a05e-ffd6ff881f13" "005fb3d0-b7aa-11ef-a05e-ffd6ff881f13" "016d7a50-b7aa-11ef-a05e-ffd6ff881f13" "024786a0-b7aa-11ef-a05e-ffd6ff881f13" "03f55db0-b7aa-11ef-a05e-ffd6ff881f13" "0608d460-b7aa-11ef-a05e-ffd6ff881f13" "06b281e0-b7aa-11ef-a05e-ffd6ff881f13" "07568a10-b7aa-11ef-a05e-ffd6ff881f13" "07ec3a60-b7aa-11ef-a05e-ffd6ff881f13" "0f7eb460-b7aa-11ef-a05e-ffd6ff881f13" "1af98c20-b7aa-11ef-a05e-ffd6ff881f13" "1b5a70d0-b7aa-11ef-a05e-ffd6ff881f13" "200470e0-b7aa-11ef-a05e-ffd6ff881f13" "210ce030-b7aa-11ef-a05e-ffd6ff881f13" "226bd3f0-b7aa-11ef-a05e-ffd6ff881f13" "283ca0c0-b7aa-11ef-a05e-ffd6ff881f13" "3bf63810-b7aa-11ef-a05e-ffd6ff881f13" "3dc838f0-b7aa-11ef-a05e-ffd6ff881f13" "4301f5e0-b7aa-11ef-a05e-ffd6ff881f13" "45a85dc0-b7aa-11ef-a05e-ffd6ff881f13" "465f0390-b7aa-11ef-a05e-ffd6ff881f13" "4a118440-b7aa-11ef-a05e-ffd6ff881f13" "63e32a92-b7aa-11ef-a05e-ffd6ff881f13" "780854f0-b7aa-11ef-a05e-ffd6ff881f13" "d4fe1780-b7aa-11ef-a05e-ffd6ff881f13" "d7ca2fd0-b7aa-11ef-a05e-ffd6ff881f13" "d7ca56e0-b7aa-11ef-a05e-ffd6ff881f13" "e88f6650-b7aa-11ef-a05e-ffd6ff881f13" "efe65df0-b7aa-11ef-a05e-ffd6ff881f13" "efe65df1-b7aa-11ef-a05e-ffd6ff881f13" "efe65df2-b7aa-11ef-a05e-ffd6ff881f13" "f2e85350-b7aa-11ef-a05e-ffd6ff881f13" "f2e87a60-b7aa-11ef-a05e-ffd6ff881f13" "0f037472-b7ab-11ef-a05e-ffd6ff881f13" "14d8ae10-b7ab-11ef-a05e-ffd6ff881f13" "184fac60-b7ab-11ef-a05e-ffd6ff881f13" "184fd370-b7ab-11ef-a05e-ffd6ff881f13" "62a759c0-b7ab-11ef-a05e-ffd6ff881f13" "722babd0-b7ab-11ef-a05e-ffd6ff881f13" "82e65b02-b7ab-11ef-a05e-ffd6ff881f13" "8a4568f0-b7ab-11ef-a05e-ffd6ff881f13" "94ddf702-b7ab-11ef-a05e-ffd6ff881f13" "9cb67ab0-b7ab-11ef-a05e-ffd6ff881f13" "a14fb1e2-b7ab-11ef-a05e-ffd6ff881f13" "a3612cc2-b7ab-11ef-a05e-ffd6ff881f13" "cb884210-b7ab-11ef-a05e-ffd6ff881f13" "d4b61c90-b7ab-11ef-a05e-ffd6ff881f13")}}
+:block/updated-at 1733913435170
 :block/created-at 1733912541321
 :block/type "whiteboard"
 :block/name "linked list explained"
