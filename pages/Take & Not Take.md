@@ -16,6 +16,8 @@
 		- $$f max(f(index),sum + f(i))  $$
 		- At every index we have two option either we can take that element or skip that element.
 			- If we choose to take that element then
-				- we can and need to take all the element equal to it and also skip all elements = element
+				- we can and need to take all the element equal to it and also skip all elements = element + 1.
+			- or else we can move to the next element.
+		-
 		-
 		-
