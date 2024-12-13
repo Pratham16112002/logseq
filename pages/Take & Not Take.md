@@ -8,4 +8,8 @@
 		- Try out all possible ways
 		- Recursive function
 			- $$f \left( index  \right)   =  f \left( index.previouslytaken  \right)   $$
-			-
+			- This will work but we are using extraneous memory by considering the previously taken element.
+			- we can remove it.
+	- _Optimal Way_
+		- Sort the array.
+		-
