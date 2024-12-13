@@ -13,5 +13,6 @@
 	- _Optimal Way_
 		- Sort the array.
 		- By sorting we can get rid of the case `nums[index] - 1`.
+		- $$f \left( index  \right)   =  max \left( f \left( index+1  \right)  .f \left( i  \right)    \right)   $$
 		-
 		-
