@@ -18,6 +18,36 @@
 			- If we choose to take that element then
 				- we can and need to take all the element equal to it and also skip all elements = element + 1.
 			- or else we can move to the next element.
-		-
-		-
-		-
+	- ```j
+	  class Solution {
+	  public: 
+	  int dp[100001];
+	      int help(int idx , vector<int> &nums ){
+	          if(idx >= nums.size()){
+	              return 0;
+	          }
+	          if(dp[idx] != -1) {
+	              return dp[idx];
+	          }
+	          // either take the element 
+	          int curr_ele = nums[idx];
+	          int sum = nums[idx];   
+	          int i = idx + 1;
+	          while(i < nums.size() && nums[i] == curr_ele){
+	              sum += nums[i];
+	              i++;
+	          }
+	          while(i < nums.size() && nums[i] == curr_ele + 1){
+	              i++; // skipping all element + 1 
+	          }
+	          // either skip all the nums[idx] + 1
+	          return dp[idx] = max( help(idx+1,nums),sum + help(i,nums));
+	      }
+	      int deleteAndEarn(vector<int>& nums) {
+	          sort(nums.begin(),nums.end());
+	         memset(dp,-1,sizeof(dp)); 
+	          return help(0,nums);
+	      }
+	  }
+	  
+	  ```
