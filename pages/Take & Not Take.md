@@ -6,4 +6,4 @@
 	- _Initial thinking_
 		- Greedy ( but wont work here ).
 		- Try out all possible ways
-		- ``
+		- Recursive function
