@@ -18,7 +18,7 @@
 			- If we choose to take that element then
 				- we can and need to take all the element equal to it and also skip all elements = element + 1.
 			- or else we can move to the next element.
-	- ```j
+	- ```
 	  class Solution {
 	  public: 
 	  int dp[100001];
@@ -51,3 +51,4 @@
 	  }
 	  
 	  ```
+	- kkk
