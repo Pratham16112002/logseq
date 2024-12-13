@@ -12,4 +12,6 @@
 			- we can remove it.
 	- _Optimal Way_
 		- Sort the array.
+		- By sorting we can get rid of the case `nums[index] - 1`.
+		-
 		-
