@@ -7,3 +7,5 @@
 		- Greedy ( but wont work here ).
 		- Try out all possible ways
 		- Recursive function
+			- $$f \left( index  \right)   =  f \left( index.previouslytaken  \right)   $$
+			-
