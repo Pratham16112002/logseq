@@ -7,13 +7,14 @@
 		- Greedy ( but wont work here ).
 		- Try out all possible ways
 		- Recursive function
-			- $$f \left( index  \right)   =  f \left( index.previouslytaken  \right)   $$
+			- $$f(index) = f(index,previouslytakenelement) $$
 			- This will work but we are using extraneous memory by considering the previously taken element.
 			- we can remove it.
 	- _Optimal Way_
 		- Sort the array.
 		- By sorting we can get rid of the case `nums[index] - 1`.
 		- $$f max(f(index),sum + f(i))  $$
+		- At every index we have two option either we can take that element or skip that element.
 		-
 		-
 		-
