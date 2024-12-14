@@ -56,4 +56,30 @@
 	- A **perfect square** is an integer that is the square of an integer; in other words, it is the product of some integer with itself. For example, `1`, `4`, `9`, and `16` are perfect squares while `3` and `11` are not.
 	- _Will greedy work here_ :
 		- Nope It will not work
-		- /whi
+	- ```
+	  class Solution {
+	  public:
+	      int dp[10001];
+	      int help(int n){
+	          if(n<0) {
+	              return 0;
+	          }
+	          if(n == 0){
+	             return 0 ;
+	          }
+	          if(dp[n] != -1) {
+	              return dp[n];
+	          }
+	          int mini = INT_MAX;
+	          for(int j = 1 ; j*j<=n ; j++){
+	              mini = min(mini,1 + help(n - (j*j)));
+	          }
+	          return dp[n] = mini;
+	      }
+	      int numSquares(int n) {
+	          memset(dp,-1,sizeof(dp));
+	          return help(n);
+	      }
+	  };
+	  ```
+	-
