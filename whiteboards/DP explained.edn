@@ -132,7 +132,7 @@
 :nonce 1734156345018
 :italic false}}
 :block/updated-at 1734156384980} 
-{:block/created-at 1734156442930
+{:block/created-at 1734156574314
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -144,7 +144,7 @@
 :scaleLevel "sm"
 :fill ""
 :type "text"
-:size [301 87]
+:size [266 87]
 :fontFamily "var(--ls-font-family)"
 :strokeType "line"
 :strokeWidth 2
@@ -157,10 +157,10 @@
 :lineHeight 1.2
 :fontSize 16
 :parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
-:nonce 1734156395153
+:nonce 1734156395179
 :italic false
-:text "If we go greedily we will \nobviously pick up the largest\nperfect square root which in this case \nis 9."}}
-:block/updated-at 1734156442930} 
+:text "If we go greedily we will \nobviously pick up the largest\nperfect square which in this case \nis 9 = 3^2  + 3^2."}}
+:block/updated-at 1734156574314} 
 {:block/created-at 1734156453449
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -324,7 +324,7 @@
 :nonce 1
 :assets []
 :shapes-index ("4ef3b7b0-b9e1-11ef-8dbd-1ff0b9c97bf6" "56c27760-b9e1-11ef-8dbd-1ff0b9c97bf6" "74944930-b9e1-11ef-8dbd-1ff0b9c97bf6" "7eca44e0-b9e1-11ef-8dbd-1ff0b9c97bf6" "7fcb6130-b9e1-11ef-8dbd-1ff0b9c97bf6" "928d7920-b9e1-11ef-8dbd-1ff0b9c97bf6" "b1589f12-b9e1-11ef-8dbd-1ff0b9c97bf6" "b56e4e60-b9e1-11ef-8dbd-1ff0b9c97bf6" "c07ecb90-b9e1-11ef-8dbd-1ff0b9c97bf6" "c3471350-b9e1-11ef-8dbd-1ff0b9c97bf6")}}
-:block/updated-at 1734156544179
+:block/updated-at 1734156574314
 :block/created-at 1734156252915
 :block/type "whiteboard"
 :block/name "dp explained"
