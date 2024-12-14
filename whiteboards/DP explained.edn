@@ -1,0 +1,77 @@
+{:blocks (
+{:block/created-at 1734156289351
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 0
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [376 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "4ef3b7b0-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [432 160]
+:lineHeight 1.2
+:fontSize 48
+:parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
+:nonce 1734156281545
+:italic false
+:text "Perfect Squares"}}
+:block/updated-at 1734156289351} 
+{:block/created-at 1734156316550
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked false
+:stroke "yellow"
+:rotation 0
+:borderRadius 0
+:index 1
+:scale [1 1]
+:scaleLevel "md"
+:fill "yellow"
+:type "text"
+:size [232 32]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "56c27760-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [120 256]
+:lineHeight 1.2
+:fontSize 20
+:parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
+:nonce 1734156294875
+:italic false
+:text "why greedy won't work"}}
+:block/updated-at 1734156316550})
+:pages (
+{:block/uuid #uuid "675d1fdc-d12d-433b-807d-19b9838d936d"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "675d1fdc-d12d-433b-807d-19b9838d936d"
+:name "dp explained"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("4ef3b7b0-b9e1-11ef-8dbd-1ff0b9c97bf6" "56c27760-b9e1-11ef-8dbd-1ff0b9c97bf6")}}
+:block/updated-at 1734156316550
+:block/created-at 1734156252915
+:block/type "whiteboard"
+:block/name "dp explained"
+:block/original-name "DP explained"})}
