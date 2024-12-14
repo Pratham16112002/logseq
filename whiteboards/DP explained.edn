@@ -58,7 +58,7 @@
 :italic false
 :text "why greedy won't work"}}
 :block/updated-at 1734156316550} 
-{:block/created-at 1734156352216
+{:block/created-at 1734156390148
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -76,13 +76,13 @@
 :id "74944930-b9e1-11ef-8dbd-1ff0b9c97bf6"
 :fontWeight 400
 :noFill false
-:point [176 336]
+:point [184 336]
 :fontSize 20
 :parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
-:nonce 1734156344686
+:nonce 1734156344698
 :italic false}}
-:block/updated-at 1734156352216} 
-{:block/created-at 1734156378281
+:block/updated-at 1734156390148} 
+{:block/created-at 1734156387814
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -101,13 +101,13 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [176 464]
+:point [184 464]
 :fontSize 20
 :parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
-:nonce 1734156345025
+:nonce 1734156345043
 :italic false}}
-:block/updated-at 1734156378281} 
-{:block/created-at 1734156380982
+:block/updated-at 1734156387814} 
+{:block/created-at 1734156384980
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -126,12 +126,41 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [176 592]
+:point [184 592]
 :fontSize 20
 :parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
-:nonce 1734156345004
+:nonce 1734156345018
 :italic false}}
-:block/updated-at 1734156380982})
+:block/updated-at 1734156384980} 
+{:block/created-at 1734156442930
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 5
+:scale [1 1]
+:scaleLevel "sm"
+:fill ""
+:type "text"
+:size [301 87]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "928d7920-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [-224 328]
+:lineHeight 1.2
+:fontSize 16
+:parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
+:nonce 1734156395153
+:italic false
+:text "If we go greedily we will \nobviously pick up the largest\nperfect square root which in this case \nis 9."}}
+:block/updated-at 1734156442930})
 :pages (
 {:block/uuid #uuid "675d1fdc-d12d-433b-807d-19b9838d936d"
 :block/properties 
@@ -143,8 +172,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("4ef3b7b0-b9e1-11ef-8dbd-1ff0b9c97bf6" "56c27760-b9e1-11ef-8dbd-1ff0b9c97bf6" "74944930-b9e1-11ef-8dbd-1ff0b9c97bf6" "7eca44e0-b9e1-11ef-8dbd-1ff0b9c97bf6" "7fcb6130-b9e1-11ef-8dbd-1ff0b9c97bf6")}}
-:block/updated-at 1734156380982
+:shapes-index ("4ef3b7b0-b9e1-11ef-8dbd-1ff0b9c97bf6" "56c27760-b9e1-11ef-8dbd-1ff0b9c97bf6" "74944930-b9e1-11ef-8dbd-1ff0b9c97bf6" "7eca44e0-b9e1-11ef-8dbd-1ff0b9c97bf6" "7fcb6130-b9e1-11ef-8dbd-1ff0b9c97bf6" "928d7920-b9e1-11ef-8dbd-1ff0b9c97bf6")}}
+:block/updated-at 1734156442930
 :block/created-at 1734156252915
 :block/type "whiteboard"
 :block/name "dp explained"
