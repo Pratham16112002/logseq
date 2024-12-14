@@ -58,7 +58,7 @@
 :italic false
 :text "why greedy won't work"}}
 :block/updated-at 1734156316550} 
-{:block/created-at 1734156390148
+{:block/created-at 1734156542430
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -72,16 +72,16 @@
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:label "13"
+:label "12"
 :id "74944930-b9e1-11ef-8dbd-1ff0b9c97bf6"
 :fontWeight 400
 :noFill false
 :point [184 336]
 :fontSize 20
 :parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
-:nonce 1734156344698
+:nonce 1734156344701
 :italic false}}
-:block/updated-at 1734156390148} 
+:block/updated-at 1734156542430} 
 {:block/created-at 1734156387814
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -196,7 +196,7 @@
 :nonce 1734156446669
 :italic false}}
 :block/updated-at 1734156453449} 
-{:block/created-at 1734156457479
+{:block/created-at 1734156540829
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -208,7 +208,7 @@
 :scaleLevel "sm"
 :fill ""
 :type "text"
-:size [301 87]
+:size [158 30]
 :fontFamily "var(--ls-font-family)"
 :strokeType "line"
 :strokeWidth 2
@@ -222,10 +222,10 @@
 :lineHeight 1.2
 :fontSize 16
 :parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
-:nonce 1734156395383
+:nonce 1734156395408
 :italic false
-:text "If we go greedily we will \nobviously pick up the largest\nperfect square root which in this case \nis 9."}}
-:block/updated-at 1734156457479} 
+:text "For 9 now we have"}}
+:block/updated-at 1734156540829} 
 {:block/created-at 1734156476681
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -261,7 +261,8 @@
 :nonce 1734156472027
 :italic false}}
 :block/updated-at 1734156476681} 
-{:block/properties 
+{:block/created-at 1734156540830
+:block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
@@ -295,7 +296,7 @@
 :parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
 :nonce 1734156472027
 :italic false}}
-:block/updated-at 1734156476681})
+:block/updated-at 1734156540830})
 :pages (
 {:block/uuid #uuid "675d1fdc-d12d-433b-807d-19b9838d936d"
 :block/properties 
@@ -323,7 +324,7 @@
 :nonce 1
 :assets []
 :shapes-index ("4ef3b7b0-b9e1-11ef-8dbd-1ff0b9c97bf6" "56c27760-b9e1-11ef-8dbd-1ff0b9c97bf6" "74944930-b9e1-11ef-8dbd-1ff0b9c97bf6" "7eca44e0-b9e1-11ef-8dbd-1ff0b9c97bf6" "7fcb6130-b9e1-11ef-8dbd-1ff0b9c97bf6" "928d7920-b9e1-11ef-8dbd-1ff0b9c97bf6" "b1589f12-b9e1-11ef-8dbd-1ff0b9c97bf6" "b56e4e60-b9e1-11ef-8dbd-1ff0b9c97bf6" "c07ecb90-b9e1-11ef-8dbd-1ff0b9c97bf6" "c3471350-b9e1-11ef-8dbd-1ff0b9c97bf6")}}
-:block/updated-at 1734156476681
+:block/updated-at 1734156544179
 :block/created-at 1734156252915
 :block/type "whiteboard"
 :block/name "dp explained"
