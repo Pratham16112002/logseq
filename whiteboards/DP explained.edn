@@ -57,7 +57,81 @@
 :nonce 1734156294875
 :italic false
 :text "why greedy won't work"}}
-:block/updated-at 1734156316550})
+:block/updated-at 1734156316550} 
+{:block/created-at 1734156352216
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 2
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "ellipse"
+:size [72 72]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "13"
+:id "74944930-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:fontWeight 400
+:noFill false
+:point [176 336]
+:fontSize 20
+:parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
+:nonce 1734156344686
+:italic false}}
+:block/updated-at 1734156352216} 
+{:block/created-at 1734156378281
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 3
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "ellipse"
+:size [72 72]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "13"
+:id "7eca44e0-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [176 464]
+:fontSize 20
+:parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
+:nonce 1734156345025
+:italic false}}
+:block/updated-at 1734156378281} 
+{:block/created-at 1734156380982
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 4
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "ellipse"
+:size [72 72]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "13"
+:id "7fcb6130-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [176 592]
+:fontSize 20
+:parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
+:nonce 1734156345004
+:italic false}}
+:block/updated-at 1734156380982})
 :pages (
 {:block/uuid #uuid "675d1fdc-d12d-433b-807d-19b9838d936d"
 :block/properties 
@@ -69,8 +143,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("4ef3b7b0-b9e1-11ef-8dbd-1ff0b9c97bf6" "56c27760-b9e1-11ef-8dbd-1ff0b9c97bf6")}}
-:block/updated-at 1734156316550
+:shapes-index ("4ef3b7b0-b9e1-11ef-8dbd-1ff0b9c97bf6" "56c27760-b9e1-11ef-8dbd-1ff0b9c97bf6" "74944930-b9e1-11ef-8dbd-1ff0b9c97bf6" "7eca44e0-b9e1-11ef-8dbd-1ff0b9c97bf6" "7fcb6130-b9e1-11ef-8dbd-1ff0b9c97bf6")}}
+:block/updated-at 1734156380982
 :block/created-at 1734156252915
 :block/type "whiteboard"
 :block/name "dp explained"
