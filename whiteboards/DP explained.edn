@@ -375,7 +375,7 @@
 :nonce 1734156793215
 :italic false}}
 :block/updated-at 1734156856775} 
-{:block/created-at 1734156853674
+{:block/created-at 1734156884971
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -394,12 +394,12 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [656 480]
+:point [672 480]
 :fontSize 16
 :parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
-:nonce 1734156793274
+:nonce 1734156793325
 :italic false}}
-:block/updated-at 1734156853674} 
+:block/updated-at 1734156884971} 
 {:block/created-at 1734156840641
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -450,24 +450,25 @@
 :nonce 1734156793305
 :italic false}}
 :block/updated-at 1734156828874} 
-{:block/properties 
+{:block/created-at 1734156879192
+:block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
 :index 16
 :scale [1 1]
-:scaleLevel "sm"
+:scaleLevel "xs"
 :fill ""
 :type "line"
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
-:label ""
+:label "if we take 1^2"
 :id "a8639262-b9e2-11ef-8dbd-1ff0b9c97bf6"
 :fontWeight 400
 :noFill true
 :point [564 384]
-:fontSize 20
+:fontSize 10
 :handles 
 {:start 
 {:id "start"
@@ -481,9 +482,113 @@
 :decorations 
 {:end "arrow"}
 :parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
-:nonce 1734156861173
+:nonce 1734156861192
 :italic false}}
-:block/updated-at 1734156863223})
+:block/updated-at 1734156879192} 
+{:block/created-at 1734156904137
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 17
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "if we take 2^2"
+:id "bae34a20-b9e2-11ef-8dbd-1ff0b9c97bf6"
+:fontWeight 400
+:noFill true
+:point [722.14 400]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [29.86 0]}
+:end 
+{:id "end"
+:canBind true
+:point [0 76]
+:bindingId "bae32311-b9e2-11ef-8dbd-1ff0b9c97bf6"}}
+:decorations 
+{:end "arrow"}
+:parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
+:nonce 1734156892160
+:italic false}}
+:block/updated-at 1734156904137} 
+{:block/created-at 1734156919692
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 18
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "if we take 3^2"
+:id "c5c90dd2-b9e2-11ef-8dbd-1ff0b9c97bf6"
+:fontWeight 400
+:noFill true
+:point [792 400]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [37.81 76]
+:bindingId "c5c90dd1-b9e2-11ef-8dbd-1ff0b9c97bf6"}}
+:decorations 
+{:end "arrow"}
+:parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
+:nonce 1734156910476
+:italic false}}
+:block/updated-at 1734156919692} 
+{:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 19
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "cda22dc1-b9e2-11ef-8dbd-1ff0b9c97bf6"
+:fontWeight 400
+:noFill true
+:point [816 384]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [151.76 92]
+:bindingId "cda22dc0-b9e2-11ef-8dbd-1ff0b9c97bf6"}}
+:decorations 
+{:end "arrow"}
+:parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
+:nonce 1734156923604
+:italic false}}
+:block/updated-at 1734156924556})
 :pages (
 {:block/uuid #uuid "675d1fdc-d12d-433b-807d-19b9838d936d"
 :block/properties 
@@ -515,11 +620,35 @@
 :toId "86f252b0-b9e2-11ef-8dbd-1ff0b9c97bf6"
 :handleId "end"
 :point [0.38 0.52]
+:distance 4}
+:bae32311-b9e2-11ef-8dbd-1ff0b9c97bf6 
+{:id "bae32311-b9e2-11ef-8dbd-1ff0b9c97bf6"
+:type "line"
+:fromId "bae34a20-b9e2-11ef-8dbd-1ff0b9c97bf6"
+:toId "87cef710-b9e2-11ef-8dbd-1ff0b9c97bf6"
+:handleId "end"
+:point [0.5 0.5]
+:distance 4}
+:c5c90dd1-b9e2-11ef-8dbd-1ff0b9c97bf6 
+{:id "c5c90dd1-b9e2-11ef-8dbd-1ff0b9c97bf6"
+:type "line"
+:fromId "c5c90dd2-b9e2-11ef-8dbd-1ff0b9c97bf6"
+:toId "885f7740-b9e2-11ef-8dbd-1ff0b9c97bf6"
+:handleId "end"
+:point [0.66 0.53]
+:distance 4}
+:cda22dc0-b9e2-11ef-8dbd-1ff0b9c97bf6 
+{:id "cda22dc0-b9e2-11ef-8dbd-1ff0b9c97bf6"
+:type "line"
+:fromId "cda22dc1-b9e2-11ef-8dbd-1ff0b9c97bf6"
+:toId "906a0770-b9e2-11ef-8dbd-1ff0b9c97bf6"
+:handleId "end"
+:point [0.73 0.46]
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("4ef3b7b0-b9e1-11ef-8dbd-1ff0b9c97bf6" "56c27760-b9e1-11ef-8dbd-1ff0b9c97bf6" "74944930-b9e1-11ef-8dbd-1ff0b9c97bf6" "7eca44e0-b9e1-11ef-8dbd-1ff0b9c97bf6" "7fcb6130-b9e1-11ef-8dbd-1ff0b9c97bf6" "928d7920-b9e1-11ef-8dbd-1ff0b9c97bf6" "b1589f12-b9e1-11ef-8dbd-1ff0b9c97bf6" "b56e4e60-b9e1-11ef-8dbd-1ff0b9c97bf6" "c07ecb90-b9e1-11ef-8dbd-1ff0b9c97bf6" "c3471350-b9e1-11ef-8dbd-1ff0b9c97bf6" "64865f50-b9e2-11ef-8dbd-1ff0b9c97bf6" "7fe66dd0-b9e2-11ef-8dbd-1ff0b9c97bf6" "86f252b0-b9e2-11ef-8dbd-1ff0b9c97bf6" "87cef710-b9e2-11ef-8dbd-1ff0b9c97bf6" "885f7740-b9e2-11ef-8dbd-1ff0b9c97bf6" "906a0770-b9e2-11ef-8dbd-1ff0b9c97bf6" "a8639262-b9e2-11ef-8dbd-1ff0b9c97bf6")}}
-:block/updated-at 1734156863222
+:shapes-index ("4ef3b7b0-b9e1-11ef-8dbd-1ff0b9c97bf6" "56c27760-b9e1-11ef-8dbd-1ff0b9c97bf6" "74944930-b9e1-11ef-8dbd-1ff0b9c97bf6" "7eca44e0-b9e1-11ef-8dbd-1ff0b9c97bf6" "7fcb6130-b9e1-11ef-8dbd-1ff0b9c97bf6" "928d7920-b9e1-11ef-8dbd-1ff0b9c97bf6" "b1589f12-b9e1-11ef-8dbd-1ff0b9c97bf6" "b56e4e60-b9e1-11ef-8dbd-1ff0b9c97bf6" "c07ecb90-b9e1-11ef-8dbd-1ff0b9c97bf6" "c3471350-b9e1-11ef-8dbd-1ff0b9c97bf6" "64865f50-b9e2-11ef-8dbd-1ff0b9c97bf6" "7fe66dd0-b9e2-11ef-8dbd-1ff0b9c97bf6" "86f252b0-b9e2-11ef-8dbd-1ff0b9c97bf6" "87cef710-b9e2-11ef-8dbd-1ff0b9c97bf6" "885f7740-b9e2-11ef-8dbd-1ff0b9c97bf6" "906a0770-b9e2-11ef-8dbd-1ff0b9c97bf6" "a8639262-b9e2-11ef-8dbd-1ff0b9c97bf6" "bae34a20-b9e2-11ef-8dbd-1ff0b9c97bf6" "c5c90dd2-b9e2-11ef-8dbd-1ff0b9c97bf6" "cda22dc1-b9e2-11ef-8dbd-1ff0b9c97bf6")}}
+:block/updated-at 1734156924556
 :block/created-at 1734156252915
 :block/type "whiteboard"
 :block/name "dp explained"
