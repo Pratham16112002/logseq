@@ -160,7 +160,142 @@
 :nonce 1734156395153
 :italic false
 :text "If we go greedily we will \nobviously pick up the largest\nperfect square root which in this case \nis 9."}}
-:block/updated-at 1734156442930})
+:block/updated-at 1734156442930} 
+{:block/created-at 1734156453449
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 6
+:scale [1 1]
+:scaleLevel "sm"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "b1589f12-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:fontWeight 400
+:noFill true
+:point [80 376]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [100 0]
+:bindingId "b1589f11-b9e1-11ef-8dbd-1ff0b9c97bf6"}}
+:decorations 
+{:end "arrow"}
+:parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
+:nonce 1734156446669
+:italic false}}
+:block/updated-at 1734156453449} 
+{:block/created-at 1734156457479
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 7
+:scale [1 1]
+:scaleLevel "sm"
+:fill ""
+:type "text"
+:size [301 87]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "b56e4e60-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:padding 4
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [-240 464]
+:lineHeight 1.2
+:fontSize 16
+:parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
+:nonce 1734156395383
+:italic false
+:text "If we go greedily we will \nobviously pick up the largest\nperfect square root which in this case \nis 9."}}
+:block/updated-at 1734156457479} 
+{:block/created-at 1734156476681
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 8
+:scale [1 1]
+:scaleLevel "sm"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "c07ecb90-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:fontWeight 400
+:noFill true
+:point [224 416]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [0 44]
+:bindingId "c07ea481-b9e1-11ef-8dbd-1ff0b9c97bf6"}}
+:decorations 
+{:end "arrow"}
+:parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
+:nonce 1734156472027
+:italic false}}
+:block/updated-at 1734156476681} 
+{:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 9
+:scale [1 1]
+:scaleLevel "sm"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "c3471350-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [220.6777343749999 545.92578125]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [0 44]
+:bindingId nil}}
+:decorations 
+{:end "arrow"}
+:parentId "675d1fdc-d12d-433b-807d-19b9838d936d"
+:nonce 1734156472027
+:italic false}}
+:block/updated-at 1734156476681})
 :pages (
 {:block/uuid #uuid "675d1fdc-d12d-433b-807d-19b9838d936d"
 :block/properties 
@@ -169,11 +304,26 @@
 {:id "675d1fdc-d12d-433b-807d-19b9838d936d"
 :name "dp explained"
 :bindings 
-{}
+{:b1589f11-b9e1-11ef-8dbd-1ff0b9c97bf6 
+{:id "b1589f11-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:type "line"
+:fromId "b1589f12-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:toId "74944930-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:handleId "end"
+:point [0.57 0.55]
+:distance 4}
+:c07ea481-b9e1-11ef-8dbd-1ff0b9c97bf6 
+{:id "c07ea481-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:type "line"
+:fromId "c07ecb90-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:toId "7eca44e0-b9e1-11ef-8dbd-1ff0b9c97bf6"
+:handleId "end"
+:point [0.55 0.53]
+:distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("4ef3b7b0-b9e1-11ef-8dbd-1ff0b9c97bf6" "56c27760-b9e1-11ef-8dbd-1ff0b9c97bf6" "74944930-b9e1-11ef-8dbd-1ff0b9c97bf6" "7eca44e0-b9e1-11ef-8dbd-1ff0b9c97bf6" "7fcb6130-b9e1-11ef-8dbd-1ff0b9c97bf6" "928d7920-b9e1-11ef-8dbd-1ff0b9c97bf6")}}
-:block/updated-at 1734156442930
+:shapes-index ("4ef3b7b0-b9e1-11ef-8dbd-1ff0b9c97bf6" "56c27760-b9e1-11ef-8dbd-1ff0b9c97bf6" "74944930-b9e1-11ef-8dbd-1ff0b9c97bf6" "7eca44e0-b9e1-11ef-8dbd-1ff0b9c97bf6" "7fcb6130-b9e1-11ef-8dbd-1ff0b9c97bf6" "928d7920-b9e1-11ef-8dbd-1ff0b9c97bf6" "b1589f12-b9e1-11ef-8dbd-1ff0b9c97bf6" "b56e4e60-b9e1-11ef-8dbd-1ff0b9c97bf6" "c07ecb90-b9e1-11ef-8dbd-1ff0b9c97bf6" "c3471350-b9e1-11ef-8dbd-1ff0b9c97bf6")}}
+:block/updated-at 1734156476681
 :block/created-at 1734156252915
 :block/type "whiteboard"
 :block/name "dp explained"
