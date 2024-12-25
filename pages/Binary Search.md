@@ -31,4 +31,15 @@
 			  	return high
 			  
 			  ```
-			-
+			- ```
+			  v v v v v v n n n n n n    //v is valid, n is not valid
+			  ^                     ^ 
+			  |                     |
+			  low                  high
+			  - When the binary search loop will end 
+			  our pointers will be like this, so we will simply return h
+			  v v v v v v n n n n n n    
+			            ^ ^                     
+			            | |                     
+			            h l
+			  ```
