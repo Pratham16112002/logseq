@@ -5,4 +5,5 @@
 		- Return *the **maximum** *`k`* you can choose such that *`p`* is still a **subsequence** of *`s`* after the removals*.
 		- A **subsequence** of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
 		- _Initial thinking_
-			- Do a brute force linear search on removal-able array and count the number of character after removing those indices f
+			- Do a brute force linear search on removal-able array and count the number of character after removing those indices from s the p is sill an subsequence of string s.
+			- $$$$
