@@ -44,4 +44,15 @@
 			            h l
 			  ```
 			- $$ O(log(n)*k)$$
-			-
+			- ```
+			  func checkSubsequence(s1 string, s2 string) bool {
+			  	j := 0
+			  	for i := 0; i < len(s1); i++ {
+			  		if j < len(s2) && s1[i] == s2[j] {
+			  			j++
+			  		}
+			  	}
+			  	return j == len(s2)
+			  }
+			  ```
+	-
