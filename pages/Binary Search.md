@@ -8,4 +8,27 @@
 			- Do a brute force linear search on removal-able array and count the number of character after removing those indices from s the p is sill an subsequence of string s.
 			- $$ O(n*k)$$
 		- _Smart thinking_
-			- we could do a binary search on the removal-able array
+			- We could do a binary search on the removal-able array like this.
+			- ```
+			  	low := 0
+			  	high := len(removable)
+			  	for low <= high {
+			  		mid := low + (high-low)/2
+			  		temp := []rune(s)
+			  		for i := 0; i < mid; i++ {
+			  			temp[removable[i]] = '#'
+			  		}
+			  		tempStr := string(temp)
+			  		if checkSubsequence(tempStr, p) {
+			  			low = mid + 1
+			  		} else {
+			  			for i := 0; i < mid; i++ {
+			  
+			  			}
+			  			high = mid - 1
+			  		}
+			  	}
+			  	return high
+			  
+			  ```
+			-
