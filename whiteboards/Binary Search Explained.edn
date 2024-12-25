@@ -456,7 +456,7 @@
 :nonce 1735112766748
 :isComplete true}}
 :block/updated-at 1735112857355} 
-{:block/created-at 1735112880021
+{:block/created-at 1735112933595
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -469,7 +469,7 @@
 :scaleLevel "md"
 :fill ""
 :type "text"
-:size [80 32]
+:size [104 32]
 :fontFamily "var(--ls-font-family)"
 :strokeType "line"
 :strokeWidth 2
@@ -482,28 +482,29 @@
 :lineHeight 1.2
 :fontSize 20
 :parentId "676bb7c3-3f21-4a28-9157-af234ab78409"
-:nonce 1735112842717
+:nonce 1735112842742
 :italic false
 :text "abcacb"}}
-:block/updated-at 1735112880021} 
-{:block/properties 
+:block/updated-at 1735112933595} 
+{:block/created-at 1735112938470
+:block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
 :index 22
 :scale [1 1]
-:scaleLevel "md"
+:scaleLevel "sm"
 :fill ""
 :type "line"
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
-:label ""
+:label "we will mark all the indices present in \nrange L to M to a non alphabet letter."
 :id "931f5ff2-c294-11ef-b80a-27e298ca0312"
 :fontWeight 400
 :noFill true
 :point [640 712]
-:fontSize 20
+:fontSize 16
 :handles 
 {:start 
 {:id "start"
@@ -517,9 +518,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "676bb7c3-3f21-4a28-9157-af234ab78409"
-:nonce 1735112885193
+:nonce 1735112885340
 :italic false}}
-:block/updated-at 1735112886359})
+:block/updated-at 1735112938470})
 :pages (
 {:block/uuid #uuid "676bb7c3-3f21-4a28-9157-af234ab78409"
 :block/properties 
@@ -532,7 +533,7 @@
 :nonce 1
 :assets []
 :shapes-index ("0a296c90-c294-11ef-b80a-27e298ca0312" "1f36ad00-c294-11ef-b80a-27e298ca0312" "208ca010-c294-11ef-b80a-27e298ca0312" "2850b160-c294-11ef-b80a-27e298ca0312" "29692640-c294-11ef-b80a-27e298ca0312" "2a782540-c294-11ef-b80a-27e298ca0312" "2daf0d50-c294-11ef-b80a-27e298ca0312" "2ec6e5f0-c294-11ef-b80a-27e298ca0312" "302eda60-c294-11ef-b80a-27e298ca0312" "32d7b340-c294-11ef-b80a-27e298ca0312" "335595d0-c294-11ef-b80a-27e298ca0312" "347e5e60-c294-11ef-b80a-27e298ca0312" "382630b0-c294-11ef-b80a-27e298ca0312" "39279b20-c294-11ef-b80a-27e298ca0312" "39bed210-c294-11ef-b80a-27e298ca0312" "3a774ca0-c294-11ef-b80a-27e298ca0312" "3c5d71c0-c294-11ef-b80a-27e298ca0312" "47695b10-c294-11ef-b80a-27e298ca0312" "49f11760-c294-11ef-b80a-27e298ca0312" "4ab79bb0-c294-11ef-b80a-27e298ca0312" "4c890050-c294-11ef-b80a-27e298ca0312" "79960d40-c294-11ef-b80a-27e298ca0312" "931f5ff2-c294-11ef-b80a-27e298ca0312")}}
-:block/updated-at 1735112886359
+:block/updated-at 1735112938470
 :block/created-at 1735112643665
 :block/type "whiteboard"
 :block/name "binary search explained"
