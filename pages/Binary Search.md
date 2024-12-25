@@ -8,4 +8,4 @@
 			- Do a brute force linear search on removal-able array and count the number of character after removing those indices from s the p is sill an subsequence of string s.
 			- $$ O(n*k)$$
 		- _Smart thinking_
-			- we
+			- we could do a binary search on the removal-able array
