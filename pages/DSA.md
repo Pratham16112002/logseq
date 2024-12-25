@@ -12,6 +12,7 @@
 - [[HashTable]]
 - [[Heap]]
 - [[Design Questions]]
+- [[Binary Search]]
 - ## Space and Time Complexity
 	- Relation between Input Size and running time ( Operations )
 		- Time complexity \uarr as the input size \uarr
