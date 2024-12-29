@@ -289,7 +289,8 @@
 :nonce 1735454524538
 :isComplete true}}
 :block/updated-at 1735454531958} 
-{:block/properties 
+{:block/created-at 1735454786682
+:block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke "green"
@@ -308,7 +309,70 @@
 :parentId "6770ee0a-ca72-4bf2-8209-f841997bc78f"
 :nonce 1735454534711
 :isComplete true}}
-:block/updated-at 1735454539104})
+:block/updated-at 1735454786682} 
+{:block/created-at 1735454786746
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke "green"
+:borderRadius 0
+:index 14
+:scale [1 1]
+:scaleLevel "md"
+:fill "green"
+:type "text"
+:size [610 58]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "0e9bc420-c5b0-11ef-a772-87d9677b0500"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [568 776]
+:lineHeight 1.2
+:fontSize 20
+:parentId "6770ee0a-ca72-4bf2-8209-f841997bc78f"
+:nonce 1735454542480
+:italic false
+:text "Will extends the boundaries from particular element to both left\nand right and will keep checking for the maximum string found."}}
+:block/updated-at 1735454786746} 
+{:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "green"
+:index 15
+:scale [1 1]
+:scaleLevel "md"
+:fill "green"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "a1815b62-c5b0-11ef-a772-87d9677b0500"
+:fontWeight 400
+:noFill true
+:point [536 656]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [56 104]}
+:end 
+{:id "end"
+:canBind true
+:point [0 0]
+:bindingId nil}}
+:decorations 
+{:end "arrow"}
+:parentId "6770ee0a-ca72-4bf2-8209-f841997bc78f"
+:nonce 1735454788677
+:italic false}}
+:block/updated-at 1735454789790})
 :pages (
 {:block/uuid #uuid "6770ee0a-ca72-4bf2-8209-f841997bc78f"
 :block/properties 
@@ -320,8 +384,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("5f6a37c0-c5af-11ef-a772-87d9677b0500" "7db11280-c5af-11ef-a772-87d9677b0500" "9fbfcab0-c5af-11ef-a772-87d9677b0500" "a0d6e000-c5af-11ef-a772-87d9677b0500" "a2679220-c5af-11ef-a772-87d9677b0500" "a5d9fc90-c5af-11ef-a772-87d9677b0500" "a78c8e90-c5af-11ef-a772-87d9677b0500" "a9e23e60-c5af-11ef-a772-87d9677b0500" "ab51ace0-c5af-11ef-a772-87d9677b0500" "ebb5e5d0-c5af-11ef-a772-87d9677b0500" "fffd6540-c5af-11ef-a772-87d9677b0500" "03436880-c5b0-11ef-a772-87d9677b0500" "03dc7430-c5b0-11ef-a772-87d9677b0500" "09f8c8f0-c5b0-11ef-a772-87d9677b0500")}}
-:block/updated-at 1735454539104
+:shapes-index ("5f6a37c0-c5af-11ef-a772-87d9677b0500" "7db11280-c5af-11ef-a772-87d9677b0500" "9fbfcab0-c5af-11ef-a772-87d9677b0500" "a0d6e000-c5af-11ef-a772-87d9677b0500" "a2679220-c5af-11ef-a772-87d9677b0500" "a5d9fc90-c5af-11ef-a772-87d9677b0500" "a78c8e90-c5af-11ef-a772-87d9677b0500" "a9e23e60-c5af-11ef-a772-87d9677b0500" "ab51ace0-c5af-11ef-a772-87d9677b0500" "ebb5e5d0-c5af-11ef-a772-87d9677b0500" "fffd6540-c5af-11ef-a772-87d9677b0500" "03436880-c5b0-11ef-a772-87d9677b0500" "03dc7430-c5b0-11ef-a772-87d9677b0500" "09f8c8f0-c5b0-11ef-a772-87d9677b0500" "0e9bc420-c5b0-11ef-a772-87d9677b0500" "a1815b62-c5b0-11ef-a772-87d9677b0500")}}
+:block/updated-at 1735454789790
 :block/created-at 1735454218319
 :block/type "whiteboard"
 :block/name "strings explained"
