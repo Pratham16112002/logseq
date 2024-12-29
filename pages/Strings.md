@@ -69,4 +69,5 @@
 	  If the first `min(a.length, b.length)` characters do not differ, then the shorter string is the lexicographically smaller one.
 	- _Initial thinking_ was not able to solve this question in the contest.
 	- _Actual approach_
+		- First we need to understand we do need to check for every possible subarray.
 		-
