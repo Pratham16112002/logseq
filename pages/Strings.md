@@ -70,4 +70,4 @@
 	- _Initial thinking_ was not able to solve this question in the contest.
 	- _Actual approach_
 		- First we need to understand we do need to check for every possible substring.
-		- If we try
+		- If we try to split the string into numFriends then we are 100% sure that
