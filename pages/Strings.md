@@ -57,6 +57,7 @@
 	  ```
 	- Remember if we are dealing with the character array make sure you do operation using the ascii table values .
 - ### Find the lexicographically largest string form box
+  id:: 6770e89c-123f-4302-b977-ef2b015e073e
 	- You are given a string `word`, and an integer `numFriends`.
 	  
 	  Alice is organizing a game for her `numFriends` friends. There are multiple rounds in the game, where in each round:
@@ -72,4 +73,48 @@
 		- First we need to understand we do need to check for every possible substring.
 		- If we try to split the string into numFriends then we are 100% sure that the string would at least by of size `word.size() - numFriends`.
 		- And also we need to check all the substring ( size of at most 2 ) formed from every possible character in the `word`.
-		-
+		- ```
+		  func answerString(word string, numFriends int) string {
+		      	if numFriends == 1 {
+		  		return word
+		  	}
+		  	m_l_s := len(word) - numFriends
+		  	var max_char rune
+		  	for _, char := range word {
+		  		if char > max_char {
+		  			max_char = char
+		  		}
+		  	}
+		  	var maxi_ans string
+		  	for i := 0; i < len(word); i++ {
+		          var ans string
+		  		if word[i] == byte(max_char) {
+		  			fmt.Println(i - m_l_s)
+		  			if i+m_l_s < len(word) {
+		  				ans = word[i : i+m_l_s+1]
+		  			} else {
+		  				temp := word[i:]
+		  				if temp > ans {
+		  					ans = temp
+		  				}
+		  			}
+		  			if i-m_l_s >= 0 {
+		  				temp := word[i-m_l_s : i+1]
+		  				if temp > ans {
+		  					ans = temp
+		  				}
+		  			} else {
+		  				temp := word[:i+1]
+		  				if temp > ans {
+		  					ans = temp
+		  				}
+		  			}
+		              if ans > maxi_ans {
+		                  maxi_ans = ans
+		              }
+		  		}
+		  	}
+		  	return maxi_ans
+		  
+		  }
+		  ```
