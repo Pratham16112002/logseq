@@ -56,3 +56,4 @@
 	  strcpy(char_array_name,string.c_str());
 	  ```
 	- Remember if we are dealing with the character array make sure you do operation using the ascii table values .
+-
