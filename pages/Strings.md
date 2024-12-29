@@ -71,4 +71,5 @@
 	- _Actual approach_
 		- First we need to understand we do need to check for every possible substring.
 		- If we try to split the string into numFriends then we are 100% sure that the string would at least by of size `word.size() - numFriends`.
-		- And also we need to check all the substring formed from the
+		- And also we need to check all the substring formed from every possible character in the `word`.
+		-
