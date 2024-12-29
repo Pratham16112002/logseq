@@ -1,0 +1,77 @@
+{:blocks (
+{:block/created-at 1735454261253
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 0
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [1277 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "5f6a37c0-c5af-11ef-a772-87d9677b0500"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [-136 48]
+:lineHeight 1.2
+:fontSize 48
+:parentId "6770ee0a-ca72-4bf2-8209-f841997bc78f"
+:nonce 1735454248508
+:italic false
+:text "Find the Lexicographically Largest String From the Box I"}}
+:block/updated-at 1735454261253} 
+{:block/created-at 1735454324746
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked false
+:stroke ""
+:rotation 0
+:borderRadius 0
+:index 1
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [376 32]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "7db11280-c5af-11ef-a772-87d9677b0500"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [264 216]
+:lineHeight 1.2
+:fontSize 20
+:parentId "6770ee0a-ca72-4bf2-8209-f841997bc78f"
+:nonce 1735454299738
+:italic false
+:text "Input: word = \"dbca\", numFriends = 2"}}
+:block/updated-at 1735454324746})
+:pages (
+{:block/uuid #uuid "6770ee0a-ca72-4bf2-8209-f841997bc78f"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "6770ee0a-ca72-4bf2-8209-f841997bc78f"
+:name "strings explained"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("5f6a37c0-c5af-11ef-a772-87d9677b0500" "7db11280-c5af-11ef-a772-87d9677b0500")}}
+:block/updated-at 1735454324746
+:block/created-at 1735454218319
+:block/type "whiteboard"
+:block/name "strings explained"
+:block/original-name "Strings explained"})}
