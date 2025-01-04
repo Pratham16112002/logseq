@@ -1,1 +1,2 @@
-- In this pattern the top parent component is the factory
+- In this pattern the top parent component is the factory which has multiple products of different companies.
+-
