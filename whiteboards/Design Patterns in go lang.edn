@@ -25,7 +25,7 @@
 :nonce 1735984747746
 :italic false}}
 :block/updated-at 1735984769113} 
-{:block/created-at 1735984814119
+{:block/created-at 1735984824867
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -34,24 +34,24 @@
 :borderRadius 2
 :index 1
 :scale [1 1]
-:scaleLevel "md"
+:scaleLevel "xs"
 :fill ""
 :type "box"
 :size [128 40]
 :strokeType "line"
-:strokeWidth 2
+:strokeWidth 1
 :opacity 1
 :label "createMonitor"
 :id "9a4be8c0-ca82-11ef-b493-f597e850ebb5"
 :fontWeight 400
 :noFill false
 :point [240 208]
-:fontSize 20
+:fontSize 10
 :parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
-:nonce 1735984775618
+:nonce 1735984775619
 :italic false}}
-:block/updated-at 1735984814119} 
-{:block/created-at 1735984802967
+:block/updated-at 1735984824867} 
+{:block/created-at 1735984822638
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -60,25 +60,25 @@
 :borderRadius 2
 :index 2
 :scale [1 1]
-:scaleLevel "md"
+:scaleLevel "xs"
 :fill ""
 :type "box"
 :size [128 40]
 :strokeType "line"
-:strokeWidth 2
+:strokeWidth 1
 :opacity 1
-:label "CreateGPU"
+:label "createGPU"
 :id "a45a5f40-ca82-11ef-b493-f597e850ebb5"
 :fontWeight 400
 :noFill false
 :isLocked false
 :point [240 248]
-:fontSize 20
+:fontSize 10
 :parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
-:nonce 1735984775694
+:nonce 1735984775699
 :italic false}}
-:block/updated-at 1735984802967} 
-{:block/created-at 1735984800578
+:block/updated-at 1735984822638} 
+{:block/created-at 1735984838676
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -87,24 +87,78 @@
 :borderRadius 2
 :index 3
 :scale [1 1]
-:scaleLevel "md"
+:scaleLevel "xs"
 :fill ""
 :type "box"
 :size [128 40]
 :strokeType "line"
-:strokeWidth 2
+:strokeWidth 1
 :opacity 1
-:label "CreateGPU"
+:label "createUsb"
 :id "a4cc5af0-ca82-11ef-b493-f597e850ebb5"
 :fontWeight 400
 :noFill false
 :isLocked false
 :point [240 288]
-:fontSize 20
+:fontSize 10
 :parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
-:nonce 1735984775772
+:nonce 1735984775785
 :italic false}}
-:block/updated-at 1735984800578})
+:block/updated-at 1735984838676} 
+{:block/created-at 1735984855058
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 4
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "text"
+:size [712 82]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "c262aa60-ca82-11ef-b493-f597e850ebb5"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [-48 -24]
+:lineHeight 1.2
+:fontSize 60
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984843070
+:italic false
+:text "Abstract Factory Pattern"}}
+:block/updated-at 1735984855058} 
+{:block/created-at 1735984872242
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:borderRadius 2
+:index 5
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "box"
+:size [680 624]
+:strokeType "line"
+:strokeWidth 6
+:opacity 1
+:label ""
+:id "cf492010-ca82-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill true
+:point [-8 88]
+:fontSize 60
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984864608
+:italic false}}
+:block/updated-at 1735984872242})
 :pages (
 {:block/uuid #uuid "67790656-1f75-4bbc-a023-88efe9ffe98f"
 :block/properties 
@@ -116,8 +170,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("898d9010-ca82-11ef-b493-f597e850ebb5" "9a4be8c0-ca82-11ef-b493-f597e850ebb5" "a45a5f40-ca82-11ef-b493-f597e850ebb5" "a4cc5af0-ca82-11ef-b493-f597e850ebb5")}}
-:block/updated-at 1735984814118
+:shapes-index ("898d9010-ca82-11ef-b493-f597e850ebb5" "9a4be8c0-ca82-11ef-b493-f597e850ebb5" "a45a5f40-ca82-11ef-b493-f597e850ebb5" "a4cc5af0-ca82-11ef-b493-f597e850ebb5" "c262aa60-ca82-11ef-b493-f597e850ebb5" "cf492010-ca82-11ef-b493-f597e850ebb5")}}
+:block/updated-at 1735984875091
 :block/created-at 1735984726167
 :block/type "whiteboard"
 :block/name "design patterns in go lang"
