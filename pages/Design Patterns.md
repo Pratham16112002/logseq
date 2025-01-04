@@ -3,4 +3,5 @@
 	- _Normal Factory Pattern_
 		- we are
 - ## Factory Pattern
+	- Comes under creational pattern.
 	-
