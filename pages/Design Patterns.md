@@ -48,4 +48,33 @@
 			  ```
 		- **App code**
 			- ```
+			  type Shape interface {
+			  	Draw()
+			  }
+			  ```
+			- ```
+			  type Square struct{}
+			  
+			  func NewSquare() Square {
+			  	return Square{}
+			  }
+			  
+			  func (c Square) Draw() {
+			  	// implementation
+			  	println("square is drawn")
+			  }
+			  ```
+			- ```
+			  type Rectangle struct{}
+			  
+			  func NewRectangle() Rectangle {
+			  	return Rectangle{}
+			  }
+			  
+			  func (c Rectangle) Draw() {
+			  	// implementation
+			  	println("rectangle is drawn")
+			  }
+			  ```
+			- ```
 			  ```
