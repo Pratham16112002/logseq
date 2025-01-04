@@ -1,0 +1,1 @@
+- In this pattern the top parent component is the factory
