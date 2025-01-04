@@ -4,4 +4,6 @@
 		- we are
 - ## Factory Pattern
 	- Comes under creational pattern.
-	-
+	- Very commonly used pattern.
+	- Hides the creation logic of the instances.
+	- The client interact with the
