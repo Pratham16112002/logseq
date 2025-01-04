@@ -1,0 +1,124 @@
+{:blocks (
+{:block/created-at 1735984769113
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 0
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [128 72]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "Company"
+:id "898d9010-ca82-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill true
+:point [240 136]
+:fontSize 20
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984747746
+:italic false}}
+:block/updated-at 1735984769113} 
+{:block/created-at 1735984814119
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 1
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [128 40]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "createMonitor"
+:id "9a4be8c0-ca82-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill false
+:point [240 208]
+:fontSize 20
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984775618
+:italic false}}
+:block/updated-at 1735984814119} 
+{:block/created-at 1735984802967
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 2
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [128 40]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "CreateGPU"
+:id "a45a5f40-ca82-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [240 248]
+:fontSize 20
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984775694
+:italic false}}
+:block/updated-at 1735984802967} 
+{:block/created-at 1735984800578
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 3
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [128 40]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "CreateGPU"
+:id "a4cc5af0-ca82-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [240 288]
+:fontSize 20
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984775772
+:italic false}}
+:block/updated-at 1735984800578})
+:pages (
+{:block/uuid #uuid "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:name "design patterns in go lang"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("898d9010-ca82-11ef-b493-f597e850ebb5" "9a4be8c0-ca82-11ef-b493-f597e850ebb5" "a45a5f40-ca82-11ef-b493-f597e850ebb5" "a4cc5af0-ca82-11ef-b493-f597e850ebb5")}}
+:block/updated-at 1735984814118
+:block/created-at 1735984726167
+:block/type "whiteboard"
+:block/name "design patterns in go lang"
+:block/original-name "Design Patterns in go lang"})}
