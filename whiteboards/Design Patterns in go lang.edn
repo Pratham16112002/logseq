@@ -1,118 +1,12 @@
 {:blocks (
-{:block/created-at 1735984769113
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:rotation 0
-:borderRadius 2
-:index 0
-:scale [1 1]
-:scaleLevel "md"
-:fill ""
-:type "box"
-:size [128 72]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:label "Company"
-:id "898d9010-ca82-11ef-b493-f597e850ebb5"
-:fontWeight 400
-:noFill true
-:point [240 136]
-:fontSize 20
-:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
-:nonce 1735984747746
-:italic false}}
-:block/updated-at 1735984769113} 
-{:block/created-at 1735984824867
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:rotation 0
-:borderRadius 2
-:index 1
-:scale [1 1]
-:scaleLevel "xs"
-:fill ""
-:type "box"
-:size [128 40]
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label "createMonitor"
-:id "9a4be8c0-ca82-11ef-b493-f597e850ebb5"
-:fontWeight 400
-:noFill false
-:point [240 208]
-:fontSize 10
-:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
-:nonce 1735984775619
-:italic false}}
-:block/updated-at 1735984824867} 
-{:block/created-at 1735984822638
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:rotation 0
-:borderRadius 2
-:index 2
-:scale [1 1]
-:scaleLevel "xs"
-:fill ""
-:type "box"
-:size [128 40]
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label "createGPU"
-:id "a45a5f40-ca82-11ef-b493-f597e850ebb5"
-:fontWeight 400
-:noFill false
-:isLocked false
-:point [240 248]
-:fontSize 10
-:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
-:nonce 1735984775699
-:italic false}}
-:block/updated-at 1735984822638} 
-{:block/created-at 1735984838676
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:rotation 0
-:borderRadius 2
-:index 3
-:scale [1 1]
-:scaleLevel "xs"
-:fill ""
-:type "box"
-:size [128 40]
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label "createUsb"
-:id "a4cc5af0-ca82-11ef-b493-f597e850ebb5"
-:fontWeight 400
-:noFill false
-:isLocked false
-:point [240 288]
-:fontSize 10
-:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
-:nonce 1735984775785
-:italic false}}
-:block/updated-at 1735984838676} 
-{:block/created-at 1735984855058
+{:block/created-at 1735984896448
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:isSizeLocked true
 :stroke ""
 :borderRadius 0
-:index 4
+:index 0
 :scale [1 1]
 :scaleLevel "xxl"
 :fill ""
@@ -133,19 +27,20 @@
 :nonce 1735984843070
 :italic false
 :text "Abstract Factory Pattern"}}
-:block/updated-at 1735984855058} 
-{:block/created-at 1735984872242
+:block/updated-at 1735984896448} 
+{:block/created-at 1735984931449
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
+:rotation 0
 :borderRadius 2
-:index 5
+:index 1
 :scale [1 1]
 :scaleLevel "xxl"
 :fill ""
 :type "box"
-:size [680 624]
+:size [712 648]
 :strokeType "line"
 :strokeWidth 6
 :opacity 1
@@ -153,12 +48,120 @@
 :id "cf492010-ca82-11ef-b493-f597e850ebb5"
 :fontWeight 400
 :noFill true
-:point [-8 88]
+:point [-40 64]
 :fontSize 60
 :parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
-:nonce 1735984864608
+:nonce 1735984865378
 :italic false}}
-:block/updated-at 1735984872242})
+:block/updated-at 1735984931449} 
+{:block/created-at 1735984915656
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 6.278957764729256
+:borderRadius 2
+:index 2
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [128 72]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "Company"
+:id "e2627fc0-ca82-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [264 88]
+:fontSize 20
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984748230
+:italic false}}
+:block/updated-at 1735984915656} 
+{:block/created-at 1735984915657
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 6.278957764729256
+:borderRadius 2
+:index 3
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "box"
+:size [128 40]
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "createMonitor"
+:id "e2627fc1-ca82-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [264 160]
+:fontSize 10
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984776103
+:italic false}}
+:block/updated-at 1735984915657} 
+{:block/created-at 1735984915657
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 6.278957764729256
+:borderRadius 2
+:index 4
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "box"
+:size [128 40]
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "createGPU"
+:id "e2627fc2-ca82-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [264 200]
+:fontSize 10
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984776183
+:italic false}}
+:block/updated-at 1735984915657} 
+{:block/created-at 1735984915657
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 6.278957764729256
+:borderRadius 2
+:index 5
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "box"
+:size [128 40]
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "createUsb"
+:id "e2627fc3-ca82-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [264 240]
+:fontSize 10
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984776269
+:italic false}}
+:block/updated-at 1735984915657})
 :pages (
 {:block/uuid #uuid "67790656-1f75-4bbc-a023-88efe9ffe98f"
 :block/properties 
@@ -170,8 +173,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("898d9010-ca82-11ef-b493-f597e850ebb5" "9a4be8c0-ca82-11ef-b493-f597e850ebb5" "a45a5f40-ca82-11ef-b493-f597e850ebb5" "a4cc5af0-ca82-11ef-b493-f597e850ebb5" "c262aa60-ca82-11ef-b493-f597e850ebb5" "cf492010-ca82-11ef-b493-f597e850ebb5")}}
-:block/updated-at 1735984875091
+:shapes-index ("c262aa60-ca82-11ef-b493-f597e850ebb5" "cf492010-ca82-11ef-b493-f597e850ebb5" "e2627fc0-ca82-11ef-b493-f597e850ebb5" "e2627fc1-ca82-11ef-b493-f597e850ebb5" "e2627fc2-ca82-11ef-b493-f597e850ebb5" "e2627fc3-ca82-11ef-b493-f597e850ebb5")}}
+:block/updated-at 1735984931449
 :block/created-at 1735984726167
 :block/type "whiteboard"
 :block/name "design patterns in go lang"
