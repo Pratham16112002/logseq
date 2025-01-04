@@ -10,6 +10,7 @@
 	- The client  asks the factory to return the specific object.
 	- Three part in the code.
 		- **Factory code**
+		  collapsed:: true
 			- ```
 			  // Factory
 			  func DrawShape(shapeType string) shape.Shape {
@@ -28,6 +29,7 @@
 			  
 			  ```
 		- **Client code**
+		  collapsed:: true
 			- ```
 			  func main() {
 			  	// Client code
@@ -47,6 +49,7 @@
 			  }
 			  ```
 		- **App code**
+		  collapsed:: true
 			- ```
 			  type Shape interface {
 			  	Draw()
@@ -77,4 +80,14 @@
 			  }
 			  ```
 			- ```
+			  type Circle struct{}
+			  
+			  func NewCircle() Circle {
+			  	return Circle{}
+			  }
+			  
+			  func (c Circle) Draw() {
+			  	// Implementation
+			  	println("Circle is drawn")
+			  }
 			  ```
