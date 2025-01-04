@@ -6,4 +6,5 @@
 	- Comes under creational pattern.
 	- Very commonly used pattern.
 	- Hides the creation logic of the instances.
-	- The client interact with the
+	- The client interact with the factory and tells the kind of instances that needs to be created, then the factory interacts with corresponding concrete objects and return the correct required instance back.
+	-
