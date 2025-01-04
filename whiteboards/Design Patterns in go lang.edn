@@ -536,7 +536,7 @@
 :nonce 1735985141058
 :italic false}}
 :block/updated-at 1735985153706} 
-{:block/created-at 1735985179694
+{:block/created-at 1735985218476
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -549,7 +549,7 @@
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
-:label ""
+:label "Below struct will have\ntheir own implementaion\nof the company methods."
 :id "8318c5a2-ca83-11ef-b493-f597e850ebb5"
 :fontWeight 400
 :noFill true
@@ -568,10 +568,11 @@
 :decorations 
 {:end "arrow"}
 :parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
-:nonce 1735985166160
+:nonce 1735985166292
 :italic false}}
-:block/updated-at 1735985179694} 
-{:block/properties 
+:block/updated-at 1735985218476} 
+{:block/created-at 1735985232710
+:block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
@@ -583,7 +584,7 @@
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
-:label ""
+:label "Below struct will have\ntheir own implementaion\nof the company methods."
 :id "8a7366c2-ca83-11ef-b493-f597e850ebb5"
 :fontWeight 400
 :noFill true
@@ -602,9 +603,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
-:nonce 1735985178474
+:nonce 1735985178475
 :italic false}}
-:block/updated-at 1735985179695})
+:block/updated-at 1735985232710})
 :pages (
 {:block/uuid #uuid "67790656-1f75-4bbc-a023-88efe9ffe98f"
 :block/properties 
@@ -648,7 +649,7 @@
 :nonce 1
 :assets []
 :shapes-index ("c262aa60-ca82-11ef-b493-f597e850ebb5" "cf492010-ca82-11ef-b493-f597e850ebb5" "e2627fc0-ca82-11ef-b493-f597e850ebb5" "e2627fc1-ca82-11ef-b493-f597e850ebb5" "e2627fc2-ca82-11ef-b493-f597e850ebb5" "e2627fc3-ca82-11ef-b493-f597e850ebb5" "ff01c500-ca82-11ef-b493-f597e850ebb5" "1c1c54c0-ca83-11ef-b493-f597e850ebb5" "3269b650-ca83-11ef-b493-f597e850ebb5" "3269b651-ca83-11ef-b493-f597e850ebb5" "3269b652-ca83-11ef-b493-f597e850ebb5" "3dcfa680-ca83-11ef-b493-f597e850ebb5" "4e81a322-ca83-11ef-b493-f597e850ebb5" "58a83580-ca83-11ef-b493-f597e850ebb5" "58a83581-ca83-11ef-b493-f597e850ebb5" "58a83582-ca83-11ef-b493-f597e850ebb5" "58a83583-ca83-11ef-b493-f597e850ebb5" "6b60d790-ca83-11ef-b493-f597e850ebb5" "7417fb72-ca83-11ef-b493-f597e850ebb5" "8318c5a2-ca83-11ef-b493-f597e850ebb5" "8a7366c2-ca83-11ef-b493-f597e850ebb5")}}
-:block/updated-at 1735985179694
+:block/updated-at 1735985232710
 :block/created-at 1735984726167
 :block/type "whiteboard"
 :block/name "design patterns in go lang"
