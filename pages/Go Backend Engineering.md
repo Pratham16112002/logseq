@@ -263,3 +263,5 @@ collapsed:: true
 - [[Mailer]]
 - [[Authentication]]
 - [[Middleware]]
+- [[Design Patterns]]
+-
