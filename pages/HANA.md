@@ -1,2 +1,5 @@
 ## What is HANA
-	- _High Performance Analytical Applica
+	- _High Performance Analytical Appliance_
+	- Proprietary database of SAP.
+	- In-memory database.
+	-
