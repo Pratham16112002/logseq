@@ -10,4 +10,6 @@
 - ## Features
 	- Multicore CPU.
 	- Scales in parallel with numerous blades.
+	- Minimum 100GB/s data throughput.
+	- Intense reduction in price.
 	-
