@@ -17,4 +17,5 @@
 	- Column-based is suitable for SELECT / AGGREGATIONS i.e OLAP.
 	- SAP recommends Column store table if there is any dilemma between these two.
 	- Column-based data also supports various compression methods.
+	- Column-based also supports massive parallel processing.
 	-
