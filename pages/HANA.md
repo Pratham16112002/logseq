@@ -20,5 +20,10 @@
 	- Column-based also supports massive parallel processing.
 	- Type of Data
 		- _Hot Data_
-			- Frequently required data , its stored in RAM rather than per
+			- Frequently required data , its stored in RAM rather than persistent layer.
+		- _Warn Data_
+			- Stored in persistent layer.
+		- _Cold Data_
+			- Achieved/Historical data.
+		-
 		-
