@@ -12,4 +12,4 @@
 	- Scales in parallel with numerous blades.
 	- Minimum 100GB/s data throughput.
 	- Intense reduction in price.
-	- S
+	- Standard tables are already converted to Row or Column Store by SAP itself whereas the
