@@ -3,4 +3,4 @@
 	- Proprietary database of SAP.
 	- In-memory database.
 	- Provides analytics with high performance of top of big data.
-	- ShissssAP A
+	- ShissssAP As
