@@ -18,4 +18,6 @@
 	- SAP recommends Column store table if there is any dilemma between these two.
 	- Column-based data also supports various compression methods.
 	- Column-based also supports massive parallel processing.
-	-
+	- Type of Data
+		- _Hot Data_
+		-
