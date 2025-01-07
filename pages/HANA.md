@@ -8,4 +8,6 @@
 	- No separate database is needed for different systems.
 	- New front-end for application which is Fiori and UI5.
 - ## Features
+	- Multicore CPU.
+	- Scales in parallel with numerous blades.
 	-
