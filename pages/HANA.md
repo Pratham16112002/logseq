@@ -1,0 +1,29 @@
+## What is HANA
+	- _High Performance Analytical Appliance_
+	- Proprietary database of SAP.
+	- In-memory database.
+	- Provides analytics with high performance of top of big data.
+	- Data can be stored in row/column format.
+	- OLTP + OLAP combined on the same database.
+	- No separate database is needed for different systems.
+	- New front-end for application which is Fiori and UI5.
+- ## Features
+	- Multicore CPU.
+	- Scales in parallel with numerous blades.
+	- Minimum 100GB/s data throughput.
+	- Intense reduction in price.
+	- Standard tables are already converted to Row or Column Store by SAP itself whereas for the custom tables we have a choice to either go for row based or column based.
+	- Row-based is suitable for INSERT/UPDATE/DELETE i.e OLTP.
+	- Column-based is suitable for SELECT / AGGREGATIONS i.e OLAP.
+	- SAP recommends Column store table if there is any dilemma between these two.
+	- Column-based data also supports various compression methods.
+	- Column-based also supports massive parallel processing.
+	- Type of Data
+		- _Hot Data_
+			- Frequently required data , its stored in RAM rather than persistent layer.
+		- _Warn Data_
+			- Stored in persistent layer.
+		- _Cold Data_
+			- Achieved/Historical data.
+		-
+		-

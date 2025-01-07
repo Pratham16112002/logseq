@@ -1,4 +1,5 @@
 - A Queue implements FIFO ordering . As in a line or queue at a ticket stand , items are removed from the data structure in the same order they are added .
+  title:: Queue & Stacks
 	- Operations
 		- 1. **Add()** : add an item to the end of the list . 
 		  2. **remove()** : Remove the first item in the list .
@@ -78,4 +79,4 @@
 	          return ans;
 	      }
 	  ```
--
+- [[Stacks]]

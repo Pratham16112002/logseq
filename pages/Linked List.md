@@ -51,6 +51,31 @@
 	          return prev ;
 	      }
 	  ```
+	- 2. __Recursive method__ -> We need to divide the linked into minimum subproblem, which is the single node.
+		- For a normal case we have access to the current node and its next node which will be returned by recursive call.
+			- we have access to the previous node and next node at every node.
+		- ```
+		  var n_head *ListNode = nil
+		  
+		  func help_recursize_r_v_ll(head *ListNode) *ListNode {
+		  	if head.Next == nil {
+		          n_head = head
+		  		return head
+		  	}
+		  	n_temp := help_recursize_r_v_ll(head.Next)
+		      n_temp.Next = head;
+		      head.Next = nil
+		  	return head
+		  }
+		  
+		  func reverseList(head *ListNode) *ListNode {
+		      if head == nil {
+		          return head
+		      }
+		  	 help_recursize_r_v_ll(head)
+		      return n_head;  	
+		  }
+		  ```
 - #### Merger Two sorted Linked list
 	- **Alogrithm** -> 
 	  1. First we will create a dummy node and then pointer the newly created node to an existing node . 
@@ -82,4 +107,52 @@
 	          return dummy_node->next;
 	      }
 	  ```
+- ## Reorder Linked List
+  id:: 6740bd96-bd1e-4dc0-93be-a03e623b174b
+	- You are given the head of a singly linked-list. The list can be represented as:
+	  ```
+	  L0 → L1 → … → Ln - 1 → Ln
+	  ```
+	- *Reorder the list to be on the following form:*
+	  ```
+	  L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
+	  ```
+	- You may not modify the values in the list's nodes. Only nodes themselves may be changed.
+	- ![Reorder format](https://assets.leetcode.com/uploads/2021/03/04/reorder1linked-list.jpg)
+	- __Points__
+		- We some how need access to the last pointer.
+		- Then  we can simply swap the links using a temporary pointer.
+		- We can solve this problem using recursion because recursion would give us the access to such swap scenario.
+		- We will not swap the current and current's next node any how.
+	- ```
+	  func reorderList(head *ListNode)  {
+	      if head == nil {
+	          return
+	      }
+	      	var rec func(root, cur *ListNode) *ListNode
+	  	rec = func(root *ListNode, cur *ListNode) *ListNode {
+	  		if cur == nil {
+	  			return root
+	  		}
+	  		root = rec(root, cur.Next)
+	  		if root == nil {
+	  			return nil
+	  		}
+	  		var temp *ListNode
+	  		temp = nil
+	  		if  root == cur || root.Next == cur {
+	  			cur.Next = nil
+	  		} else {
+	  			temp = root.Next
+	  			root.Next = cur
+	  			cur.Next = temp
+	  		}
+	  		return temp
+	  	}
+	  	rec(head, head.Next)
+	  
+	  }
+	  ```
+	- Time complexity : `O(n)`.
+	- Space complexity : `O(n)`.
 -

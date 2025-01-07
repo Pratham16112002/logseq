@@ -1,0 +1,666 @@
+{:blocks (
+{:block/created-at 1735984896448
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 0
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "text"
+:size [712 82]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "c262aa60-ca82-11ef-b493-f597e850ebb5"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [-48 -24]
+:lineHeight 1.2
+:fontSize 60
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984843070
+:italic false
+:text "Abstract Factory Pattern"}}
+:block/updated-at 1735984896448} 
+{:block/created-at 1735984942796
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 1
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "box"
+:size [704 648]
+:strokeType "line"
+:strokeWidth 6
+:opacity 1
+:label ""
+:id "cf492010-ca82-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill true
+:point [-40 168]
+:fontSize 60
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984865592
+:italic false}}
+:block/updated-at 1735984942796} 
+{:block/created-at 1735984980234
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "purple"
+:rotation 6.278957764729256
+:borderRadius 2
+:index 2
+:scale [1 1]
+:scaleLevel "md"
+:fill "purple"
+:type "box"
+:size [128 72]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "Company"
+:id "e2627fc0-ca82-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [248 192]
+:fontSize 20
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984748485
+:italic false}}
+:block/updated-at 1735984980234} 
+{:block/created-at 1735984936993
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 6.278957764729256
+:borderRadius 2
+:index 3
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "box"
+:size [128 40]
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "createMonitor"
+:id "e2627fc1-ca82-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [248 264]
+:fontSize 10
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984776357
+:italic false}}
+:block/updated-at 1735984936993} 
+{:block/created-at 1735984936993
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 6.278957764729256
+:borderRadius 2
+:index 4
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "box"
+:size [128 40]
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "createGPU"
+:id "e2627fc2-ca82-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [248 304]
+:fontSize 10
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984776437
+:italic false}}
+:block/updated-at 1735984936993} 
+{:block/created-at 1735984936993
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 6.278957764729256
+:borderRadius 2
+:index 5
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "box"
+:size [128 40]
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "createUsb"
+:id "e2627fc3-ca82-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [248 344]
+:fontSize 10
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984776523
+:italic false}}
+:block/updated-at 1735984936993} 
+{:block/created-at 1735984976772
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke "purple"
+:rotation 0
+:borderRadius 0
+:index 6
+:scale [1 1]
+:scaleLevel "md"
+:fill "purple"
+:type "text"
+:size [187 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "ff01c500-ca82-11ef-b493-f597e850ebb5"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [216 88]
+:lineHeight 1.2
+:fontSize 20
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984944986
+:italic false
+:text "Company package"}}
+:block/updated-at 1735984976772} 
+{:block/created-at 1735985038685
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 7
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [128 88]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "Asus"
+:id "1c1c54c0-ca83-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill true
+:point [40 480]
+:fontSize 20
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984993825
+:italic false}}
+:block/updated-at 1735985038685} 
+{:block/created-at 1735985042134
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 6.278957764729256
+:borderRadius 2
+:index 8
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "box"
+:size [128 40]
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "createMonitor"
+:id "3269b650-ca83-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [40 568]
+:fontSize 10
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984776427
+:italic false}}
+:block/updated-at 1735985042134} 
+{:block/created-at 1735985042134
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 6.278957764729256
+:borderRadius 2
+:index 10
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "box"
+:size [128 40]
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "createUsb"
+:id "3269b652-ca83-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [40 648]
+:fontSize 10
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984776593
+:italic false}}
+:block/updated-at 1735985042134} 
+{:block/created-at 1735985042134
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 6.278957764729256
+:borderRadius 2
+:index 9
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "box"
+:size [128 40]
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "createGPU"
+:id "3269b651-ca83-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [40 608]
+:fontSize 10
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984776507
+:italic false}}
+:block/updated-at 1735985042134} 
+{:block/created-at 1735985074386
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 11
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [193 82]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "3dcfa680-ca83-11ef-b493-f597e850ebb5"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [-328 512]
+:lineHeight 1.2
+:fontSize 20
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735985049955
+:italic false
+:text "A struct which \nimplements \ncompany interface."}}
+:block/updated-at 1735985074386} 
+{:block/created-at 1735985082797
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "purple"
+:index 12
+:scale [1 1]
+:scaleLevel "md"
+:fill "purple"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "4e81a322-ca83-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill true
+:point [-136 536]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]}
+:end 
+{:id "end"
+:canBind true
+:point [92 0.37]
+:bindingId "4e81a321-ca83-11ef-b493-f597e850ebb5"}}
+:decorations 
+{:end "arrow"}
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735985078046
+:italic false}}
+:block/updated-at 1735985082797} 
+{:block/created-at 1735985104927
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 6.278957764729256
+:borderRadius 2
+:index 14
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "box"
+:size [128 40]
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "createMonitor"
+:id "58a83581-ca83-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [472 568]
+:fontSize 10
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984776627
+:italic false}}
+:block/updated-at 1735985104927} 
+{:block/created-at 1735985104927
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 6.278957764729256
+:borderRadius 2
+:index 16
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "box"
+:size [128 40]
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "createUsb"
+:id "58a83583-ca83-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [472 648]
+:fontSize 10
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984776793
+:italic false}}
+:block/updated-at 1735985104927} 
+{:block/created-at 1735985121074
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 13
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [128 88]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "Msi"
+:id "58a83580-ca83-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [472 480]
+:fontSize 20
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984994029
+:italic false}}
+:block/updated-at 1735985121074} 
+{:block/created-at 1735985104927
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 6.278957764729256
+:borderRadius 2
+:index 15
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "box"
+:size [128 40]
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "createGPU"
+:id "58a83582-ca83-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [472 608]
+:fontSize 10
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735984776707
+:italic false}}
+:block/updated-at 1735985104927} 
+{:block/created-at 1735985143722
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 17
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [193 82]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "6b60d790-ca83-11ef-b493-f597e850ebb5"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [872 504]
+:lineHeight 1.2
+:fontSize 20
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735985126362
+:italic false
+:text "This is a struct \nwhich implements \ncompany interface."}}
+:block/updated-at 1735985143722} 
+{:block/created-at 1735985153706
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "purple"
+:index 18
+:scale [1 1]
+:scaleLevel "md"
+:fill "purple"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "7417fb72-ca83-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill true
+:point [668 553.96]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [203 0]
+:bindingId "78c5cc11-ca83-11ef-b493-f597e850ebb5"}
+:end 
+{:id "end"
+:canBind true
+:point [0 3.66]
+:bindingId "7417fb71-ca83-11ef-b493-f597e850ebb5"}}
+:decorations 
+{:end "arrow"}
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735985141058
+:italic false}}
+:block/updated-at 1735985153706} 
+{:block/created-at 1735985257263
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 19
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "Below struct will have\ntheir own implementation\nof the company methods."
+:id "8318c5a2-ca83-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill true
+:point [167.02 392]
+:fontSize 10
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [76.28 0]
+:bindingId nil}
+:end 
+{:id "end"
+:canBind true
+:point [0 84]
+:bindingId "8318c5a1-ca83-11ef-b493-f597e850ebb5"}}
+:decorations 
+{:end "arrow"}
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735985166332
+:italic false}}
+:block/updated-at 1735985257263} 
+{:block/created-at 1735985254174
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 20
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "Below struct will have\ntheir own implementation\nof the company methods."
+:id "8a7366c2-ca83-11ef-b493-f597e850ebb5"
+:fontWeight 400
+:noFill true
+:point [384 384]
+:fontSize 10
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId nil}
+:end 
+{:id "end"
+:canBind true
+:point [88 88]
+:bindingId nil}}
+:decorations 
+{:end "arrow"}
+:parentId "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:nonce 1735985178554
+:italic false}}
+:block/updated-at 1735985254174})
+:pages (
+{:block/uuid #uuid "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "67790656-1f75-4bbc-a023-88efe9ffe98f"
+:name "design patterns in go lang"
+:bindings 
+{:4e81a321-ca83-11ef-b493-f597e850ebb5 
+{:id "4e81a321-ca83-11ef-b493-f597e850ebb5"
+:type "line"
+:fromId "4e81a322-ca83-11ef-b493-f597e850ebb5"
+:toId "cf492010-ca82-11ef-b493-f597e850ebb5"
+:handleId "end"
+:point [0.54 0.57]
+:distance 4}
+:7417fb71-ca83-11ef-b493-f597e850ebb5 
+{:id "7417fb71-ca83-11ef-b493-f597e850ebb5"
+:type "line"
+:fromId "7417fb72-ca83-11ef-b493-f597e850ebb5"
+:toId "cf492010-ca82-11ef-b493-f597e850ebb5"
+:handleId "end"
+:point [0.49 0.61]
+:distance 4}
+:78c5cc11-ca83-11ef-b493-f597e850ebb5 
+{:id "78c5cc11-ca83-11ef-b493-f597e850ebb5"
+:type "line"
+:fromId "7417fb72-ca83-11ef-b493-f597e850ebb5"
+:toId "6b60d790-ca83-11ef-b493-f597e850ebb5"
+:handleId "start"
+:point [0.5 0.58]
+:distance 4}
+:8318c5a1-ca83-11ef-b493-f597e850ebb5 
+{:id "8318c5a1-ca83-11ef-b493-f597e850ebb5"
+:type "line"
+:fromId "8318c5a2-ca83-11ef-b493-f597e850ebb5"
+:toId "1c1c54c0-ca83-11ef-b493-f597e850ebb5"
+:handleId "end"
+:point [0.63 0.52]
+:distance 4}
+:b5ffc721-ca83-11ef-b493-f597e850ebb5 
+{:id "b5ffc721-ca83-11ef-b493-f597e850ebb5"
+:type "line"
+:fromId "8a7366c2-ca83-11ef-b493-f597e850ebb5"
+:toId "e2627fc3-ca82-11ef-b493-f597e850ebb5"
+:handleId "start"
+:point [0.79 0.46]
+:distance 4}}
+:nonce 1
+:assets []
+:shapes-index ("c262aa60-ca82-11ef-b493-f597e850ebb5" "cf492010-ca82-11ef-b493-f597e850ebb5" "e2627fc0-ca82-11ef-b493-f597e850ebb5" "e2627fc1-ca82-11ef-b493-f597e850ebb5" "e2627fc2-ca82-11ef-b493-f597e850ebb5" "e2627fc3-ca82-11ef-b493-f597e850ebb5" "ff01c500-ca82-11ef-b493-f597e850ebb5" "1c1c54c0-ca83-11ef-b493-f597e850ebb5" "3269b650-ca83-11ef-b493-f597e850ebb5" "3269b651-ca83-11ef-b493-f597e850ebb5" "3269b652-ca83-11ef-b493-f597e850ebb5" "3dcfa680-ca83-11ef-b493-f597e850ebb5" "4e81a322-ca83-11ef-b493-f597e850ebb5" "58a83580-ca83-11ef-b493-f597e850ebb5" "58a83581-ca83-11ef-b493-f597e850ebb5" "58a83582-ca83-11ef-b493-f597e850ebb5" "58a83583-ca83-11ef-b493-f597e850ebb5" "6b60d790-ca83-11ef-b493-f597e850ebb5" "7417fb72-ca83-11ef-b493-f597e850ebb5" "8318c5a2-ca83-11ef-b493-f597e850ebb5" "8a7366c2-ca83-11ef-b493-f597e850ebb5")}}
+:block/updated-at 1735985257326
+:block/created-at 1735984726167
+:block/type "whiteboard"
+:block/name "design patterns in go lang"
+:block/original-name "Design Patterns in go lang"})}
