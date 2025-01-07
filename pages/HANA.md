@@ -12,4 +12,5 @@
 	- Scales in parallel with numerous blades.
 	- Minimum 100GB/s data throughput.
 	- Intense reduction in price.
-	- Standard tables are already converted to Row or Column Store by SAP itself whereas the
+	- Standard tables are already converted to Row or Column Store by SAP itself whereas for the custom tables we have a choice to either go for row based or column based.
+	-
