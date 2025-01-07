@@ -20,4 +20,5 @@
 	- Column-based also supports massive parallel processing.
 	- Type of Data
 		- _Hot Data_
+			- Frequently required data , its stored in
 		-
