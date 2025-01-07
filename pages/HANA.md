@@ -15,4 +15,5 @@
 	- Standard tables are already converted to Row or Column Store by SAP itself whereas for the custom tables we have a choice to either go for row based or column based.
 	- Row-based is suitable for INSERT/UPDATE/DELETE i.e OLTP.
 	- Column-based is suitable for SELECT / AGGREGATIONS i.e OLAP.
-	- SAP recommends Col
+	- SAP recommends Column store table if there is any dilemma between these two.
+	-
