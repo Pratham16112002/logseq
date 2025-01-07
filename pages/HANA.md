@@ -2,4 +2,5 @@
 	- _High Performance Analytical Appliance_
 	- Proprietary database of SAP.
 	- In-memory database.
-	- Provides analytics with high
+	- Provides analytics with high performance of top of big data.
+	- Shissss
