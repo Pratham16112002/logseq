@@ -37,5 +37,6 @@
 		  	}
 		  }
 		  ```
-		- Edge case :
-			- when the
+		- Base case :
+			- when the number of dots are exceeded which is 4.
+			- If the number of dots are exactly
