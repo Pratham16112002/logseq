@@ -6,3 +6,6 @@
 	  Given a string `s` containing only digits, return *all possible valid IP addresses that can be formed by inserting dots into *`s`. You are **not** allowed to reorder or remove any digits in `s`. You may return the valid IP addresses in **any** order.
 	- _Initial thinking_
 		- Recursion on every possible way of the IP address.
+		- We have to add maximum 3 dots in an IP address.
+		- while needing to take care of Invalid IP addresses.
+		-
