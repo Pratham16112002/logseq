@@ -1,0 +1,150 @@
+{:blocks (
+{:block/created-at 1736399406889
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 0
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "text"
+:size [610 82]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f83d6df0-ce47-11ef-938d-07c20d848fe1"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [272 136]
+:lineHeight 1.2
+:fontSize 60
+:parentId "677f5a17-8cc2-4edc-abd9-0d1db7377dc4"
+:nonce 1736399397552
+:italic false
+:text "Restore IP addresses"}}
+:block/updated-at 1736399406889} 
+{:block/created-at 1736400884683
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 1
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "pencil"
+:points [[0 0 0.5]]
+:strokeType "line"
+:strokeWidth 6
+:opacity 1
+:id "6896d840-ce4b-11ef-938d-07c20d848fe1"
+:noFill true
+:point [1124.0614426732063 157.23131942749023]
+:parentId "677f5a17-8cc2-4edc-abd9-0d1db7377dc4"
+:nonce 1736400874438
+:isComplete true}}
+:block/updated-at 1736400884683} 
+{:block/created-at 1736400885227
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 2
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "pencil"
+:points [[0 0 0.5]]
+:strokeType "line"
+:strokeWidth 6
+:opacity 1
+:id "6e7eaf80-ce4b-11ef-938d-07c20d848fe1"
+:noFill true
+:point [763.9873459935188 175.88810348510742]
+:parentId "677f5a17-8cc2-4edc-abd9-0d1db7377dc4"
+:nonce 1736400884346
+:isComplete true}}
+:block/updated-at 1736400885227} 
+{:block/created-at 1736400885752
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 3
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "pencil"
+:points [[0 0 0.5]]
+:strokeType "line"
+:strokeWidth 6
+:opacity 1
+:id "6edcd510-ce4b-11ef-938d-07c20d848fe1"
+:noFill true
+:point [468.89469462633133 153.83300399780273]
+:parentId "677f5a17-8cc2-4edc-abd9-0d1db7377dc4"
+:nonce 1736400884963
+:isComplete true}}
+:block/updated-at 1736400885752} 
+{:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 4
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "pencil"
+:points [[0 0 0.5]]
+:strokeType "line"
+:strokeWidth 6
+:opacity 1
+:id "6f0ac2e0-ce4b-11ef-938d-07c20d848fe1"
+:noFill true
+:point [364.4351609349251 173.30639266967773]
+:parentId "677f5a17-8cc2-4edc-abd9-0d1db7377dc4"
+:nonce 1736400885264
+:isComplete true}}
+:block/updated-at 1736400885753} 
+{:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 5
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "pencil"
+:points [[0 0 0.5]]
+:strokeType "line"
+:strokeWidth 6
+:opacity 1
+:id "6f274b90-ce4b-11ef-938d-07c20d848fe1"
+:noFill true
+:point [364.4351609349251 173.30639266967773]
+:parentId "677f5a17-8cc2-4edc-abd9-0d1db7377dc4"
+:nonce 1736400885452
+:isComplete true}}
+:block/updated-at 1736400885753})
+:pages (
+{:block/uuid #uuid "677f5a17-8cc2-4edc-abd9-0d1db7377dc4"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "677f5a17-8cc2-4edc-abd9-0d1db7377dc4"
+:name "recursion explained"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("f83d6df0-ce47-11ef-938d-07c20d848fe1" "6896d840-ce4b-11ef-938d-07c20d848fe1" "6e7eaf80-ce4b-11ef-938d-07c20d848fe1" "6edcd510-ce4b-11ef-938d-07c20d848fe1" "6f0ac2e0-ce4b-11ef-938d-07c20d848fe1" "6f274b90-ce4b-11ef-938d-07c20d848fe1")}}
+:block/updated-at 1736400885752
+:block/created-at 1736399383359
+:block/type "whiteboard"
+:block/name "recursion explained"
+:block/original-name "Recursion Explained"})}
