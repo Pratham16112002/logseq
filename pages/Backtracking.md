@@ -39,4 +39,5 @@
 		  ```
 		- Base case :
 			- when the number of dots are exceeded which is 4.
-			- If the number of dots are exactly
+			- If the number of dots are exactly 4 and the iterator has reached the last index.
+		-
