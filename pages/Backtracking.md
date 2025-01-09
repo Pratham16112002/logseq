@@ -7,5 +7,34 @@
 	- _Initial thinking_
 		- Recursion on every possible way of the IP address.
 		- We have to add maximum 3 dots in an IP address.
-		- while needing to take care of Invalid IP addresses.
+		- while taking  care of Invalid IP addresses.
+	- Code
+		- ```
+		  func help23(res *[]string, i int, dots int, res2 *[]string, s string) {
+		  	if dots == 4 && i == len(s) {
+		  		t_string := strings.Join(*res, ".")
+		  		*res2 = append(*res2, t_string)
+		  		return
+		  	}
+		  	if dots > 4 {
+		  		return
+		  	}
+		  
+		  	for j := i; j < help1(i+3, len(s)); j++ {
+		  
+		  		str_val := s[i:(i + (j - i + 1))]
+		  		if strings.HasPrefix(str_val, "0") && j != i {
+		  			continue
+		  		}
+		  		int_val, _ := strconv.Atoi(s[i:(i + (j - i + 1))])
+		  		if int_val < 256 {
+		  			dots++
+		  			*res = append(*res, fmt.Sprint(int_val))
+		  			help23(res, j+1, dots, res2, s)
+		  			*res = (*res)[:len(*res)-1]
+		  			dots--
+		  		}
+		  	}
+		  }
+		  ```
 		-
