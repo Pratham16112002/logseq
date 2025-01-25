@@ -97,4 +97,6 @@
 		- Greedy
 	- _actual solution_
 		- Try all possible ways
-		- which is not possible practically because we need to take
+		- which is not possible practically because we need to take care of lots of edge cases if we do so.
+	- _optimal solution_
+		-
