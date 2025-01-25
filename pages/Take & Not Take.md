@@ -93,4 +93,8 @@
 	  At the end of the game, there is **at most one** stone left.
 	  
 	  Return *the smallest possible weight of the left stone*. If there are no stones left, return `0`.
-	- This
+	- _initial thinking_
+		- Greedy
+	- _actual solution_
+		- Try all possible ways
+		- which is not possible practically because we need to take
