@@ -83,4 +83,5 @@
 	      }
 	  };
 	  ```
-- ## Mini
+- ## Minimize the Subarray sum
+	-
