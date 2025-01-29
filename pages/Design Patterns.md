@@ -11,7 +11,8 @@
 - ## SOLID
 	- **S**ingle Responsibility Principle
 		- A class should just have only one reason to change.
-		-
+	- **O**pen/Close Principle
+		- A class should be open for extension but closed for modification.
 		-
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
