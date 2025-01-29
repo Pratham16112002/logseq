@@ -8,7 +8,10 @@
 		- Eventually loose coupling.
 	- Inheritance ( Is a ).
 	- Composition ( Has a).
-	-
+- ## SOLID
+	- **S**ingle Responsibility Principle
+		- A class should only
+		-
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
 	- _Normal Factory Pattern_
