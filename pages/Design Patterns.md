@@ -1,7 +1,9 @@
 ## Composition over inheritance
 	- _flaws in inheritance_
 		- Tight coupling in super and sub-class.
-		- Large hirar
+		- Large hierarchies.
+	- Any inheritance relationship can be translated into composition.
+	-
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
 	- _Normal Factory Pattern_
