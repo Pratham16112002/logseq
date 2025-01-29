@@ -6,6 +6,8 @@
 	- _Composition_
 		- Offers great reusability.
 		- Eventually loose coupling.
+	- Inheritance ( Is a ).
+	- Composition ( Has a).
 	-
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
