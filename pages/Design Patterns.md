@@ -4,7 +4,9 @@
 		- Large hierarchies.
 	- Any inheritance relationship can be translated into composition.
 	- _Composition_
-		- Offers great reusab
+		- Offers great reusability.
+		- Eventually loose coupling.
+	-
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
 	- _Normal Factory Pattern_
