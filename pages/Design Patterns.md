@@ -10,7 +10,8 @@
 	- Composition ( Has a).
 - ## SOLID
 	- **S**ingle Responsibility Principle
-		- A class should only
+		- A class should just have only one reason to change.
+		-
 		-
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
