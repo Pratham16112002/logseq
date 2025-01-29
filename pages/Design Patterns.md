@@ -15,6 +15,7 @@
 		- A class should be open for extension but closed for modification.
 		- A class is open which means that it is extendable.
 		- Some languages also have a special keywords like final for a class.
+			- After declaring a class __final__ it means that its 100% ready i.e. completed.
 		-
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
