@@ -13,6 +13,8 @@
 		- A class should just have only one reason to change.
 	- **O**pen/Close Principle
 		- A class should be open for extension but closed for modification.
+		- A class is open which means that it is extendable.
+		- Some languages also have a special keywords like final for a class.
 		-
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
