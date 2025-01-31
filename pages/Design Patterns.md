@@ -8,6 +8,7 @@
 		- Eventually loose coupling.
 	- Inheritance ( Is a ).
 	- Composition ( Has a).
+	-
 - ## SOLID
 	- ### **S**ingle Responsibility principle
 		- A class should just have only one reason to change.
@@ -17,6 +18,7 @@
 		- Some languages also have a special keywords like final for a class.
 			- After declaring a class __final__ it means that its 100% ready i.e. completed.
 	- ### **L**iskov Substitution principle
+		- When extending a class, remember that you should be able to pass objects of the subclass
 		-
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
