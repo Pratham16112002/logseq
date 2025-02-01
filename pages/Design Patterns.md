@@ -28,7 +28,9 @@
 		- A subclass shouldn't have weaken post-conditions.
 	- ### Interface Segregation Principle
 		- Client should not be forced to depend on the methods which they don't use.
-		- We try to make our interfaces as narrow as possible
+		- We try to make our interfaces as narrow as possible to make then specific.
+		- Bloated interfaces are De-bloated.
+		-
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
 	- _Normal Factory Pattern_
