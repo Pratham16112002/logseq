@@ -24,6 +24,8 @@
 			- **Subclass - Superclass**
 				- Method parameters should be same or more abstract.
 				- Method return types should be same or more specific.
+		- The child class should throw only those exceptions which are expected in the parent class.
+		-
 		-
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
