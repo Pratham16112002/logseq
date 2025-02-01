@@ -21,8 +21,9 @@
 		- When extending a class, remember that you should be able to pass objects of the subclass in place of objects of parent class without breaking the client code.
 		- A subclass should be able to replace the superclass without breaking the functionality of the program.
 		- **Rule**
-			- Subclass - Superclass
-				- Method parameters should
+			- **Subclass - Superclass**
+				- Method parameters should be same or more abstract.
+				- Method return types should be same or more specific.
 		-
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
