@@ -25,6 +25,7 @@
 				- Method parameters should be same or more abstract.
 				- Method return types should be same or more specific.
 		- The child class should throw only those exceptions which are expected in the parent class.
+		- A subclass shouldn't have weaken post-conditions.
 		-
 		-
 - ## Abstract Factory
