@@ -27,7 +27,8 @@
 		- The child class should throw only those exceptions which are expected in the parent class.
 		- A subclass shouldn't have weaken post-conditions.
 	- ### Interface Segregation Principle
-		- Client
+		- Client should not be forced to depend on the methods which they don't use.
+		- We try to make our interfaces as narrow as possible
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
 	- _Normal Factory Pattern_
