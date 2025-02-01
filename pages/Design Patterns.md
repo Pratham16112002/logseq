@@ -31,7 +31,9 @@
 		- We try to make our interfaces as narrow as possible to make then specific.
 		- Bloated interfaces are De-bloated.
 		- There is no need to cram tons of unrelated methods to single interfaces.
-	-
+	- ### Dependency Inversion Principle
+		- High level classes shouldn't depend upon low-level classes.
+		-
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
 	- _Normal Factory Pattern_
