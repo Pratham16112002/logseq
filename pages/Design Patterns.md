@@ -19,7 +19,10 @@
 			- After declaring a class __final__ it means that its 100% ready i.e. completed.
 	- ### **L**iskov Substitution principle
 		- When extending a class, remember that you should be able to pass objects of the subclass in place of objects of parent class without breaking the client code.
-		- A subclass should be able to replace the superclass without breaking the functionality
+		- A subclass should be able to replace the superclass without breaking the functionality of the program.
+		- **Rule**
+			- Subclass - Superclass
+				- Method parameters should
 		-
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
