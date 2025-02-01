@@ -26,7 +26,7 @@
 				- Method return types should be same or more specific.
 		- The child class should throw only those exceptions which are expected in the parent class.
 		- A subclass shouldn't have weaken post-conditions.
-		-
+	- ### Interface Segregation Principle
 		-
 - ## Abstract Factory
 	- In this pattern the top parent component is the factory which may have multiple children components.
