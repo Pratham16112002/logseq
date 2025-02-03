@@ -127,4 +127,5 @@
 			  	println("Circle is drawn")
 			  }
 			  ```
-	- The subclasses can alter the
+	- The subclasses can alter the objects being returned by the factory method.
+	-
