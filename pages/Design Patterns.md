@@ -129,4 +129,4 @@
 			  ```
 	- The subclasses can alter the objects being returned by the factory method.
 	- Client code always call the factory method.
-	- qq
+	-
