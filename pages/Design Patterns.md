@@ -129,4 +129,46 @@
 			  ```
 	- The subclasses can alter the objects being returned by the factory method.
 	- Client code always call the factory method.
+	- ```
+	  class Button {
+	  public:
+	    virtual void render() = 0;
+	    virtual void onClick() = 0;
+	  };
+	  
+	  class WindowsButton : public Button {
+	  public:
+	    void render() { std::cout << "Render Windows Button" << std::endl; }
+	    void onClick() { std::cout << "Close Windows Dialog" << std::endl; }
+	  };
+	  
+	  class HTMLButton : public Button {
+	  public:
+	    void render() { std::cout << "Render HTML Button" << std::endl; }
+	    void onClick() { std::cout << "Close HTML Dialog" << std::endl; }
+	  };
+	  
+	  class Dialog {
+	  public:
+	    virtual std::unique_ptr<Button> createButton() = 0;
+	    void render() {
+	      std::unique_ptr<Button> okButton = createButton();
+	      okButton->render();
+	      okButton->onClick();
+	    }
+	    void closeDialog() { std::cout << "Close Dialog" << std::endl; }
+	  };
+	  class WindowsDialog : public Dialog {
+	  public:
+	    std::unique_ptr<Button> createButton() override {
+	      return std::make_unique<WindowsButton>();
+	    }
+	  };
+	  class WebDialog : public Dialog {
+	  public:
+	    std::unique_ptr<Button> createButton() override {
+	      return std::make_unique<HTMLButton>();
+	    }
+	  };
+	  ```
 	-
