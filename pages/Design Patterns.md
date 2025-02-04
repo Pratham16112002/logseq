@@ -175,4 +175,62 @@
 - ## Abstract Factory Pattern
 	- Its an advancement of Factory Pattern when we have a requirement of large number of related products.
 	- The same code of abstract factory can be implemented with factory pattern but the code will not follow the Open/Closed principle and Single responsibility principle.
-	-
+	- Example in Go Lang
+	- ```
+	  type Monitor interface {
+	  	Assemble()
+	  }
+	  
+	  type GPU interface {
+	  	Assemble()
+	  }
+	  
+	  type MsiGpu struct{}
+	  
+	  func (g *MsiGpu) Assemble() {
+	  	fmt.Println("Assembling Msi Gpu")
+	  }
+	  
+	  type MsiMonitor struct{}
+	  
+	  func (m *MsiMonitor) Assemble() {
+	  	fmt.Println("Assembling Msi Monitor")
+	  }
+	  
+	  type AsusGpu struct{}
+	  
+	  func (g *AsusGpu) Assemble() {
+	  	fmt.Println("Asssembling Asus Gpu")
+	  }
+	  
+	  type AsusMonitor struct{}
+	  
+	  func (g *AsusMonitor) Assemble() {
+	  	fmt.Println("Assembling Asus Monitor")
+	  }
+	  
+	  type Company interface {
+	  	CreateGpu() GPU
+	  	CreateMonitor() Monitor
+	  }
+	  
+	  type MsiManufacturing struct{}
+	  
+	  func (mM *MsiManufacturing) CreateGpu() MsiGpu {
+	  	return MsiGpu{}
+	  }
+	  
+	  func (mM *MsiManufacturing) CreateMonitor() MsiMonitor {
+	  	return MsiMonitor{}
+	  }
+	  
+	  type AsusManufacturing struct{}
+	  
+	  func (aM *AsusManufacturing) CreateGpu() AsusGpu {
+	  	return AsusGpu{}
+	  }
+	  
+	  func (aM *AsusManufacturing) CreateMonitor() AsusMonitor {
+	  	return AsusMonitor{}
+	  }
+	  ```
