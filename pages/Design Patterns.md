@@ -171,4 +171,4 @@
 	    }
 	  };
 	  ```
-	-
+	- Use factory method when we want to provide users
