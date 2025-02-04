@@ -172,4 +172,5 @@
 	  };
 	  ```
 	- Use factory method when we want to provide users of the library to extends its internal components.
-	-
+- ## Abstract Factory Pattern
+	- Its an advancement of Factory Pattern when we have a require
