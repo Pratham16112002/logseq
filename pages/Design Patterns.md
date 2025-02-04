@@ -174,4 +174,5 @@
 	- Use factory method when we want to provide users of the library to extends its internal components.
 - ## Abstract Factory Pattern
 	- Its an advancement of Factory Pattern when we have a requirement of large number of related products.
-	- The same code of abstract factory can be implemented with factory pattern but the code will be
+	- The same code of abstract factory can be implemented with factory pattern but the code will not follow the Open/Closed principle and Single responsibility principle.
+	-
