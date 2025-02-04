@@ -171,4 +171,5 @@
 	    }
 	  };
 	  ```
-	- Use factory method when we want to provide users
+	- Use factory method when we want to provide users of the library to extends its internal components.
+	-
