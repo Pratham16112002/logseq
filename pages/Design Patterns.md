@@ -234,3 +234,5 @@
 	  	return AsusMonitor{}
 	  }
 	  ```
+	- We use abstract factory when the code needs to work with different families of related products.
+	-
