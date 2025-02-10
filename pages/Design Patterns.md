@@ -304,7 +304,7 @@
 	- Suppose you have a house but there will be multiple different houses type that you can build.
 	- Extract the object construction code outside of its own class and move it to separate objects called builders.
 	- The builder class would contains lots of Setter in the class along with a method which would return a new instance of actual class.
-	-
+	- We try to make the object constructor as non-public.
 	- _Solution_
 		- Create Sub-classes for each different types or create a constructor with large parameters which may remains unused most of the time.
 	- _Actual solution_
