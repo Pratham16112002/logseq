@@ -309,6 +309,7 @@
 	- **Director class**
 		- Defines the order in which we should call the construction steps so that we could reuse specific configurations of the products we are building.
 		- Its optional and on demand thing.
+	- Completely hides the details of the product construction from the client code.
 	-
 	- _Solution_
 		- Create Sub-classes for each different types or create a constructor with large parameters which may remains unused most of the time.
