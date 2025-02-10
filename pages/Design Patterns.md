@@ -302,6 +302,8 @@
 	- Creational design pattern that lets you construct complex objects step by step.
 	- Allows you to produce different type and representations of an object using the same construction code.
 	- Suppose you have a house but there will be multiple different houses type that you can build.
+	- Extract the object construction code outside of its own class and move it to separate objects called builders.
+	-
 	- _Solution_
 		- Create Sub-classes for each different types or create a constructor with large parameters which may remains unused most of the time.
 	- _Actual solution_
