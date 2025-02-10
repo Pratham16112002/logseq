@@ -307,7 +307,9 @@
 	- We try to make the object constructor as non-public.
 		- By doing this we force the users to instantiate using the builder only.
 	- **Director class**
-		- Defines the order in which we should call the construction steps so that we could re
+		- Defines the order in which we should call the construction steps so that we could reuse specific configurations of the products we are building.
+		- Its optional and on demand thing.
+	-
 	- _Solution_
 		- Create Sub-classes for each different types or create a constructor with large parameters which may remains unused most of the time.
 	- _Actual solution_
