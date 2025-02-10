@@ -306,7 +306,8 @@
 	- The builder class would contains lots of Setter in the class along with a method which would return a new instance of actual class.
 	- We try to make the object constructor as non-public.
 		- By doing this we force the users to instantiate using the builder only.
-	-
+	- **Director class**
+		-
 	- _Solution_
 		- Create Sub-classes for each different types or create a constructor with large parameters which may remains unused most of the time.
 	- _Actual solution_
