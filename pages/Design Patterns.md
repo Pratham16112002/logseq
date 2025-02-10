@@ -235,4 +235,65 @@
 	  }
 	  ```
 	- We use abstract factory when the code needs to work with different families of related products.
-	-
+	- **Code cpp**
+		- ```
+		  class Button {
+		  public:
+		    virtual void render() = 0;
+		    virtual ~Button() = default;
+		  };
+		  
+		  class Checkbox {
+		  public:
+		    // virtual function which will be overriden by the base classes.
+		    virtual void render() = 0;
+		    virtual ~Checkbox() = default;
+		  };
+		  
+		  class WindowsButton : public Button {
+		  public:
+		    void render() override { cout << "Rendering windows Button\n"; }
+		  };
+		  
+		  class WindowsChecbox : public Checkbox {
+		  public:
+		    void render() override { cout << "Rendering windows Checkbox\n"; }
+		  };
+		  
+		  class MacOSButton : public Button {
+		  public:
+		    void render() override { cout << "Rendering macos Button\n"; }
+		  };
+		  
+		  class MacOSChecbox : public Checkbox {
+		  public:
+		    void render() override { cout << "Rendering macos Checkbox\n"; }
+		  };
+		  
+		  class GUIFactory {
+		  public:
+		    virtual std::unique_ptr<Button> createButton() = 0;
+		    virtual unique_ptr<Checkbox> createChecbox() = 0;
+		    virtual ~GUIFactory() = default;
+		  };
+		  
+		  class WindowsFactory : public GUIFactory {
+		  public:
+		    unique_ptr<Button> createButton() { return make_unique<WindowsButton>(); }
+		    unique_ptr<Checkbox> createChecbox() { return make_unique<WindowsChecbox>(); }
+		  };
+		  
+		  class MacOSFactory : public GUIFactory {
+		  public:
+		    unique_ptr<Button> createButton() { return make_unique<MacOSButton>(); }
+		    unique_ptr<Checkbox> createChecbox() { return make_unique<MacOSChecbox>(); }
+		  };
+		  
+		  void renderUI(unique_ptr<GUIFactory> factory) {
+		    auto button = factory->createButton();
+		    auto checkbox = factory->createChecbox();
+		    button->render();
+		    checkbox->render();
+		  }	
+		  ```
+		-
