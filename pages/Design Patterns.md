@@ -301,4 +301,4 @@
 - ## Builder Factory Pattern
 	- Creational design pattern that lets you construct complex objects step by step.
 	- Allows you to produce different type and representations of an object using the same construction code.
-	-
+	- Suppose you have a house but
