@@ -300,4 +300,4 @@
 	-
 - ## Builder Factory Pattern
 	- Creational design pattern that lets you construct complex objects step by step.
-	- Ala
+	- Allows you to produce different type and representations of an object using the same
