@@ -299,6 +299,7 @@
 		  ```
 	-
 - ## Builder Factory Pattern
+  collapsed:: true
 	- Creational design pattern that lets you construct complex objects step by step.
 	- Allows you to produce different type and representations of an object using the same construction code.
 	- Suppose you have a house but there will be multiple different houses type that you can build.
@@ -316,5 +317,77 @@
 		- Builder pattern : Write the construction code out of its own class and move it to separate objects called builders.
 	- Its lets you construct complex objects step by step.
 	- Code
+	  collapsed:: true
 		- ```
+		  class Car {
+		  private:
+		    string engine;
+		    string body;
+		    int wheels;
+		    bool sunroof;
+		  
+		  public:
+		    Car() : wheels(4), sunroof(false) {}
+		  
+		    void setEngine(const string &eng) { engine = eng; }
+		    void setBody(const string &bod) { body = bod; }
+		    void setWheels(int w) { wheels = w; }
+		    void setSunroof(bool hasSunRoof) { sunroof = hasSunRoof; }
+		    // the const keyword specifiy that the method does not modify the state of the
+		    // object. it ensures that the method is read only. can be called on constant
+		    // objects.
+		    //
+		    void showCar() const {
+		      cout << " Car specifications \n";
+		      cout << "Engine : " << engine << "\n";
+		      cout << "Body : " << body << "\n";
+		      cout << "Wheels " << wheels << "\n";
+		      cout << "Sunroof : " << (sunroof ? "Yes" : "No") << "\n";
+		    }
+		  };
+		  
+		  class CarBuilder {
+		  public:
+		    virtual ~CarBuilder() = default;
+		    virtual void buildEngine() = 0;
+		    virtual void buildBody() = 0;
+		    virtual void buildWheels() = 0;
+		    virtual void buildSunroof() = 0;
+		    virtual shared_ptr<Car> getCar() = 0;
+		  };
+		  
+		  class SportsCarBuilder : public CarBuilder {
+		  
+		  private:
+		    shared_ptr<Car> car;
+		  
+		  public:
+		    SportsCarBuilder() { car = make_shared<Car>(); }
+		    void buildEngine() override { car->setEngine("V8 Turbo"); }
+		    void buildBody() override { car->setBody("Sports body"); }
+		  
+		    void buildWheels() override { car->setWheels(4); }
+		    void buildSunroof() override { car->setSunroof(true); }
+		    shared_ptr<Car> getCar() override { return car; }
+		  };
+		  
+		  class CarDirector {
+		  public:
+		    shared_ptr<Car> constructCar(CarBuilder &builder) {
+		      builder.buildEngine();
+		      builder.buildBody();
+		      builder.buildWheels();
+		      builder.buildSunroof();
+		      return builder.getCar();
+		    }
+		  };
+		  
+		  int main(int argc, char *argv[]) {
+		    SportsCarBuilder sportsCarBuilder;
+		    CarDirector director;
+		    shared_ptr<Car> myCar = director.constructCar(sportsCarBuilder);
+		    myCar->showCar();
+		    return 0;
+		  }
 		  ```
+	-
