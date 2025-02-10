@@ -310,10 +310,11 @@
 		- Defines the order in which we should call the construction steps so that we could reuse specific configurations of the products we are building.
 		- Its optional and on demand thing.
 	- Completely hides the details of the product construction from the client code.
-	-
 	- _Solution_
 		- Create Sub-classes for each different types or create a constructor with large parameters which may remains unused most of the time.
 	- _Actual solution_
 		- Builder pattern : Write the construction code out of its own class and move it to separate objects called builders.
 	- Its lets you construct complex objects step by step.
-	-
+	- Code
+		- ```
+		  ```
