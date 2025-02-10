@@ -306,4 +306,5 @@
 		- Create Sub-classes for each different types or create a constructor with large parameters which may remains unused most of the time.
 	- _Actual solution_
 		- Builder pattern : Write the construction code out of its own class and move it to separate objects called builders.
-	- Its lets you construct
+	- Its lets you construct complex objects step by step.
+	-
